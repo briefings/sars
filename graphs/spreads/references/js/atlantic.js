@@ -51,8 +51,8 @@ function generateChart(fileNamekey){
             cumulative = [],
             dataLength = data.length,
             groupingUnits = [[
-                'day',                         // unit name
-                [1]                            // allowed multiples
+                'day',   // unit name
+                [1]      // allowed multiples
             ]],
             i = 0;
 
