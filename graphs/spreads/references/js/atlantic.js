@@ -73,12 +73,12 @@ function generateChart(fileNamekey){
 
             numbers.push({
                 x: data[i][0], // date
-                y: data[i][6]  // counts
+                y: data[i][7]  // counts
             });
 
             cumulative.push({
                 x: data[i][0], // date
-                y: data[i][8]  // cumulative counts
+                y: data[i][9]  // cumulative counts
             });
 
         }
