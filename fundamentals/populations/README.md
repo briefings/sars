@@ -2,6 +2,9 @@
 
 Temporary notes for Populations.  Usage notes outlined within the [examples](https://colab.research.google.com/github/briefings/sars/blob/develop/fundamentals/populations/notebooks/examples.ipynb) notebook
 
+<br>
+<br>
+
 ### Environments
 
 ```bash
