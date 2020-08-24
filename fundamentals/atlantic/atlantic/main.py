@@ -61,8 +61,6 @@ if __name__ == '__main__':
     import atlantic.src.gazetteer
     import atlantic.src.readings
 
-    import atlantic.adhoc.spreads
-
     # Create a config instance and empty the results storage directories
     configurations = config.Config()
     configurations.storage()
@@ -83,5 +81,8 @@ if __name__ == '__main__':
     import populations.us.reference.state
 
     state = populations.us.reference.state.State()
+
+    # Utilities: Candles
+    import atlantic.adhoc.spreads
 
     main()
