@@ -1,0 +1,4 @@
+geopandas
+requests
+jupyterlab
+dask
