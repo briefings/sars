@@ -14,7 +14,7 @@ class Spreads:
 
     def __init__(self, states: pd.DataFrame):
 
-        self.poolprefix = 'candle'
+        self.filename = 'candles'
 
         # The States
         self.states = states
@@ -44,10 +44,10 @@ class Spreads:
 
         self.parse_dates = ['datetimeobject']
 
-    def data(self, pool: str):
+    def data(self, filename: str):
 
         try:
-            values = pd.read_csv(filepath_or_buffer=os.path.join(self.warehouse, self.poolprefix + pool + '.csv'),
+            values = pd.read_csv(filepath_or_buffer=os.path.join(self.warehouse, filename + '.csv'),
                                  header=0, usecols=self.fields, dtype=self.dtype, encoding='utf-8',
                                  parse_dates=self.parse_dates)
         except OSError as err:
@@ -88,13 +88,13 @@ class Spreads:
 
         zipfileobject.close()
 
-    def exc(self, pool: str):
+    def exc(self):
 
         directories = atlantic.base.directories.Directories()
-        path: str = os.path.join(self.warehouse, self.poolprefix, pool)
+        path: str = os.path.join(self.warehouse, self.filename)
         directories.create(listof=[path])
 
-        data = self.data(pool=pool)
+        data = self.data(filename=self.filename)
         days = data[['datetimeobject', 'epochmilli']].drop_duplicates(inplace=False, ignore_index=True, keep='first')
         self.sticks(data=data, days=days, path=path)
         self.archive(path=path)
