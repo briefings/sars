@@ -15,6 +15,7 @@ def main():
     # States
     states: pd.DataFrame = boundaries.states(year=settings.latest)
     states = population[['STATEFP', 'POPESTIMATE2019']].merge(states, how='left', on='STATEFP')
+    logger.info(states.head())
 
     # Days
     days = configurations.days()
@@ -44,7 +45,7 @@ def main():
 
     # Statistics
     spreads = atlantic.adhoc.spreads.Spreads(states=states)
-    spreads.exc(pool='states')
+    spreads.exc()
 
 
 if __name__ == '__main__':
