@@ -27,7 +27,7 @@ class Segmentation:
 
         data = data.drop(columns=['POPESTIMATE2019'])
 
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'candlestates.csv'),
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'candles.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def increases(self):
