@@ -11,7 +11,7 @@ combines; it returns a single data frame.
 
 import pandas as pd
 
-import hopkins.src.inspect
+import hopkins.algorithms.inspect
 
 import config
 
@@ -26,7 +26,7 @@ class Readings:
         self.measures = configurations.measures
         self.url = configurations.url
 
-        self.inspect = hopkins.src.inspect.Inspect()
+        self.inspect = hopkins.algorithms.inspect.Inspect()
 
         self.features = features
         self.reference = reference
