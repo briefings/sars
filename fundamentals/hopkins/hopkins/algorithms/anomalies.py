@@ -75,6 +75,7 @@ class Anomalies:
         return discrete, continuous
 
     def estimate(self):
+
         data = self.blob.copy()
 
         for measure in self.measures.values():
