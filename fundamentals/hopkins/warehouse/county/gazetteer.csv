@@ -1,0 +1,3221 @@
+STATEFP,STUSPS,COUNTYFP,COUNTYGEOID,COUNTY,REGION,DIVISION,POPESTIMATE2019
+28,MS,089,28089,Madison,South,East South Central,106272
+28,MS,013,28013,Calhoun,South,East South Central,14361
+28,MS,091,28091,Marion,South,East South Central,24573
+28,MS,141,28141,Tishomingo,South,East South Central,19383
+28,MS,093,28093,Marshall,South,East South Central,35294
+28,MS,079,28079,Leake,South,East South Central,22786
+28,MS,151,28151,Washington,South,East South Central,43909
+28,MS,077,28077,Lawrence,South,East South Central,12586
+28,MS,017,28017,Chickasaw,South,East South Central,17103
+28,MS,015,28015,Carroll,South,East South Central,9947
+28,MS,153,28153,Wayne,South,East South Central,20183
+28,MS,161,28161,Yalobusha,South,East South Central,12108
+28,MS,119,28119,Quitman,South,East South Central,6792
+28,MS,109,28109,Pearl River,South,East South Central,55535
+28,MS,121,28121,Rankin,South,East South Central,155271
+28,MS,111,28111,Perry,South,East South Central,11973
+28,MS,103,28103,Noxubee,South,East South Central,10417
+28,MS,099,28099,Neshoba,South,East South Central,29118
+28,MS,107,28107,Panola,South,East South Central,34192
+28,MS,137,28137,Tate,South,East South Central,28321
+28,MS,101,28101,Newton,South,East South Central,21018
+28,MS,145,28145,Union,South,East South Central,28815
+28,MS,117,28117,Prentiss,South,East South Central,25126
+28,MS,125,28125,Sharkey,South,East South Central,4321
+28,MS,139,28139,Tippah,South,East South Central,22015
+28,MS,019,28019,Choctaw,South,East South Central,8210
+28,MS,045,28045,Hancock,South,East South Central,47632
+28,MS,039,28039,George,South,East South Central,24500
+28,MS,041,28041,Greene,South,East South Central,13586
+28,MS,043,28043,Grenada,South,East South Central,20758
+28,MS,049,28049,Hinds,South,East South Central,231840
+28,MS,029,28029,Copiah,South,East South Central,28065
+28,MS,035,28035,Forrest,South,East South Central,74897
+28,MS,063,28063,Jefferson,South,East South Central,6990
+28,MS,057,28057,Itawamba,South,East South Central,23390
+28,MS,071,28071,Lafayette,South,East South Central,54019
+28,MS,055,28055,Issaquena,South,East South Central,1327
+28,MS,059,28059,Jackson,South,East South Central,143617
+28,MS,087,28087,Lowndes,South,East South Central,58595
+28,MS,083,28083,Leflore,South,East South Central,28183
+28,MS,143,28143,Tunica,South,East South Central,9632
+28,MS,157,28157,Wilkinson,South,East South Central,8630
+28,MS,021,28021,Claiborne,South,East South Central,8988
+28,MS,047,28047,Harrison,South,East South Central,208080
+28,MS,065,28065,Jefferson Davis,South,East South Central,11128
+28,MS,075,28075,Lauderdale,South,East South Central,74125
+28,MS,085,28085,Lincoln,South,East South Central,34153
+28,MS,123,28123,Scott,South,East South Central,28124
+28,MS,127,28127,Simpson,South,East South Central,26658
+28,MS,159,28159,Winston,South,East South Central,17955
+28,MS,163,28163,Yazoo,South,East South Central,29690
+28,MS,007,28007,Attala,South,East South Central,18174
+28,MS,011,28011,Bolivar,South,East South Central,30628
+28,MS,073,28073,Lamar,South,East South Central,63343
+28,MS,081,28081,Lee,South,East South Central,85436
+28,MS,113,28113,Pike,South,East South Central,39288
+28,MS,135,28135,Tallahatchie,South,East South Central,13809
+28,MS,129,28129,Smith,South,East South Central,15916
+28,MS,131,28131,Stone,South,East South Central,18336
+28,MS,149,28149,Warren,South,East South Central,45381
+28,MS,023,28023,Clarke,South,East South Central,15541
+28,MS,069,28069,Kemper,South,East South Central,9742
+28,MS,097,28097,Montgomery,South,East South Central,9775
+28,MS,105,28105,Oktibbeha,South,East South Central,49587
+28,MS,133,28133,Sunflower,South,East South Central,25110
+28,MS,155,28155,Webster,South,East South Central,9689
+28,MS,003,28003,Alcorn,South,East South Central,36953
+28,MS,001,28001,Adams,South,East South Central,30693
+28,MS,025,28025,Clay,South,East South Central,19316
+28,MS,033,28033,DeSoto,South,East South Central,184945
+28,MS,031,28031,Covington,South,East South Central,18636
+28,MS,053,28053,Humphreys,South,East South Central,8064
+28,MS,009,28009,Benton,South,East South Central,8259
+28,MS,037,28037,Franklin,South,East South Central,7713
+28,MS,027,28027,Coahoma,South,East South Central,22124
+28,MS,061,28061,Jasper,South,East South Central,16383
+28,MS,067,28067,Jones,South,East South Central,68098
+28,MS,147,28147,Walthall,South,East South Central,14286
+28,MS,095,28095,Monroe,South,East South Central,35252
+28,MS,115,28115,Pontotoc,South,East South Central,32174
+28,MS,051,28051,Holmes,South,East South Central,17010
+28,MS,005,28005,Amite,South,East South Central,12297
+37,NC,079,37079,Greene,South,South Atlantic,21069
+37,NC,087,37087,Haywood,South,South Atlantic,62317
+37,NC,121,37121,Mitchell,South,South Atlantic,14964
+37,NC,041,37041,Chowan,South,South Atlantic,13943
+37,NC,027,37027,Caldwell,South,South Atlantic,82178
+37,NC,035,37035,Catawba,South,South Atlantic,159551
+37,NC,045,37045,Cleveland,South,South Atlantic,97947
+37,NC,049,37049,Craven,South,South Atlantic,102139
+37,NC,065,37065,Edgecombe,South,South Atlantic,51472
+37,NC,077,37077,Granville,South,South Atlantic,60443
+37,NC,085,37085,Harnett,South,South Atlantic,135976
+37,NC,093,37093,Hoke,South,South Atlantic,55234
+37,NC,089,37089,Henderson,South,South Atlantic,117417
+37,NC,095,37095,Hyde,South,South Atlantic,4937
+37,NC,097,37097,Iredell,South,South Atlantic,181806
+37,NC,119,37119,Mecklenburg,South,South Atlantic,1110356
+37,NC,131,37131,Northampton,South,South Atlantic,19483
+37,NC,147,37147,Pitt,South,South Atlantic,180742
+37,NC,159,37159,Rowan,South,South Atlantic,142088
+37,NC,181,37181,Vance,South,South Atlantic,44535
+37,NC,039,37039,Cherokee,South,South Atlantic,28612
+37,NC,053,37053,Currituck,South,South Atlantic,27763
+37,NC,179,37179,Union,South,South Atlantic,239859
+37,NC,193,37193,Wilkes,South,South Atlantic,68412
+37,NC,067,37067,Forsyth,South,South Atlantic,382295
+37,NC,127,37127,Nash,South,South Atlantic,94298
+37,NC,003,37003,Alexander,South,South Atlantic,37497
+37,NC,017,37017,Bladen,South,South Atlantic,32722
+37,NC,055,37055,Dare,South,South Atlantic,37009
+37,NC,031,37031,Carteret,South,South Atlantic,69473
+37,NC,185,37185,Warren,South,South Atlantic,19731
+37,NC,195,37195,Wilson,South,South Atlantic,81801
+37,NC,015,37015,Bertie,South,South Atlantic,18947
+37,NC,073,37073,Gates,South,South Atlantic,11562
+37,NC,075,37075,Graham,South,South Atlantic,8441
+37,NC,117,37117,Martin,South,South Atlantic,22440
+37,NC,137,37137,Pamlico,South,South Atlantic,12726
+37,NC,143,37143,Perquimans,South,South Atlantic,13463
+37,NC,149,37149,Polk,South,South Atlantic,20724
+37,NC,151,37151,Randolph,South,South Atlantic,143667
+37,NC,157,37157,Rockingham,South,South Atlantic,91010
+37,NC,169,37169,Stokes,South,South Atlantic,45591
+37,NC,187,37187,Washington,South,South Atlantic,11580
+37,NC,029,37029,Camden,South,South Atlantic,10867
+37,NC,043,37043,Clay,South,South Atlantic,11231
+37,NC,051,37051,Cumberland,South,South Atlantic,335509
+37,NC,005,37005,Alleghany,South,South Atlantic,11137
+37,NC,071,37071,Gaston,South,South Atlantic,224529
+37,NC,081,37081,Guilford,South,South Atlantic,537174
+37,NC,099,37099,Jackson,South,South Atlantic,43938
+37,NC,125,37125,Moore,South,South Atlantic,100880
+37,NC,139,37139,Pasquotank,South,South Atlantic,39824
+37,NC,155,37155,Robeson,South,South Atlantic,130625
+37,NC,167,37167,Stanly,South,South Atlantic,62806
+37,NC,173,37173,Swain,South,South Atlantic,14271
+37,NC,183,37183,Wake,South,South Atlantic,1111761
+37,NC,199,37199,Yancey,South,South Atlantic,18069
+37,NC,007,37007,Anson,South,South Atlantic,24446
+37,NC,037,37037,Chatham,South,South Atlantic,74470
+37,NC,069,37069,Franklin,South,South Atlantic,69685
+37,NC,101,37101,Johnston,South,South Atlantic,209339
+37,NC,113,37113,Macon,South,South Atlantic,35858
+37,NC,115,37115,Madison,South,South Atlantic,21755
+37,NC,111,37111,McDowell,South,South Atlantic,45756
+37,NC,103,37103,Jones,South,South Atlantic,9419
+37,NC,145,37145,Person,South,South Atlantic,39490
+37,NC,019,37019,Brunswick,South,South Atlantic,142820
+37,NC,175,37175,Transylvania,South,South Atlantic,34385
+37,NC,009,37009,Ashe,South,South Atlantic,27203
+37,NC,013,37013,Beaufort,South,South Atlantic,46994
+37,NC,047,37047,Columbus,South,South Atlantic,55508
+37,NC,107,37107,Lenoir,South,South Atlantic,55949
+37,NC,109,37109,Lincoln,South,South Atlantic,86111
+37,NC,123,37123,Montgomery,South,South Atlantic,27173
+37,NC,133,37133,Onslow,South,South Atlantic,197938
+37,NC,135,37135,Orange,South,South Atlantic,148476
+37,NC,153,37153,Richmond,South,South Atlantic,44829
+37,NC,161,37161,Rutherford,South,South Atlantic,67029
+37,NC,163,37163,Sampson,South,South Atlantic,63531
+37,NC,171,37171,Surry,South,South Atlantic,71783
+37,NC,197,37197,Yadkin,South,South Atlantic,37667
+37,NC,011,37011,Avery,South,South Atlantic,17557
+37,NC,021,37021,Buncombe,South,South Atlantic,261191
+37,NC,023,37023,Burke,South,South Atlantic,90485
+37,NC,025,37025,Cabarrus,South,South Atlantic,216453
+37,NC,059,37059,Davie,South,South Atlantic,42846
+37,NC,057,37057,Davidson,South,South Atlantic,167609
+37,NC,061,37061,Duplin,South,South Atlantic,58741
+37,NC,063,37063,Durham,South,South Atlantic,321488
+37,NC,091,37091,Hertford,South,South Atlantic,23677
+37,NC,105,37105,Lee,South,South Atlantic,61779
+37,NC,129,37129,New Hanover,South,South Atlantic,234473
+37,NC,141,37141,Pender,South,South Atlantic,63060
+37,NC,191,37191,Wayne,South,South Atlantic,123131
+37,NC,165,37165,Scotland,South,South Atlantic,34823
+37,NC,189,37189,Watauga,South,South Atlantic,56177
+37,NC,083,37083,Halifax,South,South Atlantic,50010
+37,NC,001,37001,Alamance,South,South Atlantic,169509
+37,NC,177,37177,Tyrrell,South,South Atlantic,4016
+37,NC,033,37033,Caswell,South,South Atlantic,22604
+40,OK,043,40043,Dewey,South,West South Central,4891
+40,OK,059,40059,Harper,South,West South Central,3688
+40,OK,071,40071,Kay,South,West South Central,43538
+40,OK,083,40083,Logan,South,West South Central,48011
+40,OK,035,40035,Craig,South,West South Central,14142
+40,OK,143,40143,Tulsa,South,West South Central,651552
+40,OK,147,40147,Washington,South,West South Central,51527
+40,OK,017,40017,Canadian,South,West South Central,148306
+40,OK,057,40057,Harmon,South,West South Central,2653
+40,OK,061,40061,Haskell,South,West South Central,12627
+40,OK,077,40077,Latimer,South,West South Central,10073
+40,OK,111,40111,Okmulgee,South,West South Central,38465
+40,OK,113,40113,Osage,South,West South Central,46963
+40,OK,139,40139,Texas,South,West South Central,19983
+40,OK,067,40067,Jefferson,South,West South Central,6002
+40,OK,127,40127,Pushmataha,South,West South Central,11096
+40,OK,047,40047,Garfield,South,West South Central,61056
+40,OK,049,40049,Garvin,South,West South Central,27711
+40,OK,069,40069,Johnston,South,West South Central,11085
+40,OK,121,40121,Pittsburg,South,West South Central,43654
+40,OK,123,40123,Pontotoc,South,West South Central,38284
+40,OK,129,40129,Roger Mills,South,West South Central,3583
+40,OK,153,40153,Woodward,South,West South Central,20211
+40,OK,021,40021,Cherokee,South,West South Central,48657
+40,OK,041,40041,Delaware,South,West South Central,43009
+40,OK,045,40045,Ellis,South,West South Central,3859
+40,OK,051,40051,Grady,South,West South Central,55834
+40,OK,119,40119,Payne,South,West South Central,81784
+40,OK,125,40125,Pottawatomie,South,West South Central,72592
+40,OK,037,40037,Creek,South,West South Central,71522
+40,OK,141,40141,Tillman,South,West South Central,7250
+40,OK,149,40149,Washita,South,West South Central,10916
+40,OK,033,40033,Cotton,South,West South Central,5666
+40,OK,075,40075,Kiowa,South,West South Central,8708
+40,OK,079,40079,Le Flore,South,West South Central,49853
+40,OK,089,40089,McCurtain,South,West South Central,32832
+40,OK,093,40093,Major,South,West South Central,7629
+40,OK,097,40097,Mayes,South,West South Central,41100
+40,OK,109,40109,Oklahoma,South,West South Central,797434
+40,OK,039,40039,Custer,South,West South Central,29003
+40,OK,007,40007,Beaver,South,West South Central,5311
+40,OK,085,40085,Love,South,West South Central,10253
+40,OK,009,40009,Beckham,South,West South Central,21859
+40,OK,063,40063,Hughes,South,West South Central,13279
+40,OK,023,40023,Choctaw,South,West South Central,14672
+40,OK,065,40065,Jackson,South,West South Central,24530
+40,OK,031,40031,Comanche,South,West South Central,120749
+40,OK,081,40081,Lincoln,South,West South Central,34877
+40,OK,117,40117,Pawnee,South,West South Central,16376
+40,OK,001,40001,Adair,South,West South Central,22194
+40,OK,133,40133,Seminole,South,West South Central,24258
+40,OK,137,40137,Stephens,South,West South Central,43143
+40,OK,025,40025,Cimarron,South,West South Central,2137
+40,OK,011,40011,Blaine,South,West South Central,9429
+40,OK,019,40019,Carter,South,West South Central,48111
+40,OK,029,40029,Coal,South,West South Central,5495
+40,OK,053,40053,Grant,South,West South Central,4333
+40,OK,055,40055,Greer,South,West South Central,5712
+40,OK,073,40073,Kingfisher,South,West South Central,15765
+40,OK,087,40087,McClain,South,West South Central,40474
+40,OK,091,40091,McIntosh,South,West South Central,19596
+40,OK,095,40095,Marshall,South,West South Central,16931
+40,OK,099,40099,Murray,South,West South Central,14073
+40,OK,103,40103,Noble,South,West South Central,11131
+40,OK,105,40105,Nowata,South,West South Central,10076
+40,OK,115,40115,Ottawa,South,West South Central,31127
+40,OK,131,40131,Rogers,South,West South Central,92459
+40,OK,135,40135,Sequoyah,South,West South Central,41569
+40,OK,145,40145,Wagoner,South,West South Central,81289
+40,OK,003,40003,Alfalfa,South,West South Central,5702
+40,OK,151,40151,Woods,South,West South Central,8793
+40,OK,015,40015,Caddo,South,West South Central,28762
+40,OK,027,40027,Cleveland,South,West South Central,284014
+40,OK,101,40101,Muskogee,South,West South Central,67997
+40,OK,107,40107,Okfuskee,South,West South Central,11993
+40,OK,005,40005,Atoka,South,West South Central,13758
+40,OK,013,40013,Bryan,South,West South Central,47995
+51,VA,065,51065,Fluvanna,South,South Atlantic,27270
+51,VA,007,51007,Amelia,South,South Atlantic,13145
+51,VA,750,51750,Radford,South,South Atlantic,18249
+51,VA,840,51840,Winchester,South,South Atlantic,28078
+51,VA,045,51045,Craig,South,South Atlantic,5131
+51,VA,071,51071,Giles,South,South Atlantic,16720
+51,VA,077,51077,Grayson,South,South Atlantic,15550
+51,VA,036,51036,Charles City,South,South Atlantic,6963
+51,VA,047,51047,Culpeper,South,South Atlantic,52605
+51,VA,660,51660,Harrisonburg,South,South Atlantic,53016
+51,VA,520,51520,Bristol,South,South Atlantic,16762
+51,VA,001,51001,Accomack,South,South Atlantic,32316
+51,VA,003,51003,Albemarle,South,South Atlantic,109330
+51,VA,063,51063,Floyd,South,South Atlantic,15749
+51,VA,053,51053,Dinwiddie,South,South Atlantic,28544
+51,VA,135,51135,Nottoway,South,South Atlantic,15232
+51,VA,137,51137,Orange,South,South Atlantic,37051
+51,VA,079,51079,Greene,South,South Atlantic,19819
+51,VA,085,51085,Hanover,South,South Atlantic,107766
+51,VA,111,51111,Lunenburg,South,South Atlantic,12196
+51,VA,595,51595,Emporia,South,South Atlantic,5346
+51,VA,550,51550,Chesapeake,South,South Atlantic,244835
+51,VA,570,51570,Colonial Heights,South,South Atlantic,17370
+51,VA,197,51197,Wythe,South,South Atlantic,28684
+51,VA,195,51195,Wise,South,South Atlantic,37383
+51,VA,021,51021,Bland,South,South Atlantic,6280
+51,VA,019,51019,Bedford,South,South Atlantic,78997
+51,VA,023,51023,Botetourt,South,South Atlantic,33419
+51,VA,029,51029,Buckingham,South,South Atlantic,17148
+51,VA,157,51157,Rappahannock,South,South Atlantic,7370
+51,VA,580,51580,Covington,South,South Atlantic,5538
+51,VA,740,51740,Portsmouth,South,South Atlantic,94398
+51,VA,830,51830,Williamsburg,South,South Atlantic,14954
+51,VA,810,51810,Virginia Beach,South,South Atlantic,449974
+51,VA,005,51005,Alleghany,South,South Atlantic,14860
+51,VA,035,51035,Carroll,South,South Atlantic,29791
+51,VA,640,51640,Galax,South,South Atlantic,6347
+51,VA,191,51191,Washington,South,South Atlantic,53740
+51,VA,193,51193,Westmoreland,South,South Atlantic,18015
+51,VA,133,51133,Northumberland,South,South Atlantic,12095
+51,VA,139,51139,Page,South,South Atlantic,23902
+51,VA,155,51155,Pulaski,South,South Atlantic,34027
+51,VA,187,51187,Warren,South,South Atlantic,40164
+51,VA,510,51510,Alexandria,South,South Atlantic,159428
+51,VA,590,51590,Danville,South,South Atlantic,40044
+51,VA,630,51630,Fredericksburg,South,South Atlantic,29036
+51,VA,650,51650,Hampton,South,South Atlantic,134510
+51,VA,009,51009,Amherst,South,South Atlantic,31605
+51,VA,013,51013,Arlington,South,South Atlantic,236842
+51,VA,017,51017,Bath,South,South Atlantic,4147
+51,VA,670,51670,Hopewell,South,South Atlantic,22529
+51,VA,027,51027,Buchanan,South,South Atlantic,21004
+51,VA,069,51069,Frederick,South,South Atlantic,89313
+51,VA,179,51179,Stafford,South,South Atlantic,152882
+51,VA,199,51199,York,South,South Atlantic,68280
+51,VA,760,51760,Richmond,South,South Atlantic,230436
+51,VA,125,51125,Nelson,South,South Atlantic,14930
+51,VA,057,51057,Essex,South,South Atlantic,10953
+51,VA,143,51143,Pittsylvania,South,South Atlantic,60354
+51,VA,185,51185,Tazewell,South,South Atlantic,40595
+51,VA,530,51530,Buena Vista,South,South Atlantic,6478
+51,VA,610,51610,Falls Church,South,South Atlantic,14617
+51,VA,685,51685,Manassas Park,South,South Atlantic,17478
+51,VA,700,51700,Newport News,South,South Atlantic,179225
+51,VA,680,51680,Lynchburg,South,South Atlantic,82168
+51,VA,690,51690,Martinsville,South,South Atlantic,12554
+51,VA,730,51730,Petersburg,South,South Atlantic,31346
+51,VA,735,51735,Poquoson,South,South Atlantic,12271
+51,VA,183,51183,Sussex,South,South Atlantic,11159
+51,VA,600,51600,Fairfax,South,South Atlantic,24019
+51,VA,820,51820,Waynesboro,South,South Atlantic,22630
+51,VA,683,51683,Manassas,South,South Atlantic,41085
+51,VA,770,51770,Roanoke,South,South Atlantic,99143
+51,VA,775,51775,Salem,South,South Atlantic,25301
+51,VA,800,51800,Suffolk,South,South Atlantic,92108
+51,VA,710,51710,Norfolk,South,South Atlantic,242742
+51,VA,037,51037,Charlotte,South,South Atlantic,11880
+51,VA,041,51041,Chesterfield,South,South Atlantic,352802
+51,VA,059,51059,Fairfax,South,South Atlantic,1147532
+51,VA,081,51081,Greensville,South,South Atlantic,11336
+51,VA,093,51093,Isle of Wight,South,South Atlantic,37109
+51,VA,620,51620,Franklin,South,South Atlantic,7967
+51,VA,173,51173,Smyth,South,South Atlantic,30104
+51,VA,540,51540,Charlottesville,South,South Atlantic,47266
+51,VA,678,51678,Lexington,South,South Atlantic,7446
+51,VA,031,51031,Campbell,South,South Atlantic,54885
+51,VA,087,51087,Henrico,South,South Atlantic,330818
+51,VA,089,51089,Henry,South,South Atlantic,50557
+51,VA,105,51105,Lee,South,South Atlantic,23423
+51,VA,095,51095,James City,South,South Atlantic,76523
+51,VA,099,51099,King George,South,South Atlantic,26836
+51,VA,101,51101,King William,South,South Atlantic,17148
+51,VA,103,51103,Lancaster,South,South Atlantic,10603
+51,VA,167,51167,Russell,South,South Atlantic,26586
+51,VA,109,51109,Louisa,South,South Atlantic,37591
+51,VA,115,51115,Mathews,South,South Atlantic,8834
+51,VA,119,51119,Middlesex,South,South Atlantic,10582
+51,VA,147,51147,Prince Edward,South,South Atlantic,22802
+51,VA,149,51149,Prince George,South,South Atlantic,38353
+51,VA,159,51159,Richmond,South,South Atlantic,9023
+51,VA,165,51165,Rockingham,South,South Atlantic,81948
+51,VA,169,51169,Scott,South,South Atlantic,21566
+51,VA,177,51177,Spotsylvania,South,South Atlantic,136215
+51,VA,181,51181,Surry,South,South Atlantic,6422
+51,VA,011,51011,Appomattox,South,South Atlantic,15911
+51,VA,043,51043,Clarke,South,South Atlantic,14619
+51,VA,067,51067,Franklin,South,South Atlantic,56042
+51,VA,097,51097,King and Queen,South,South Atlantic,7025
+51,VA,117,51117,Mecklenburg,South,South Atlantic,30587
+51,VA,121,51121,Montgomery,South,South Atlantic,98535
+51,VA,127,51127,New Kent,South,South Atlantic,23091
+51,VA,015,51015,Augusta,South,South Atlantic,75558
+51,VA,049,51049,Cumberland,South,South Atlantic,9932
+51,VA,051,51051,Dickenson,South,South Atlantic,14318
+51,VA,075,51075,Goochland,South,South Atlantic,23753
+51,VA,083,51083,Halifax,South,South Atlantic,33911
+51,VA,107,51107,Loudoun,South,South Atlantic,413538
+51,VA,113,51113,Madison,South,South Atlantic,13261
+51,VA,153,51153,Prince William,South,South Atlantic,470335
+51,VA,161,51161,Roanoke,South,South Atlantic,94186
+51,VA,175,51175,Southampton,South,South Atlantic,17631
+51,VA,091,51091,Highland,South,South Atlantic,2190
+51,VA,025,51025,Brunswick,South,South Atlantic,16231
+51,VA,033,51033,Caroline,South,South Atlantic,30725
+51,VA,073,51073,Gloucester,South,South Atlantic,37348
+51,VA,131,51131,Northampton,South,South Atlantic,11710
+51,VA,141,51141,Patrick,South,South Atlantic,17608
+51,VA,145,51145,Powhatan,South,South Atlantic,29652
+51,VA,163,51163,Rockbridge,South,South Atlantic,22573
+51,VA,171,51171,Shenandoah,South,South Atlantic,43616
+51,VA,061,51061,Fauquier,South,South Atlantic,71222
+51,VA,720,51720,Norton,South,South Atlantic,3981
+51,VA,790,51790,Staunton,South,South Atlantic,24932
+54,WV,023,54023,Grant,South,South Atlantic,11568
+54,WV,027,54027,Hampshire,South,South Atlantic,23175
+54,WV,089,54089,Summers,South,South Atlantic,12573
+54,WV,009,54009,Brooke,South,South Atlantic,21939
+54,WV,017,54017,Doddridge,South,South Atlantic,8448
+54,WV,025,54025,Greenbrier,South,South Atlantic,34662
+54,WV,031,54031,Hardy,South,South Atlantic,13776
+54,WV,049,54049,Marion,South,South Atlantic,56072
+54,WV,057,54057,Mineral,South,South Atlantic,26868
+54,WV,059,54059,Mingo,South,South Atlantic,23424
+54,WV,029,54029,Hancock,South,South Atlantic,28810
+54,WV,041,54041,Lewis,South,South Atlantic,15907
+54,WV,051,54051,Marshall,South,South Atlantic,30531
+54,WV,067,54067,Nicholas,South,South Atlantic,24496
+54,WV,075,54075,Pocahontas,South,South Atlantic,8247
+54,WV,093,54093,Tucker,South,South Atlantic,6839
+54,WV,095,54095,Tyler,South,South Atlantic,8591
+54,WV,083,54083,Randolph,South,South Atlantic,28695
+54,WV,087,54087,Roane,South,South Atlantic,13688
+54,WV,091,54091,Taylor,South,South Atlantic,16695
+54,WV,105,54105,Wirt,South,South Atlantic,5821
+54,WV,107,54107,Wood,South,South Atlantic,83518
+54,WV,015,54015,Clay,South,South Atlantic,8508
+54,WV,021,54021,Gilmer,South,South Atlantic,7823
+54,WV,053,54053,Mason,South,South Atlantic,26516
+54,WV,061,54061,Monongalia,South,South Atlantic,105612
+54,WV,063,54063,Monroe,South,South Atlantic,13275
+54,WV,073,54073,Pleasants,South,South Atlantic,7460
+54,WV,103,54103,Wetzel,South,South Atlantic,15065
+54,WV,011,54011,Cabell,South,South Atlantic,91945
+54,WV,037,54037,Jefferson,South,South Atlantic,57146
+54,WV,039,54039,Kanawha,South,South Atlantic,178124
+54,WV,045,54045,Logan,South,South Atlantic,32019
+54,WV,071,54071,Pendleton,South,South Atlantic,6969
+54,WV,077,54077,Preston,South,South Atlantic,33432
+54,WV,033,54033,Harrison,South,South Atlantic,67256
+54,WV,069,54069,Ohio,South,South Atlantic,41411
+54,WV,085,54085,Ritchie,South,South Atlantic,9554
+54,WV,013,54013,Calhoun,South,South Atlantic,7109
+54,WV,065,54065,Morgan,South,South Atlantic,17884
+54,WV,043,54043,Lincoln,South,South Atlantic,20409
+54,WV,081,54081,Raleigh,South,South Atlantic,73361
+54,WV,007,54007,Braxton,South,South Atlantic,13957
+54,WV,079,54079,Putnam,South,South Atlantic,56450
+54,WV,001,54001,Barbour,South,South Atlantic,16441
+54,WV,005,54005,Boone,South,South Atlantic,21457
+54,WV,047,54047,McDowell,South,South Atlantic,17624
+54,WV,099,54099,Wayne,South,South Atlantic,39402
+54,WV,109,54109,Wyoming,South,South Atlantic,20394
+54,WV,035,54035,Jackson,South,South Atlantic,28576
+54,WV,055,54055,Mercer,South,South Atlantic,58758
+54,WV,097,54097,Upshur,South,South Atlantic,24176
+54,WV,101,54101,Webster,South,South Atlantic,8114
+54,WV,003,54003,Berkeley,South,South Atlantic,119171
+54,WV,019,54019,Fayette,South,South Atlantic,42406
+22,LA,083,22083,Richland,South,West South Central,20122
+22,LA,099,22099,St. Martin,South,West South Central,53431
+22,LA,115,22115,Vernon,South,West South Central,47429
+22,LA,127,22127,Winn,South,West South Central,13904
+22,LA,033,22033,East Baton Rouge,South,West South Central,440059
+22,LA,085,22085,Sabine,South,West South Central,23884
+22,LA,003,22003,Allen,South,West South Central,25627
+22,LA,065,22065,Madison,South,West South Central,10951
+22,LA,053,22053,Jefferson Davis,South,West South Central,31368
+22,LA,093,22093,St. James,South,West South Central,21096
+22,LA,043,22043,Grant,South,West South Central,22389
+22,LA,125,22125,West Feliciana,South,West South Central,15568
+22,LA,051,22051,Jefferson,South,West South Central,432493
+22,LA,011,22011,Beauregard,South,West South Central,37497
+22,LA,013,22013,Bienville,South,West South Central,13241
+22,LA,015,22015,Bossier,South,West South Central,127039
+22,LA,023,22023,Cameron,South,West South Central,6973
+22,LA,037,22037,East Feliciana,South,West South Central,19135
+22,LA,095,22095,St. John the Baptist,South,West South Central,42837
+22,LA,075,22075,Plaquemines,South,West South Central,23197
+22,LA,073,22073,Ouachita,South,West South Central,153279
+22,LA,079,22079,Rapides,South,West South Central,129648
+22,LA,117,22117,Washington,South,West South Central,46194
+22,LA,097,22097,St. Landry,South,West South Central,82124
+22,LA,105,22105,Tangipahoa,South,West South Central,134758
+22,LA,001,22001,Acadia,South,West South Central,62045
+22,LA,101,22101,St. Mary,South,West South Central,49348
+22,LA,123,22123,West Carroll,South,West South Central,10830
+22,LA,103,22103,St. Tammany,South,West South Central,260419
+22,LA,111,22111,Union,South,West South Central,22108
+22,LA,021,22021,Caldwell,South,West South Central,9918
+22,LA,017,22017,Caddo,South,West South Central,240204
+22,LA,035,22035,East Carroll,South,West South Central,6861
+22,LA,005,22005,Ascension,South,West South Central,126604
+22,LA,055,22055,Lafayette,South,West South Central,244390
+22,LA,039,22039,Evangeline,South,West South Central,33395
+22,LA,045,22045,Iberia,South,West South Central,69830
+22,LA,061,22061,Lincoln,South,West South Central,46742
+22,LA,087,22087,St. Bernard,South,West South Central,47244
+22,LA,091,22091,St. Helena,South,West South Central,10132
+22,LA,119,22119,Webster,South,West South Central,38340
+22,LA,121,22121,West Baton Rouge,South,West South Central,26465
+22,LA,031,22031,De Soto,South,West South Central,27463
+22,LA,047,22047,Iberville,South,West South Central,32511
+22,LA,081,22081,Red River,South,West South Central,8442
+22,LA,063,22063,Livingston,South,West South Central,140789
+22,LA,067,22067,Morehouse,South,West South Central,24874
+22,LA,069,22069,Natchitoches,South,West South Central,38158
+22,LA,071,22071,Orleans,South,West South Central,390144
+22,LA,109,22109,Terrebonne,South,West South Central,110461
+22,LA,025,22025,Catahoula,South,West South Central,9494
+22,LA,019,22019,Calcasieu,South,West South Central,203436
+22,LA,027,22027,Claiborne,South,West South Central,15670
+22,LA,041,22041,Franklin,South,West South Central,20015
+22,LA,009,22009,Avoyelles,South,West South Central,40144
+22,LA,007,22007,Assumption,South,West South Central,21891
+22,LA,049,22049,Jackson,South,West South Central,15744
+22,LA,077,22077,Pointe Coupee,South,West South Central,21730
+22,LA,113,22113,Vermilion,South,West South Central,59511
+22,LA,089,22089,St. Charles,South,West South Central,53100
+22,LA,057,22057,Lafourche,South,West South Central,97614
+22,LA,029,22029,Concordia,South,West South Central,19259
+22,LA,107,22107,Tensas,South,West South Central,4334
+22,LA,059,22059,LaSalle,South,West South Central,14892
+26,MI,033,26033,Chippewa,Midwest,East North Central,37349
+26,MI,115,26115,Monroe,Midwest,East North Central,150500
+26,MI,005,26005,Allegan,Midwest,East North Central,118081
+26,MI,125,26125,Oakland,Midwest,East North Central,1257584
+26,MI,003,26003,Alger,Midwest,East North Central,9108
+26,MI,121,26121,Muskegon,Midwest,East North Central,173566
+26,MI,035,26035,Clare,Midwest,East North Central,30950
+26,MI,157,26157,Tuscola,Midwest,East North Central,52245
+26,MI,001,26001,Alcona,Midwest,East North Central,10405
+26,MI,007,26007,Alpena,Midwest,East North Central,28405
+26,MI,165,26165,Wexford,Midwest,East North Central,33631
+26,MI,037,26037,Clinton,Midwest,East North Central,79595
+26,MI,057,26057,Gratiot,Midwest,East North Central,40711
+26,MI,059,26059,Hillsdale,Midwest,East North Central,45605
+26,MI,067,26067,Ionia,Midwest,East North Central,64697
+26,MI,127,26127,Oceana,Midwest,East North Central,26467
+26,MI,131,26131,Ontonagon,Midwest,East North Central,5720
+26,MI,139,26139,Ottawa,Midwest,East North Central,291830
+26,MI,129,26129,Ogemaw,Midwest,East North Central,20997
+26,MI,135,26135,Oscoda,Midwest,East North Central,8241
+26,MI,089,26089,Leelanau,Midwest,East North Central,21761
+26,MI,087,26087,Lapeer,Midwest,East North Central,87607
+26,MI,083,26083,Keweenaw,Midwest,East North Central,2116
+26,MI,151,26151,Sanilac,Midwest,East North Central,41170
+26,MI,073,26073,Isabella,Midwest,East North Central,69872
+26,MI,079,26079,Kalkaska,Midwest,East North Central,18038
+26,MI,111,26111,Midland,Midwest,East North Central,83156
+26,MI,021,26021,Berrien,Midwest,East North Central,153401
+26,MI,039,26039,Crawford,Midwest,East North Central,14029
+26,MI,043,26043,Dickinson,Midwest,East North Central,25239
+26,MI,063,26063,Huron,Midwest,East North Central,30981
+26,MI,065,26065,Ingham,Midwest,East North Central,292406
+26,MI,091,26091,Lenawee,Midwest,East North Central,98451
+26,MI,105,26105,Mason,Midwest,East North Central,29144
+26,MI,109,26109,Menominee,Midwest,East North Central,22780
+26,MI,117,26117,Montcalm,Midwest,East North Central,63888
+26,MI,113,26113,Missaukee,Midwest,East North Central,15118
+26,MI,149,26149,St. Joseph,Midwest,East North Central,60964
+26,MI,147,26147,St. Clair,Midwest,East North Central,159128
+26,MI,159,26159,Van Buren,Midwest,East North Central,75677
+26,MI,161,26161,Washtenaw,Midwest,East North Central,367601
+26,MI,011,26011,Arenac,Midwest,East North Central,14883
+26,MI,015,26015,Barry,Midwest,East North Central,61550
+26,MI,027,26027,Cass,Midwest,East North Central,51787
+26,MI,071,26071,Iron,Midwest,East North Central,11066
+26,MI,019,26019,Benzie,Midwest,East North Central,17766
+26,MI,143,26143,Roscommon,Midwest,East North Central,24019
+26,MI,153,26153,Schoolcraft,Midwest,East North Central,8094
+26,MI,163,26163,Wayne,Midwest,East North Central,1749343
+26,MI,023,26023,Branch,Midwest,East North Central,43517
+26,MI,055,26055,Grand Traverse,Midwest,East North Central,93088
+26,MI,075,26075,Jackson,Midwest,East North Central,158510
+26,MI,097,26097,Mackinac,Midwest,East North Central,10799
+26,MI,049,26049,Genesee,Midwest,East North Central,405813
+26,MI,009,26009,Antrim,Midwest,East North Central,23324
+26,MI,061,26061,Houghton,Midwest,East North Central,35684
+26,MI,093,26093,Livingston,Midwest,East North Central,191995
+26,MI,069,26069,Iosco,Midwest,East North Central,25127
+26,MI,085,26085,Lake,Midwest,East North Central,11853
+26,MI,101,26101,Manistee,Midwest,East North Central,24558
+26,MI,119,26119,Montmorency,Midwest,East North Central,9328
+26,MI,141,26141,Presque Isle,Midwest,East North Central,12592
+26,MI,051,26051,Gladwin,Midwest,East North Central,25449
+26,MI,077,26077,Kalamazoo,Midwest,East North Central,265066
+26,MI,107,26107,Mecosta,Midwest,East North Central,43453
+26,MI,103,26103,Marquette,Midwest,East North Central,66699
+26,MI,123,26123,Newaygo,Midwest,East North Central,48980
+26,MI,133,26133,Osceola,Midwest,East North Central,23460
+26,MI,137,26137,Otsego,Midwest,East North Central,24668
+26,MI,025,26025,Calhoun,Midwest,East North Central,134159
+26,MI,031,26031,Cheboygan,Midwest,East North Central,25276
+26,MI,095,26095,Luce,Midwest,East North Central,6229
+26,MI,081,26081,Kent,Midwest,East North Central,656955
+26,MI,099,26099,Macomb,Midwest,East North Central,873972
+26,MI,145,26145,Saginaw,Midwest,East North Central,190539
+26,MI,155,26155,Shiawassee,Midwest,East North Central,68122
+26,MI,013,26013,Baraga,Midwest,East North Central,8209
+26,MI,017,26017,Bay,Midwest,East North Central,103126
+26,MI,029,26029,Charlevoix,Midwest,East North Central,26143
+26,MI,045,26045,Eaton,Midwest,East North Central,110268
+26,MI,041,26041,Delta,Midwest,East North Central,35784
+26,MI,053,26053,Gogebic,Midwest,East North Central,13975
+26,MI,047,26047,Emmet,Midwest,East North Central,33415
+25,MA,025,25025,Suffolk,Northeast,New England,803907
+25,MA,001,25001,Barnstable,Northeast,New England,212990
+25,MA,007,25007,Dukes,Northeast,New England,17332
+25,MA,017,25017,Middlesex,Northeast,New England,1611699
+25,MA,003,25003,Berkshire,Northeast,New England,124944
+25,MA,005,25005,Bristol,Northeast,New England,565217
+25,MA,013,25013,Hampden,Northeast,New England,466372
+25,MA,023,25023,Plymouth,Northeast,New England,521202
+25,MA,009,25009,Essex,Northeast,New England,789034
+25,MA,011,25011,Franklin,Northeast,New England,70180
+25,MA,021,25021,Norfolk,Northeast,New England,706775
+25,MA,027,25027,Worcester,Northeast,New England,830622
+25,MA,015,25015,Hampshire,Northeast,New England,160830
+25,MA,019,25019,Nantucket,Northeast,New England,11399
+16,ID,071,16071,Oneida,West,Mountain,4531
+16,ID,031,16031,Cassia,West,Mountain,24030
+16,ID,063,16063,Lincoln,West,Mountain,5366
+16,ID,085,16085,Valley,West,Mountain,11392
+16,ID,003,16003,Adams,West,Mountain,4294
+16,ID,069,16069,Nez Perce,West,Mountain,40408
+16,ID,067,16067,Minidoka,West,Mountain,21039
+16,ID,083,16083,Twin Falls,West,Mountain,86878
+16,ID,073,16073,Owyhee,West,Mountain,11823
+16,ID,021,16021,Boundary,West,Mountain,12245
+16,ID,023,16023,Butte,West,Mountain,2597
+16,ID,029,16029,Caribou,West,Mountain,7155
+16,ID,047,16047,Gooding,West,Mountain,15179
+16,ID,045,16045,Gem,West,Mountain,18112
+16,ID,041,16041,Franklin,West,Mountain,13876
+16,ID,053,16053,Jerome,West,Mountain,24412
+16,ID,055,16055,Kootenai,West,Mountain,165697
+16,ID,061,16061,Lewis,West,Mountain,3838
+16,ID,013,16013,Blaine,West,Mountain,23021
+16,ID,015,16015,Boise,West,Mountain,7831
+16,ID,001,16001,Ada,West,Mountain,481587
+16,ID,005,16005,Bannock,West,Mountain,87808
+16,ID,007,16007,Bear Lake,West,Mountain,6125
+16,ID,011,16011,Bingham,West,Mountain,46811
+16,ID,019,16019,Bonneville,West,Mountain,119062
+16,ID,025,16025,Camas,West,Mountain,1106
+16,ID,027,16027,Canyon,West,Mountain,229849
+16,ID,035,16035,Clearwater,West,Mountain,8756
+16,ID,051,16051,Jefferson,West,Mountain,29871
+16,ID,057,16057,Latah,West,Mountain,40108
+16,ID,059,16059,Lemhi,West,Mountain,8027
+16,ID,075,16075,Payette,West,Mountain,23951
+16,ID,009,16009,Benewah,West,Mountain,9298
+16,ID,017,16017,Bonner,West,Mountain,45739
+16,ID,033,16033,Clark,West,Mountain,845
+16,ID,037,16037,Custer,West,Mountain,4315
+16,ID,039,16039,Elmore,West,Mountain,27511
+16,ID,043,16043,Fremont,West,Mountain,13099
+16,ID,065,16065,Madison,West,Mountain,39907
+16,ID,079,16079,Shoshone,West,Mountain,12882
+16,ID,049,16049,Idaho,West,Mountain,16667
+16,ID,081,16081,Teton,West,Mountain,12142
+16,ID,077,16077,Power,West,Mountain,7681
+16,ID,087,16087,Washington,West,Mountain,10194
+12,FL,133,12133,Washington,South,South Atlantic,25473
+12,FL,031,12031,Duval,South,South Atlantic,957755
+12,FL,007,12007,Bradford,South,South Atlantic,28201
+12,FL,009,12009,Brevard,South,South Atlantic,601942
+12,FL,099,12099,Palm Beach,South,South Atlantic,1496770
+12,FL,019,12019,Clay,South,South Atlantic,219252
+12,FL,067,12067,Lafayette,South,South Atlantic,8422
+12,FL,069,12069,Lake,South,South Atlantic,367118
+12,FL,061,12061,Indian River,South,South Atlantic,159923
+12,FL,063,12063,Jackson,South,South Atlantic,46414
+12,FL,089,12089,Nassau,South,South Atlantic,88625
+12,FL,103,12103,Pinellas,South,South Atlantic,974996
+12,FL,105,12105,Polk,South,South Atlantic,724777
+12,FL,111,12111,St. Lucie,South,South Atlantic,328297
+12,FL,043,12043,Glades,South,South Atlantic,13811
+12,FL,051,12051,Hendry,South,South Atlantic,42022
+12,FL,109,12109,St. Johns,South,South Atlantic,264672
+12,FL,086,12086,Miami-Dade,South,South Atlantic,2716940
+12,FL,005,12005,Bay,South,South Atlantic,174705
+12,FL,035,12035,Flagler,South,South Atlantic,115081
+12,FL,037,12037,Franklin,South,South Atlantic,12125
+12,FL,045,12045,Gulf,South,South Atlantic,13639
+12,FL,047,12047,Hamilton,South,South Atlantic,14428
+12,FL,097,12097,Osceola,South,South Atlantic,375751
+12,FL,131,12131,Walton,South,South Atlantic,74071
+12,FL,039,12039,Gadsden,South,South Atlantic,45660
+12,FL,059,12059,Holmes,South,South Atlantic,19617
+12,FL,065,12065,Jefferson,South,South Atlantic,14246
+12,FL,071,12071,Lee,South,South Atlantic,770577
+12,FL,049,12049,Hardee,South,South Atlantic,26937
+12,FL,021,12021,Collier,South,South Atlantic,384902
+12,FL,093,12093,Okeechobee,South,South Atlantic,42168
+12,FL,095,12095,Orange,South,South Atlantic,1393452
+12,FL,101,12101,Pasco,South,South Atlantic,553947
+12,FL,041,12041,Gilchrist,South,South Atlantic,18582
+12,FL,055,12055,Highlands,South,South Atlantic,106221
+12,FL,001,12001,Alachua,South,South Atlantic,269043
+12,FL,027,12027,DeSoto,South,South Atlantic,38001
+12,FL,013,12013,Calhoun,South,South Atlantic,14105
+12,FL,015,12015,Charlotte,South,South Atlantic,188910
+12,FL,023,12023,Columbia,South,South Atlantic,71686
+12,FL,029,12029,Dixie,South,South Atlantic,16826
+12,FL,085,12085,Martin,South,South Atlantic,161000
+12,FL,117,12117,Seminole,South,South Atlantic,471826
+12,FL,119,12119,Sumter,South,South Atlantic,132420
+12,FL,121,12121,Suwannee,South,South Atlantic,44417
+12,FL,077,12077,Liberty,South,South Atlantic,8354
+12,FL,083,12083,Marion,South,South Atlantic,365579
+12,FL,107,12107,Putnam,South,South Atlantic,74521
+12,FL,115,12115,Sarasota,South,South Atlantic,433742
+12,FL,125,12125,Union,South,South Atlantic,15237
+12,FL,081,12081,Manatee,South,South Atlantic,403253
+12,FL,017,12017,Citrus,South,South Atlantic,149657
+12,FL,075,12075,Levy,South,South Atlantic,41503
+12,FL,003,12003,Baker,South,South Atlantic,29210
+12,FL,113,12113,Santa Rosa,South,South Atlantic,184313
+12,FL,127,12127,Volusia,South,South Atlantic,553284
+12,FL,073,12073,Leon,South,South Atlantic,293582
+12,FL,011,12011,Broward,South,South Atlantic,1952778
+12,FL,079,12079,Madison,South,South Atlantic,18493
+12,FL,087,12087,Monroe,South,South Atlantic,74228
+12,FL,033,12033,Escambia,South,South Atlantic,318316
+12,FL,053,12053,Hernando,South,South Atlantic,193920
+12,FL,057,12057,Hillsborough,South,South Atlantic,1471968
+12,FL,091,12091,Okaloosa,South,South Atlantic,210738
+12,FL,123,12123,Taylor,South,South Atlantic,21569
+12,FL,129,12129,Wakulla,South,South Atlantic,33739
+31,NE,083,31083,Harlan,Midwest,West North Central,3380
+31,NE,185,31185,York,Midwest,West North Central,13679
+31,NE,009,31009,Blaine,Midwest,West North Central,465
+31,NE,049,31049,Deuel,Midwest,West North Central,1794
+31,NE,087,31087,Hitchcock,Midwest,West North Central,2762
+31,NE,013,31013,Box Butte,Midwest,West North Central,10783
+31,NE,001,31001,Adams,Midwest,West North Central,31363
+31,NE,011,31011,Boone,Midwest,West North Central,5192
+31,NE,007,31007,Banner,Midwest,West North Central,745
+31,NE,055,31055,Douglas,Midwest,West North Central,571327
+31,NE,019,31019,Buffalo,Midwest,West North Central,49659
+31,NE,017,31017,Brown,Midwest,West North Central,2955
+31,NE,037,31037,Colfax,Midwest,West North Central,10709
+31,NE,113,31113,Logan,Midwest,West North Central,748
+31,NE,109,31109,Lancaster,Midwest,West North Central,319090
+31,NE,129,31129,Nuckolls,Midwest,West North Central,4148
+31,NE,063,31063,Frontier,Midwest,West North Central,2627
+31,NE,065,31065,Furnas,Midwest,West North Central,4676
+31,NE,073,31073,Gosper,Midwest,West North Central,1990
+31,NE,151,31151,Saline,Midwest,West North Central,14224
+31,NE,147,31147,Richardson,Midwest,West North Central,7865
+31,NE,141,31141,Platte,Midwest,West North Central,33470
+31,NE,143,31143,Polk,Midwest,West North Central,5213
+31,NE,169,31169,Thayer,Midwest,West North Central,5003
+31,NE,163,31163,Sherman,Midwest,West North Central,3001
+31,NE,161,31161,Sheridan,Midwest,West North Central,5246
+31,NE,149,31149,Rock,Midwest,West North Central,1357
+31,NE,093,31093,Howard,Midwest,West North Central,6445
+31,NE,089,31089,Holt,Midwest,West North Central,10067
+31,NE,153,31153,Sarpy,Midwest,West North Central,187196
+31,NE,173,31173,Thurston,Midwest,West North Central,7224
+31,NE,177,31177,Washington,Midwest,West North Central,20729
+31,NE,015,31015,Boyd,Midwest,West North Central,1919
+31,NE,031,31031,Cherry,Midwest,West North Central,5689
+31,NE,053,31053,Dodge,Midwest,West North Central,36565
+31,NE,059,31059,Fillmore,Midwest,West North Central,5462
+31,NE,069,31069,Garden,Midwest,West North Central,1837
+31,NE,091,31091,Hooker,Midwest,West North Central,682
+31,NE,123,31123,Morrill,Midwest,West North Central,4642
+31,NE,127,31127,Nemaha,Midwest,West North Central,6972
+31,NE,159,31159,Seward,Midwest,West North Central,17284
+31,NE,171,31171,Thomas,Midwest,West North Central,722
+31,NE,043,31043,Dakota,Midwest,West North Central,20026
+31,NE,181,31181,Webster,Midwest,West North Central,3487
+31,NE,003,31003,Antelope,Midwest,West North Central,6298
+31,NE,029,31029,Chase,Midwest,West North Central,3924
+31,NE,023,31023,Butler,Midwest,West North Central,8016
+31,NE,035,31035,Clay,Midwest,West North Central,6203
+31,NE,005,31005,Arthur,Midwest,West North Central,463
+31,NE,041,31041,Custer,Midwest,West North Central,10777
+31,NE,061,31061,Franklin,Midwest,West North Central,2979
+31,NE,067,31067,Gage,Midwest,West North Central,21513
+31,NE,081,31081,Hamilton,Midwest,West North Central,9324
+31,NE,095,31095,Jefferson,Midwest,West North Central,7046
+31,NE,099,31099,Kearney,Midwest,West North Central,6495
+31,NE,101,31101,Keith,Midwest,West North Central,8034
+31,NE,115,31115,Loup,Midwest,West North Central,664
+31,NE,119,31119,Madison,Midwest,West North Central,35099
+31,NE,135,31135,Perkins,Midwest,West North Central,2891
+31,NE,137,31137,Phelps,Midwest,West North Central,9034
+31,NE,155,31155,Saunders,Midwest,West North Central,21578
+31,NE,157,31157,Scotts Bluff,Midwest,West North Central,35618
+31,NE,179,31179,Wayne,Midwest,West North Central,9385
+31,NE,103,31103,Keya Paha,Midwest,West North Central,806
+31,NE,105,31105,Kimball,Midwest,West North Central,3632
+31,NE,107,31107,Knox,Midwest,West North Central,8332
+31,NE,111,31111,Lincoln,Midwest,West North Central,34914
+31,NE,121,31121,Merrick,Midwest,West North Central,7755
+31,NE,139,31139,Pierce,Midwest,West North Central,7148
+31,NE,165,31165,Sioux,Midwest,West North Central,1166
+31,NE,021,31021,Burt,Midwest,West North Central,6459
+31,NE,025,31025,Cass,Midwest,West North Central,26248
+31,NE,039,31039,Cuming,Midwest,West North Central,8846
+31,NE,051,31051,Dixon,Midwest,West North Central,5636
+31,NE,057,31057,Dundy,Midwest,West North Central,1693
+31,NE,075,31075,Grant,Midwest,West North Central,623
+31,NE,077,31077,Greeley,Midwest,West North Central,2356
+31,NE,079,31079,Hall,Midwest,West North Central,61353
+31,NE,085,31085,Hayes,Midwest,West North Central,922
+31,NE,131,31131,Otoe,Midwest,West North Central,16012
+31,NE,145,31145,Red Willow,Midwest,West North Central,10724
+31,NE,027,31027,Cedar,Midwest,West North Central,8402
+31,NE,045,31045,Dawes,Midwest,West North Central,8589
+31,NE,097,31097,Johnson,Midwest,West North Central,5071
+31,NE,033,31033,Cheyenne,Midwest,West North Central,8910
+31,NE,047,31047,Dawson,Midwest,West North Central,23595
+31,NE,071,31071,Garfield,Midwest,West North Central,1969
+31,NE,117,31117,McPherson,Midwest,West North Central,494
+31,NE,125,31125,Nance,Midwest,West North Central,3519
+31,NE,133,31133,Pawnee,Midwest,West North Central,2613
+31,NE,167,31167,Stanton,Midwest,West North Central,5920
+31,NE,175,31175,Valley,Midwest,West North Central,4158
+31,NE,183,31183,Wheeler,Midwest,West North Central,783
+53,WA,047,53047,Okanogan,West,Pacific,42243
+53,WA,037,53037,Kittitas,West,Pacific,47935
+53,WA,067,53067,Thurston,West,Pacific,290536
+53,WA,003,53003,Asotin,West,Pacific,22582
+53,WA,005,53005,Benton,West,Pacific,204390
+53,WA,013,53013,Columbia,West,Pacific,3985
+53,WA,011,53011,Clark,West,Pacific,488241
+53,WA,001,53001,Adams,West,Pacific,19983
+53,WA,045,53045,Mason,West,Pacific,66768
+53,WA,057,53057,Skagit,West,Pacific,129205
+53,WA,065,53065,Stevens,West,Pacific,45723
+53,WA,063,53063,Spokane,West,Pacific,522798
+53,WA,043,53043,Lincoln,West,Pacific,10939
+53,WA,007,53007,Chelan,West,Pacific,77200
+53,WA,031,53031,Jefferson,West,Pacific,32221
+53,WA,035,53035,Kitsap,West,Pacific,271473
+53,WA,033,53033,King,West,Pacific,2252782
+53,WA,049,53049,Pacific,West,Pacific,22471
+53,WA,051,53051,Pend Oreille,West,Pacific,13724
+53,WA,055,53055,San Juan,West,Pacific,17582
+53,WA,059,53059,Skamania,West,Pacific,12083
+53,WA,075,53075,Whitman,West,Pacific,50104
+53,WA,077,53077,Yakima,West,Pacific,250873
+53,WA,009,53009,Clallam,West,Pacific,77331
+53,WA,015,53015,Cowlitz,West,Pacific,110593
+53,WA,039,53039,Klickitat,West,Pacific,22425
+53,WA,041,53041,Lewis,West,Pacific,80707
+53,WA,027,53027,Grays Harbor,West,Pacific,75061
+53,WA,023,53023,Garfield,West,Pacific,2225
+53,WA,019,53019,Ferry,West,Pacific,7627
+53,WA,017,53017,Douglas,West,Pacific,43429
+53,WA,029,53029,Island,West,Pacific,85141
+53,WA,053,53053,Pierce,West,Pacific,904980
+53,WA,069,53069,Wahkiakum,West,Pacific,4488
+53,WA,021,53021,Franklin,West,Pacific,95222
+53,WA,071,53071,Walla Walla,West,Pacific,60760
+53,WA,025,53025,Grant,West,Pacific,97733
+53,WA,073,53073,Whatcom,West,Pacific,229247
+53,WA,061,53061,Snohomish,West,Pacific,822083
+35,NM,023,35023,Hidalgo,West,Mountain,4198
+35,NM,029,35029,Luna,West,Mountain,23709
+35,NM,031,35031,McKinley,West,Mountain,71367
+35,NM,043,35043,Sandoval,West,Mountain,146748
+35,NM,055,35055,Taos,West,Mountain,32723
+35,NM,017,35017,Grant,West,Mountain,26998
+35,NM,009,35009,Curry,West,Mountain,48954
+35,NM,007,35007,Colfax,West,Mountain,11941
+35,NM,015,35015,Eddy,West,Mountain,58460
+35,NM,021,35021,Harding,West,Mountain,625
+35,NM,033,35033,Mora,West,Mountain,4521
+35,NM,045,35045,San Juan,West,Mountain,123958
+35,NM,037,35037,Quay,West,Mountain,8253
+35,NM,005,35005,Chaves,West,Mountain,64615
+35,NM,025,35025,Lea,West,Mountain,71070
+35,NM,049,35049,Santa Fe,West,Mountain,150358
+35,NM,059,35059,Union,West,Mountain,4059
+35,NM,051,35051,Sierra,West,Mountain,10791
+35,NM,053,35053,Socorro,West,Mountain,16637
+35,NM,041,35041,Roosevelt,West,Mountain,18500
+35,NM,013,35013,Doña Ana,West,Mountain,218195
+35,NM,028,35028,Los Alamos,West,Mountain,19369
+35,NM,039,35039,Rio Arriba,West,Mountain,38921
+35,NM,047,35047,San Miguel,West,Mountain,27277
+35,NM,061,35061,Valencia,West,Mountain,76688
+35,NM,057,35057,Torrance,West,Mountain,15461
+35,NM,001,35001,Bernalillo,West,Mountain,679121
+35,NM,035,35035,Otero,West,Mountain,67490
+35,NM,006,35006,Cibola,West,Mountain,26675
+35,NM,011,35011,De Baca,West,Mountain,1748
+35,NM,019,35019,Guadalupe,West,Mountain,4300
+35,NM,003,35003,Catron,West,Mountain,3527
+35,NM,027,35027,Lincoln,West,Mountain,19572
+72,PR,009,72009,Aibonito,Territories,Territories,22108
+72,PR,059,72059,Guayanilla,Territories,Territories,17623
+72,PR,001,72001,Adjuntas,Territories,Territories,17363
+72,PR,067,72067,Hormigueros,Territories,Territories,15518
+72,PR,057,72057,Guayama,Territories,Territories,39465
+72,PR,063,72063,Gurabo,Territories,Territories,47093
+72,PR,017,72017,Barceloneta,Territories,Territories,23727
+72,PR,077,72077,Juncos,Territories,Territories,38155
+72,PR,079,72079,Lajas,Territories,Territories,22010
+72,PR,121,72121,Sabana Grande,Territories,Territories,21712
+72,PR,123,72123,Salinas,Territories,Territories,27128
+72,PR,103,72103,Naguabo,Territories,Territories,25761
+72,PR,105,72105,Naranjito,Territories,Territories,27349
+72,PR,115,72115,Quebradillas,Territories,Territories,22918
+72,PR,141,72141,Utuado,Territories,Territories,27395
+72,PR,099,72099,Moca,Territories,Territories,34891
+72,PR,013,72013,Arecibo,Territories,Territories,81966
+72,PR,015,72015,Arroyo,Territories,Territories,17238
+72,PR,054,72054,Florida,Territories,Territories,11317
+72,PR,049,72049,Culebra,Territories,Territories,1714
+72,PR,061,72061,Guaynabo,Territories,Territories,83728
+72,PR,005,72005,Aguadilla,Territories,Territories,50265
+72,PR,053,72053,Fajardo,Territories,Territories,29454
+72,PR,109,72109,Patillas,Territories,Territories,16211
+72,PR,007,72007,Aguas Buenas,Territories,Territories,24814
+72,PR,065,72065,Hatillo,Territories,Territories,39218
+72,PR,069,72069,Humacao,Territories,Territories,50653
+72,PR,101,72101,Morovis,Territories,Territories,30335
+72,PR,133,72133,Santa Isabel,Territories,Territories,21209
+72,PR,139,72139,Trujillo Alto,Territories,Territories,63674
+72,PR,091,72091,Manatí,Territories,Territories,37287
+72,PR,097,72097,Mayagüez,Territories,Territories,71530
+72,PR,111,72111,Peñuelas,Territories,Territories,19249
+72,PR,117,72117,Rincón,Territories,Territories,13656
+72,PR,119,72119,Río Grande,Territories,Territories,48025
+72,PR,125,72125,San Germán,Territories,Territories,30227
+72,PR,131,72131,San Sebastián,Territories,Territories,35528
+72,PR,011,72011,Añasco,Territories,Territories,26161
+72,PR,021,72021,Bayamón,Territories,Territories,169269
+72,PR,033,72033,Cataño,Territories,Territories,23121
+72,PR,027,72027,Camuy,Territories,Territories,30504
+72,PR,023,72023,Cabo Rojo,Territories,Territories,47515
+72,PR,031,72031,Carolina,Territories,Territories,146984
+72,PR,035,72035,Cayey,Territories,Territories,42409
+72,PR,029,72029,Canóvanas,Territories,Territories,44674
+72,PR,149,72149,Villalba,Territories,Territories,21372
+72,PR,153,72153,Yauco,Territories,Territories,33575
+72,PR,045,72045,Comerío,Territories,Territories,18648
+72,PR,055,72055,Guánica,Territories,Territories,15383
+72,PR,075,72075,Juana Díaz,Territories,Territories,44679
+72,PR,083,72083,Las Marías,Territories,Territories,7927
+72,PR,087,72087,Loíza,Territories,Territories,24553
+72,PR,047,72047,Corozal,Territories,Territories,32293
+72,PR,095,72095,Maunabo,Territories,Territories,10321
+72,PR,113,72113,Ponce,Territories,Territories,131881
+72,PR,135,72135,Toa Alta,Territories,Territories,72025
+72,PR,137,72137,Toa Baja,Territories,Territories,74271
+72,PR,147,72147,Vieques,Territories,Territories,8386
+72,PR,151,72151,Yabucoa,Territories,Territories,32282
+72,PR,003,72003,Aguada,Territories,Territories,36694
+72,PR,025,72025,Caguas,Territories,Territories,124606
+72,PR,041,72041,Cidra,Territories,Territories,38307
+72,PR,043,72043,Coamo,Territories,Territories,38336
+72,PR,051,72051,Dorado,Territories,Territories,36141
+72,PR,089,72089,Luquillo,Territories,Territories,17665
+72,PR,019,72019,Barranquitas,Territories,Territories,27725
+72,PR,107,72107,Orocovis,Territories,Territories,20220
+72,PR,129,72129,San Lorenzo,Territories,Territories,35989
+72,PR,037,72037,Ceiba,Territories,Territories,10904
+72,PR,039,72039,Ciales,Territories,Territories,15808
+72,PR,071,72071,Isabela,Territories,Territories,40423
+72,PR,073,72073,Jayuya,Territories,Territories,13891
+72,PR,081,72081,Lares,Territories,Territories,24276
+72,PR,085,72085,Las Piedras,Territories,Territories,37007
+72,PR,127,72127,San Juan,Territories,Territories,318441
+72,PR,143,72143,Vega Alta,Territories,Territories,36061
+72,PR,145,72145,Vega Baja,Territories,Territories,50023
+72,PR,093,72093,Maricao,Territories,Territories,5430
+46,SD,003,46003,Aurora,Midwest,West North Central,2751
+46,SD,051,46051,Grant,Midwest,West North Central,7052
+46,SD,009,46009,Bon Homme,Midwest,West North Central,6901
+46,SD,047,46047,Fall River,Midwest,West North Central,6713
+46,SD,123,46123,Tripp,Midwest,West North Central,5441
+46,SD,115,46115,Spink,Midwest,West North Central,6376
+46,SD,137,46137,Ziebach,Midwest,West North Central,2756
+46,SD,039,46039,Deuel,Midwest,West North Central,4351
+46,SD,033,46033,Custer,Midwest,West North Central,8972
+46,SD,015,46015,Brule,Midwest,West North Central,5297
+46,SD,011,46011,Brookings,Midwest,West North Central,35077
+46,SD,053,46053,Gregory,Midwest,West North Central,4185
+46,SD,025,46025,Clark,Midwest,West North Central,3736
+46,SD,049,46049,Faulk,Midwest,West North Central,2299
+46,SD,129,46129,Walworth,Midwest,West North Central,5435
+46,SD,017,46017,Buffalo,Midwest,West North Central,1962
+46,SD,027,46027,Clay,Midwest,West North Central,14070
+46,SD,037,46037,Day,Midwest,West North Central,5424
+46,SD,041,46041,Dewey,Midwest,West North Central,5892
+46,SD,043,46043,Douglas,Midwest,West North Central,2921
+46,SD,063,46063,Harding,Midwest,West North Central,1298
+46,SD,069,46069,Hyde,Midwest,West North Central,1301
+46,SD,057,46057,Hamlin,Midwest,West North Central,6164
+46,SD,067,46067,Hutchinson,Midwest,West North Central,7291
+46,SD,085,46085,Lyman,Midwest,West North Central,3781
+46,SD,099,46099,Minnehaha,Midwest,West North Central,193134
+46,SD,071,46071,Jackson,Midwest,West North Central,3344
+46,SD,077,46077,Kingsbury,Midwest,West North Central,4939
+46,SD,065,46065,Hughes,Midwest,West North Central,17526
+46,SD,089,46089,McPherson,Midwest,West North Central,2379
+46,SD,119,46119,Sully,Midwest,West North Central,1391
+46,SD,083,46083,Lincoln,Midwest,West North Central,61128
+46,SD,059,46059,Hand,Midwest,West North Central,3191
+46,SD,079,46079,Lake,Midwest,West North Central,12797
+46,SD,081,46081,Lawrence,Midwest,West North Central,25844
+46,SD,135,46135,Yankton,Midwest,West North Central,22814
+46,SD,029,46029,Codington,Midwest,West North Central,28009
+46,SD,005,46005,Beadle,Midwest,West North Central,18453
+46,SD,019,46019,Butte,Midwest,West North Central,10429
+46,SD,031,46031,Corson,Midwest,West North Central,4086
+46,SD,035,46035,Davison,Midwest,West North Central,19775
+46,SD,045,46045,Edmunds,Midwest,West North Central,3829
+46,SD,021,46021,Campbell,Midwest,West North Central,1376
+46,SD,073,46073,Jerauld,Midwest,West North Central,2013
+46,SD,007,46007,Bennett,Midwest,West North Central,3365
+46,SD,055,46055,Haakon,Midwest,West North Central,1899
+46,SD,117,46117,Stanley,Midwest,West North Central,3098
+46,SD,075,46075,Jones,Midwest,West North Central,903
+46,SD,093,46093,Meade,Midwest,West North Central,28332
+46,SD,125,46125,Turner,Midwest,West North Central,8384
+46,SD,013,46013,Brown,Midwest,West North Central,38839
+46,SD,023,46023,Charles Mix,Midwest,West North Central,9292
+46,SD,061,46061,Hanson,Midwest,West North Central,3453
+46,SD,087,46087,McCook,Midwest,West North Central,5586
+46,SD,091,46091,Marshall,Midwest,West North Central,4935
+46,SD,095,46095,Mellette,Midwest,West North Central,2061
+46,SD,101,46101,Moody,Midwest,West North Central,6576
+46,SD,109,46109,Roberts,Midwest,West North Central,10394
+46,SD,111,46111,Sanborn,Midwest,West North Central,2344
+46,SD,107,46107,Potter,Midwest,West North Central,2153
+46,SD,105,46105,Perkins,Midwest,West North Central,2865
+46,SD,103,46103,Pennington,Midwest,West North Central,113775
+46,SD,121,46121,Todd,Midwest,West North Central,10177
+46,SD,127,46127,Union,Midwest,West North Central,15932
+46,SD,097,46097,Miner,Midwest,West North Central,2216
+46,SD,102,46102,Oglala Lakota,Midwest,West North Central,14177
+48,TX,373,48373,Polk,South,West South Central,51353
+48,TX,391,48391,Refugio,South,West South Central,6948
+48,TX,467,48467,Van Zandt,South,West South Central,56590
+48,TX,383,48383,Reagan,South,West South Central,3849
+48,TX,387,48387,Red River,South,West South Central,12023
+48,TX,469,48469,Victoria,South,West South Central,92084
+48,TX,473,48473,Waller,South,West South Central,55246
+48,TX,487,48487,Wilbarger,South,West South Central,12769
+48,TX,481,48481,Wharton,South,West South Central,41556
+48,TX,485,48485,Wichita,South,West South Central,132230
+48,TX,451,48451,Tom Green,South,West South Central,119200
+48,TX,459,48459,Upshur,South,West South Central,41753
+48,TX,493,48493,Wilson,South,West South Central,51070
+48,TX,219,48219,Hockley,South,West South Central,23021
+48,TX,363,48363,Palo Pinto,South,West South Central,29189
+48,TX,041,48041,Brazos,South,West South Central,229211
+48,TX,017,48017,Bailey,South,West South Central,7000
+48,TX,023,48023,Baylor,South,West South Central,3509
+48,TX,061,48061,Cameron,South,West South Central,423163
+48,TX,323,48323,Maverick,South,West South Central,58722
+48,TX,329,48329,Midland,South,West South Central,176832
+48,TX,055,48055,Caldwell,South,West South Central,43664
+48,TX,059,48059,Callahan,South,West South Central,13943
+48,TX,033,48033,Borden,South,West South Central,654
+48,TX,035,48035,Bosque,South,West South Central,18685
+48,TX,029,48029,Bexar,South,West South Central,2003554
+48,TX,027,48027,Bell,South,West South Central,362924
+48,TX,317,48317,Martin,South,West South Central,5771
+48,TX,315,48315,Marion,South,West South Central,9854
+48,TX,313,48313,Madison,South,West South Central,14284
+48,TX,501,48501,Yoakum,South,West South Central,8713
+48,TX,189,48189,Hale,South,West South Central,33406
+48,TX,419,48419,Shelby,South,West South Central,25274
+48,TX,407,48407,San Jacinto,South,West South Central,28859
+48,TX,399,48399,Runnels,South,West South Central,10264
+48,TX,435,48435,Sutton,South,West South Central,3776
+48,TX,181,48181,Grayson,South,West South Central,136212
+48,TX,183,48183,Gregg,South,West South Central,123945
+48,TX,179,48179,Gray,South,West South Central,21886
+48,TX,299,48299,Llano,South,West South Central,21795
+48,TX,303,48303,Lubbock,South,West South Central,310569
+48,TX,165,48165,Gaines,South,West South Central,21492
+48,TX,237,48237,Jack,South,West South Central,8935
+48,TX,297,48297,Live Oak,South,West South Central,12207
+48,TX,067,48067,Cass,South,West South Central,30026
+48,TX,167,48167,Galveston,South,West South Central,342139
+48,TX,141,48141,El Paso,South,West South Central,839238
+48,TX,393,48393,Roberts,South,West South Central,854
+48,TX,457,48457,Tyler,South,West South Central,21672
+48,TX,463,48463,Uvalde,South,West South Central,26741
+48,TX,483,48483,Wheeler,South,West South Central,5056
+48,TX,037,48037,Bowie,South,West South Central,93245
+48,TX,043,48043,Brewster,South,West South Central,9203
+48,TX,423,48423,Smith,South,West South Central,232751
+48,TX,425,48425,Somervell,South,West South Central,9128
+48,TX,199,48199,Hardin,South,West South Central,57602
+48,TX,227,48227,Howard,South,West South Central,36664
+48,TX,333,48333,Mills,South,West South Central,4873
+48,TX,365,48365,Panola,South,West South Central,23194
+48,TX,389,48389,Reeves,South,West South Central,15976
+48,TX,403,48403,Sabine,South,West South Central,10542
+48,TX,421,48421,Sherman,South,West South Central,3022
+48,TX,231,48231,Hunt,South,West South Central,98594
+48,TX,063,48063,Camp,South,West South Central,13094
+48,TX,195,48195,Hansford,South,West South Central,5399
+48,TX,187,48187,Guadalupe,South,West South Central,166847
+48,TX,217,48217,Hill,South,West South Central,36649
+48,TX,293,48293,Limestone,South,West South Central,23437
+48,TX,369,48369,Parmer,South,West South Central,9605
+48,TX,367,48367,Parker,South,West South Central,142878
+48,TX,377,48377,Presidio,South,West South Central,6704
+48,TX,465,48465,Val Verde,South,West South Central,49025
+48,TX,135,48135,Ector,South,West South Central,166223
+48,TX,169,48169,Garza,South,West South Central,6229
+48,TX,173,48173,Glasscock,South,West South Central,1409
+48,TX,185,48185,Grimes,South,West South Central,28880
+48,TX,453,48453,Travis,South,West South Central,1273954
+48,TX,101,48101,Cottle,South,West South Central,1398
+48,TX,255,48255,Karnes,South,West South Central,15601
+48,TX,257,48257,Kaufman,South,West South Central,136154
+48,TX,259,48259,Kendall,South,West South Central,47431
+48,TX,147,48147,Fannin,South,West South Central,35514
+48,TX,153,48153,Floyd,South,West South Central,5712
+48,TX,123,48123,DeWitt,South,West South Central,20160
+48,TX,121,48121,Denton,South,West South Central,887207
+48,TX,117,48117,Deaf Smith,South,West South Central,18546
+48,TX,071,48071,Chambers,South,West South Central,43837
+48,TX,077,48077,Clay,South,West South Central,10471
+48,TX,283,48283,La Salle,South,West South Central,7520
+48,TX,289,48289,Leon,South,West South Central,17404
+48,TX,443,48443,Terrell,South,West South Central,776
+48,TX,437,48437,Swisher,South,West South Central,7397
+48,TX,263,48263,Kent,South,West South Central,762
+48,TX,215,48215,Hidalgo,South,West South Central,868707
+48,TX,207,48207,Haskell,South,West South Central,5658
+48,TX,205,48205,Hartley,South,West South Central,5576
+48,TX,105,48105,Crockett,South,West South Central,3464
+48,TX,109,48109,Culberson,South,West South Central,2171
+48,TX,337,48337,Montague,South,West South Central,19818
+48,TX,347,48347,Nacogdoches,South,West South Central,65204
+48,TX,351,48351,Newton,South,West South Central,13595
+48,TX,085,48085,Collin,South,West South Central,1034730
+48,TX,087,48087,Collingsworth,South,West South Central,2920
+48,TX,209,48209,Hays,South,West South Central,230191
+48,TX,143,48143,Erath,South,West South Central,42698
+48,TX,039,48039,Brazoria,South,West South Central,374264
+48,TX,345,48345,Motley,South,West South Central,1200
+48,TX,129,48129,Donley,South,West South Central,3278
+48,TX,013,48013,Atascosa,South,West South Central,51153
+48,TX,083,48083,Coleman,South,West South Central,8175
+48,TX,353,48353,Nolan,South,West South Central,14714
+48,TX,229,48229,Hudspeth,South,West South Central,4886
+48,TX,325,48325,Medina,South,West South Central,51584
+48,TX,475,48475,Ward,South,West South Central,11998
+48,TX,213,48213,Henderson,South,West South Central,82737
+48,TX,203,48203,Harrison,South,West South Central,66553
+48,TX,327,48327,Menard,South,West South Central,2138
+48,TX,277,48277,Lamar,South,West South Central,49859
+48,TX,149,48149,Fayette,South,West South Central,25346
+48,TX,491,48491,Williamson,South,West South Central,590551
+48,TX,267,48267,Kimble,South,West South Central,4337
+48,TX,233,48233,Hutchinson,South,West South Central,20938
+48,TX,477,48477,Washington,South,West South Central,35882
+48,TX,343,48343,Morris,South,West South Central,12388
+48,TX,361,48361,Orange,South,West South Central,83396
+48,TX,429,48429,Stephens,South,West South Central,9366
+48,TX,495,48495,Winkler,South,West South Central,8010
+48,TX,201,48201,Harris,South,West South Central,4713325
+48,TX,053,48053,Burnet,South,West South Central,48155
+48,TX,171,48171,Gillespie,South,West South Central,26988
+48,TX,177,48177,Gonzales,South,West South Central,20837
+48,TX,113,48113,Dallas,South,West South Central,2635516
+48,TX,305,48305,Lynn,South,West South Central,5951
+48,TX,311,48311,McMullen,South,West South Central,743
+48,TX,503,48503,Young,South,West South Central,18010
+48,TX,505,48505,Zapata,South,West South Central,14179
+48,TX,251,48251,Johnson,South,West South Central,175817
+48,TX,221,48221,Hood,South,West South Central,61643
+48,TX,223,48223,Hopkins,South,West South Central,37084
+48,TX,357,48357,Ochiltree,South,West South Central,9836
+48,TX,269,48269,King,South,West South Central,272
+48,TX,275,48275,Knox,South,West South Central,3664
+48,TX,309,48309,McLennan,South,West South Central,256623
+48,TX,073,48073,Cherokee,South,West South Central,52646
+48,TX,095,48095,Concho,South,West South Central,2726
+48,TX,119,48119,Delta,South,West South Central,5331
+48,TX,137,48137,Edwards,South,West South Central,1932
+48,TX,133,48133,Eastland,South,West South Central,18360
+48,TX,253,48253,Jones,South,West South Central,20083
+48,TX,243,48243,Jeff Davis,South,West South Central,2274
+48,TX,247,48247,Jim Hogg,South,West South Central,5200
+48,TX,249,48249,Jim Wells,South,West South Central,40482
+48,TX,339,48339,Montgomery,South,West South Central,607391
+48,TX,111,48111,Dallam,South,West South Central,7287
+48,TX,127,48127,Dimmit,South,West South Central,10124
+48,TX,479,48479,Webb,South,West South Central,276652
+48,TX,157,48157,Fort Bend,South,West South Central,811688
+48,TX,011,48011,Armstrong,South,West South Central,1887
+48,TX,069,48069,Castro,South,West South Central,7530
+48,TX,235,48235,Irion,South,West South Central,1536
+48,TX,273,48273,Kleberg,South,West South Central,30680
+48,TX,489,48489,Willacy,South,West South Central,21358
+48,TX,097,48097,Cooke,South,West South Central,41257
+48,TX,107,48107,Crosby,South,West South Central,5737
+48,TX,115,48115,Dawson,South,West South Central,12728
+48,TX,151,48151,Fisher,South,West South Central,3830
+48,TX,131,48131,Duval,South,West South Central,11157
+48,TX,051,48051,Burleson,South,West South Central,18443
+48,TX,031,48031,Blanco,South,West South Central,11931
+48,TX,271,48271,Kinney,South,West South Central,3667
+48,TX,359,48359,Oldham,South,West South Central,2112
+48,TX,279,48279,Lamb,South,West South Central,12893
+48,TX,295,48295,Lipscomb,South,West South Central,3233
+48,TX,307,48307,McCulloch,South,West South Central,7984
+48,TX,319,48319,Mason,South,West South Central,4274
+48,TX,125,48125,Dickens,South,West South Central,2211
+48,TX,287,48287,Lee,South,West South Central,17239
+48,TX,439,48439,Tarrant,South,West South Central,2102515
+48,TX,001,48001,Anderson,South,West South Central,57735
+48,TX,009,48009,Archer,South,West South Central,8553
+48,TX,005,48005,Angelina,South,West South Central,86715
+48,TX,003,48003,Andrews,South,West South Central,18705
+48,TX,139,48139,Ellis,South,West South Central,184826
+48,TX,239,48239,Jackson,South,West South Central,14760
+48,TX,265,48265,Kerr,South,West South Central,52600
+48,TX,331,48331,Milam,South,West South Central,24823
+48,TX,093,48093,Comanche,South,West South Central,13635
+48,TX,145,48145,Falls,South,West South Central,17297
+48,TX,047,48047,Brooks,South,West South Central,7093
+48,TX,015,48015,Austin,South,West South Central,30032
+48,TX,261,48261,Kenedy,South,West South Central,404
+48,TX,355,48355,Nueces,South,West South Central,362294
+48,TX,089,48089,Colorado,South,West South Central,21493
+48,TX,409,48409,San Patricio,South,West South Central,66730
+48,TX,379,48379,Rains,South,West South Central,12514
+48,TX,381,48381,Randall,South,West South Central,137713
+48,TX,385,48385,Real,South,West South Central,3452
+48,TX,411,48411,San Saba,South,West South Central,6055
+48,TX,413,48413,Schleicher,South,West South Central,2793
+48,TX,431,48431,Sterling,South,West South Central,1291
+48,TX,507,48507,Zavala,South,West South Central,11840
+48,TX,057,48057,Calhoun,South,West South Central,21290
+48,TX,065,48065,Carson,South,West South Central,5926
+48,TX,155,48155,Foard,South,West South Central,1155
+48,TX,161,48161,Freestone,South,West South Central,19717
+48,TX,175,48175,Goliad,South,West South Central,7658
+48,TX,193,48193,Hamilton,South,West South Central,8461
+48,TX,197,48197,Hardeman,South,West South Central,3933
+48,TX,335,48335,Mitchell,South,West South Central,8545
+48,TX,449,48449,Titus,South,West South Central,32750
+48,TX,045,48045,Briscoe,South,West South Central,1546
+48,TX,285,48285,Lavaca,South,West South Central,20154
+48,TX,291,48291,Liberty,South,West South Central,88219
+48,TX,445,48445,Terry,South,West South Central,12337
+48,TX,497,48497,Wise,South,West South Central,69984
+48,TX,301,48301,Loving,South,West South Central,169
+48,TX,321,48321,Matagorda,South,West South Central,36643
+48,TX,241,48241,Jasper,South,West South Central,35529
+48,TX,245,48245,Jefferson,South,West South Central,251565
+48,TX,371,48371,Pecos,South,West South Central,15823
+48,TX,395,48395,Robertson,South,West South Central,17074
+48,TX,397,48397,Rockwall,South,West South Central,104915
+48,TX,401,48401,Rusk,South,West South Central,54406
+48,TX,441,48441,Taylor,South,West South Central,138034
+48,TX,447,48447,Throckmorton,South,West South Central,1501
+48,TX,455,48455,Trinity,South,West South Central,14651
+48,TX,471,48471,Walker,South,West South Central,72971
+48,TX,499,48499,Wood,South,West South Central,45539
+48,TX,019,48019,Bandera,South,West South Central,23112
+48,TX,007,48007,Aransas,South,West South Central,23510
+48,TX,075,48075,Childress,South,West South Central,7306
+48,TX,079,48079,Cochran,South,West South Central,2853
+48,TX,081,48081,Coke,South,West South Central,3387
+48,TX,091,48091,Comal,South,West South Central,156209
+48,TX,099,48099,Coryell,South,West South Central,75951
+48,TX,211,48211,Hemphill,South,West South Central,3819
+48,TX,225,48225,Houston,South,West South Central,22968
+48,TX,341,48341,Moore,South,West South Central,20940
+48,TX,349,48349,Navarro,South,West South Central,50113
+48,TX,375,48375,Potter,South,West South Central,117415
+48,TX,405,48405,San Augustine,South,West South Central,8237
+48,TX,415,48415,Scurry,South,West South Central,16703
+48,TX,417,48417,Shackelford,South,West South Central,3265
+48,TX,427,48427,Starr,South,West South Central,64633
+48,TX,433,48433,Stonewall,South,West South Central,1350
+48,TX,461,48461,Upton,South,West South Central,3657
+48,TX,021,48021,Bastrop,South,West South Central,88723
+48,TX,049,48049,Brown,South,West South Central,37864
+48,TX,191,48191,Hall,South,West South Central,2964
+48,TX,025,48025,Bee,South,West South Central,32565
+48,TX,159,48159,Franklin,South,West South Central,10725
+48,TX,163,48163,Frio,South,West South Central,20306
+48,TX,103,48103,Crane,South,West South Central,4797
+48,TX,281,48281,Lampasas,South,West South Central,21428
+06,CA,047,06047,Merced,West,Pacific,277680
+06,CA,033,06033,Lake,West,Pacific,64386
+06,CA,043,06043,Mariposa,West,Pacific,17203
+06,CA,049,06049,Modoc,West,Pacific,8841
+06,CA,115,06115,Yuba,West,Pacific,78668
+06,CA,013,06013,Contra Costa,West,Pacific,1153526
+06,CA,027,06027,Inyo,West,Pacific,18039
+06,CA,035,06035,Lassen,West,Pacific,30573
+06,CA,083,06083,Santa Barbara,West,Pacific,446499
+06,CA,103,06103,Tehama,West,Pacific,65084
+06,CA,025,06025,Imperial,West,Pacific,181215
+06,CA,051,06051,Mono,West,Pacific,14444
+06,CA,001,06001,Alameda,West,Pacific,1671329
+06,CA,017,06017,El Dorado,West,Pacific,192843
+06,CA,055,06055,Napa,West,Pacific,137744
+06,CA,053,06053,Monterey,West,Pacific,434061
+06,CA,075,06075,San Francisco,West,Pacific,881549
+06,CA,073,06073,San Diego,West,Pacific,3338330
+06,CA,099,06099,Stanislaus,West,Pacific,550660
+06,CA,097,06097,Sonoma,West,Pacific,494336
+06,CA,091,06091,Sierra,West,Pacific,3005
+06,CA,069,06069,San Benito,West,Pacific,62808
+06,CA,067,06067,Sacramento,West,Pacific,1552058
+06,CA,107,06107,Tulare,West,Pacific,466195
+06,CA,113,06113,Yolo,West,Pacific,220500
+06,CA,023,06023,Humboldt,West,Pacific,135558
+06,CA,057,06057,Nevada,West,Pacific,99755
+06,CA,003,06003,Alpine,West,Pacific,1129
+06,CA,039,06039,Madera,West,Pacific,157327
+06,CA,045,06045,Mendocino,West,Pacific,86749
+06,CA,087,06087,Santa Cruz,West,Pacific,273213
+06,CA,105,06105,Trinity,West,Pacific,12285
+06,CA,037,06037,Los Angeles,West,Pacific,10039107
+06,CA,065,06065,Riverside,West,Pacific,2470546
+06,CA,071,06071,San Bernardino,West,Pacific,2180085
+06,CA,085,06085,Santa Clara,West,Pacific,1927852
+06,CA,041,06041,Marin,West,Pacific,258826
+06,CA,061,06061,Placer,West,Pacific,398329
+06,CA,093,06093,Siskiyou,West,Pacific,43539
+06,CA,089,06089,Shasta,West,Pacific,180080
+06,CA,095,06095,Solano,West,Pacific,447643
+06,CA,015,06015,Del Norte,West,Pacific,27812
+06,CA,011,06011,Colusa,West,Pacific,21547
+06,CA,021,06021,Glenn,West,Pacific,28393
+06,CA,007,06007,Butte,West,Pacific,219186
+06,CA,031,06031,Kings,West,Pacific,152940
+06,CA,063,06063,Plumas,West,Pacific,18807
+06,CA,079,06079,San Luis Obispo,West,Pacific,283111
+06,CA,019,06019,Fresno,West,Pacific,999101
+06,CA,029,06029,Kern,West,Pacific,900202
+06,CA,059,06059,Orange,West,Pacific,3175692
+06,CA,111,06111,Ventura,West,Pacific,846006
+06,CA,009,06009,Calaveras,West,Pacific,45905
+06,CA,101,06101,Sutter,West,Pacific,96971
+06,CA,081,06081,San Mateo,West,Pacific,766573
+06,CA,109,06109,Tuolumne,West,Pacific,54478
+06,CA,077,06077,San Joaquin,West,Pacific,762148
+06,CA,005,06005,Amador,West,Pacific,39752
+01,AL,099,01099,Monroe,South,East South Central,20733
+01,AL,079,01079,Lawrence,South,East South Central,32924
+01,AL,081,01081,Lee,South,East South Central,164542
+01,AL,093,01093,Marion,South,East South Central,29709
+01,AL,107,01107,Pickens,South,East South Central,19930
+01,AL,119,01119,Sumter,South,East South Central,12427
+01,AL,091,01091,Marengo,South,East South Central,18863
+01,AL,113,01113,Russell,South,East South Central,57961
+01,AL,085,01085,Lowndes,South,East South Central,9726
+01,AL,087,01087,Macon,South,East South Central,18068
+01,AL,083,01083,Limestone,South,East South Central,98915
+01,AL,117,01117,Shelby,South,East South Central,217702
+01,AL,115,01115,St. Clair,South,East South Central,89512
+01,AL,133,01133,Winston,South,East South Central,23629
+01,AL,003,01003,Baldwin,South,East South Central,223234
+01,AL,071,01071,Jackson,South,East South Central,51626
+01,AL,073,01073,Jefferson,South,East South Central,658573
+01,AL,077,01077,Lauderdale,South,East South Central,92729
+01,AL,069,01069,Houston,South,East South Central,105882
+01,AL,023,01023,Choctaw,South,East South Central,12589
+01,AL,059,01059,Franklin,South,East South Central,31362
+01,AL,051,01051,Elmore,South,East South Central,81209
+01,AL,019,01019,Cherokee,South,East South Central,26196
+01,AL,039,01039,Covington,South,East South Central,37049
+01,AL,041,01041,Crenshaw,South,East South Central,13772
+01,AL,047,01047,Dallas,South,East South Central,37196
+01,AL,043,01043,Cullman,South,East South Central,83768
+01,AL,121,01121,Talladega,South,East South Central,79978
+01,AL,125,01125,Tuscaloosa,South,East South Central,209355
+01,AL,129,01129,Washington,South,East South Central,16326
+01,AL,027,01027,Clay,South,East South Central,13235
+01,AL,031,01031,Coffee,South,East South Central,52342
+01,AL,103,01103,Morgan,South,East South Central,119679
+01,AL,109,01109,Pike,South,East South Central,33114
+01,AL,021,01021,Chilton,South,East South Central,44428
+01,AL,033,01033,Colbert,South,East South Central,55241
+01,AL,037,01037,Coosa,South,East South Central,10663
+01,AL,045,01045,Dale,South,East South Central,49172
+01,AL,065,01065,Hale,South,East South Central,14651
+01,AL,055,01055,Etowah,South,East South Central,102268
+01,AL,049,01049,DeKalb,South,East South Central,71513
+01,AL,053,01053,Escambia,South,East South Central,36633
+01,AL,075,01075,Lamar,South,East South Central,13805
+01,AL,111,01111,Randolph,South,East South Central,22722
+01,AL,013,01013,Butler,South,East South Central,19448
+01,AL,097,01097,Mobile,South,East South Central,413210
+01,AL,105,01105,Perry,South,East South Central,8923
+01,AL,127,01127,Walker,South,East South Central,63521
+01,AL,029,01029,Cleburne,South,East South Central,14910
+01,AL,035,01035,Conecuh,South,East South Central,12067
+01,AL,063,01063,Greene,South,East South Central,8111
+01,AL,005,01005,Barbour,South,East South Central,24686
+01,AL,007,01007,Bibb,South,East South Central,22394
+01,AL,011,01011,Bullock,South,East South Central,10101
+01,AL,015,01015,Calhoun,South,East South Central,113605
+01,AL,017,01017,Chambers,South,East South Central,33254
+01,AL,025,01025,Clarke,South,East South Central,23622
+01,AL,057,01057,Fayette,South,East South Central,16302
+01,AL,101,01101,Montgomery,South,East South Central,226486
+01,AL,095,01095,Marshall,South,East South Central,96774
+01,AL,009,01009,Blount,South,East South Central,57826
+01,AL,067,01067,Henry,South,East South Central,17205
+01,AL,089,01089,Madison,South,East South Central,372909
+01,AL,001,01001,Autauga,South,East South Central,55869
+01,AL,123,01123,Tallapoosa,South,East South Central,40367
+01,AL,061,01061,Geneva,South,East South Central,26271
+01,AL,131,01131,Wilcox,South,East South Central,10373
+13,GA,187,13187,Lumpkin,South,South Atlantic,33610
+13,GA,189,13189,McDuffie,South,South Atlantic,21312
+13,GA,201,13201,Miller,South,South Atlantic,5718
+13,GA,211,13211,Morgan,South,South Atlantic,19276
+13,GA,149,13149,Heard,South,South Atlantic,11923
+13,GA,219,13219,Oconee,South,South Atlantic,40280
+13,GA,095,13095,Dougherty,South,South Atlantic,87956
+13,GA,111,13111,Fannin,South,South Atlantic,26188
+13,GA,151,13151,Henry,South,South Atlantic,234561
+13,GA,153,13153,Houston,South,South Atlantic,157863
+13,GA,175,13175,Laurens,South,South Atlantic,47546
+13,GA,183,13183,Long,South,South Atlantic,19559
+13,GA,225,13225,Peach,South,South Atlantic,27546
+13,GA,223,13223,Paulding,South,South Atlantic,168667
+13,GA,229,13229,Pierce,South,South Atlantic,19465
+13,GA,231,13231,Pike,South,South Atlantic,18962
+13,GA,019,13019,Berrien,South,South Atlantic,19397
+13,GA,135,13135,Gwinnett,South,South Atlantic,936250
+13,GA,013,13013,Barrow,South,South Atlantic,83240
+13,GA,015,13015,Bartow,South,South Atlantic,107738
+13,GA,097,13097,Douglas,South,South Atlantic,146343
+13,GA,131,13131,Grady,South,South Atlantic,24633
+13,GA,141,13141,Hancock,South,South Atlantic,8457
+13,GA,193,13193,Macon,South,South Atlantic,12947
+13,GA,021,13021,Bibb,South,South Atlantic,153159
+13,GA,145,13145,Harris,South,South Atlantic,35236
+13,GA,197,13197,Marion,South,South Atlantic,8359
+13,GA,321,13321,Worth,South,South Atlantic,20247
+13,GA,023,13023,Bleckley,South,South Atlantic,12873
+13,GA,093,13093,Dooly,South,South Atlantic,13390
+13,GA,109,13109,Evans,South,South Atlantic,10654
+13,GA,119,13119,Franklin,South,South Atlantic,23349
+13,GA,103,13103,Effingham,South,South Atlantic,64296
+13,GA,125,13125,Glascock,South,South Atlantic,2971
+13,GA,107,13107,Emanuel,South,South Atlantic,22646
+13,GA,159,13159,Jasper,South,South Atlantic,14219
+13,GA,255,13255,Spalding,South,South Atlantic,66703
+13,GA,257,13257,Stephens,South,South Atlantic,25925
+13,GA,251,13251,Screven,South,South Atlantic,13966
+13,GA,249,13249,Schley,South,South Atlantic,5257
+13,GA,271,13271,Telfair,South,South Atlantic,15860
+13,GA,267,13267,Tattnall,South,South Atlantic,25286
+13,GA,291,13291,Union,South,South Atlantic,24511
+13,GA,285,13285,Troup,South,South Atlantic,69922
+13,GA,293,13293,Upson,South,South Atlantic,26320
+13,GA,303,13303,Washington,South,South Atlantic,20374
+13,GA,295,13295,Walker,South,South Atlantic,69761
+13,GA,311,13311,White,South,South Atlantic,30798
+13,GA,313,13313,Whitfield,South,South Atlantic,104628
+13,GA,307,13307,Webster,South,South Atlantic,2607
+13,GA,245,13245,Richmond,South,South Atlantic,202518
+13,GA,239,13239,Quitman,South,South Atlantic,2299
+13,GA,049,13049,Charlton,South,South Atlantic,13392
+13,GA,051,13051,Chatham,South,South Atlantic,289430
+13,GA,065,13065,Clinch,South,South Atlantic,6618
+13,GA,161,13161,Jeff Davis,South,South Atlantic,15115
+13,GA,171,13171,Lamar,South,South Atlantic,19077
+13,GA,037,13037,Calhoun,South,South Atlantic,6189
+13,GA,167,13167,Johnson,South,South Atlantic,9643
+13,GA,173,13173,Lanier,South,South Atlantic,10423
+13,GA,179,13179,Liberty,South,South Atlantic,61435
+13,GA,195,13195,Madison,South,South Atlantic,29880
+13,GA,205,13205,Mitchell,South,South Atlantic,21863
+13,GA,253,13253,Seminole,South,South Atlantic,8090
+13,GA,277,13277,Tift,South,South Atlantic,40644
+13,GA,289,13289,Twiggs,South,South Atlantic,8120
+13,GA,233,13233,Polk,South,South Atlantic,42613
+13,GA,263,13263,Talbot,South,South Atlantic,6195
+13,GA,269,13269,Taylor,South,South Atlantic,8020
+13,GA,273,13273,Terrell,South,South Atlantic,8531
+13,GA,275,13275,Thomas,South,South Atlantic,44451
+13,GA,279,13279,Toombs,South,South Atlantic,26830
+13,GA,319,13319,Wilkinson,South,South Atlantic,8954
+13,GA,209,13209,Montgomery,South,South Atlantic,9172
+13,GA,221,13221,Oglethorpe,South,South Atlantic,15259
+13,GA,243,13243,Randolph,South,South Atlantic,6778
+13,GA,247,13247,Rockdale,South,South Atlantic,90896
+13,GA,299,13299,Ware,South,South Atlantic,35734
+13,GA,305,13305,Wayne,South,South Atlantic,29927
+13,GA,309,13309,Wheeler,South,South Atlantic,7855
+13,GA,315,13315,Wilcox,South,South Atlantic,8635
+13,GA,009,13009,Baldwin,South,South Atlantic,44890
+13,GA,011,13011,Banks,South,South Atlantic,19234
+13,GA,031,13031,Bulloch,South,South Atlantic,79608
+13,GA,059,13059,Clarke,South,South Atlantic,128331
+13,GA,061,13061,Clay,South,South Atlantic,2834
+13,GA,101,13101,Echols,South,South Atlantic,4006
+13,GA,127,13127,Glynn,South,South Atlantic,85292
+13,GA,089,13089,DeKalb,South,South Atlantic,759297
+13,GA,143,13143,Haralson,South,South Atlantic,29792
+13,GA,157,13157,Jackson,South,South Atlantic,72977
+13,GA,163,13163,Jefferson,South,South Atlantic,15362
+13,GA,169,13169,Jones,South,South Atlantic,28735
+13,GA,181,13181,Lincoln,South,South Atlantic,7921
+13,GA,213,13213,Murray,South,South Atlantic,40096
+13,GA,215,13215,Muscogee,South,South Atlantic,195769
+13,GA,235,13235,Pulaski,South,South Atlantic,11137
+13,GA,241,13241,Rabun,South,South Atlantic,17137
+13,GA,259,13259,Stewart,South,South Atlantic,6621
+13,GA,281,13281,Towns,South,South Atlantic,12037
+13,GA,283,13283,Treutlen,South,South Atlantic,6901
+13,GA,287,13287,Turner,South,South Atlantic,7985
+13,GA,155,13155,Irwin,South,South Atlantic,9416
+13,GA,003,13003,Atkinson,South,South Atlantic,8165
+13,GA,001,13001,Appling,South,South Atlantic,18386
+13,GA,005,13005,Bacon,South,South Atlantic,11164
+13,GA,025,13025,Brantley,South,South Atlantic,19109
+13,GA,017,13017,Ben Hill,South,South Atlantic,16700
+13,GA,033,13033,Burke,South,South Atlantic,22383
+13,GA,047,13047,Catoosa,South,South Atlantic,67580
+13,GA,053,13053,Chattahoochee,South,South Atlantic,10907
+13,GA,055,13055,Chattooga,South,South Atlantic,24789
+13,GA,087,13087,Decatur,South,South Atlantic,26404
+13,GA,115,13115,Floyd,South,South Atlantic,98498
+13,GA,117,13117,Forsyth,South,South Atlantic,244252
+13,GA,137,13137,Habersham,South,South Atlantic,45328
+13,GA,147,13147,Hart,South,South Atlantic,26205
+13,GA,185,13185,Lowndes,South,South Atlantic,117406
+13,GA,191,13191,McIntosh,South,South Atlantic,14378
+13,GA,199,13199,Meriwether,South,South Atlantic,21167
+13,GA,207,13207,Monroe,South,South Atlantic,27578
+13,GA,237,13237,Putnam,South,South Atlantic,22119
+13,GA,261,13261,Sumter,South,South Atlantic,29524
+13,GA,265,13265,Taliaferro,South,South Atlantic,1537
+13,GA,301,13301,Warren,South,South Atlantic,5254
+13,GA,007,13007,Baker,South,South Atlantic,3038
+13,GA,029,13029,Bryan,South,South Atlantic,39627
+13,GA,035,13035,Butts,South,South Atlantic,24936
+13,GA,043,13043,Candler,South,South Atlantic,10803
+13,GA,039,13039,Camden,South,South Atlantic,54666
+13,GA,045,13045,Carroll,South,South Atlantic,119992
+13,GA,099,13099,Early,South,South Atlantic,10190
+13,GA,069,13069,Coffee,South,South Atlantic,43273
+13,GA,077,13077,Coweta,South,South Atlantic,148509
+13,GA,073,13073,Columbia,South,South Atlantic,156714
+13,GA,079,13079,Crawford,South,South Atlantic,12404
+13,GA,081,13081,Crisp,South,South Atlantic,22372
+13,GA,067,13067,Cobb,South,South Atlantic,760141
+13,GA,123,13123,Gilmer,South,South Atlantic,31369
+13,GA,083,13083,Dade,South,South Atlantic,16116
+13,GA,297,13297,Walton,South,South Atlantic,94593
+13,GA,317,13317,Wilkes,South,South Atlantic,9777
+13,GA,027,13027,Brooks,South,South Atlantic,15457
+13,GA,091,13091,Dodge,South,South Atlantic,20605
+13,GA,129,13129,Gordon,South,South Atlantic,57963
+13,GA,105,13105,Elbert,South,South Atlantic,19194
+13,GA,057,13057,Cherokee,South,South Atlantic,258773
+13,GA,113,13113,Fayette,South,South Atlantic,114421
+13,GA,165,13165,Jenkins,South,South Atlantic,8676
+13,GA,177,13177,Lee,South,South Atlantic,29992
+13,GA,217,13217,Newton,South,South Atlantic,111744
+13,GA,227,13227,Pickens,South,South Atlantic,32591
+13,GA,133,13133,Greene,South,South Atlantic,18324
+13,GA,071,13071,Colquitt,South,South Atlantic,45600
+13,GA,075,13075,Cook,South,South Atlantic,17270
+13,GA,085,13085,Dawson,South,South Atlantic,26108
+13,GA,063,13063,Clayton,South,South Atlantic,292256
+13,GA,121,13121,Fulton,South,South Atlantic,1063937
+13,GA,139,13139,Hall,South,South Atlantic,204441
+42,PA,045,42045,Delaware,Northeast,Middle Atlantic,566747
+42,PA,043,42043,Dauphin,Northeast,Middle Atlantic,278299
+42,PA,055,42055,Franklin,Northeast,Middle Atlantic,155027
+42,PA,009,42009,Bedford,Northeast,Middle Atlantic,47888
+42,PA,061,42061,Huntingdon,Northeast,Middle Atlantic,45144
+42,PA,101,42101,Philadelphia,Northeast,Middle Atlantic,1584064
+42,PA,063,42063,Indiana,Northeast,Middle Atlantic,84073
+42,PA,041,42041,Cumberland,Northeast,Middle Atlantic,253370
+42,PA,003,42003,Allegheny,Northeast,Middle Atlantic,1216045
+42,PA,053,42053,Forest,Northeast,Middle Atlantic,7247
+42,PA,013,42013,Blair,Northeast,Middle Atlantic,121829
+42,PA,015,42015,Bradford,Northeast,Middle Atlantic,60323
+42,PA,021,42021,Cambria,Northeast,Middle Atlantic,130192
+42,PA,011,42011,Berks,Northeast,Middle Atlantic,421164
+42,PA,111,42111,Somerset,Northeast,Middle Atlantic,73447
+42,PA,103,42103,Pike,Northeast,Middle Atlantic,55809
+42,PA,109,42109,Snyder,Northeast,Middle Atlantic,40372
+42,PA,049,42049,Erie,Northeast,Middle Atlantic,269728
+42,PA,057,42057,Fulton,Northeast,Middle Atlantic,14530
+42,PA,067,42067,Juniata,Northeast,Middle Atlantic,24763
+42,PA,107,42107,Schuylkill,Northeast,Middle Atlantic,141359
+42,PA,131,42131,Wyoming,Northeast,Middle Atlantic,26794
+42,PA,119,42119,Union,Northeast,Middle Atlantic,44923
+42,PA,127,42127,Wayne,Northeast,Middle Atlantic,51361
+42,PA,125,42125,Washington,Northeast,Middle Atlantic,206865
+42,PA,115,42115,Susquehanna,Northeast,Middle Atlantic,40328
+42,PA,089,42089,Monroe,Northeast,Middle Atlantic,170271
+42,PA,087,42087,Mifflin,Northeast,Middle Atlantic,46138
+42,PA,133,42133,York,Northeast,Middle Atlantic,449058
+42,PA,129,42129,Westmoreland,Northeast,Middle Atlantic,348899
+42,PA,073,42073,Lawrence,Northeast,Middle Atlantic,85512
+42,PA,029,42029,Chester,Northeast,Middle Atlantic,524989
+42,PA,039,42039,Crawford,Northeast,Middle Atlantic,84629
+42,PA,001,42001,Adams,Northeast,Middle Atlantic,103009
+42,PA,005,42005,Armstrong,Northeast,Middle Atlantic,64735
+42,PA,035,42035,Clinton,Northeast,Middle Atlantic,38632
+42,PA,025,42025,Carbon,Northeast,Middle Atlantic,64182
+42,PA,027,42027,Centre,Northeast,Middle Atlantic,162385
+42,PA,097,42097,Northumberland,Northeast,Middle Atlantic,90843
+42,PA,095,42095,Northampton,Northeast,Middle Atlantic,305285
+42,PA,023,42023,Cameron,Northeast,Middle Atlantic,4447
+42,PA,121,42121,Venango,Northeast,Middle Atlantic,50668
+42,PA,007,42007,Beaver,Northeast,Middle Atlantic,163929
+42,PA,017,42017,Bucks,Northeast,Middle Atlantic,628270
+42,PA,069,42069,Lackawanna,Northeast,Middle Atlantic,209674
+42,PA,077,42077,Lehigh,Northeast,Middle Atlantic,369318
+42,PA,083,42083,McKean,Northeast,Middle Atlantic,40625
+42,PA,051,42051,Fayette,Northeast,Middle Atlantic,129274
+42,PA,031,42031,Clarion,Northeast,Middle Atlantic,38438
+42,PA,091,42091,Montgomery,Northeast,Middle Atlantic,830915
+42,PA,033,42033,Clearfield,Northeast,Middle Atlantic,79255
+42,PA,059,42059,Greene,Northeast,Middle Atlantic,36233
+42,PA,075,42075,Lebanon,Northeast,Middle Atlantic,141793
+42,PA,081,42081,Lycoming,Northeast,Middle Atlantic,113299
+42,PA,079,42079,Luzerne,Northeast,Middle Atlantic,317417
+42,PA,093,42093,Montour,Northeast,Middle Atlantic,18230
+42,PA,123,42123,Warren,Northeast,Middle Atlantic,39191
+42,PA,037,42037,Columbia,Northeast,Middle Atlantic,64964
+42,PA,019,42019,Butler,Northeast,Middle Atlantic,187853
+42,PA,047,42047,Elk,Northeast,Middle Atlantic,29910
+42,PA,065,42065,Jefferson,Northeast,Middle Atlantic,43425
+42,PA,071,42071,Lancaster,Northeast,Middle Atlantic,545724
+42,PA,085,42085,Mercer,Northeast,Middle Atlantic,109424
+42,PA,099,42099,Perry,Northeast,Middle Atlantic,46272
+42,PA,105,42105,Potter,Northeast,Middle Atlantic,16526
+42,PA,113,42113,Sullivan,Northeast,Middle Atlantic,6066
+42,PA,117,42117,Tioga,Northeast,Middle Atlantic,40591
+29,MO,053,29053,Cooper,Midwest,West North Central,17709
+29,MO,059,29059,Dallas,Midwest,West North Central,16878
+29,MO,075,29075,Gentry,Midwest,West North Central,6571
+29,MO,085,29085,Hickory,Midwest,West North Central,9544
+29,MO,113,29113,Lincoln,Midwest,West North Central,59013
+29,MO,133,29133,Mississippi,Midwest,West North Central,13180
+29,MO,137,29137,Monroe,Midwest,West North Central,8644
+29,MO,145,29145,Newton,Midwest,West North Central,58236
+29,MO,153,29153,Ozark,Midwest,West North Central,9174
+29,MO,163,29163,Pike,Midwest,West North Central,18302
+29,MO,183,29183,St. Charles,Midwest,West North Central,402022
+29,MO,017,29017,Bollinger,Midwest,West North Central,12133
+29,MO,031,29031,Cape Girardeau,Midwest,West North Central,78871
+29,MO,205,29205,Shelby,Midwest,West North Central,5930
+29,MO,225,29225,Webster,Midwest,West North Central,39592
+29,MO,005,29005,Atchison,Midwest,West North Central,5143
+29,MO,013,29013,Bates,Midwest,West North Central,16172
+29,MO,015,29015,Benton,Midwest,West North Central,19443
+29,MO,035,29035,Carter,Midwest,West North Central,5982
+29,MO,057,29057,Dade,Midwest,West North Central,7561
+29,MO,115,29115,Linn,Midwest,West North Central,11920
+29,MO,091,29091,Howell,Midwest,West North Central,40117
+29,MO,101,29101,Johnson,Midwest,West North Central,54062
+29,MO,105,29105,Laclede,Midwest,West North Central,35723
+29,MO,125,29125,Maries,Midwest,West North Central,8697
+29,MO,161,29161,Phelps,Midwest,West North Central,44573
+29,MO,165,29165,Platte,Midwest,West North Central,104418
+29,MO,187,29187,St. Francois,Midwest,West North Central,67215
+29,MO,510,29510,St. Louis,Midwest,West North Central,300576
+29,MO,003,29003,Andrew,Midwest,West North Central,17712
+29,MO,023,29023,Butler,Midwest,West North Central,42478
+29,MO,033,29033,Carroll,Midwest,West North Central,8679
+29,MO,129,29129,Mercer,Midwest,West North Central,3617
+29,MO,123,29123,Madison,Midwest,West North Central,12088
+29,MO,229,29229,Wright,Midwest,West North Central,18289
+29,MO,047,29047,Clay,Midwest,West North Central,249948
+29,MO,217,29217,Vernon,Midwest,West North Central,20563
+29,MO,065,29065,Dent,Midwest,West North Central,15573
+29,MO,195,29195,Saline,Midwest,West North Central,22761
+29,MO,147,29147,Nodaway,Midwest,West North Central,22092
+29,MO,227,29227,Worth,Midwest,West North Central,2013
+29,MO,041,29041,Chariton,Midwest,West North Central,7426
+29,MO,079,29079,Grundy,Midwest,West North Central,9850
+29,MO,141,29141,Morgan,Midwest,West North Central,20627
+29,MO,223,29223,Wayne,Midwest,West North Central,12873
+29,MO,179,29179,Reynolds,Midwest,West North Central,6270
+29,MO,189,29189,St. Louis,Midwest,West North Central,994205
+29,MO,201,29201,Scott,Midwest,West North Central,38280
+29,MO,209,29209,Stone,Midwest,West North Central,31952
+29,MO,009,29009,Barry,Midwest,West North Central,35789
+29,MO,011,29011,Barton,Midwest,West North Central,11754
+29,MO,019,29019,Boone,Midwest,West North Central,180463
+29,MO,039,29039,Cedar,Midwest,West North Central,14349
+29,MO,051,29051,Cole,Midwest,West North Central,76745
+29,MO,055,29055,Crawford,Midwest,West North Central,23920
+29,MO,073,29073,Gasconade,Midwest,West North Central,14706
+29,MO,093,29093,Iron,Midwest,West North Central,10125
+29,MO,117,29117,Livingston,Midwest,West North Central,15227
+29,MO,121,29121,Macon,Midwest,West North Central,15117
+29,MO,135,29135,Moniteau,Midwest,West North Central,16132
+29,MO,149,29149,Oregon,Midwest,West North Central,10529
+29,MO,155,29155,Pemiscot,Midwest,West North Central,15805
+29,MO,159,29159,Pettis,Midwest,West North Central,42339
+29,MO,186,29186,Ste. Genevieve,Midwest,West North Central,17894
+29,MO,203,29203,Shannon,Midwest,West North Central,8166
+29,MO,175,29175,Randolph,Midwest,West North Central,24748
+29,MO,067,29067,Douglas,Midwest,West North Central,13185
+29,MO,069,29069,Dunklin,Midwest,West North Central,29131
+29,MO,071,29071,Franklin,Midwest,West North Central,103967
+29,MO,083,29083,Henry,Midwest,West North Central,21824
+29,MO,089,29089,Howard,Midwest,West North Central,10001
+29,MO,095,29095,Jackson,Midwest,West North Central,703011
+29,MO,109,29109,Lawrence,Midwest,West North Central,38355
+29,MO,131,29131,Miller,Midwest,West North Central,25619
+29,MO,169,29169,Pulaski,Midwest,West North Central,52607
+29,MO,171,29171,Putnam,Midwest,West North Central,4696
+29,MO,213,29213,Taney,Midwest,West North Central,55928
+29,MO,215,29215,Texas,Midwest,West North Central,25398
+29,MO,021,29021,Buchanan,Midwest,West North Central,87364
+29,MO,025,29025,Caldwell,Midwest,West North Central,9020
+29,MO,027,29027,Callaway,Midwest,West North Central,44743
+29,MO,037,29037,Cass,Midwest,West North Central,105780
+29,MO,049,29049,Clinton,Midwest,West North Central,20387
+29,MO,061,29061,Daviess,Midwest,West North Central,8278
+29,MO,087,29087,Holt,Midwest,West North Central,4403
+29,MO,103,29103,Knox,Midwest,West North Central,3959
+29,MO,127,29127,Marion,Midwest,West North Central,28530
+29,MO,139,29139,Montgomery,Midwest,West North Central,11551
+29,MO,151,29151,Osage,Midwest,West North Central,13615
+29,MO,181,29181,Ripley,Midwest,West North Central,13288
+29,MO,207,29207,Stoddard,Midwest,West North Central,29025
+29,MO,219,29219,Warren,Midwest,West North Central,35649
+29,MO,221,29221,Washington,Midwest,West North Central,24730
+29,MO,007,29007,Audrain,Midwest,West North Central,25388
+29,MO,043,29043,Christian,Midwest,West North Central,88595
+29,MO,063,29063,DeKalb,Midwest,West North Central,12547
+29,MO,077,29077,Greene,Midwest,West North Central,293086
+29,MO,081,29081,Harrison,Midwest,West North Central,8352
+29,MO,107,29107,Lafayette,Midwest,West North Central,32708
+29,MO,185,29185,St. Clair,Midwest,West North Central,9397
+29,MO,001,29001,Adair,Midwest,West North Central,25343
+29,MO,197,29197,Schuyler,Midwest,West North Central,4660
+29,MO,199,29199,Scotland,Midwest,West North Central,4902
+29,MO,211,29211,Sullivan,Midwest,West North Central,6089
+29,MO,029,29029,Camden,Midwest,West North Central,46305
+29,MO,045,29045,Clark,Midwest,West North Central,6797
+29,MO,097,29097,Jasper,Midwest,West North Central,121328
+29,MO,099,29099,Jefferson,Midwest,West North Central,225081
+29,MO,111,29111,Lewis,Midwest,West North Central,9776
+29,MO,119,29119,McDonald,Midwest,West North Central,22837
+29,MO,143,29143,New Madrid,Midwest,West North Central,17076
+29,MO,157,29157,Perry,Midwest,West North Central,19136
+29,MO,167,29167,Polk,Midwest,West North Central,32149
+29,MO,173,29173,Ralls,Midwest,West North Central,10309
+29,MO,177,29177,Ray,Midwest,West North Central,23018
+08,CO,095,08095,Phillips,West,Mountain,4265
+08,CO,007,08007,Archuleta,West,Mountain,14029
+08,CO,031,08031,Denver,West,Mountain,727211
+08,CO,061,08061,Kiowa,West,Mountain,1406
+08,CO,009,08009,Baca,West,Mountain,3581
+08,CO,063,08063,Kit Carson,West,Mountain,7097
+08,CO,059,08059,Jefferson,West,Mountain,582881
+08,CO,091,08091,Ouray,West,Mountain,4952
+08,CO,123,08123,Weld,West,Mountain,324492
+08,CO,027,08027,Custer,West,Mountain,5068
+08,CO,055,08055,Huerfano,West,Mountain,6897
+08,CO,047,08047,Gilpin,West,Mountain,6243
+08,CO,045,08045,Garfield,West,Mountain,60061
+08,CO,051,08051,Gunnison,West,Mountain,17462
+08,CO,015,08015,Chaffee,West,Mountain,20356
+08,CO,021,08021,Conejos,West,Mountain,8205
+08,CO,079,08079,Mineral,West,Mountain,769
+08,CO,103,08103,Rio Blanco,West,Mountain,6324
+08,CO,115,08115,Sedgwick,West,Mountain,2248
+08,CO,023,08023,Costilla,West,Mountain,3887
+08,CO,001,08001,Adams,West,Mountain,517421
+08,CO,035,08035,Douglas,West,Mountain,351154
+08,CO,037,08037,Eagle,West,Mountain,55127
+08,CO,065,08065,Lake,West,Mountain,8127
+08,CO,067,08067,La Plata,West,Mountain,56221
+08,CO,081,08081,Moffat,West,Mountain,13283
+08,CO,097,08097,Pitkin,West,Mountain,17767
+08,CO,105,08105,Rio Grande,West,Mountain,11267
+08,CO,017,08017,Cheyenne,West,Mountain,1831
+08,CO,011,08011,Bent,West,Mountain,5577
+08,CO,025,08025,Crowley,West,Mountain,6061
+08,CO,033,08033,Dolores,West,Mountain,2055
+08,CO,111,08111,San Juan,West,Mountain,728
+08,CO,057,08057,Jackson,West,Mountain,1392
+08,CO,069,08069,Larimer,West,Mountain,356899
+08,CO,075,08075,Logan,West,Mountain,22409
+08,CO,083,08083,Montezuma,West,Mountain,26183
+08,CO,113,08113,San Miguel,West,Mountain,8179
+08,CO,119,08119,Teller,West,Mountain,25388
+08,CO,013,08013,Boulder,West,Mountain,326196
+08,CO,039,08039,Elbert,West,Mountain,26729
+08,CO,071,08071,Las Animas,West,Mountain,14506
+08,CO,125,08125,Yuma,West,Mountain,10019
+08,CO,073,08073,Lincoln,West,Mountain,5701
+08,CO,107,08107,Routt,West,Mountain,25638
+08,CO,117,08117,Summit,West,Mountain,31011
+08,CO,003,08003,Alamosa,West,Mountain,16233
+08,CO,019,08019,Clear Creek,West,Mountain,9700
+08,CO,029,08029,Delta,West,Mountain,31162
+08,CO,043,08043,Fremont,West,Mountain,47839
+08,CO,101,08101,Pueblo,West,Mountain,168424
+08,CO,085,08085,Montrose,West,Mountain,42758
+08,CO,087,08087,Morgan,West,Mountain,29068
+08,CO,093,08093,Park,West,Mountain,18845
+08,CO,109,08109,Saguache,West,Mountain,6824
+08,CO,077,08077,Mesa,West,Mountain,154210
+08,CO,099,08099,Prowers,West,Mountain,12172
+08,CO,053,08053,Hinsdale,West,Mountain,820
+08,CO,041,08041,El Paso,West,Mountain,720403
+08,CO,121,08121,Washington,West,Mountain,4908
+08,CO,049,08049,Grand,West,Mountain,15734
+08,CO,005,08005,Arapahoe,West,Mountain,656590
+08,CO,089,08089,Otero,West,Mountain,18278
+08,CO,014,08014,Broomfield,West,Mountain,70465
+49,UT,027,49027,Millard,West,Mountain,13188
+49,UT,045,49045,Tooele,West,Mountain,72259
+49,UT,053,49053,Washington,West,Mountain,177556
+49,UT,025,49025,Kane,West,Mountain,7886
+49,UT,043,49043,Summit,West,Mountain,42145
+49,UT,019,49019,Grand,West,Mountain,9754
+49,UT,031,49031,Piute,West,Mountain,1479
+49,UT,033,49033,Rich,West,Mountain,2483
+49,UT,051,49051,Wasatch,West,Mountain,34091
+49,UT,001,49001,Beaver,West,Mountain,6710
+49,UT,003,49003,Box Elder,West,Mountain,56046
+49,UT,021,49021,Iron,West,Mountain,54839
+49,UT,039,49039,Sanpete,West,Mountain,30939
+49,UT,041,49041,Sevier,West,Mountain,21620
+49,UT,049,49049,Utah,West,Mountain,636235
+49,UT,057,49057,Weber,West,Mountain,260213
+49,UT,013,49013,Duchesne,West,Mountain,19938
+49,UT,037,49037,San Juan,West,Mountain,15308
+49,UT,035,49035,Salt Lake,West,Mountain,1160437
+49,UT,047,49047,Uintah,West,Mountain,35734
+49,UT,009,49009,Daggett,West,Mountain,950
+49,UT,011,49011,Davis,West,Mountain,355481
+49,UT,055,49055,Wayne,West,Mountain,2711
+49,UT,007,49007,Carbon,West,Mountain,20463
+49,UT,015,49015,Emery,West,Mountain,10012
+49,UT,029,49029,Morgan,West,Mountain,12124
+49,UT,005,49005,Cache,West,Mountain,128289
+49,UT,017,49017,Garfield,West,Mountain,5051
+49,UT,023,49023,Juab,West,Mountain,12017
+47,TN,031,47031,Coffee,South,East South Central,56520
+47,TN,047,47047,Fayette,South,East South Central,41133
+47,TN,067,47067,Hancock,South,East South Central,6620
+47,TN,051,47051,Franklin,South,East South Central,42208
+47,TN,009,47009,Blount,South,East South Central,133088
+47,TN,057,47057,Grainger,South,East South Central,23320
+47,TN,055,47055,Giles,South,East South Central,29464
+47,TN,073,47073,Hawkins,South,East South Central,56786
+47,TN,091,47091,Johnson,South,East South Central,17788
+47,TN,097,47097,Lauderdale,South,East South Central,25633
+47,TN,103,47103,Lincoln,South,East South Central,34366
+47,TN,099,47099,Lawrence,South,East South Central,44142
+47,TN,021,47021,Cheatham,South,East South Central,40667
+47,TN,019,47019,Carter,South,East South Central,56391
+47,TN,111,47111,Macon,South,East South Central,24602
+47,TN,187,47187,Williamson,South,East South Central,238412
+47,TN,003,47003,Bedford,South,East South Central,49713
+47,TN,027,47027,Clay,South,East South Central,7615
+47,TN,059,47059,Greene,South,East South Central,69069
+47,TN,035,47035,Cumberland,South,East South Central,60520
+47,TN,025,47025,Claiborne,South,East South Central,31959
+47,TN,077,47077,Henderson,South,East South Central,28117
+47,TN,081,47081,Hickman,South,East South Central,25178
+47,TN,085,47085,Humphreys,South,East South Central,18582
+47,TN,089,47089,Jefferson,South,East South Central,54495
+47,TN,141,47141,Putnam,South,East South Central,80245
+47,TN,115,47115,Marion,South,East South Central,28907
+47,TN,113,47113,Madison,South,East South Central,97984
+47,TN,127,47127,Moore,South,East South Central,6488
+47,TN,133,47133,Overton,South,East South Central,22241
+47,TN,137,47137,Pickett,South,East South Central,5048
+47,TN,147,47147,Robertson,South,East South Central,71813
+47,TN,165,47165,Sumner,South,East South Central,191283
+47,TN,169,47169,Trousdale,South,East South Central,11284
+47,TN,157,47157,Shelby,South,East South Central,937166
+47,TN,181,47181,Wayne,South,East South Central,16673
+47,TN,175,47175,Van Buren,South,East South Central,5872
+47,TN,153,47153,Sequatchie,South,East South Central,15026
+47,TN,155,47155,Sevier,South,East South Central,98250
+47,TN,161,47161,Stewart,South,East South Central,13715
+47,TN,017,47017,Carroll,South,East South Central,27767
+47,TN,023,47023,Chester,South,East South Central,17297
+47,TN,039,47039,Decatur,South,East South Central,11663
+47,TN,037,47037,Davidson,South,East South Central,694144
+47,TN,087,47087,Jackson,South,East South Central,11786
+47,TN,109,47109,McNairy,South,East South Central,25694
+47,TN,135,47135,Perry,South,East South Central,8076
+47,TN,145,47145,Roane,South,East South Central,53382
+47,TN,011,47011,Bradley,South,East South Central,108110
+47,TN,121,47121,Meigs,South,East South Central,12422
+47,TN,063,47063,Hamblen,South,East South Central,64934
+47,TN,075,47075,Haywood,South,East South Central,17304
+47,TN,173,47173,Union,South,East South Central,19972
+47,TN,071,47071,Hardin,South,East South Central,25652
+47,TN,125,47125,Montgomery,South,East South Central,208993
+47,TN,043,47043,Dickson,South,East South Central,53948
+47,TN,129,47129,Morgan,South,East South Central,21403
+47,TN,061,47061,Grundy,South,East South Central,13427
+47,TN,123,47123,Monroe,South,East South Central,46545
+47,TN,079,47079,Henry,South,East South Central,32345
+47,TN,029,47029,Cocke,South,East South Central,36004
+47,TN,033,47033,Crockett,South,East South Central,14230
+47,TN,041,47041,DeKalb,South,East South Central,20490
+47,TN,095,47095,Lake,South,East South Central,7016
+47,TN,093,47093,Knox,South,East South Central,470313
+47,TN,101,47101,Lewis,South,East South Central,12268
+47,TN,107,47107,McMinn,South,East South Central,53794
+47,TN,117,47117,Marshall,South,East South Central,34375
+47,TN,131,47131,Obion,South,East South Central,30069
+47,TN,143,47143,Rhea,South,East South Central,33167
+47,TN,151,47151,Scott,South,East South Central,22068
+47,TN,167,47167,Tipton,South,East South Central,61599
+47,TN,001,47001,Anderson,South,East South Central,76978
+47,TN,045,47045,Dyer,South,East South Central,37159
+47,TN,049,47049,Fentress,South,East South Central,18523
+47,TN,053,47053,Gibson,South,East South Central,49133
+47,TN,065,47065,Hamilton,South,East South Central,367804
+47,TN,069,47069,Hardeman,South,East South Central,25050
+47,TN,105,47105,Loudon,South,East South Central,54068
+47,TN,139,47139,Polk,South,East South Central,16832
+47,TN,149,47149,Rutherford,South,East South Central,332285
+47,TN,159,47159,Smith,South,East South Central,20157
+47,TN,185,47185,White,South,East South Central,27345
+47,TN,189,47189,Wilson,South,East South Central,144657
+47,TN,163,47163,Sullivan,South,East South Central,158348
+47,TN,171,47171,Unicoi,South,East South Central,17883
+47,TN,179,47179,Washington,South,East South Central,129375
+47,TN,183,47183,Weakley,South,East South Central,33328
+47,TN,005,47005,Benton,South,East South Central,16160
+47,TN,007,47007,Bledsoe,South,East South Central,15064
+47,TN,013,47013,Campbell,South,East South Central,39842
+47,TN,015,47015,Cannon,South,East South Central,14678
+47,TN,083,47083,Houston,South,East South Central,8201
+47,TN,119,47119,Maury,South,East South Central,96387
+47,TN,177,47177,Warren,South,East South Central,41277
+56,WY,005,56005,Campbell,West,Mountain,46341
+56,WY,023,56023,Lincoln,West,Mountain,19830
+56,WY,025,56025,Natrona,West,Mountain,79858
+56,WY,027,56027,Niobrara,West,Mountain,2356
+56,WY,031,56031,Platte,West,Mountain,8393
+56,WY,033,56033,Sheridan,West,Mountain,30485
+56,WY,003,56003,Big Horn,West,Mountain,11790
+56,WY,011,56011,Crook,West,Mountain,7584
+56,WY,019,56019,Johnson,West,Mountain,8445
+56,WY,021,56021,Laramie,West,Mountain,99500
+56,WY,009,56009,Converse,West,Mountain,13822
+56,WY,039,56039,Teton,West,Mountain,23464
+56,WY,037,56037,Sweetwater,West,Mountain,42343
+56,WY,029,56029,Park,West,Mountain,29194
+56,WY,001,56001,Albany,West,Mountain,38880
+56,WY,007,56007,Carbon,West,Mountain,14800
+56,WY,015,56015,Goshen,West,Mountain,13211
+56,WY,041,56041,Uinta,West,Mountain,20226
+56,WY,043,56043,Washakie,West,Mountain,7805
+56,WY,017,56017,Hot Springs,West,Mountain,4413
+56,WY,013,56013,Fremont,West,Mountain,39261
+56,WY,035,56035,Sublette,West,Mountain,9831
+56,WY,045,56045,Weston,West,Mountain,6927
+36,NY,095,36095,Schoharie,Northeast,Middle Atlantic,30999
+36,NY,005,36005,Bronx,Northeast,Middle Atlantic,1418207
+36,NY,067,36067,Onondaga,Northeast,Middle Atlantic,460528
+36,NY,099,36099,Seneca,Northeast,Middle Atlantic,34016
+36,NY,083,36083,Rensselaer,Northeast,Middle Atlantic,158714
+36,NY,079,36079,Putnam,Northeast,Middle Atlantic,98320
+36,NY,069,36069,Ontario,Northeast,Middle Atlantic,109777
+36,NY,081,36081,Queens,Northeast,Middle Atlantic,2253858
+36,NY,101,36101,Steuben,Northeast,Middle Atlantic,95379
+36,NY,107,36107,Tioga,Northeast,Middle Atlantic,48203
+36,NY,073,36073,Orleans,Northeast,Middle Atlantic,40352
+36,NY,091,36091,Saratoga,Northeast,Middle Atlantic,229863
+36,NY,087,36087,Rockland,Northeast,Middle Atlantic,325789
+36,NY,049,36049,Lewis,Northeast,Middle Atlantic,26296
+36,NY,035,36035,Fulton,Northeast,Middle Atlantic,53383
+36,NY,043,36043,Herkimer,Northeast,Middle Atlantic,61319
+36,NY,041,36041,Hamilton,Northeast,Middle Atlantic,4416
+36,NY,047,36047,Kings,Northeast,Middle Atlantic,2559903
+36,NY,019,36019,Clinton,Northeast,Middle Atlantic,80485
+36,NY,013,36013,Chautauqua,Northeast,Middle Atlantic,126903
+36,NY,011,36011,Cayuga,Northeast,Middle Atlantic,76576
+36,NY,033,36033,Franklin,Northeast,Middle Atlantic,50022
+36,NY,021,36021,Columbia,Northeast,Middle Atlantic,59461
+36,NY,115,36115,Washington,Northeast,Middle Atlantic,61204
+36,NY,061,36061,New York,Northeast,Middle Atlantic,1628706
+36,NY,063,36063,Niagara,Northeast,Middle Atlantic,209281
+36,NY,119,36119,Westchester,Northeast,Middle Atlantic,967506
+36,NY,025,36025,Delaware,Northeast,Middle Atlantic,44135
+36,NY,031,36031,Essex,Northeast,Middle Atlantic,36885
+36,NY,057,36057,Montgomery,Northeast,Middle Atlantic,49221
+36,NY,059,36059,Nassau,Northeast,Middle Atlantic,1356924
+36,NY,085,36085,Richmond,Northeast,Middle Atlantic,476143
+36,NY,089,36089,St. Lawrence,Northeast,Middle Atlantic,107740
+36,NY,097,36097,Schuyler,Northeast,Middle Atlantic,17807
+36,NY,109,36109,Tompkins,Northeast,Middle Atlantic,102180
+36,NY,113,36113,Warren,Northeast,Middle Atlantic,63944
+36,NY,017,36017,Chenango,Northeast,Middle Atlantic,47207
+36,NY,023,36023,Cortland,Northeast,Middle Atlantic,47581
+36,NY,027,36027,Dutchess,Northeast,Middle Atlantic,294218
+36,NY,045,36045,Jefferson,Northeast,Middle Atlantic,109834
+36,NY,055,36055,Monroe,Northeast,Middle Atlantic,741770
+36,NY,065,36065,Oneida,Northeast,Middle Atlantic,228671
+36,NY,103,36103,Suffolk,Northeast,Middle Atlantic,1476601
+36,NY,111,36111,Ulster,Northeast,Middle Atlantic,177573
+36,NY,121,36121,Wyoming,Northeast,Middle Atlantic,39859
+36,NY,015,36015,Chemung,Northeast,Middle Atlantic,83456
+36,NY,051,36051,Livingston,Northeast,Middle Atlantic,62914
+36,NY,075,36075,Oswego,Northeast,Middle Atlantic,117124
+36,NY,077,36077,Otsego,Northeast,Middle Atlantic,59493
+36,NY,039,36039,Greene,Northeast,Middle Atlantic,47188
+36,NY,117,36117,Wayne,Northeast,Middle Atlantic,89918
+36,NY,001,36001,Albany,Northeast,Middle Atlantic,305506
+36,NY,003,36003,Allegany,Northeast,Middle Atlantic,46091
+36,NY,007,36007,Broome,Northeast,Middle Atlantic,190488
+36,NY,009,36009,Cattaraugus,Northeast,Middle Atlantic,76117
+36,NY,029,36029,Erie,Northeast,Middle Atlantic,918702
+36,NY,053,36053,Madison,Northeast,Middle Atlantic,70941
+36,NY,093,36093,Schenectady,Northeast,Middle Atlantic,155299
+36,NY,105,36105,Sullivan,Northeast,Middle Atlantic,75432
+36,NY,037,36037,Genesee,Northeast,Middle Atlantic,57280
+36,NY,123,36123,Yates,Northeast,Middle Atlantic,24913
+36,NY,071,36071,Orange,Northeast,Middle Atlantic,384940
+20,KS,181,20181,Sherman,Midwest,West North Central,5917
+20,KS,187,20187,Stanton,Midwest,West North Central,2006
+20,KS,193,20193,Thomas,Midwest,West North Central,7777
+20,KS,119,20119,Meade,Midwest,West North Central,4033
+20,KS,167,20167,Russell,Midwest,West North Central,6856
+20,KS,111,20111,Lyon,Midwest,West North Central,33195
+20,KS,117,20117,Marshall,Midwest,West North Central,9707
+20,KS,125,20125,Montgomery,Midwest,West North Central,31829
+20,KS,127,20127,Morris,Midwest,West North Central,5620
+20,KS,151,20151,Pratt,Midwest,West North Central,9164
+20,KS,145,20145,Pawnee,Midwest,West North Central,6414
+20,KS,153,20153,Rawlins,Midwest,West North Central,2530
+20,KS,163,20163,Rooks,Midwest,West North Central,4920
+20,KS,063,20063,Gove,Midwest,West North Central,2636
+20,KS,023,20023,Cheyenne,Midwest,West North Central,2657
+20,KS,025,20025,Clark,Midwest,West North Central,1994
+20,KS,033,20033,Comanche,Midwest,West North Central,1700
+20,KS,003,20003,Anderson,Midwest,West North Central,7858
+20,KS,001,20001,Allen,Midwest,West North Central,12369
+20,KS,053,20053,Ellsworth,Midwest,West North Central,6102
+20,KS,061,20061,Geary,Midwest,West North Central,31670
+20,KS,057,20057,Ford,Midwest,West North Central,33619
+20,KS,049,20049,Elk,Midwest,West North Central,2530
+20,KS,077,20077,Harper,Midwest,West North Central,5436
+20,KS,035,20035,Cowley,Midwest,West North Central,34908
+20,KS,059,20059,Franklin,Midwest,West North Central,25544
+20,KS,159,20159,Rice,Midwest,West North Central,9537
+20,KS,185,20185,Stafford,Midwest,West North Central,4156
+20,KS,113,20113,McPherson,Midwest,West North Central,28542
+20,KS,139,20139,Osage,Midwest,West North Central,15949
+20,KS,071,20071,Greeley,Midwest,West North Central,1232
+20,KS,031,20031,Coffey,Midwest,West North Central,8179
+20,KS,037,20037,Crawford,Midwest,West North Central,38818
+20,KS,051,20051,Ellis,Midwest,West North Central,28553
+20,KS,073,20073,Greenwood,Midwest,West North Central,5982
+20,KS,107,20107,Linn,Midwest,West North Central,9703
+20,KS,079,20079,Harvey,Midwest,West North Central,34429
+20,KS,083,20083,Hodgeman,Midwest,West North Central,1794
+20,KS,089,20089,Jewell,Midwest,West North Central,2879
+20,KS,093,20093,Kearny,Midwest,West North Central,3838
+20,KS,099,20099,Labette,Midwest,West North Central,19618
+20,KS,173,20173,Sedgwick,Midwest,West North Central,516042
+20,KS,175,20175,Seward,Midwest,West North Central,21428
+20,KS,157,20157,Republic,Midwest,West North Central,4636
+20,KS,065,20065,Graham,Midwest,West North Central,2482
+20,KS,091,20091,Johnson,Midwest,West North Central,602401
+20,KS,045,20045,Douglas,Midwest,West North Central,122259
+20,KS,179,20179,Sheridan,Midwest,West North Central,2521
+20,KS,121,20121,Miami,Midwest,West North Central,34237
+20,KS,069,20069,Gray,Midwest,West North Central,5988
+20,KS,199,20199,Wallace,Midwest,West North Central,1518
+20,KS,189,20189,Stevens,Midwest,West North Central,5485
+20,KS,183,20183,Smith,Midwest,West North Central,3583
+20,KS,067,20067,Grant,Midwest,West North Central,7150
+20,KS,085,20085,Jackson,Midwest,West North Central,13171
+20,KS,095,20095,Kingman,Midwest,West North Central,7152
+20,KS,109,20109,Logan,Midwest,West North Central,2794
+20,KS,131,20131,Nemaha,Midwest,West North Central,10231
+20,KS,149,20149,Pottawatomie,Midwest,West North Central,24383
+20,KS,209,20209,Wyandotte,Midwest,West North Central,165429
+20,KS,021,20021,Cherokee,Midwest,West North Central,19939
+20,KS,027,20027,Clay,Midwest,West North Central,8002
+20,KS,105,20105,Lincoln,Midwest,West North Central,2962
+20,KS,169,20169,Saline,Midwest,West North Central,54224
+20,KS,191,20191,Sumner,Midwest,West North Central,22836
+20,KS,195,20195,Trego,Midwest,West North Central,2803
+20,KS,197,20197,Wabaunsee,Midwest,West North Central,6931
+20,KS,205,20205,Wilson,Midwest,West North Central,8525
+20,KS,207,20207,Woodson,Midwest,West North Central,3138
+20,KS,123,20123,Mitchell,Midwest,West North Central,5979
+20,KS,135,20135,Ness,Midwest,West North Central,2750
+20,KS,141,20141,Osborne,Midwest,West North Central,3421
+20,KS,011,20011,Bourbon,Midwest,West North Central,14534
+20,KS,017,20017,Chase,Midwest,West North Central,2648
+20,KS,015,20015,Butler,Midwest,West North Central,66911
+20,KS,005,20005,Atchison,Midwest,West North Central,16073
+20,KS,055,20055,Finney,Midwest,West North Central,36467
+20,KS,075,20075,Hamilton,Midwest,West North Central,2539
+20,KS,097,20097,Kiowa,Midwest,West North Central,2475
+20,KS,103,20103,Leavenworth,Midwest,West North Central,81758
+20,KS,177,20177,Shawnee,Midwest,West North Central,176875
+20,KS,201,20201,Washington,Midwest,West North Central,5406
+20,KS,203,20203,Wichita,Midwest,West North Central,2119
+20,KS,019,20019,Chautauqua,Midwest,West North Central,3250
+20,KS,129,20129,Morton,Midwest,West North Central,2587
+20,KS,137,20137,Norton,Midwest,West North Central,5361
+20,KS,155,20155,Reno,Midwest,West North Central,61998
+20,KS,009,20009,Barton,Midwest,West North Central,25779
+20,KS,029,20029,Cloud,Midwest,West North Central,8786
+20,KS,043,20043,Doniphan,Midwest,West North Central,7600
+20,KS,047,20047,Edwards,Midwest,West North Central,2798
+20,KS,081,20081,Haskell,Midwest,West North Central,3968
+20,KS,101,20101,Lane,Midwest,West North Central,1535
+20,KS,165,20165,Rush,Midwest,West North Central,3036
+20,KS,171,20171,Scott,Midwest,West North Central,4823
+20,KS,115,20115,Marion,Midwest,West North Central,11884
+20,KS,133,20133,Neosho,Midwest,West North Central,16007
+20,KS,013,20013,Brown,Midwest,West North Central,9564
+20,KS,143,20143,Ottawa,Midwest,West North Central,5704
+20,KS,147,20147,Phillips,Midwest,West North Central,5234
+20,KS,161,20161,Riley,Midwest,West North Central,74232
+20,KS,007,20007,Barber,Midwest,West North Central,4427
+20,KS,039,20039,Decatur,Midwest,West North Central,2827
+20,KS,041,20041,Dickinson,Midwest,West North Central,18466
+20,KS,087,20087,Jefferson,Midwest,West North Central,19043
+02,AK,016,02016,Aleutians West,West,Pacific,5634
+02,AK,060,02060,Bristol Bay,West,Pacific,836
+02,AK,150,02150,Kodiak Island,West,Pacific,12998
+02,AK,188,02188,Northwest Arctic,West,Pacific,7621
+02,AK,050,02050,Bethel,West,Pacific,18386
+02,AK,185,02185,North Slope,West,Pacific,9832
+02,AK,220,02220,Sitka,West,Pacific,8493
+02,AK,090,02090,Fairbanks North Star,West,Pacific,96849
+02,AK,130,02130,Ketchikan Gateway,West,Pacific,13901
+02,AK,170,02170,Matanuska-Susitna,West,Pacific,108317
+02,AK,180,02180,Nome,West,Pacific,10004
+02,AK,070,02070,Dillingham,West,Pacific,4916
+02,AK,100,02100,Haines,West,Pacific,2530
+02,AK,110,02110,Juneau,West,Pacific,31974
+02,AK,164,02164,Lake and Peninsula,West,Pacific,1592
+02,AK,020,02020,Anchorage,West,Pacific,288000
+02,AK,068,02068,Denali,West,Pacific,2097
+02,AK,122,02122,Kenai Peninsula,West,Pacific,58708
+02,AK,105,02105,Hoonah-Angoon,West,Pacific,2148
+02,AK,230,02230,Skagway,West,Pacific,1183
+02,AK,198,02198,Prince of Wales-Hyder,West,Pacific,6203
+02,AK,275,02275,Wrangell,West,Pacific,2502
+02,AK,282,02282,Yakutat,West,Pacific,579
+02,AK,240,02240,Southeast Fairbanks,West,Pacific,6893
+02,AK,290,02290,Yukon-Koyukuk,West,Pacific,5230
+02,AK,261,02261,Valdez-Cordova,West,Pacific,9202
+02,AK,013,02013,Aleutians East,West,Pacific,3337
+02,AK,195,02195,Petersburg,West,Pacific,3266
+02,AK,158,02158,Kusilvak,West,Pacific,8314
+32,NV,001,32001,Churchill,West,Mountain,24909
+32,NV,005,32005,Douglas,West,Mountain,48905
+32,NV,015,32015,Lander,West,Mountain,5532
+32,NV,027,32027,Pershing,West,Mountain,6725
+32,NV,009,32009,Esmeralda,West,Mountain,873
+32,NV,011,32011,Eureka,West,Mountain,2029
+32,NV,013,32013,Humboldt,West,Mountain,16831
+32,NV,021,32021,Mineral,West,Mountain,4505
+32,NV,033,32033,White Pine,West,Mountain,9580
+32,NV,007,32007,Elko,West,Mountain,52778
+32,NV,017,32017,Lincoln,West,Mountain,5183
+32,NV,023,32023,Nye,West,Mountain,46523
+32,NV,029,32029,Storey,West,Mountain,4123
+32,NV,031,32031,Washoe,West,Mountain,471519
+32,NV,003,32003,Clark,West,Mountain,2266715
+32,NV,510,32510,Carson City,West,Mountain,55916
+32,NV,019,32019,Lyon,West,Mountain,57510
+17,IL,067,17067,Hancock,Midwest,East North Central,17708
+17,IL,119,17119,Madison,Midwest,East North Central,262966
+17,IL,063,17063,Grundy,Midwest,East North Central,51054
+17,IL,031,17031,Cook,Midwest,East North Central,5150233
+17,IL,115,17115,Macon,Midwest,East North Central,104009
+17,IL,071,17071,Henderson,Midwest,East North Central,6646
+17,IL,109,17109,McDonough,Midwest,East North Central,29682
+17,IL,111,17111,McHenry,Midwest,East North Central,307774
+17,IL,113,17113,McLean,Midwest,East North Central,171517
+17,IL,161,17161,Rock Island,Midwest,East North Central,141879
+17,IL,091,17091,Kankakee,Midwest,East North Central,109862
+17,IL,131,17131,Mercer,Midwest,East North Central,15437
+17,IL,129,17129,Menard,Midwest,East North Central,12196
+17,IL,043,17043,DuPage,Midwest,East North Central,922921
+17,IL,157,17157,Randolph,Midwest,East North Central,31782
+17,IL,151,17151,Pope,Midwest,East North Central,4177
+17,IL,099,17099,LaSalle,Midwest,East North Central,108669
+17,IL,141,17141,Ogle,Midwest,East North Central,50643
+17,IL,137,17137,Morgan,Midwest,East North Central,33658
+17,IL,139,17139,Moultrie,Midwest,East North Central,14501
+17,IL,145,17145,Perry,Midwest,East North Central,20916
+17,IL,149,17149,Pike,Midwest,East North Central,15561
+17,IL,055,17055,Franklin,Midwest,East North Central,38469
+17,IL,163,17163,St. Clair,Midwest,East North Central,259686
+17,IL,019,17019,Champaign,Midwest,East North Central,209689
+17,IL,035,17035,Cumberland,Midwest,East North Central,10766
+17,IL,053,17053,Ford,Midwest,East North Central,12961
+17,IL,085,17085,Jo Daviess,Midwest,East North Central,21235
+17,IL,089,17089,Kane,Midwest,East North Central,532403
+17,IL,093,17093,Kendall,Midwest,East North Central,128990
+17,IL,101,17101,Lawrence,Midwest,East North Central,15678
+17,IL,121,17121,Marion,Midwest,East North Central,37205
+17,IL,123,17123,Marshall,Midwest,East North Central,11438
+17,IL,125,17125,Mason,Midwest,East North Central,13359
+17,IL,075,17075,Iroquois,Midwest,East North Central,27114
+17,IL,021,17021,Christian,Midwest,East North Central,32304
+17,IL,025,17025,Clay,Midwest,East North Central,13184
+17,IL,059,17059,Gallatin,Midwest,East North Central,4828
+17,IL,077,17077,Jackson,Midwest,East North Central,56750
+17,IL,133,17133,Monroe,Midwest,East North Central,34637
+17,IL,143,17143,Peoria,Midwest,East North Central,179179
+17,IL,147,17147,Piatt,Midwest,East North Central,16344
+17,IL,153,17153,Pulaski,Midwest,East North Central,5335
+17,IL,169,17169,Schuyler,Midwest,East North Central,6768
+17,IL,167,17167,Sangamon,Midwest,East North Central,194672
+17,IL,177,17177,Stephenson,Midwest,East North Central,44498
+17,IL,173,17173,Shelby,Midwest,East North Central,21634
+17,IL,191,17191,Wayne,Midwest,East North Central,16215
+17,IL,193,17193,White,Midwest,East North Central,13537
+17,IL,185,17185,Wabash,Midwest,East North Central,11520
+17,IL,181,17181,Union,Midwest,East North Central,16653
+17,IL,203,17203,Woodford,Midwest,East North Central,38459
+17,IL,201,17201,Winnebago,Midwest,East North Central,282572
+17,IL,003,17003,Alexander,Midwest,East North Central,5761
+17,IL,013,17013,Calhoun,Midwest,East North Central,4739
+17,IL,009,17009,Brown,Midwest,East North Central,6578
+17,IL,175,17175,Stark,Midwest,East North Central,5342
+17,IL,045,17045,Edgar,Midwest,East North Central,17161
+17,IL,005,17005,Bond,Midwest,East North Central,16426
+17,IL,007,17007,Boone,Midwest,East North Central,53544
+17,IL,011,17011,Bureau,Midwest,East North Central,32628
+17,IL,015,17015,Carroll,Midwest,East North Central,14305
+17,IL,029,17029,Coles,Midwest,East North Central,50621
+17,IL,033,17033,Crawford,Midwest,East North Central,18667
+17,IL,083,17083,Jersey,Midwest,East North Central,21773
+17,IL,155,17155,Putnam,Midwest,East North Central,5739
+17,IL,039,17039,De Witt,Midwest,East North Central,15638
+17,IL,051,17051,Fayette,Midwest,East North Central,21336
+17,IL,103,17103,Lee,Midwest,East North Central,34096
+17,IL,107,17107,Logan,Midwest,East North Central,28618
+17,IL,117,17117,Macoupin,Midwest,East North Central,44926
+17,IL,159,17159,Richland,Midwest,East North Central,15513
+17,IL,165,17165,Saline,Midwest,East North Central,23491
+17,IL,189,17189,Washington,Midwest,East North Central,13887
+17,IL,135,17135,Montgomery,Midwest,East North Central,28414
+17,IL,195,17195,Whiteside,Midwest,East North Central,55175
+17,IL,001,17001,Adams,Midwest,East North Central,65435
+17,IL,027,17027,Clinton,Midwest,East North Central,37562
+17,IL,037,17037,DeKalb,Midwest,East North Central,104897
+17,IL,047,17047,Edwards,Midwest,East North Central,6395
+17,IL,079,17079,Jasper,Midwest,East North Central,9610
+17,IL,081,17081,Jefferson,Midwest,East North Central,37684
+17,IL,183,17183,Vermilion,Midwest,East North Central,75758
+17,IL,197,17197,Will,Midwest,East North Central,690743
+17,IL,199,17199,Williamson,Midwest,East North Central,66597
+17,IL,023,17023,Clark,Midwest,East North Central,15441
+17,IL,041,17041,Douglas,Midwest,East North Central,19465
+17,IL,049,17049,Effingham,Midwest,East North Central,34008
+17,IL,057,17057,Fulton,Midwest,East North Central,34340
+17,IL,061,17061,Greene,Midwest,East North Central,12969
+17,IL,065,17065,Hamilton,Midwest,East North Central,8116
+17,IL,069,17069,Hardin,Midwest,East North Central,3821
+17,IL,073,17073,Henry,Midwest,East North Central,48913
+17,IL,087,17087,Johnson,Midwest,East North Central,12417
+17,IL,095,17095,Knox,Midwest,East North Central,49699
+17,IL,097,17097,Lake,Midwest,East North Central,696535
+17,IL,105,17105,Livingston,Midwest,East North Central,35648
+17,IL,127,17127,Massac,Midwest,East North Central,13772
+17,IL,171,17171,Scott,Midwest,East North Central,4951
+17,IL,179,17179,Tazewell,Midwest,East North Central,131803
+17,IL,017,17017,Cass,Midwest,East North Central,12147
+17,IL,187,17187,Warren,Midwest,East North Central,16844
+50,VT,025,50025,Windham,Northeast,New England,42222
+50,VT,003,50003,Bennington,Northeast,New England,35470
+50,VT,009,50009,Essex,Northeast,New England,6163
+50,VT,023,50023,Washington,Northeast,New England,58409
+50,VT,005,50005,Caledonia,Northeast,New England,29993
+50,VT,021,50021,Rutland,Northeast,New England,58191
+50,VT,019,50019,Orleans,Northeast,New England,27037
+50,VT,013,50013,Grand Isle,Northeast,New England,7235
+50,VT,017,50017,Orange,Northeast,New England,28892
+50,VT,007,50007,Chittenden,Northeast,New England,163774
+50,VT,015,50015,Lamoille,Northeast,New England,25362
+50,VT,027,50027,Windsor,Northeast,New England,55062
+50,VT,011,50011,Franklin,Northeast,New England,49402
+50,VT,001,50001,Addison,Northeast,New England,36777
+30,MT,017,30017,Custer,West,Mountain,11402
+30,MT,041,30041,Hill,West,Mountain,16484
+30,MT,015,30015,Chouteau,West,Mountain,5635
+30,MT,075,30075,Powder River,West,Mountain,1682
+30,MT,051,30051,Liberty,West,Mountain,2337
+30,MT,079,30079,Prairie,West,Mountain,1077
+30,MT,019,30019,Daniels,West,Mountain,1690
+30,MT,037,30037,Golden Valley,West,Mountain,821
+30,MT,053,30053,Lincoln,West,Mountain,19980
+30,MT,067,30067,Park,West,Mountain,16606
+30,MT,085,30085,Roosevelt,West,Mountain,11004
+30,MT,083,30083,Richland,West,Mountain,10803
+30,MT,103,30103,Treasure,West,Mountain,696
+30,MT,097,30097,Sweet Grass,West,Mountain,3737
+30,MT,099,30099,Teton,West,Mountain,6147
+30,MT,101,30101,Toole,West,Mountain,4736
+30,MT,035,30035,Glacier,West,Mountain,13753
+30,MT,025,30025,Fallon,West,Mountain,2846
+30,MT,045,30045,Judith Basin,West,Mountain,2007
+30,MT,093,30093,Silver Bow,West,Mountain,34915
+30,MT,095,30095,Stillwater,West,Mountain,9642
+30,MT,023,30023,Deer Lodge,West,Mountain,9140
+30,MT,043,30043,Jefferson,West,Mountain,12221
+30,MT,039,30039,Granite,West,Mountain,3379
+30,MT,055,30055,McCone,West,Mountain,1664
+30,MT,057,30057,Madison,West,Mountain,8600
+30,MT,087,30087,Rosebud,West,Mountain,8937
+30,MT,091,30091,Sheridan,West,Mountain,3309
+30,MT,011,30011,Carter,West,Mountain,1252
+30,MT,021,30021,Dawson,West,Mountain,8613
+30,MT,047,30047,Lake,West,Mountain,30458
+30,MT,049,30049,Lewis and Clark,West,Mountain,69432
+30,MT,063,30063,Missoula,West,Mountain,119600
+30,MT,081,30081,Ravalli,West,Mountain,43806
+30,MT,105,30105,Valley,West,Mountain,7396
+30,MT,013,30013,Cascade,West,Mountain,81366
+30,MT,027,30027,Fergus,West,Mountain,11050
+30,MT,033,30033,Garfield,West,Mountain,1258
+30,MT,061,30061,Mineral,West,Mountain,4397
+30,MT,069,30069,Petroleum,West,Mountain,487
+30,MT,077,30077,Powell,West,Mountain,6890
+30,MT,089,30089,Sanders,West,Mountain,12113
+30,MT,109,30109,Wibaux,West,Mountain,969
+30,MT,005,30005,Blaine,West,Mountain,6681
+30,MT,003,30003,Big Horn,West,Mountain,13319
+30,MT,007,30007,Broadwater,West,Mountain,6237
+30,MT,107,30107,Wheatland,West,Mountain,2126
+30,MT,111,30111,Yellowstone,West,Mountain,161300
+30,MT,031,30031,Gallatin,West,Mountain,114434
+30,MT,059,30059,Meagher,West,Mountain,1862
+30,MT,009,30009,Carbon,West,Mountain,10725
+30,MT,001,30001,Beaverhead,West,Mountain,9453
+30,MT,029,30029,Flathead,West,Mountain,103806
+30,MT,065,30065,Musselshell,West,Mountain,4633
+30,MT,071,30071,Phillips,West,Mountain,3954
+30,MT,073,30073,Pondera,West,Mountain,5911
+19,IA,011,19011,Benton,Midwest,West North Central,25645
+19,IA,023,19023,Butler,Midwest,West North Central,14439
+19,IA,195,19195,Worth,Midwest,West North Central,7381
+19,IA,003,19003,Adams,Midwest,West North Central,3602
+19,IA,001,19001,Adair,Midwest,West North Central,7152
+19,IA,009,19009,Audubon,Midwest,West North Central,5496
+19,IA,069,19069,Franklin,Midwest,West North Central,10070
+19,IA,061,19061,Dubuque,Midwest,West North Central,97311
+19,IA,059,19059,Dickinson,Midwest,West North Central,17258
+19,IA,071,19071,Fremont,Midwest,West North Central,6960
+19,IA,079,19079,Hamilton,Midwest,West North Central,14773
+19,IA,173,19173,Taylor,Midwest,West North Central,6121
+19,IA,175,19175,Union,Midwest,West North Central,12241
+19,IA,177,19177,Van Buren,Midwest,West North Central,7044
+19,IA,179,19179,Wapello,Midwest,West North Central,34969
+19,IA,159,19159,Ringgold,Midwest,West North Central,4894
+19,IA,171,19171,Tama,Midwest,West North Central,16854
+19,IA,167,19167,Sioux,Midwest,West North Central,34855
+19,IA,037,19037,Chickasaw,Midwest,West North Central,11933
+19,IA,039,19039,Clarke,Midwest,West North Central,9395
+19,IA,051,19051,Davis,Midwest,West North Central,9000
+19,IA,093,19093,Ida,Midwest,West North Central,6860
+19,IA,103,19103,Johnson,Midwest,West North Central,151140
+19,IA,107,19107,Keokuk,Midwest,West North Central,10246
+19,IA,025,19025,Calhoun,Midwest,West North Central,9668
+19,IA,027,19027,Carroll,Midwest,West North Central,20165
+19,IA,031,19031,Cedar,Midwest,West North Central,18627
+19,IA,033,19033,Cerro Gordo,Midwest,West North Central,42450
+19,IA,067,19067,Floyd,Midwest,West North Central,15642
+19,IA,073,19073,Greene,Midwest,West North Central,8888
+19,IA,083,19083,Hardin,Midwest,West North Central,16846
+19,IA,189,19189,Winnebago,Midwest,West North Central,10354
+19,IA,165,19165,Shelby,Midwest,West North Central,11454
+19,IA,007,19007,Appanoose,Midwest,West North Central,12426
+19,IA,087,19087,Henry,Midwest,West North Central,19954
+19,IA,095,19095,Iowa,Midwest,West North Central,16184
+19,IA,099,19099,Jasper,Midwest,West North Central,37185
+19,IA,191,19191,Winneshiek,Midwest,West North Central,19991
+19,IA,157,19157,Poweshiek,Midwest,West North Central,18504
+19,IA,151,19151,Pocahontas,Midwest,West North Central,6619
+19,IA,147,19147,Palo Alto,Midwest,West North Central,8886
+19,IA,145,19145,Page,Midwest,West North Central,15107
+19,IA,135,19135,Monroe,Midwest,West North Central,7707
+19,IA,115,19115,Louisa,Midwest,West North Central,11035
+19,IA,117,19117,Lucas,Midwest,West North Central,8600
+19,IA,119,19119,Lyon,Midwest,West North Central,11755
+19,IA,155,19155,Pottawattamie,Midwest,West North Central,93206
+19,IA,127,19127,Marshall,Midwest,West North Central,39369
+19,IA,043,19043,Clayton,Midwest,West North Central,17549
+19,IA,015,19015,Boone,Midwest,West North Central,26234
+19,IA,017,19017,Bremer,Midwest,West North Central,25062
+19,IA,021,19021,Buena Vista,Midwest,West North Central,19620
+19,IA,089,19089,Howard,Midwest,West North Central,9158
+19,IA,063,19063,Emmet,Midwest,West North Central,9208
+19,IA,077,19077,Guthrie,Midwest,West North Central,10689
+19,IA,081,19081,Hancock,Midwest,West North Central,10630
+19,IA,091,19091,Humboldt,Midwest,West North Central,9558
+19,IA,121,19121,Madison,Midwest,West North Central,16338
+19,IA,125,19125,Marion,Midwest,West North Central,33253
+19,IA,183,19183,Washington,Midwest,West North Central,21965
+19,IA,197,19197,Wright,Midwest,West North Central,12562
+19,IA,029,19029,Cass,Midwest,West North Central,12836
+19,IA,035,19035,Cherokee,Midwest,West North Central,11235
+19,IA,047,19047,Crawford,Midwest,West North Central,16820
+19,IA,057,19057,Des Moines,Midwest,West North Central,38967
+19,IA,065,19065,Fayette,Midwest,West North Central,19650
+19,IA,085,19085,Harrison,Midwest,West North Central,14049
+19,IA,109,19109,Kossuth,Midwest,West North Central,14813
+19,IA,129,19129,Mills,Midwest,West North Central,15109
+19,IA,133,19133,Monona,Midwest,West North Central,8615
+19,IA,139,19139,Muscatine,Midwest,West North Central,42664
+19,IA,143,19143,Osceola,Midwest,West North Central,5958
+19,IA,153,19153,Polk,Midwest,West North Central,490161
+19,IA,187,19187,Webster,Midwest,West North Central,35904
+19,IA,169,19169,Story,Midwest,West North Central,97117
+19,IA,193,19193,Woodbury,Midwest,West North Central,103107
+19,IA,013,19013,Black Hawk,Midwest,West North Central,131228
+19,IA,075,19075,Grundy,Midwest,West North Central,12232
+19,IA,097,19097,Jackson,Midwest,West North Central,19439
+19,IA,105,19105,Jones,Midwest,West North Central,20681
+19,IA,111,19111,Lee,Midwest,West North Central,33657
+19,IA,131,19131,Mitchell,Midwest,West North Central,10586
+19,IA,137,19137,Montgomery,Midwest,West North Central,9917
+19,IA,181,19181,Warren,Midwest,West North Central,51466
+19,IA,161,19161,Sac,Midwest,West North Central,9721
+19,IA,123,19123,Mahaska,Midwest,West North Central,22095
+19,IA,149,19149,Plymouth,Midwest,West North Central,25177
+19,IA,019,19019,Buchanan,Midwest,West North Central,21175
+19,IA,041,19041,Clay,Midwest,West North Central,16016
+19,IA,045,19045,Clinton,Midwest,West North Central,46429
+19,IA,053,19053,Decatur,Midwest,West North Central,7870
+19,IA,055,19055,Delaware,Midwest,West North Central,17011
+19,IA,101,19101,Jefferson,Midwest,West North Central,18295
+19,IA,185,19185,Wayne,Midwest,West North Central,6441
+19,IA,005,19005,Allamakee,Midwest,West North Central,13687
+19,IA,113,19113,Linn,Midwest,West North Central,226706
+19,IA,163,19163,Scott,Midwest,West North Central,172943
+19,IA,049,19049,Dallas,Midwest,West North Central,93453
+19,IA,141,19141,O'Brien,Midwest,West North Central,13753
+45,SC,003,45003,Aiken,South,South Atlantic,170872
+45,SC,005,45005,Allendale,South,South Atlantic,8688
+45,SC,071,45071,Newberry,South,South Atlantic,38440
+45,SC,037,45037,Edgefield,South,South Atlantic,27260
+45,SC,029,45029,Colleton,South,South Atlantic,37677
+45,SC,067,45067,Marion,South,South Atlantic,30657
+45,SC,063,45063,Lexington,South,South Atlantic,298750
+45,SC,011,45011,Barnwell,South,South Atlantic,20866
+45,SC,019,45019,Charleston,South,South Atlantic,411406
+45,SC,023,45023,Chester,South,South Atlantic,32244
+45,SC,027,45027,Clarendon,South,South Atlantic,33745
+45,SC,015,45015,Berkeley,South,South Atlantic,227907
+45,SC,085,45085,Sumter,South,South Atlantic,106721
+45,SC,073,45073,Oconee,South,South Atlantic,79546
+45,SC,031,45031,Darlington,South,South Atlantic,66618
+45,SC,069,45069,Marlboro,South,South Atlantic,26118
+45,SC,091,45091,York,South,South Atlantic,280979
+45,SC,007,45007,Anderson,South,South Atlantic,202558
+45,SC,021,45021,Cherokee,South,South Atlantic,57300
+45,SC,025,45025,Chesterfield,South,South Atlantic,45650
+45,SC,051,45051,Horry,South,South Atlantic,354081
+45,SC,043,45043,Georgetown,South,South Atlantic,62680
+45,SC,047,45047,Greenwood,South,South Atlantic,70811
+45,SC,053,45053,Jasper,South,South Atlantic,30073
+45,SC,055,45055,Kershaw,South,South Atlantic,66551
+45,SC,061,45061,Lee,South,South Atlantic,16828
+45,SC,075,45075,Orangeburg,South,South Atlantic,86175
+45,SC,083,45083,Spartanburg,South,South Atlantic,319785
+45,SC,001,45001,Abbeville,South,South Atlantic,24527
+45,SC,009,45009,Bamberg,South,South Atlantic,14066
+45,SC,013,45013,Beaufort,South,South Atlantic,192122
+45,SC,017,45017,Calhoun,South,South Atlantic,14553
+45,SC,033,45033,Dillon,South,South Atlantic,30479
+45,SC,081,45081,Saluda,South,South Atlantic,20473
+45,SC,079,45079,Richland,South,South Atlantic,415759
+45,SC,039,45039,Fairfield,South,South Atlantic,22347
+45,SC,049,45049,Hampton,South,South Atlantic,19222
+45,SC,045,45045,Greenville,South,South Atlantic,523542
+45,SC,057,45057,Lancaster,South,South Atlantic,98012
+45,SC,035,45035,Dorchester,South,South Atlantic,162809
+45,SC,041,45041,Florence,South,South Atlantic,138293
+45,SC,059,45059,Laurens,South,South Atlantic,67493
+45,SC,065,45065,McCormick,South,South Atlantic,9463
+45,SC,077,45077,Pickens,South,South Atlantic,126884
+45,SC,087,45087,Union,South,South Atlantic,27316
+45,SC,089,45089,Williamsburg,South,South Atlantic,30368
+33,NH,005,33005,Cheshire,Northeast,New England,76085
+33,NH,013,33013,Merrimack,Northeast,New England,151391
+33,NH,009,33009,Grafton,Northeast,New England,89886
+33,NH,015,33015,Rockingham,Northeast,New England,309769
+33,NH,001,33001,Belknap,Northeast,New England,61303
+33,NH,019,33019,Sullivan,Northeast,New England,43146
+33,NH,011,33011,Hillsborough,Northeast,New England,417025
+33,NH,017,33017,Strafford,Northeast,New England,130633
+33,NH,007,33007,Coos,Northeast,New England,31563
+33,NH,003,33003,Carroll,Northeast,New England,48910
+04,AZ,019,04019,Pima,West,Mountain,1047279
+04,AZ,013,04013,Maricopa,West,Mountain,4485414
+04,AZ,007,04007,Gila,West,Mountain,54018
+04,AZ,009,04009,Graham,West,Mountain,38837
+04,AZ,023,04023,Santa Cruz,West,Mountain,46498
+04,AZ,003,04003,Cochise,West,Mountain,125922
+04,AZ,012,04012,La Paz,West,Mountain,21108
+04,AZ,015,04015,Mohave,West,Mountain,212181
+04,AZ,001,04001,Apache,West,Mountain,71887
+04,AZ,005,04005,Coconino,West,Mountain,143476
+04,AZ,025,04025,Yavapai,West,Mountain,235099
+04,AZ,027,04027,Yuma,West,Mountain,213787
+04,AZ,011,04011,Greenlee,West,Mountain,9498
+04,AZ,017,04017,Navajo,West,Mountain,110924
+04,AZ,021,04021,Pinal,West,Mountain,462789
+11,DC,001,11001,District of Columbia,South,South Atlantic,705749
+34,NJ,025,34025,Monmouth,Northeast,Middle Atlantic,618795
+34,NJ,021,34021,Mercer,Northeast,Middle Atlantic,367430
+34,NJ,037,34037,Sussex,Northeast,Middle Atlantic,140488
+34,NJ,011,34011,Cumberland,Northeast,Middle Atlantic,149527
+34,NJ,035,34035,Somerset,Northeast,Middle Atlantic,328934
+34,NJ,013,34013,Essex,Northeast,Middle Atlantic,798975
+34,NJ,029,34029,Ocean,Northeast,Middle Atlantic,607186
+34,NJ,001,34001,Atlantic,Northeast,Middle Atlantic,263670
+34,NJ,015,34015,Gloucester,Northeast,Middle Atlantic,291636
+34,NJ,023,34023,Middlesex,Northeast,Middle Atlantic,825062
+34,NJ,033,34033,Salem,Northeast,Middle Atlantic,62385
+34,NJ,031,34031,Passaic,Northeast,Middle Atlantic,501826
+34,NJ,009,34009,Cape May,Northeast,Middle Atlantic,92039
+34,NJ,007,34007,Camden,Northeast,Middle Atlantic,506471
+34,NJ,003,34003,Bergen,Northeast,Middle Atlantic,932202
+34,NJ,039,34039,Union,Northeast,Middle Atlantic,556341
+34,NJ,041,34041,Warren,Northeast,Middle Atlantic,105267
+34,NJ,017,34017,Hudson,Northeast,Middle Atlantic,672391
+34,NJ,019,34019,Hunterdon,Northeast,Middle Atlantic,124371
+34,NJ,005,34005,Burlington,Northeast,Middle Atlantic,445349
+34,NJ,027,34027,Morris,Northeast,Middle Atlantic,491845
+24,MD,047,24047,Worcester,South,South Atlantic,52276
+24,MD,510,24510,Baltimore,South,South Atlantic,593490
+24,MD,039,24039,Somerset,South,South Atlantic,25616
+24,MD,041,24041,Talbot,South,South Atlantic,37181
+24,MD,025,24025,Harford,South,South Atlantic,255441
+24,MD,001,24001,Allegany,South,South Atlantic,70416
+24,MD,027,24027,Howard,South,South Atlantic,325690
+24,MD,033,24033,Prince George's,South,South Atlantic,909327
+24,MD,003,24003,Anne Arundel,South,South Atlantic,579234
+24,MD,005,24005,Baltimore,South,South Atlantic,827370
+24,MD,021,24021,Frederick,South,South Atlantic,259547
+24,MD,009,24009,Calvert,South,South Atlantic,92525
+24,MD,023,24023,Garrett,South,South Atlantic,29014
+24,MD,029,24029,Kent,South,South Atlantic,19422
+24,MD,031,24031,Montgomery,South,South Atlantic,1050688
+24,MD,013,24013,Carroll,South,South Atlantic,168447
+24,MD,035,24035,Queen Anne's,South,South Atlantic,50381
+24,MD,037,24037,St. Mary's,South,South Atlantic,113510
+24,MD,017,24017,Charles,South,South Atlantic,163257
+24,MD,019,24019,Dorchester,South,South Atlantic,31929
+24,MD,043,24043,Washington,South,South Atlantic,151049
+24,MD,045,24045,Wicomico,South,South Atlantic,103609
+24,MD,015,24015,Cecil,South,South Atlantic,102855
+24,MD,011,24011,Caroline,South,South Atlantic,33406
+23,ME,017,23017,Oxford,Northeast,New England,57975
+23,ME,015,23015,Lincoln,Northeast,New England,34634
+23,ME,027,23027,Waldo,Northeast,New England,39715
+23,ME,019,23019,Penobscot,Northeast,New England,152148
+23,ME,021,23021,Piscataquis,Northeast,New England,16785
+23,ME,001,23001,Androscoggin,Northeast,New England,108277
+23,ME,003,23003,Aroostook,Northeast,New England,67055
+23,ME,029,23029,Washington,Northeast,New England,31379
+23,ME,005,23005,Cumberland,Northeast,New England,295003
+23,ME,013,23013,Knox,Northeast,New England,39772
+23,ME,023,23023,Sagadahoc,Northeast,New England,35856
+23,ME,031,23031,York,Northeast,New England,207641
+23,ME,011,23011,Kennebec,Northeast,New England,122302
+23,ME,007,23007,Franklin,Northeast,New England,30199
+23,ME,025,23025,Somerset,Northeast,New England,50484
+23,ME,009,23009,Hancock,Northeast,New England,54987
+15,HI,001,15001,Hawaii,West,Pacific,201513
+15,HI,003,15003,Honolulu,West,Pacific,974563
+15,HI,009,15009,Maui,West,Pacific,167417
+15,HI,007,15007,Kauai,West,Pacific,72293
+15,HI,005,15005,Kalawao,West,Pacific,86
+10,DE,003,10003,New Castle,South,South Atlantic,558753
+10,DE,005,10005,Sussex,South,South Atlantic,234225
+10,DE,001,10001,Kent,South,South Atlantic,180786
+44,RI,005,44005,Newport,Northeast,New England,82082
+44,RI,003,44003,Kent,Northeast,New England,164292
+44,RI,007,44007,Providence,Northeast,New England,638931
+44,RI,001,44001,Bristol,Northeast,New England,48479
+44,RI,009,44009,Washington,Northeast,New England,125577
+21,KY,079,21079,Garrard,South,East South Central,17666
+21,KY,089,21089,Greenup,South,East South Central,35098
+21,KY,081,21081,Grant,South,East South Central,25069
+21,KY,087,21087,Green,South,East South Central,10941
+21,KY,091,21091,Hancock,South,East South Central,8722
+21,KY,095,21095,Harlan,South,East South Central,26010
+21,KY,093,21093,Hardin,South,East South Central,110958
+21,KY,069,21069,Fleming,South,East South Central,14581
+21,KY,063,21063,Elliott,South,East South Central,7517
+21,KY,037,21037,Campbell,South,East South Central,93584
+21,KY,043,21043,Carter,South,East South Central,26797
+21,KY,111,21111,Jefferson,South,East South Central,766757
+21,KY,123,21123,Larue,South,East South Central,14398
+21,KY,141,21141,Logan,South,East South Central,27102
+21,KY,137,21137,Lincoln,South,East South Central,24549
+21,KY,161,21161,Mason,South,East South Central,17070
+21,KY,159,21159,Martin,South,East South Central,11195
+21,KY,149,21149,McLean,South,East South Central,9207
+21,KY,167,21167,Mercer,South,East South Central,21933
+21,KY,171,21171,Monroe,South,East South Central,10650
+21,KY,229,21229,Washington,South,East South Central,12095
+21,KY,011,21011,Bath,South,East South Central,12500
+21,KY,007,21007,Ballard,South,East South Central,7888
+21,KY,009,21009,Barren,South,East South Central,44249
+21,KY,021,21021,Boyle,South,East South Central,30060
+21,KY,225,21225,Union,South,East South Central,14381
+21,KY,233,21233,Webster,South,East South Central,12942
+21,KY,033,21033,Caldwell,South,East South Central,12747
+21,KY,035,21035,Calloway,South,East South Central,39001
+21,KY,085,21085,Grayson,South,East South Central,26427
+21,KY,101,21101,Henderson,South,East South Central,45210
+21,KY,103,21103,Henry,South,East South Central,16126
+21,KY,107,21107,Hopkins,South,East South Central,44686
+21,KY,109,21109,Jackson,South,East South Central,13329
+21,KY,125,21125,Laurel,South,East South Central,60813
+21,KY,157,21157,Marshall,South,East South Central,31100
+21,KY,163,21163,Meade,South,East South Central,28572
+21,KY,173,21173,Montgomery,South,East South Central,28157
+21,KY,181,21181,Nicholas,South,East South Central,7269
+21,KY,197,21197,Powell,South,East South Central,12359
+21,KY,201,21201,Robertson,South,East South Central,2108
+21,KY,191,21191,Pendleton,South,East South Central,14590
+21,KY,183,21183,Ohio,South,East South Central,23994
+21,KY,207,21207,Russell,South,East South Central,17923
+21,KY,215,21215,Spencer,South,East South Central,19351
+21,KY,045,21045,Casey,South,East South Central,16159
+21,KY,047,21047,Christian,South,East South Central,70461
+21,KY,059,21059,Daviess,South,East South Central,101511
+21,KY,185,21185,Oldham,South,East South Central,66799
+21,KY,187,21187,Owen,South,East South Central,10901
+21,KY,203,21203,Rockcastle,South,East South Central,16695
+21,KY,209,21209,Scott,South,East South Central,57004
+21,KY,227,21227,Warren,South,East South Central,132896
+21,KY,003,21003,Allen,South,East South Central,21315
+21,KY,017,21017,Bourbon,South,East South Central,19788
+21,KY,019,21019,Boyd,South,East South Central,46718
+21,KY,029,21029,Bullitt,South,East South Central,81676
+21,KY,055,21055,Crittenden,South,East South Central,8806
+21,KY,067,21067,Fayette,South,East South Central,323152
+21,KY,075,21075,Fulton,South,East South Central,5969
+21,KY,115,21115,Johnson,South,East South Central,22188
+21,KY,119,21119,Knott,South,East South Central,14806
+21,KY,165,21165,Menifee,South,East South Central,6489
+21,KY,175,21175,Morgan,South,East South Central,13309
+21,KY,177,21177,Muhlenberg,South,East South Central,30622
+21,KY,193,21193,Perry,South,East South Central,25758
+21,KY,199,21199,Pulaski,South,East South Central,64979
+21,KY,237,21237,Wolfe,South,East South Central,7157
+21,KY,051,21051,Clay,South,East South Central,19901
+21,KY,001,21001,Adair,South,East South Central,19202
+21,KY,013,21013,Bell,South,East South Central,26032
+21,KY,025,21025,Breathitt,South,East South Central,12630
+21,KY,057,21057,Cumberland,South,East South Central,6614
+21,KY,083,21083,Graves,South,East South Central,37266
+21,KY,099,21099,Hart,South,East South Central,19035
+21,KY,129,21129,Lee,South,East South Central,7403
+21,KY,031,21031,Butler,South,East South Central,12879
+21,KY,223,21223,Trimble,South,East South Central,8471
+21,KY,061,21061,Edmonson,South,East South Central,12150
+21,KY,097,21097,Harrison,South,East South Central,18886
+21,KY,105,21105,Hickman,South,East South Central,4380
+21,KY,023,21023,Bracken,South,East South Central,8303
+21,KY,143,21143,Lyon,South,East South Central,8210
+21,KY,179,21179,Nelson,South,East South Central,46233
+21,KY,231,21231,Wayne,South,East South Central,20333
+21,KY,135,21135,Lewis,South,East South Central,13275
+21,KY,155,21155,Marion,South,East South Central,19273
+21,KY,221,21221,Trigg,South,East South Central,14651
+21,KY,239,21239,Woodford,South,East South Central,26734
+21,KY,015,21015,Boone,South,East South Central,133581
+21,KY,131,21131,Leslie,South,East South Central,9877
+21,KY,113,21113,Jessamine,South,East South Central,54115
+21,KY,121,21121,Knox,South,East South Central,31145
+21,KY,127,21127,Lawrence,South,East South Central,15317
+21,KY,133,21133,Letcher,South,East South Central,21553
+21,KY,139,21139,Livingston,South,East South Central,9194
+21,KY,145,21145,McCracken,South,East South Central,65418
+21,KY,195,21195,Pike,South,East South Central,57876
+21,KY,211,21211,Shelby,South,East South Central,49024
+21,KY,235,21235,Whitley,South,East South Central,36264
+21,KY,005,21005,Anderson,South,East South Central,22747
+21,KY,027,21027,Breckinridge,South,East South Central,20477
+21,KY,071,21071,Floyd,South,East South Central,35589
+21,KY,073,21073,Franklin,South,East South Central,50991
+21,KY,117,21117,Kenton,South,East South Central,166998
+21,KY,147,21147,McCreary,South,East South Central,17231
+21,KY,151,21151,Madison,South,East South Central,92987
+21,KY,153,21153,Magoffin,South,East South Central,12161
+21,KY,169,21169,Metcalfe,South,East South Central,10071
+21,KY,189,21189,Owsley,South,East South Central,4415
+21,KY,205,21205,Rowan,South,East South Central,24460
+21,KY,213,21213,Simpson,South,East South Central,18572
+21,KY,217,21217,Taylor,South,East South Central,25769
+21,KY,049,21049,Clark,South,East South Central,36263
+21,KY,219,21219,Todd,South,East South Central,12294
+21,KY,039,21039,Carlisle,South,East South Central,4760
+21,KY,041,21041,Carroll,South,East South Central,10631
+21,KY,053,21053,Clinton,South,East South Central,10218
+21,KY,065,21065,Estill,South,East South Central,14106
+21,KY,077,21077,Gallatin,South,East South Central,8869
+39,OH,173,39173,Wood,Midwest,East North Central,130817
+39,OH,005,39005,Ashland,Midwest,East North Central,53484
+39,OH,007,39007,Ashtabula,Midwest,East North Central,97241
+39,OH,105,39105,Meigs,Midwest,East North Central,22907
+39,OH,115,39115,Morgan,Midwest,East North Central,14508
+39,OH,169,39169,Wayne,Midwest,East North Central,115710
+39,OH,175,39175,Wyandot,Midwest,East North Central,21772
+39,OH,015,39015,Brown,Midwest,East North Central,43432
+39,OH,043,39043,Erie,Midwest,East North Central,74266
+39,OH,163,39163,Vinton,Midwest,East North Central,13085
+39,OH,045,39045,Fairfield,Midwest,East North Central,157574
+39,OH,039,39039,Defiance,Midwest,East North Central,38087
+39,OH,071,39071,Highland,Midwest,East North Central,43161
+39,OH,159,39159,Union,Midwest,East North Central,58988
+39,OH,157,39157,Tuscarawas,Midwest,East North Central,91987
+39,OH,021,39021,Champaign,Midwest,East North Central,38885
+39,OH,017,39017,Butler,Midwest,East North Central,383134
+39,OH,019,39019,Carroll,Midwest,East North Central,26914
+39,OH,025,39025,Clermont,Midwest,East North Central,206428
+39,OH,131,39131,Pike,Midwest,East North Central,27772
+39,OH,125,39125,Paulding,Midwest,East North Central,18672
+39,OH,057,39057,Greene,Midwest,East North Central,168937
+39,OH,049,39049,Franklin,Midwest,East North Central,1316756
+39,OH,061,39061,Hamilton,Midwest,East North Central,817473
+39,OH,063,39063,Hancock,Midwest,East North Central,75783
+39,OH,087,39087,Lawrence,Midwest,East North Central,59463
+39,OH,083,39083,Knox,Midwest,East North Central,62322
+39,OH,089,39089,Licking,Midwest,East North Central,176862
+39,OH,101,39101,Marion,Midwest,East North Central,65093
+39,OH,139,39139,Richland,Midwest,East North Central,121154
+39,OH,069,39069,Henry,Midwest,East North Central,27006
+39,OH,081,39081,Jefferson,Midwest,East North Central,65325
+39,OH,133,39133,Portage,Midwest,East North Central,162466
+39,OH,137,39137,Putnam,Midwest,East North Central,33861
+39,OH,013,39013,Belmont,Midwest,East North Central,67006
+39,OH,027,39027,Clinton,Midwest,East North Central,41968
+39,OH,047,39047,Fayette,Midwest,East North Central,28525
+39,OH,127,39127,Perry,Midwest,East North Central,36134
+39,OH,129,39129,Pickaway,Midwest,East North Central,58457
+39,OH,091,39091,Logan,Midwest,East North Central,45672
+39,OH,097,39097,Madison,Midwest,East North Central,44731
+39,OH,153,39153,Summit,Midwest,East North Central,541013
+39,OH,119,39119,Muskingum,Midwest,East North Central,86215
+39,OH,143,39143,Sandusky,Midwest,East North Central,58518
+39,OH,149,39149,Shelby,Midwest,East North Central,48590
+39,OH,161,39161,Van Wert,Midwest,East North Central,28275
+39,OH,167,39167,Washington,Midwest,East North Central,59911
+39,OH,171,39171,Williams,Midwest,East North Central,36692
+39,OH,011,39011,Auglaize,Midwest,East North Central,45656
+39,OH,029,39029,Columbiana,Midwest,East North Central,101883
+39,OH,037,39037,Darke,Midwest,East North Central,51113
+39,OH,123,39123,Ottawa,Midwest,East North Central,40525
+39,OH,051,39051,Fulton,Midwest,East North Central,42126
+39,OH,065,39065,Hardin,Midwest,East North Central,31365
+39,OH,079,39079,Jackson,Midwest,East North Central,32413
+39,OH,053,39053,Gallia,Midwest,East North Central,29898
+39,OH,077,39077,Huron,Midwest,East North Central,58266
+39,OH,099,39099,Mahoning,Midwest,East North Central,228683
+39,OH,009,39009,Athens,Midwest,East North Central,65327
+39,OH,001,39001,Adams,Midwest,East North Central,27698
+39,OH,145,39145,Scioto,Midwest,East North Central,75314
+39,OH,103,39103,Medina,Midwest,East North Central,179746
+39,OH,095,39095,Lucas,Midwest,East North Central,428348
+39,OH,067,39067,Harrison,Midwest,East North Central,15040
+39,OH,117,39117,Morrow,Midwest,East North Central,35328
+39,OH,121,39121,Noble,Midwest,East North Central,14424
+39,OH,135,39135,Preble,Midwest,East North Central,40882
+39,OH,147,39147,Seneca,Midwest,East North Central,55178
+39,OH,151,39151,Stark,Midwest,East North Central,370606
+39,OH,003,39003,Allen,Midwest,East North Central,102351
+39,OH,031,39031,Coshocton,Midwest,East North Central,36600
+39,OH,033,39033,Crawford,Midwest,East North Central,41494
+39,OH,041,39041,Delaware,Midwest,East North Central,209177
+39,OH,055,39055,Geauga,Midwest,East North Central,93649
+39,OH,059,39059,Guernsey,Midwest,East North Central,38875
+39,OH,073,39073,Hocking,Midwest,East North Central,28264
+39,OH,085,39085,Lake,Midwest,East North Central,230149
+39,OH,107,39107,Mercer,Midwest,East North Central,41172
+39,OH,141,39141,Ross,Midwest,East North Central,76666
+39,OH,023,39023,Clark,Midwest,East North Central,134083
+39,OH,035,39035,Cuyahoga,Midwest,East North Central,1235072
+39,OH,075,39075,Holmes,Midwest,East North Central,43960
+39,OH,093,39093,Lorain,Midwest,East North Central,309833
+39,OH,109,39109,Miami,Midwest,East North Central,106987
+39,OH,111,39111,Monroe,Midwest,East North Central,13654
+39,OH,113,39113,Montgomery,Midwest,East North Central,531687
+39,OH,155,39155,Trumbull,Midwest,East North Central,197974
+39,OH,165,39165,Warren,Midwest,East North Central,234602
+55,WI,051,55051,Iron,Midwest,East North Central,5687
+55,WI,019,55019,Clark,Midwest,East North Central,34774
+55,WI,109,55109,St. Croix,Midwest,East North Central,90687
+55,WI,135,55135,Waupaca,Midwest,East North Central,50990
+55,WI,113,55113,Sawyer,Midwest,East North Central,16558
+55,WI,139,55139,Winnebago,Midwest,East North Central,171907
+55,WI,033,55033,Dunn,Midwest,East North Central,45368
+55,WI,043,55043,Grant,Midwest,East North Central,51439
+55,WI,083,55083,Oconto,Midwest,East North Central,37930
+55,WI,079,55079,Milwaukee,Midwest,East North Central,945726
+55,WI,069,55069,Lincoln,Midwest,East North Central,27593
+55,WI,077,55077,Marquette,Midwest,East North Central,15574
+55,WI,075,55075,Marinette,Midwest,East North Central,40350
+55,WI,005,55005,Barron,Midwest,East North Central,45244
+55,WI,047,55047,Green Lake,Midwest,East North Central,18913
+55,WI,041,55041,Forest,Midwest,East North Central,9004
+55,WI,045,55045,Green,Midwest,East North Central,36960
+55,WI,099,55099,Price,Midwest,East North Central,13351
+55,WI,101,55101,Racine,Midwest,East North Central,196311
+55,WI,107,55107,Rusk,Midwest,East North Central,14178
+55,WI,115,55115,Shawano,Midwest,East North Central,40899
+55,WI,117,55117,Sheboygan,Midwest,East North Central,115340
+55,WI,067,55067,Langlade,Midwest,East North Central,19189
+55,WI,078,55078,Menominee,Midwest,East North Central,4556
+55,WI,087,55087,Outagamie,Midwest,East North Central,187885
+55,WI,011,55011,Buffalo,Midwest,East North Central,13031
+55,WI,021,55021,Columbia,Midwest,East North Central,57532
+55,WI,061,55061,Kewaunee,Midwest,East North Central,20434
+55,WI,063,55063,La Crosse,Midwest,East North Central,118016
+55,WI,009,55009,Brown,Midwest,East North Central,264542
+55,WI,035,55035,Eau Claire,Midwest,East North Central,104646
+55,WI,073,55073,Marathon,Midwest,East North Central,135692
+55,WI,085,55085,Oneida,Midwest,East North Central,35595
+55,WI,095,55095,Polk,Midwest,East North Central,43783
+55,WI,133,55133,Waukesha,Midwest,East North Central,404198
+55,WI,123,55123,Vernon,Midwest,East North Central,30822
+55,WI,121,55121,Trempealeau,Midwest,East North Central,29649
+55,WI,129,55129,Washburn,Midwest,East North Central,15720
+55,WI,027,55027,Dodge,Midwest,East North Central,87839
+55,WI,127,55127,Walworth,Midwest,East North Central,103868
+55,WI,125,55125,Vilas,Midwest,East North Central,22195
+55,WI,023,55023,Crawford,Midwest,East North Central,16131
+55,WI,057,55057,Juneau,Midwest,East North Central,26687
+55,WI,071,55071,Manitowoc,Midwest,East North Central,78981
+55,WI,111,55111,Sauk,Midwest,East North Central,64442
+55,WI,131,55131,Washington,Midwest,East North Central,136034
+55,WI,013,55013,Burnett,Midwest,East North Central,15414
+55,WI,017,55017,Chippewa,Midwest,East North Central,64658
+55,WI,025,55025,Dane,Midwest,East North Central,546695
+55,WI,029,55029,Door,Midwest,East North Central,27668
+55,WI,031,55031,Douglas,Midwest,East North Central,43150
+55,WI,039,55039,Fond du Lac,Midwest,East North Central,103403
+55,WI,053,55053,Jackson,Midwest,East North Central,20643
+55,WI,049,55049,Iowa,Midwest,East North Central,23678
+55,WI,091,55091,Pepin,Midwest,East North Central,7287
+55,WI,089,55089,Ozaukee,Midwest,East North Central,89221
+55,WI,097,55097,Portage,Midwest,East North Central,70772
+55,WI,103,55103,Richland,Midwest,East North Central,17252
+55,WI,105,55105,Rock,Midwest,East North Central,163354
+55,WI,119,55119,Taylor,Midwest,East North Central,20343
+55,WI,137,55137,Waushara,Midwest,East North Central,24443
+55,WI,001,55001,Adams,Midwest,East North Central,20220
+55,WI,007,55007,Bayfield,Midwest,East North Central,15036
+55,WI,065,55065,Lafayette,Midwest,East North Central,16665
+55,WI,081,55081,Monroe,Midwest,East North Central,46253
+55,WI,093,55093,Pierce,Midwest,East North Central,42754
+55,WI,141,55141,Wood,Midwest,East North Central,72999
+55,WI,003,55003,Ashland,Midwest,East North Central,15562
+55,WI,015,55015,Calumet,Midwest,East North Central,50089
+55,WI,037,55037,Florence,Midwest,East North Central,4295
+55,WI,055,55055,Jefferson,Midwest,East North Central,84769
+55,WI,059,55059,Kenosha,Midwest,East North Central,169561
+41,OR,061,41061,Union,West,Pacific,26835
+41,OR,047,41047,Marion,West,Pacific,347818
+41,OR,029,41029,Jackson,West,Pacific,220944
+41,OR,031,41031,Jefferson,West,Pacific,24658
+41,OR,053,41053,Polk,West,Pacific,86085
+41,OR,005,41005,Clackamas,West,Pacific,418187
+41,OR,043,41043,Linn,West,Pacific,129749
+41,OR,057,41057,Tillamook,West,Pacific,27036
+41,OR,001,41001,Baker,West,Pacific,16124
+41,OR,033,41033,Josephine,West,Pacific,87487
+41,OR,035,41035,Klamath,West,Pacific,68238
+41,OR,059,41059,Umatilla,West,Pacific,77950
+41,OR,041,41041,Lincoln,West,Pacific,49962
+41,OR,003,41003,Benton,West,Pacific,93053
+41,OR,013,41013,Crook,West,Pacific,24404
+41,OR,019,41019,Douglas,West,Pacific,110980
+41,OR,023,41023,Grant,West,Pacific,7199
+41,OR,017,41017,Deschutes,West,Pacific,197692
+41,OR,009,41009,Columbia,West,Pacific,52354
+41,OR,071,41071,Yamhill,West,Pacific,107100
+41,OR,055,41055,Sherman,West,Pacific,1780
+41,OR,065,41065,Wasco,West,Pacific,26682
+41,OR,025,41025,Harney,West,Pacific,7393
+41,OR,039,41039,Lane,West,Pacific,382067
+41,OR,045,41045,Malheur,West,Pacific,30571
+41,OR,063,41063,Wallowa,West,Pacific,7208
+41,OR,067,41067,Washington,West,Pacific,601592
+41,OR,069,41069,Wheeler,West,Pacific,1332
+41,OR,049,41049,Morrow,West,Pacific,11603
+41,OR,007,41007,Clatsop,West,Pacific,40224
+41,OR,011,41011,Coos,West,Pacific,64487
+41,OR,015,41015,Curry,West,Pacific,22925
+41,OR,021,41021,Gilliam,West,Pacific,1912
+41,OR,027,41027,Hood River,West,Pacific,23382
+41,OR,037,41037,Lake,West,Pacific,7869
+41,OR,051,41051,Multnomah,West,Pacific,812855
+38,ND,089,38089,Stark,Midwest,West North Central,31489
+38,ND,103,38103,Wells,Midwest,West North Central,3834
+38,ND,013,38013,Burke,Midwest,West North Central,2115
+38,ND,097,38097,Traill,Midwest,West North Central,8036
+38,ND,105,38105,Williams,Midwest,West North Central,37589
+38,ND,007,38007,Billings,Midwest,West North Central,928
+38,ND,101,38101,Ward,Midwest,West North Central,67641
+38,ND,021,38021,Dickey,Midwest,West North Central,4872
+38,ND,019,38019,Cavalier,Midwest,West North Central,3762
+38,ND,091,38091,Steele,Midwest,West North Central,1890
+38,ND,005,38005,Benson,Midwest,West North Central,6832
+38,ND,059,38059,Morton,Midwest,West North Central,31364
+38,ND,049,38049,McHenry,Midwest,West North Central,5745
+38,ND,061,38061,Mountrail,Midwest,West North Central,10545
+38,ND,043,38043,Kidder,Midwest,West North Central,2480
+38,ND,037,38037,Grant,Midwest,West North Central,2274
+38,ND,041,38041,Hettinger,Midwest,West North Central,2499
+38,ND,045,38045,LaMoure,Midwest,West North Central,4046
+38,ND,067,38067,Pembina,Midwest,West North Central,6801
+38,ND,017,38017,Cass,Midwest,West North Central,181923
+38,ND,025,38025,Dunn,Midwest,West North Central,4424
+38,ND,029,38029,Emmons,Midwest,West North Central,3241
+38,ND,051,38051,McIntosh,Midwest,West North Central,2497
+38,ND,063,38063,Nelson,Midwest,West North Central,2879
+38,ND,077,38077,Richland,Midwest,West North Central,16177
+38,ND,079,38079,Rolette,Midwest,West North Central,14176
+38,ND,099,38099,Walsh,Midwest,West North Central,10641
+38,ND,001,38001,Adams,Midwest,West North Central,2216
+38,ND,009,38009,Bottineau,Midwest,West North Central,6282
+38,ND,003,38003,Barnes,Midwest,West North Central,10415
+38,ND,027,38027,Eddy,Midwest,West North Central,2287
+38,ND,035,38035,Grand Forks,Midwest,West North Central,69451
+38,ND,053,38053,McKenzie,Midwest,West North Central,15024
+38,ND,057,38057,Mercer,Midwest,West North Central,8187
+38,ND,055,38055,McLean,Midwest,West North Central,9450
+38,ND,069,38069,Pierce,Midwest,West North Central,3975
+38,ND,073,38073,Ransom,Midwest,West North Central,5218
+38,ND,075,38075,Renville,Midwest,West North Central,2327
+38,ND,085,38085,Sioux,Midwest,West North Central,4230
+38,ND,011,38011,Bowman,Midwest,West North Central,3024
+38,ND,015,38015,Burleigh,Midwest,West North Central,95626
+38,ND,033,38033,Golden Valley,Midwest,West North Central,1761
+38,ND,047,38047,Logan,Midwest,West North Central,1850
+38,ND,065,38065,Oliver,Midwest,West North Central,1959
+38,ND,095,38095,Towner,Midwest,West North Central,2189
+38,ND,093,38093,Stutsman,Midwest,West North Central,20704
+38,ND,071,38071,Ramsey,Midwest,West North Central,11519
+38,ND,023,38023,Divide,Midwest,West North Central,2264
+38,ND,031,38031,Foster,Midwest,West North Central,3210
+38,ND,039,38039,Griggs,Midwest,West North Central,2231
+38,ND,081,38081,Sargent,Midwest,West North Central,3898
+38,ND,083,38083,Sheridan,Midwest,West North Central,1315
+38,ND,087,38087,Slope,Midwest,West North Central,750
+05,AR,089,05089,Marion,South,West South Central,16694
+05,AR,097,05097,Montgomery,South,West South Central,8986
+05,AR,127,05127,Scott,South,West South Central,10281
+05,AR,129,05129,Searcy,South,West South Central,7881
+05,AR,131,05131,Sebastian,South,West South Central,127827
+05,AR,077,05077,Lee,South,West South Central,8857
+05,AR,087,05087,Madison,South,West South Central,16576
+05,AR,093,05093,Mississippi,South,West South Central,40651
+05,AR,023,05023,Cleburne,South,West South Central,24919
+05,AR,025,05025,Cleveland,South,West South Central,7956
+05,AR,057,05057,Hempstead,South,West South Central,21532
+05,AR,033,05033,Crawford,South,West South Central,63257
+05,AR,041,05041,Desha,South,West South Central,11361
+05,AR,007,05007,Benton,South,West South Central,279141
+05,AR,017,05017,Chicot,South,West South Central,10118
+05,AR,059,05059,Hot Spring,South,West South Central,33771
+05,AR,049,05049,Fulton,South,West South Central,12477
+05,AR,061,05061,Howard,South,West South Central,13202
+05,AR,051,05051,Garland,South,West South Central,99386
+05,AR,071,05071,Johnson,South,West South Central,26578
+05,AR,067,05067,Jackson,South,West South Central,16719
+05,AR,115,05115,Pope,South,West South Central,64072
+05,AR,117,05117,Prairie,South,West South Central,8062
+05,AR,139,05139,Union,South,West South Central,38682
+05,AR,147,05147,Woodruff,South,West South Central,6320
+05,AR,135,05135,Sharp,South,West South Central,17442
+05,AR,137,05137,Stone,South,West South Central,12506
+05,AR,143,05143,Washington,South,West South Central,239187
+05,AR,005,05005,Baxter,South,West South Central,41932
+05,AR,003,05003,Ashley,South,West South Central,19657
+05,AR,031,05031,Craighead,South,West South Central,110332
+05,AR,055,05055,Greene,South,West South Central,45325
+05,AR,073,05073,Lafayette,South,West South Central,6624
+05,AR,105,05105,Perry,South,West South Central,10455
+05,AR,107,05107,Phillips,South,West South Central,17782
+05,AR,111,05111,Poinsett,South,West South Central,23528
+05,AR,133,05133,Sevier,South,West South Central,17007
+05,AR,149,05149,Yell,South,West South Central,21341
+05,AR,013,05013,Calhoun,South,West South Central,5189
+05,AR,019,05019,Clark,South,West South Central,22320
+05,AR,011,05011,Bradley,South,West South Central,10763
+05,AR,075,05075,Lawrence,South,West South Central,16406
+05,AR,095,05095,Monroe,South,West South Central,6701
+05,AR,113,05113,Polk,South,West South Central,19964
+05,AR,029,05029,Conway,South,West South Central,20846
+05,AR,103,05103,Ouachita,South,West South Central,23382
+05,AR,101,05101,Newton,South,West South Central,7753
+05,AR,001,05001,Arkansas,South,West South Central,17486
+05,AR,081,05081,Little River,South,West South Central,12259
+05,AR,085,05085,Lonoke,South,West South Central,73309
+05,AR,015,05015,Carroll,South,West South Central,28380
+05,AR,091,05091,Miller,South,West South Central,43257
+05,AR,123,05123,St. Francis,South,West South Central,24994
+05,AR,119,05119,Pulaski,South,West South Central,391911
+05,AR,145,05145,White,South,West South Central,78753
+05,AR,099,05099,Nevada,South,West South Central,8252
+05,AR,021,05021,Clay,South,West South Central,14551
+05,AR,037,05037,Cross,South,West South Central,16419
+05,AR,039,05039,Dallas,South,West South Central,7009
+05,AR,043,05043,Drew,South,West South Central,18219
+05,AR,027,05027,Columbia,South,West South Central,23457
+05,AR,121,05121,Randolph,South,West South Central,17958
+05,AR,125,05125,Saline,South,West South Central,122437
+05,AR,141,05141,Van Buren,South,West South Central,16545
+05,AR,009,05009,Boone,South,West South Central,37432
+05,AR,065,05065,Izard,South,West South Central,13629
+05,AR,063,05063,Independence,South,West South Central,37825
+05,AR,079,05079,Lincoln,South,West South Central,13024
+05,AR,083,05083,Logan,South,West South Central,21466
+05,AR,053,05053,Grant,South,West South Central,18265
+05,AR,035,05035,Crittenden,South,West South Central,47955
+05,AR,047,05047,Franklin,South,West South Central,17715
+05,AR,045,05045,Faulkner,South,West South Central,126007
+05,AR,109,05109,Pike,South,West South Central,10718
+05,AR,069,05069,Jefferson,South,West South Central,66824
+18,IN,175,18175,Washington,Midwest,East North Central,28036
+18,IN,027,18027,Daviess,Midwest,East North Central,33351
+18,IN,029,18029,Dearborn,Midwest,East North Central,49458
+18,IN,171,18171,Warren,Midwest,East North Central,8265
+18,IN,179,18179,Wells,Midwest,East North Central,28296
+18,IN,003,18003,Allen,Midwest,East North Central,379299
+18,IN,031,18031,Decatur,Midwest,East North Central,26559
+18,IN,103,18103,Miami,Midwest,East North Central,35516
+18,IN,065,18065,Henry,Midwest,East North Central,47972
+18,IN,077,18077,Jefferson,Midwest,East North Central,32308
+18,IN,083,18083,Knox,Midwest,East North Central,36594
+18,IN,079,18079,Jennings,Midwest,East North Central,27735
+18,IN,081,18081,Johnson,Midwest,East North Central,158167
+18,IN,093,18093,Lawrence,Midwest,East North Central,45370
+18,IN,095,18095,Madison,Midwest,East North Central,129569
+18,IN,123,18123,Perry,Midwest,East North Central,19169
+18,IN,125,18125,Pike,Midwest,East North Central,12389
+18,IN,131,18131,Pulaski,Midwest,East North Central,12353
+18,IN,129,18129,Posey,Midwest,East North Central,25427
+18,IN,151,18151,Steuben,Midwest,East North Central,34594
+18,IN,165,18165,Vermillion,Midwest,East North Central,15498
+18,IN,035,18035,Delaware,Midwest,East North Central,114135
+18,IN,043,18043,Floyd,Midwest,East North Central,78522
+18,IN,141,18141,St. Joseph,Midwest,East North Central,271826
+18,IN,085,18085,Kosciusko,Midwest,East North Central,79456
+18,IN,099,18099,Marshall,Midwest,East North Central,46258
+18,IN,155,18155,Switzerland,Midwest,East North Central,10751
+18,IN,163,18163,Vanderburgh,Midwest,East North Central,181451
+18,IN,143,18143,Scott,Midwest,East North Central,23873
+18,IN,105,18105,Monroe,Midwest,East North Central,148431
+18,IN,045,18045,Fountain,Midwest,East North Central,16346
+18,IN,039,18039,Elkhart,Midwest,East North Central,206341
+18,IN,149,18149,Starke,Midwest,East North Central,22995
+18,IN,025,18025,Crawford,Midwest,East North Central,10577
+18,IN,097,18097,Marion,Midwest,East North Central,964582
+18,IN,177,18177,Wayne,Midwest,East North Central,65884
+18,IN,061,18061,Harrison,Midwest,East North Central,40515
+18,IN,109,18109,Morgan,Midwest,East North Central,70489
+18,IN,111,18111,Newton,Midwest,East North Central,13984
+18,IN,117,18117,Orange,Midwest,East North Central,19646
+18,IN,051,18051,Gibson,Midwest,East North Central,33659
+18,IN,055,18055,Greene,Midwest,East North Central,31922
+18,IN,009,18009,Blackford,Midwest,East North Central,11758
+18,IN,015,18015,Carroll,Midwest,East North Central,20257
+18,IN,017,18017,Cass,Midwest,East North Central,37689
+18,IN,069,18069,Huntington,Midwest,East North Central,36520
+18,IN,091,18091,LaPorte,Midwest,East North Central,109888
+18,IN,169,18169,Wabash,Midwest,East North Central,30996
+18,IN,073,18073,Jasper,Midwest,East North Central,33562
+18,IN,075,18075,Jay,Midwest,East North Central,20436
+18,IN,101,18101,Martin,Midwest,East North Central,10255
+18,IN,127,18127,Porter,Midwest,East North Central,170389
+18,IN,145,18145,Shelby,Midwest,East North Central,44729
+18,IN,137,18137,Ripley,Midwest,East North Central,28324
+18,IN,147,18147,Spencer,Midwest,East North Central,20277
+18,IN,153,18153,Sullivan,Midwest,East North Central,20669
+18,IN,159,18159,Tipton,Midwest,East North Central,15148
+18,IN,157,18157,Tippecanoe,Midwest,East North Central,195732
+18,IN,167,18167,Vigo,Midwest,East North Central,107038
+18,IN,173,18173,Warrick,Midwest,East North Central,62998
+18,IN,057,18057,Hamilton,Midwest,East North Central,338011
+18,IN,033,18033,DeKalb,Midwest,East North Central,43475
+18,IN,087,18087,LaGrange,Midwest,East North Central,39614
+18,IN,005,18005,Bartholomew,Midwest,East North Central,83779
+18,IN,139,18139,Rush,Midwest,East North Central,16581
+18,IN,011,18011,Boone,Midwest,East North Central,67843
+18,IN,049,18049,Fulton,Midwest,East North Central,19974
+18,IN,089,18089,Lake,Midwest,East North Central,485493
+18,IN,107,18107,Montgomery,Midwest,East North Central,38338
+18,IN,113,18113,Noble,Midwest,East North Central,47744
+18,IN,001,18001,Adams,Midwest,East North Central,35777
+18,IN,019,18019,Clark,Midwest,East North Central,118302
+18,IN,041,18041,Fayette,Midwest,East North Central,23102
+18,IN,021,18021,Clay,Midwest,East North Central,26225
+18,IN,063,18063,Hendricks,Midwest,East North Central,170311
+18,IN,037,18037,Dubois,Midwest,East North Central,42736
+18,IN,047,18047,Franklin,Midwest,East North Central,22758
+18,IN,053,18053,Grant,Midwest,East North Central,65769
+18,IN,059,18059,Hancock,Midwest,East North Central,78168
+18,IN,071,18071,Jackson,Midwest,East North Central,44231
+18,IN,067,18067,Howard,Midwest,East North Central,82544
+18,IN,115,18115,Ohio,Midwest,East North Central,5875
+18,IN,119,18119,Owen,Midwest,East North Central,20799
+18,IN,121,18121,Parke,Midwest,East North Central,16937
+18,IN,135,18135,Randolph,Midwest,East North Central,24665
+18,IN,007,18007,Benton,Midwest,East North Central,8748
+18,IN,013,18013,Brown,Midwest,East North Central,15092
+18,IN,023,18023,Clinton,Midwest,East North Central,32399
+18,IN,133,18133,Putnam,Midwest,East North Central,37576
+18,IN,161,18161,Union,Midwest,East North Central,7054
+18,IN,183,18183,Whitley,Midwest,East North Central,33964
+18,IN,181,18181,White,Midwest,East North Central,24102
+27,MN,071,27071,Koochiching,Midwest,West North Central,12229
+27,MN,093,27093,Meeker,Midwest,West North Central,23222
+27,MN,097,27097,Morrison,Midwest,West North Central,33386
+27,MN,113,27113,Pennington,Midwest,West North Central,14119
+27,MN,147,27147,Steele,Midwest,West North Central,36649
+27,MN,101,27101,Murray,Midwest,West North Central,8194
+27,MN,067,27067,Kandiyohi,Midwest,West North Central,43199
+27,MN,075,27075,Lake,Midwest,West North Central,10641
+27,MN,119,27119,Polk,Midwest,West North Central,31364
+27,MN,143,27143,Sibley,Midwest,West North Central,14865
+27,MN,029,27029,Clearwater,Midwest,West North Central,8818
+27,MN,131,27131,Rice,Midwest,West North Central,66972
+27,MN,125,27125,Red Lake,Midwest,West North Central,4055
+27,MN,133,27133,Rock,Midwest,West North Central,9315
+27,MN,135,27135,Roseau,Midwest,West North Central,15165
+27,MN,167,27167,Wilkin,Midwest,West North Central,6207
+27,MN,027,27027,Clay,Midwest,West North Central,64222
+27,MN,023,27023,Chippewa,Midwest,West North Central,11800
+27,MN,021,27021,Cass,Midwest,West North Central,29779
+27,MN,043,27043,Faribault,Midwest,West North Central,13653
+27,MN,045,27045,Fillmore,Midwest,West North Central,21067
+27,MN,155,27155,Traverse,Midwest,West North Central,3259
+27,MN,165,27165,Watonwan,Midwest,West North Central,10897
+27,MN,053,27053,Hennepin,Midwest,West North Central,1265843
+27,MN,011,27011,Big Stone,Midwest,West North Central,4991
+27,MN,015,27015,Brown,Midwest,West North Central,25008
+27,MN,005,27005,Becker,Midwest,West North Central,34423
+27,MN,049,27049,Goodhue,Midwest,West North Central,46340
+27,MN,057,27057,Hubbard,Midwest,West North Central,21491
+27,MN,059,27059,Isanti,Midwest,West North Central,40596
+27,MN,063,27063,Jackson,Midwest,West North Central,9846
+27,MN,099,27099,Mower,Midwest,West North Central,40062
+27,MN,105,27105,Nobles,Midwest,West North Central,21629
+27,MN,115,27115,Pine,Midwest,West North Central,29579
+27,MN,109,27109,Olmsted,Midwest,West North Central,158293
+27,MN,141,27141,Sherburne,Midwest,West North Central,97238
+27,MN,159,27159,Wadena,Midwest,West North Central,13682
+27,MN,009,27009,Benton,Midwest,West North Central,40889
+27,MN,019,27019,Carver,Midwest,West North Central,105089
+27,MN,047,27047,Freeborn,Midwest,West North Central,30281
+27,MN,061,27061,Itasca,Midwest,West North Central,45130
+27,MN,121,27121,Pope,Midwest,West North Central,11249
+27,MN,123,27123,Ramsey,Midwest,West North Central,550321
+27,MN,149,27149,Stevens,Midwest,West North Central,9805
+27,MN,151,27151,Swift,Midwest,West North Central,9266
+27,MN,169,27169,Winona,Midwest,West North Central,50484
+27,MN,033,27033,Cottonwood,Midwest,West North Central,11196
+27,MN,139,27139,Scott,Midwest,West North Central,149013
+27,MN,039,27039,Dodge,Midwest,West North Central,20934
+27,MN,157,27157,Wabasha,Midwest,West North Central,21627
+27,MN,117,27117,Pipestone,Midwest,West North Central,9126
+27,MN,035,27035,Crow Wing,Midwest,West North Central,65055
+27,MN,107,27107,Norman,Midwest,West North Central,6375
+27,MN,171,27171,Wright,Midwest,West North Central,138377
+27,MN,103,27103,Nicollet,Midwest,West North Central,34274
+27,MN,041,27041,Douglas,Midwest,West North Central,38141
+27,MN,051,27051,Grant,Midwest,West North Central,5972
+27,MN,069,27069,Kittson,Midwest,West North Central,4298
+27,MN,025,27025,Chisago,Midwest,West North Central,56579
+27,MN,127,27127,Redwood,Midwest,West North Central,15170
+27,MN,173,27173,Yellow Medicine,Midwest,West North Central,9709
+27,MN,153,27153,Todd,Midwest,West North Central,24664
+27,MN,007,27007,Beltrami,Midwest,West North Central,47188
+27,MN,013,27013,Blue Earth,Midwest,West North Central,67653
+27,MN,055,27055,Houston,Midwest,West North Central,18600
+27,MN,073,27073,Lac qui Parle,Midwest,West North Central,6623
+27,MN,077,27077,Lake of the Woods,Midwest,West North Central,3740
+27,MN,111,27111,Otter Tail,Midwest,West North Central,58746
+27,MN,161,27161,Waseca,Midwest,West North Central,18612
+27,MN,137,27137,St. Louis,Midwest,West North Central,199070
+27,MN,145,27145,Stearns,Midwest,West North Central,161075
+27,MN,037,27037,Dakota,Midwest,West North Central,429021
+27,MN,081,27081,Lincoln,Midwest,West North Central,5639
+27,MN,001,27001,Aitkin,Midwest,West North Central,15886
+27,MN,003,27003,Anoka,Midwest,West North Central,356921
+27,MN,091,27091,Martin,Midwest,West North Central,19683
+27,MN,085,27085,McLeod,Midwest,West North Central,35893
+27,MN,079,27079,Le Sueur,Midwest,West North Central,28887
+27,MN,087,27087,Mahnomen,Midwest,West North Central,5527
+27,MN,083,27083,Lyon,Midwest,West North Central,25474
+27,MN,089,27089,Marshall,Midwest,West North Central,9336
+27,MN,095,27095,Mille Lacs,Midwest,West North Central,26277
+27,MN,129,27129,Renville,Midwest,West North Central,14548
+27,MN,163,27163,Washington,Midwest,West North Central,262440
+27,MN,017,27017,Carlton,Midwest,West North Central,35871
+27,MN,031,27031,Cook,Midwest,West North Central,5463
+27,MN,065,27065,Kanabec,Midwest,West North Central,16337
+09,CT,009,09009,New Haven,Northeast,New England,854757
+09,CT,005,09005,Litchfield,Northeast,New England,180333
+09,CT,003,09003,Hartford,Northeast,New England,891720
+09,CT,015,09015,Windham,Northeast,New England,116782
+09,CT,011,09011,New London,Northeast,New England,265206
+09,CT,007,09007,Middlesex,Northeast,New England,162436
+09,CT,013,09013,Tolland,Northeast,New England,150721
+09,CT,001,09001,Fairfield,Northeast,New England,943332
