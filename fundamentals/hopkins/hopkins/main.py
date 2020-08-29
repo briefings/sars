@@ -34,19 +34,28 @@ def main():
                                              basefields=['FIPS']).exc()
 
     # Reference
-    reference = hopkins.src.reference.Reference(days=days, gazetter=gazetteer[['STATEFP', 'COUNTYGEOID',
-                                                                               inhabitants]]).exc()
-    logger.info('\n{}\n'.format(reference.tail()))
+    reference = hopkins.src.reference.Reference(days=days,
+                                                gazetter=gazetteer[['STATEFP', 'COUNTYGEOID', inhabitants]]
+                                                ).exc()
 
     # Readings
     readings = hopkins.src.readings.Readings(features=features, reference=reference, days=days).exc()
-    logger.info('\n{}\n'.format(readings.tail(n=13)))
 
-    adjusted = hopkins.algorithms.anomalies.Anomalies(blob=readings).exc()
-    logger.info('\n{}\n'.format(adjusted.tail(n=13)))
+    # Addressing Anomalies
+    hencecounty = hopkins.algorithms.anomalies.Anomalies(blob=readings).exc()
 
-    derivations = hopkins.algorithms.derivations.Derivations().exc(blob=adjusted, inhabitants=inhabitants)
-    logger.info('\n{}\n'.format(derivations.tail(13)))
+    hencestate: pd.DataFrame = hencecounty.drop(columns=['COUNTYGEOID']).\
+        groupby(by=['datetimeobject', 'date', 'epochmilli', 'STATEFP']).sum()
+    hencestate.reset_index(drop=False, inplace=True)
+
+    # Derivations
+    derivations = hopkins.algorithms.derivations.Derivations()
+
+    usc = derivations.exc(blob=hencecounty, inhabitants=inhabitants)
+    logger.info('\n{}\n'.format(usc.info()))
+
+    uss = derivations.exc(blob=hencestate, inhabitants=inhabitants)
+    logger.info('\n{}\n'.format(uss.info()))
 
 
 if __name__ == '__main__':
