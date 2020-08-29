@@ -13,7 +13,6 @@ def main():
     population: pd.DataFrame = county.exc(year='2019')
     population.drop_duplicates(inplace=True)
     logger.info('\n{}\n'.format(population.tail()))
-    logger.info('\n{}\n'.format(population.shape))
 
     # States
     states: pd.DataFrame = boundaries.states(year=settings.latest)
@@ -23,33 +22,20 @@ def main():
     # Counties
     counties = boundaries.counties(year=settings.latest)
     counties.rename(columns={'GEOID': 'COUNTYGEOID', 'NAME': 'COUNTY'}, inplace=True)
-    counties = counties.merge(states[['STATEFP', 'STUSPS']], how='left', on='STATEFP')
+    counties = counties.merge(states[['STATEFP', 'STUSPS', 'STATE']], how='left', on='STATEFP')
     logger.info('\n{}\n'.format(counties.tail()))
 
     # Gazetteer
-    populationfield = 'POPESTIMATE2019'
-    gazetteer, supplement = hopkins.src.gazetteer.Gazetteer(). \
-        exc(counties=counties[['STATEFP', 'STUSPS', 'COUNTYFP', 'COUNTYGEOID', 'COUNTY']],
-            population=population[['COUNTYGEOID', populationfield]],
-            populationfield=populationfield)
-    logger.info('\n{}\n'.format(gazetteer.tail()))
-    logger.info('\n{}\n'.format(supplement))
-
-    logger.info('\nCounty: {}\n'.format(gazetteer[populationfield].sum()))
-    logger.info('\nState: {}\n'.format(supplement[populationfield].sum()))
-
-    # Days
-    days = configurations.days()
-    logger.info('\n{}\n'.format(days.tail()))
+    gazetteer, _ = hopkins.src.gazetteer.Gazetteer(counties=counties, states=states, population=population,
+                                                   inhabitants=inhabitants).exc()
 
     # The fields of the latest J.H. data set
     features = hopkins.src.features.Features(datestrings=days[configurations.datestring].values,
                                              basefields=['FIPS']).exc()
-    logger.info('\n{}\n'.format(features.head()))
 
     # Reference
-    reference = hopkins.src.reference.Reference(days=days,
-                                                gazetter=gazetteer[['STATEFP', 'COUNTYGEOID', populationfield]]).exc()
+    reference = hopkins.src.reference.Reference(days=days, gazetter=gazetteer[['STATEFP', 'COUNTYGEOID',
+                                                                               inhabitants]]).exc()
     logger.info('\n{}\n'.format(reference.tail()))
 
     # Readings
@@ -59,8 +45,7 @@ def main():
     adjusted = hopkins.algorithms.anomalies.Anomalies(blob=readings).exc()
     logger.info('\n{}\n'.format(adjusted.tail(n=13)))
 
-    derivations = hopkins.algorithms.derivations.Derivations().exc(blob=adjusted,
-                                                                populationfield=populationfield)
+    derivations = hopkins.algorithms.derivations.Derivations().exc(blob=adjusted, inhabitants=inhabitants)
     logger.info('\n{}\n'.format(derivations.tail(13)))
 
 
@@ -81,6 +66,8 @@ if __name__ == '__main__':
     # Create a config instance and empty the results storage directories
     configurations = config.Config()
     configurations.storage()
+    days = configurations.days()
+    inhabitants = configurations.inhabitants
 
     # Utilities
     import hopkins.base.utilities
