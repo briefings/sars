@@ -46,6 +46,16 @@ class Config:
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
 
+    @staticmethod
+    def regions():
+
+        urn = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+                          'countries/us/geography/regions/names.csv'
+        urc = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+                          'countries/us/geography/regions/fips.csv'
+
+        return urn, urc
+
     def storage(self):
 
         directories = hopkins.base.directories.Directories()
