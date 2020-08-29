@@ -82,11 +82,14 @@ class Gazetteer:
         return gazetteer
 
     def exc(self):
+        """
+        Option: region.drop(labels=['REGIONFP', 'DIVISIONFP'], inplace=True)
+        :return:
+        """
 
         self.paths()
 
         region = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         self.logger.info('\n{}\n'.format(region))
-        # region.drop(labels=['REGIONFP', 'DIVISIONFP'], inplace=True)
 
         return self.county(region=region), self.state(region=region)
