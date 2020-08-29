@@ -9,7 +9,13 @@ class State:
         self.name = ''
 
     @staticmethod
-    def urlstring(segment: str, year: str):
+    def urlstring(segment: str, year: str) -> str:
+        """
+
+        :param segment: Pattern -> 'YYYY-YYYY', e.g., '2010-2019'.
+        :param year: Pattern -> 'YYYY', e.g., '2019'.
+        :return:
+        """
         settings = populations.us.reference.settings.Settings()
         return settings.apistate.format(segment=segment, year=year)
 

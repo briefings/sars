@@ -21,13 +21,9 @@ class Segmentation:
 
     def candles(self):
         data = self.blob.copy()
-        data.loc[:, 'positiveIncreaseRate'] = 100000 * data['positiveIncrease'] / data['POPESTIMATE2019']
-        data.loc[:, 'testIncreaseRate'] = 100000 * data['testIncrease'] / data['POPESTIMATE2019']
-        data.loc[:, 'deathIncreaseRate'] = 100000 * data['deathIncrease'] / data['POPESTIMATE2019']
-
         data = data.drop(columns=['POPESTIMATE2019'])
 
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'candlestates.csv'),
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'candles.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def increases(self):
@@ -48,7 +44,9 @@ class Segmentation:
         data = self.blob.copy()
         data = data.drop(columns='POPESTIMATE2019', inplace=False)
 
-        gridlines = atlantic.algorithms.gridlines.GridLines(blob=self.blob).exc()
+        gridlines = atlantic.algorithms.gridlines.GridLines(positive_rate_max=data['positiveRate'].max(),
+                                                            test_rate_max=data['testRate'].max()).exc()
+
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
         self.logger.info(data.tail())
 
