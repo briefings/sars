@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 import config
-import hopkins.src.inspect
+import hopkins.algorithms.inspect
 
 
 class Anomalies:
@@ -31,7 +31,7 @@ class Anomalies:
         :return:
         """
 
-        inspect = hopkins.src.inspect.Inspect()
+        inspect = hopkins.algorithms.inspect.Inspect()
 
         # Create a table matrix w.r.t. counties & a single measure; subsequently ensure that
         # the columns, which are dates, are sequential
