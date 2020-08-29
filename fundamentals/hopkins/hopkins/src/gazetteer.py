@@ -47,7 +47,7 @@ class Gazetteer:
 
         return values
 
-    def exc(self, counties: pd.DataFrame, population: pd.DataFrame, populationfield: str):
+    def exc(self, counties: pd.DataFrame, population: pd.DataFrame, inhabitants: str):
 
         self.paths()
 
@@ -58,7 +58,7 @@ class Gazetteer:
         county.to_csv(path_or_buf=os.path.join(self.warehouse, 'county', 'gazetteer.csv'),
                       header=True, index=False, encoding='utf-8')
 
-        state = county[['STATEFP', 'STUSPS', 'REGION', 'DIVISION', populationfield
+        state = county[['STATEFP', 'STUSPS', 'REGION', 'DIVISION', inhabitants
                            ]].groupby(by=['STATEFP', 'STUSPS', 'REGION', 'DIVISION']).sum()
         state.reset_index(drop=False, inplace=True)
         state.to_csv(path_or_buf=os.path.join(self.warehouse, 'state', 'gazetteer.csv'),
