@@ -22,6 +22,7 @@ class Derivations:
         self.measures = configurations.measures
         self.cumulative = [measure.replace('Increase', 'Cumulative') for measure in self.measures]
         self.rate = [measure.replace('Increase', 'Rate') for measure in self.measures]
+        self.increase_rate = [measure + 'Rate' for measure in self.measures]
 
     @dask.delayed
     def accumulations(self, stusps: str):
@@ -40,16 +41,27 @@ class Derivations:
                          axis=1)
 
     @dask.delayed
-    def capita(self, blob):
+    def capita_continuous(self, blob: pd.DataFrame):
         """
-        Calculated the values per 100,000 people
         :param blob:
-        :return:
+        :return: Appends cumulative values per 100,000 people
         """
         return pd.concat([blob,
                           pd.DataFrame(
-                              data=(100000 * blob[self.cumulative].divide(blob.POPESTIMATE2019, axis=0)).values,
+                              data=(100000 * blob[self.cumulative].divide(blob['POPESTIMATE2019'], axis=0)).values,
                               columns=self.rate)],
+                         axis=1)
+
+    @dask.delayed
+    def capita_discrete(self, blob: pd.DataFrame):
+        """
+        :param blob:
+        :return: Appends discrete values per 100,000 people
+        """
+        return pd.concat([blob,
+                          pd.DataFrame(
+                              data=(100000 * blob[self.measures].divide(blob['POPESTIMATE2019'], axis=0)).values,
+                              columns=self.increase_rate)],
                          axis=1)
 
     def exc(self, places: pd.DataFrame):
@@ -64,13 +76,14 @@ class Derivations:
 
         for stusps in places.STUSPS.values:
             values = self.accumulations(stusps=stusps)
-            values = self.capita(values)
+            values = self.capita_continuous(values)
+            values = self.capita_discrete(values)
             computations.append(values)
 
         dask.visualize(computations, filename='derivations', format='pdf')
         calculations = dask.compute(computations, scheduler='processes')[0]
-
         data = pd.concat(calculations, axis=0, ignore_index=True)
+
         data.loc[:, 'ndays'] = (- self.epochdays) + (
                 data['datetimeobject'].astype(np.int64) / (60 * 60 * 24 * (10 ** 9))).astype(int)
 
