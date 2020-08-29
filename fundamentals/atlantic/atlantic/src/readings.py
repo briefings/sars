@@ -29,6 +29,11 @@ class Readings:
         self.fields, self.types = configurations.attributes()
 
     def features(self, blob):
+        """
+
+        :param blob:
+        :return: Enhanced C.T.P. date
+        """
 
         data = blob.copy()
 
@@ -36,16 +41,30 @@ class Readings:
 
         return data.merge(self.states[['STUSPS', 'POPESTIMATE2019']], how='left', on='STUSPS')
 
-    def structure(self, blob):
+    def structure(self, blob) -> pd.DataFrame:
+        """
+
+        :param blob: The latest raw C.T.P. data
+        :return: Restructured C.T.P. data
+        """
 
         data = blob.copy()
+
+        # Create a field of date objects via the raw datefield
         data.loc[:, 'datetimeobject'] = data[self.datestring].apply(lambda x: datetime.strptime(x, self.datepattern))
+
+        # Drop the raw date field
         data.drop(columns=[self.datestring], inplace=True)
 
+        # Ascertain that every combination of place & date exists
         return self.references[['datetimeobject', 'STUSPS']]. \
             merge(data, how='left', on=['datetimeobject', 'STUSPS'])
 
-    def retrieve(self):
+    def retrieve(self) -> pd.DataFrame:
+        """
+
+        :return: The DataFrame of the latest C.T.P. data
+        """
 
         try:
             values = pd.read_csv(filepath_or_buffer=self.daily, header=0, usecols=self.fields,
