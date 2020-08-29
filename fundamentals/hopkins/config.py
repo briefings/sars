@@ -35,11 +35,13 @@ class Config:
         # Data
         self.urlfields = 'https://raw.githubusercontent.com/premodelling/dictionaries/develop/' \
                          'sars/johnHopkinsCountiesReference.json'
-
         self.url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/' \
                    'csse_covid_19_time_series/time_series_covid19_{category}_US.csv'
         self.categories = ['confirmed', 'deaths']
         self.measures = {'confirmed': 'positiveCumulative', 'deaths': 'deathCumulative'}
+
+        # Population field
+        self.inhabitants = 'POPESTIMATE2019'
 
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
