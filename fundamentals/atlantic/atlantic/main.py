@@ -41,7 +41,7 @@ def main():
     gazetteer.exc(states=states)
 
     # Hence, save the data sets of interest
-    atlantic.algorithms.segmentations.Segmentation(blob=derivations).exc()
+    atlantic.algorithms.segments.Segments(blob=derivations).exc()
 
     # Statistics
     spreads = atlantic.spreads.distributions.Distributions(states=states)
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     import atlantic.src.reference
     import atlantic.algorithms.derivations
     import atlantic.algorithms.rates
-    import atlantic.algorithms.segmentations
+    import atlantic.algorithms.segments
 
     import atlantic.src.gazetteer
     import atlantic.src.readings
