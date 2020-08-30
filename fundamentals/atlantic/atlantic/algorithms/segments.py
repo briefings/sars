@@ -9,7 +9,7 @@ import atlantic.src.gazetteer
 import config
 
 
-class Segmentation:
+class Segments:
 
     def __init__(self, blob: pd.DataFrame):
         self.blob = blob
