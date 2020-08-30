@@ -11,6 +11,7 @@ In preparation for Docker, etc.
   conda install -c anaconda geopandas
   conda install -c anaconda requests
   conda install -c anaconda pywin32 jupyterlab nodejs
+  conda install -c anaconda dask python-graphviz
 ```
 
 <br>
@@ -23,7 +24,7 @@ In relation to requirements.txt
 
 The file [filter.txt](./docs/filter.txt) summarises the directly installed packages.  Hence, [filter.txt](./docs/filter.txt) is used to create a demarcated [requirements.txt](requirements.txt).  Note:
 
-* `pywin32` & `nodejs` cannot be included in `filter.txt`
+* `python-graphviz`, `pywin32` & `nodejs` cannot be included in `filter.txt`
 * `geopandas` installs `numpy` & `pandas`
 * `requests` installs `urllib3`
 
