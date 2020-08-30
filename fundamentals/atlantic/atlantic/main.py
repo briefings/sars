@@ -44,7 +44,7 @@ def main():
     atlantic.algorithms.segmentations.Segmentation(blob=derivations).exc()
 
     # Statistics
-    spreads = atlantic.adhoc.spreads.Spreads(states=states)
+    spreads = atlantic.spreads.distributions.Distributions(states=states)
     spreads.exc()
 
 
@@ -84,6 +84,6 @@ if __name__ == '__main__':
     state = populations.us.reference.state.State()
 
     # Utilities: Candles
-    import atlantic.adhoc.spreads
+    import atlantic.spreads.distributions
 
     main()
