@@ -11,9 +11,9 @@ class Utilities:
 
     def get(self):
         dearchive = atlantic.base.dearchive.Dearchive(into=self.root)
-        dearchive.unzip(urlstring='https://github.com/miscellane/cartographs/raw/develop/cartographs.zip')
-        dearchive.unzip(urlstring='https://github.com/miscellane/candles/raw/develop/candles.zip')
-        dearchive.unzip(
+        dearchive.exc(urlstring='https://github.com/miscellane/cartographs/raw/develop/cartographs.zip')
+        dearchive.exc(urlstring='https://github.com/miscellane/candles/raw/develop/candles.zip')
+        dearchive.exc(
             urlstring='https://github.com/briefings/sars/raw/develop/fundamentals/populations/populations.zip')
 
     def exc(self):
