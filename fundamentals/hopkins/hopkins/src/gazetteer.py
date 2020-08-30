@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 
 import config
-import hopkins.base.directories
 
 
 class Gazetteer:
@@ -23,12 +22,6 @@ class Gazetteer:
         self.states = states
         self.population = population
         self.inhabitants = inhabitants
-
-    def paths(self):
-
-        directories = hopkins.base.directories.Directories()
-        targets = [os.path.join(self.warehouse, level) for level in ['county', 'state']]
-        directories.create(targets)
 
     def names(self) -> pd.DataFrame:
 
@@ -86,8 +79,6 @@ class Gazetteer:
         Option: region.drop(labels=['REGIONFP', 'DIVISIONFP'], inplace=True)
         :return:
         """
-
-        self.paths()
 
         region = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         self.logger.info('\n{}\n'.format(region))
