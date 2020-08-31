@@ -13,15 +13,10 @@ class Config:
 
     def __init__(self):
 
-        # Records began ...
+        # Starting, ending, days thus far.  The name of the J.H. date field, and the pattern of the dates
         self.starting: str = '2020-01-22'
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
-
-        # End point
-        limit: datetime = datetime.today() - timedelta(days=2)
-        self.ending: str = limit.strftime('%Y-%m-%d')
-
-        # Source: The name of the J.H. date field, and the pattern of the dates
+        self.ending: str = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
         self.datestring = 'date'
 
         if platform.system() == 'Windows':
