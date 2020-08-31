@@ -1,19 +1,32 @@
-import pandas as pd
-
+import logging
 import os
 
+import pandas as pd
+
 import config
+
 
 class Rates:
 
     def __init__(self, blob):
+        """
+
+        :param blob:
+        """
+
+        self.blob = blob
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
 
-        self.blob = blob
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
 
     def latest(self):
+        """
+
+        :return:
+        """
         data = self.blob[['datetimeobject', 'STUSPS', 'positiveRate', 'testRate']].copy()
 
         values = data[data.datetimeobject == data.datetimeobject.max()]
@@ -23,6 +36,12 @@ class Rates:
 
     @staticmethod
     def estimates(latest) -> pd.DataFrame:
+        """
+
+        :param latest: Per state, the latest date's data
+        :return:
+        """
+
         data = latest.copy()
         values = pd.DataFrame(data={'STUSPS': data['STUSPS'].values,
                                     'positiveTestRate': (100 * data['positiveRate'] / data['testRate']).values
@@ -35,5 +54,6 @@ class Rates:
         # A DataFrame of the latest record, w.r.t. date, per State
         latest = self.latest()
         estimates = self.estimates(latest=latest)
+        self.logger.info('\n{}\n'.format(estimates.tail()))
         estimates.to_csv(path_or_buf=os.path.join(self.warehouse, 'rates.csv'),
                          header=True, index=False, encoding='utf-8')
