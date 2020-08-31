@@ -37,7 +37,7 @@ dropdown.on('change', function(e){
 // Generate graphs
 function generateChart(fileNamekey){
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/data/hopkins/'+fileNamekey+'.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/hopkins/warehouse/state/candles/'+fileNamekey+'.json', function (data) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
