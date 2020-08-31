@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime
 
 import pandas as pd
@@ -17,16 +18,15 @@ class Readings:
 
         # Configurations
         configurations = config.Config()
-
-        # ... Values
         self.daily = configurations.daily
         self.datestring = configurations.datestring
         self.datepattern = configurations.datepattern
         self.names = configurations.names
         self.measures = configurations.measures
-
-        # ... Functions
         self.fields, self.types = configurations.attributes()
+
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
 
     def features(self, blob):
         """
@@ -36,9 +36,7 @@ class Readings:
         """
 
         data = blob.copy()
-
         data.loc[:, self.measures] = data[self.measures].fillna(value=0)
-
         return data.merge(self.states[['STUSPS', 'POPESTIMATE2019']], how='left', on='STUSPS')
 
     def structure(self, blob) -> pd.DataFrame:
@@ -81,5 +79,7 @@ class Readings:
         data = self.retrieve()
         data = self.structure(blob=data)
         data = self.features(blob=data)
+
+        self.logger.info('\n{}\n'.format(data.tail()))
 
         return data
