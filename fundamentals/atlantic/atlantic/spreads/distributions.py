@@ -21,7 +21,7 @@ class Distributions:
         self.fields = attributes.fields()
         self.dtype = attributes.dtype()
         self.parse_dates = attributes.parse_dates()
-        self.categories = attributes.categories()
+        self.variables = attributes.variables()
 
         self.sourcestring = attributes.sourcestring
         self.sourcename = attributes.sourcename
@@ -44,19 +44,19 @@ class Distributions:
 
         candlesticks = candles.candlesticks.CandleSticks(days=days, points=self.points)
 
-        for category in self.categories:
+        for variable in self.variables:
 
-            readings = data[['epochmilli', 'STUSPS', category]]
-            pivoted = readings.pivot(index='STUSPS', columns='epochmilli', values=category)
+            readings = data[['epochmilli', 'STUSPS', variable]]
+            pivoted = readings.pivot(index='STUSPS', columns='epochmilli', values=variable)
             patterns = candlesticks.execute(data=pivoted, fields=days['epochmilli'].values)
 
-            if category.endswith('Rate'):
+            if variable.endswith('Rate'):
                 patterns.drop(columns=['tally'], inplace=True)
 
-            if category.endswith('Increase'):
+            if variable.endswith('Increase'):
                 patterns.loc[:, 'tallycumulative'] = patterns['tally'].cumsum(axis=0)
 
-            patterns.to_json(path_or_buf=os.path.join(path, '{}.json'.format(category)), orient='values')
+            patterns.to_json(path_or_buf=os.path.join(path, '{}.json'.format(variable)), orient='values')
 
     def exc(self):
 

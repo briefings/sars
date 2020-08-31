@@ -24,7 +24,7 @@ class Attributes:
         self.points = np.array((0.1, 0.25, 0.5, 0.75, 0.9))
 
     @staticmethod
-    def categories():
+    def variables():
         return ['positiveIncrease', 'testIncrease', 'deathIncrease', 'positiveCumulative', 'testCumulative',
                 'deathCumulative', 'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate',
                 'positiveRate', 'testRate', 'deathRate']
