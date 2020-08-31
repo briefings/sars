@@ -9,19 +9,19 @@ import config
 
 class Gazetteer:
 
-    def __init__(self, counties: pd.DataFrame, states: pd.DataFrame, population: pd.DataFrame, inhabitants: str):
+    def __init__(self, counties: pd.DataFrame, states: pd.DataFrame, population: pd.DataFrame):
 
         logging.basicConfig(level=logging.INFO)
         self.logger = logging.getLogger(__name__)
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
+        self.inhabitants = configurations.inhabitants
         self.urn, self.urc = configurations.regions()
 
         self.counties = counties
         self.states = states
         self.population = population
-        self.inhabitants = inhabitants
 
     def names(self) -> pd.DataFrame:
 
