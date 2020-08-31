@@ -11,35 +11,37 @@ import atlantic.base.directories
 class Config:
 
     def __init__(self):
-        # Records began ...
+
+        # Starting, ending, days thus far.  The name of the C.T.P. date field, and the pattern of the dates
         self.starting: str = '2020-01-22'
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
-
-        # End point
-        limit: datetime = datetime.today() - timedelta(days=1)
-        self.ending: str = limit.strftime('%Y-%m-%d')
-
-        # Source: The name of the C.T.P. date field, and the pattern of the dates
+        self.ending: str = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
         self.datestring = 'date'
         self.datepattern = '%Y%m%d'
 
-        # Data
+        # The data, the metadata, selection of metadata
         self.daily = 'https://covidtracking.com/api/v1/states/daily.csv'
-
-        # The metadata of 'dailystates'
         self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
                         'develop/sars/covidTrackingProjectStates.json'
-
-        # Metadata of the ...
         self.metadatafilter = pd.DataFrame({'name': [self.datestring, 'state', 'positiveIncrease',
                                                      'totalTestResultsIncrease', 'deathIncrease']})
 
-        # Names & Measure
+        # Names & Measures
         self.names = {'state': 'STUSPS', 'totalTestResultsIncrease': 'testIncrease'}
         self.measures = ['positiveIncrease', 'testIncrease', 'deathIncrease']
 
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
+
+    @staticmethod
+    def regions():
+
+        urn = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+              'countries/us/geography/regions/names.csv'
+        urc = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+              'countries/us/geography/regions/fips.csv'
+
+        return urn, urc
 
     def storage(self):
 
