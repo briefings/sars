@@ -15,6 +15,7 @@ def main():
     # States
     states: pd.DataFrame = boundaries.states(year=settings.latest)
     states = population[['STATEFP', 'POPESTIMATE2019']].merge(states, how='left', on='STATEFP')
+    states.rename(columns={'NAME': 'STATE', 'GEOID': 'STATEGEOID'}, inplace=True)
     logger.info(states.head())
 
     # Days
@@ -34,10 +35,10 @@ def main():
     logger.info(derivations.tail())
 
     # The latest positive test rates: for graph labelling purposes
-    rates = atlantic.algorithms.rates.Rates(blob=derivations).exc()
+    atlantic.algorithms.rates.Rates(blob=derivations).exc()
 
     # Places
-    gazetteer = atlantic.src.gazetteer.Gazetteer(rates=rates)
+    gazetteer = atlantic.src.gazetteer.Gazetteer()
     gazetteer.exc(states=states)
 
     # Hence, save the data sets of interest
