@@ -16,9 +16,7 @@ class Derivations:
 
         # Configurations & Field Names
         configurations = config.Config()
-
         self.epochdays = configurations.epochdays
-
         self.measures = configurations.measures
         self.cumulative = [measure.replace('Increase', 'Cumulative') for measure in self.measures]
         self.rate = [measure.replace('Increase', 'Rate') for measure in self.measures]
