@@ -35,7 +35,7 @@ class Config:
         self.categories = ['confirmed', 'deaths']
         self.measures = {'confirmed': 'positiveCumulative', 'deaths': 'deathCumulative'}
 
-        # Population field
+        # The name of the population field
         self.inhabitants = 'POPESTIMATE2019'
 
         # Outcomes directories
@@ -45,9 +45,9 @@ class Config:
     def regions():
 
         urn = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
-                          'countries/us/geography/regions/names.csv'
+              'countries/us/geography/regions/names.csv'
         urc = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
-                          'countries/us/geography/regions/fips.csv'
+              'countries/us/geography/regions/fips.csv'
 
         return urn, urc
 
