@@ -18,7 +18,7 @@ class Config:
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
 
         # End point
-        limit: datetime = datetime.today() - timedelta(days=1)
+        limit: datetime = datetime.today() - timedelta(days=2)
         self.ending: str = limit.strftime('%Y-%m-%d')
 
         # Source: The name of the J.H. date field, and the pattern of the dates
@@ -43,7 +43,7 @@ class Config:
         # Population field
         self.inhabitants = 'POPESTIMATE2019'
 
-        # Results directory
+        # Outcomes directories
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
 
     @staticmethod
@@ -60,7 +60,8 @@ class Config:
 
         directories = hopkins.base.directories.Directories()
         directories.cleanup(listof=[self.warehouse])
-        directories.create(listof=[self.warehouse])
+        directories.create(listof=[os.path.join(self.warehouse, 'county'),
+                                   os.path.join(self.warehouse, 'state')])
 
     def days(self):
         """
