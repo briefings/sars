@@ -16,7 +16,6 @@ def main():
     states: pd.DataFrame = boundaries.states(year=settings.latest)
     states = population[['STATEFP', 'POPESTIMATE2019']].merge(states, how='left', on='STATEFP')
     states.rename(columns={'NAME': 'STATE', 'GEOID': 'STATEGEOID'}, inplace=True)
-    logger.info(states.head())
 
     # Days
     days = configurations.days()
