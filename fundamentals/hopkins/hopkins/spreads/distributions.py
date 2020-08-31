@@ -26,7 +26,7 @@ class Distributions:
         self.days = configurations.days()
         self.warehouse = configurations.warehouse
         self.path = os.path.join(self.warehouse, self.level, 'candles')
-
+        
         attributes = hopkins.spreads.attributes.Attributes(level=self.level)
         self.variables = attributes.variables()
         self.fields = attributes.fields()
@@ -51,11 +51,11 @@ class Distributions:
         return data
 
     @dask.delayed
-    def candles(self, data, basename):
+    def candles(self, data, path) -> bool:
         """
 
         :param data: The data for calculating ...
-        :param basename: Thus far, STUSPS codes only
+        :param path: Where the dta file will be written ...
         :return:
         """
 
@@ -71,9 +71,23 @@ class Distributions:
             if variable.endswith('Increase'):
                 patterns.loc[:, 'tallycumulative'] = patterns['tally'].cumsum(axis=0)
 
-            patterns.to_json(path_or_buf=os.path.join(self.path, basename, '{}.json'.format(variable)), orient='values')
-            
-        return 1
+            patterns.to_json(path_or_buf=os.path.join(path, '{}.json'.format(variable)), orient='values')
+
+        return True
+
+    def setup(self, filestrings):
+
+        if self.level == 'county':
+            basenames = [os.path.splitext(os.path.basename(filestring))[0] for filestring in filestrings]
+            destinations = [os.path.join(self.path, basename) for basename in basenames]
+        else:
+            destinations = [self.path]
+
+        directories = [dask.delayed(self.paths)(destination) for destination in destinations]
+        dask.visualize(directories, filename='directories', format='pdf')
+        dask.compute(directories, scheduler='processes')
+
+        return destinations
 
     def exc(self, path):
         """
@@ -82,20 +96,13 @@ class Distributions:
         :return:
         """
 
-        filestrings = glob.glob(pathname=os.path.join(path, '*.csv'))
-        basenames = [os.path.splitext(os.path.basename(filestring))[0] for filestring in filestrings]
-        strings = [os.path.join(self.path, basename) for basename in basenames]
-
-        directories = [dask.delayed(self.paths)(string) for string in strings]
-        dask.visualize(directories, filename='directories', format='pdf')
-        dask.compute(directories, scheduler='processes')
+        filestrings = glob.glob(pathname=os.path.join(path))
+        destinations = self.setup(filestrings=filestrings)
 
         computations = []
-        for basename, filestring in zip(basenames, filestrings):
+        for destination, filestring in zip(destinations, filestrings):
             data = self.read(filestring=filestring)
-            status = self.candles(data=data, basename=basename)
-            computations.append(status)
+            success = self.candles(data=data, path=destination)
+            computations.append(success)
         dask.visualize(computations, filename='candles', format='pdf')
-        numbers = dask.compute(computations, scheduler='processes')[0]
-
-        return numbers
+        dask.compute(computations, scheduler='processes')
