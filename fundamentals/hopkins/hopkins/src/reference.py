@@ -1,12 +1,18 @@
 import numpy as np
 import pandas as pd
 
+import logging
+
 import config
 
 
 class Reference:
 
     def __init__(self, days: pd.DataFrame, gazetter: pd.DataFrame):
+
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
+
         configurations = config.Config()
         self.datestring = configurations.datestring
 
@@ -39,5 +45,8 @@ class Reference:
 
         # Prepending self.days, hence a few date format/object options are available
         baseline = self.days.merge(baseline, how='right', on=self.datestring)
+
+        # Preview
+        self.logger.info('\n{}\n'.format(baseline.tail()))
 
         return baseline

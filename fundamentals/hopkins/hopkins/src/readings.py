@@ -11,7 +11,9 @@ combines; it returns a single data frame.
 
 import pandas as pd
 
-import hopkins.src.inspect
+import logging
+
+import hopkins.algorithms.inspect
 
 import config
 
@@ -20,13 +22,16 @@ class Readings:
 
     def __init__(self, features: pd.DataFrame, reference: pd.DataFrame, days: pd.DataFrame):
 
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
+
         configurations = config.Config()
         self.datestring = configurations.datestring
         self.categories = configurations.categories
         self.measures = configurations.measures
         self.url = configurations.url
 
-        self.inspect = hopkins.src.inspect.Inspect()
+        self.inspect = hopkins.algorithms.inspect.Inspect()
 
         self.features = features
         self.reference = reference
@@ -66,17 +71,15 @@ class Readings:
 
         for category in self.categories:
 
-            # Read
+            # Read, melt, update
             readings = self.read(category=category)
-
-            # Melt
             readings = readings.melt(id_vars='COUNTYGEOID', value_vars=self.datefields,
                                      var_name=self.datestring, value_name=category)
-
-            # Update series
             data = data.merge(readings, how='left', on=[self.datestring, 'COUNTYGEOID'])
 
         data.rename(columns=self.measures, inplace=True)
         data.sort_values(by=['COUNTYGEOID', 'datetimeobject'], ascending=True, inplace=True, ignore_index=True)
+
+        self.logger.info('\n{}\n'.format(data.tail()))
 
         return data

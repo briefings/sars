@@ -29,7 +29,7 @@ class Dearchive:
 
         return req.content
 
-    def unzip(self, urlstring: str):
+    def exc(self, urlstring: str):
         """
         De-archives a zip archive file
         :param urlstring:

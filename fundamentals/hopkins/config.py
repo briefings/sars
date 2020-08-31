@@ -18,7 +18,7 @@ class Config:
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
 
         # End point
-        limit: datetime = datetime.today() - timedelta(days=1)
+        limit: datetime = datetime.today() - timedelta(days=2)
         self.ending: str = limit.strftime('%Y-%m-%d')
 
         # Source: The name of the J.H. date field, and the pattern of the dates
@@ -35,20 +35,33 @@ class Config:
         # Data
         self.urlfields = 'https://raw.githubusercontent.com/premodelling/dictionaries/develop/' \
                          'sars/johnHopkinsCountiesReference.json'
-
         self.url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/' \
                    'csse_covid_19_time_series/time_series_covid19_{category}_US.csv'
         self.categories = ['confirmed', 'deaths']
         self.measures = {'confirmed': 'positiveCumulative', 'deaths': 'deathCumulative'}
 
-        # Results directory
+        # Population field
+        self.inhabitants = 'POPESTIMATE2019'
+
+        # Outcomes directories
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
+
+    @staticmethod
+    def regions():
+
+        urn = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+                          'countries/us/geography/regions/names.csv'
+        urc = 'https://raw.githubusercontent.com/discourses/hub/develop/data/' \
+                          'countries/us/geography/regions/fips.csv'
+
+        return urn, urc
 
     def storage(self):
 
         directories = hopkins.base.directories.Directories()
         directories.cleanup(listof=[self.warehouse])
-        directories.create(listof=[self.warehouse])
+        directories.create(listof=[os.path.join(self.warehouse, 'county'),
+                                   os.path.join(self.warehouse, 'state')])
 
     def days(self):
         """

@@ -1,8 +1,10 @@
+*.pdf
+
 *cartographs/
 *candles/
 *populations/
 *states/
 *counties/
 
-
-!warehouse/candles
+!warehouse/county/candles/
+!warehouse/state/candles/
