@@ -26,60 +26,21 @@ def main():
     logger.info('\n{}\n'.format(counties.tail()))
 
     # Gazetteer
-    gazetteer, _ = hopkins.src.gazetteer.Gazetteer(counties=counties, states=states, population=population,
-                                                   inhabitants=inhabitants).exc()
+    gazetteer, _ = hopkins.src.gazetteer.Gazetteer(counties=counties, states=states, population=population).exc()
 
     # The fields of the latest J.H. data set
-    features = hopkins.src.features.Features(datestrings=days[configurations.datestring].values,
+    features = hopkins.src.features.Features(datestrings=days[datestring].values,
                                              basefields=['FIPS']).exc()
 
     # Reference: Creates all distinct county & dates combinations per county
-    reference = hopkins.src.reference.Reference(days=days,
-                                                gazetter=gazetteer[['STATEFP', 'STUSPS', 'COUNTYGEOID', inhabitants]]
-                                                ).exc()
+    reference = hopkins.src.reference.Reference(
+        days=days, gazetter=gazetteer[['STATEFP', 'STUSPS', 'COUNTYGEOID', inhabitants]]).exc()
 
     # Readings: Reads and structures
     readings = hopkins.src.readings.Readings(features=features, reference=reference, days=days).exc()
 
-    # Addressing Anomalies. Therefore, county & state readings after corrections ...
-    rvc = hopkins.algorithms.anomalies.Anomalies(blob=readings).exc()
-    logger.info('\n{}\n'.format(rvc.info()))
-
-    rvs: pd.DataFrame = rvc.drop(columns=['COUNTYGEOID']). \
-        groupby(by=['datetimeobject', 'date', 'epochmilli', 'STATEFP', 'STUSPS']).sum()
-    rvs.reset_index(drop=False, inplace=True)
-    logger.info('\n{}\n'.format(rvs.info()))
-
-    # Derivations
-    derivations = hopkins.algorithms.derivations.Derivations()
-
-    usc = derivations.exc(blob=rvc, inhabitants=inhabitants)
-    logger.info('\n{}\n'.format(usc.info()))
-
-    uss = derivations.exc(blob=rvs, inhabitants=inhabitants)
-    logger.info('\n{}\n'.format(uss.info()))
-
-    # Depositing
-    partitions = hopkins.algorithms.partitions. \
-        Partitions(blob=usc.drop(columns=[datestring, inhabitants]), partitionby='STUSPS')
-    partitions.exc(category='county', segment='baselines')
-
-    low = hopkins.algorithms.segments.Segments(blob=usc, category='county')
-    low.exc(select=['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate'],
-            segment='capita')
-
-    high = hopkins.algorithms.segments.Segments(blob=uss, category='state')
-    high.exc(select=uss.columns.drop(labels=['date', 'STATEFP', 'POPESTIMATE2019']),
-             segment='baselines')
-    high.exc(select=['datetimeobject', 'epochmilli', 'STUSPS', 'positiveRate', 'deathRate'],
-             segment='capita')
-
-    # Spreads
-    distributions = hopkins.spreads.distributions.Distributions(level='county', via='COUNTYGEOID')
-    distributions.exc(path=os.path.join(warehouse, 'county', 'baselines', '*.csv'))
-
-    alt = hopkins.spreads.distributions.Distributions(level='state', via='STUSPS')
-    alt.exc(path=os.path.join(warehouse, 'state', 'baselines.csv'))
+    interface = hopkins.interface.Interface(readings=readings)
+    interface.exc()
 
 
 if __name__ == '__main__':
@@ -98,15 +59,12 @@ if __name__ == '__main__':
     import hopkins.algorithms.partitions
     import hopkins.algorithms.segments
 
-
-
     # Create a config instance and empty the results storage directories
     configurations = config.Config()
     configurations.storage()
     days = configurations.days()
     inhabitants = configurations.inhabitants
     datestring = configurations.datestring
-    warehouse = configurations.warehouse
 
     # Utilities
     import hopkins.base.utilities
@@ -125,6 +83,7 @@ if __name__ == '__main__':
 
     county = populations.us.reference.county.County()
 
-    import hopkins.spreads.distributions
+    # Calculations
+    import hopkins.interface
 
     main()
