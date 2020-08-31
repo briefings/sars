@@ -65,21 +65,21 @@ def main():
     partitions.exc(category='county', segment='baselines')
 
     low = hopkins.algorithms.segments.Segments(blob=usc, category='county')
-    low.exc(select=['datetimeobject', 'epochmilli', 'STATEFP', 'COUNTYGEOID', 'positiveRate', 'deathRate'],
+    low.exc(select=['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate'],
             segment='capita')
 
     high = hopkins.algorithms.segments.Segments(blob=uss, category='state')
-    high.exc(select=uss.columns.drop(labels=['date', 'STUSPS', 'POPESTIMATE2019']),
+    high.exc(select=uss.columns.drop(labels=['date', 'STATEFP', 'POPESTIMATE2019']),
              segment='baselines')
-    high.exc(select=['datetimeobject', 'epochmilli', 'STATEFP', 'positiveRate', 'deathRate'],
+    high.exc(select=['datetimeobject', 'epochmilli', 'STUSPS', 'positiveRate', 'deathRate'],
              segment='capita')
 
     # Spreads
-    logger.info(warehouse)
-    logger.info(os.path.join(warehouse, 'county', 'baselines'))
     distributions = hopkins.spreads.distributions.Distributions(level='county', via='COUNTYGEOID')
-    numbers = distributions.exc(path=os.path.join(warehouse, 'county', 'baselines'))
-    logger.info('\n{}\n'.format(numbers))
+    distributions.exc(path=os.path.join(warehouse, 'county', 'baselines', '*.csv'))
+
+    alt = hopkins.spreads.distributions.Distributions(level='state', via='STUSPS')
+    alt.exc(path=os.path.join(warehouse, 'state', 'baselines.csv'))
 
 
 if __name__ == '__main__':
