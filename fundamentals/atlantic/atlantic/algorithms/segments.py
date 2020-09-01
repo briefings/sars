@@ -19,13 +19,6 @@ class Segments:
         logging.basicConfig(level=logging.INFO)
         self.logger = logging.getLogger(__name__)
 
-    def candles(self):
-        data = self.blob.copy()
-        data = data.drop(columns=['POPESTIMATE2019'])
-
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'candles.csv'),
-                    header=True, index=False, encoding='utf-8')
-
     def increases(self):
         data = self.blob[['datetimeobject', 'STUSPS', 'positiveIncrease', 'testIncrease', 'deathIncrease']].copy()
 
@@ -36,25 +29,33 @@ class Segments:
         data = self.blob.copy()
         data = data.drop(columns='POPESTIMATE2019', inplace=False)
 
+        self.logger.info('\nBaseline\n{}\n'.format(data.info()))
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'baseline.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def special(self):
 
         data = self.blob.copy()
-        data = data.drop(columns='POPESTIMATE2019', inplace=False)
+        data = data.drop(columns=['POPESTIMATE2019', 'positiveIncrease', 'testIncrease', 'deathIncrease',
+                                  'positiveCumulative', 'testCumulative', 'deathCumulative',
+                                  'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate'])
 
         gridlines = atlantic.algorithms.gridlines.GridLines(positive_rate_max=data['positiveRate'].max(),
                                                             test_rate_max=data['testRate'].max()).exc()
 
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
-        self.logger.info(data.tail())
+        self.logger.info('\nSpecial\n{}\n'.format(data.info()))
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'special.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def exc(self):
-        self.candles()
-        self.increases()
+
+        # The baseline
         self.baseline()
+
+        # A slimmer option for Tableau
+        self.increases()
+
+        # In progress
         self.special()
