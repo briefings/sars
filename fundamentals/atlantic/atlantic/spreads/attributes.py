@@ -14,7 +14,7 @@ class Attributes:
         self.warehouse = configurations.warehouse
 
         # Data source
-        self.sourcename = 'candles.csv'
+        self.sourcename = 'baseline.csv'
         self.sourcestring = os.path.join(self.warehouse, self.sourcename)
 
         # Write calculations to directory ...
