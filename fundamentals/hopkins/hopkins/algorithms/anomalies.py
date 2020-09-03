@@ -101,6 +101,14 @@ class Anomalies:
         return data
 
     def exc(self):
-        data = self.estimate()
+        """
+        instate: pd.DataFrame = incounty
+        :return:
+        """
+        county = self.estimate()
 
-        return data
+        state = county.drop(columns=['COUNTYGEOID'])
+        state = state.groupby(by=['datetimeobject', 'date', 'epochmilli', 'STATEFP', 'STUSPS']).sum()
+        state.reset_index(drop=False, inplace=True)
+
+        return county, state
