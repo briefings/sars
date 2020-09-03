@@ -17,8 +17,9 @@ class Partitions:
     def __init__(self, blob: pd.DataFrame, partitionby: str):
         """
         Details ...
-        :param blob: The DataFrame of counties or states data
-        :param partitionby: The field to partition by when writing to file
+        :param blob: A DataFrame of counties or states data
+        :param partitionby: The field to partition by when writing to file; the unique values of this field are
+                            used to create the data batches that are saved to distinct files.
         """
 
         configurations = config.Config()

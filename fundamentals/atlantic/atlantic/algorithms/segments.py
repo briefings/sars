@@ -24,6 +24,7 @@ class Segments:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'increases.csv'),
                     header=True, index=False, encoding='utf-8')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'increases.json'), orient='values')
 
     def baseline(self):
         data = self.blob.copy()
@@ -48,6 +49,7 @@ class Segments:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'special.csv'),
                     header=True, index=False, encoding='utf-8')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'special.json'), orient='values')
 
     def exc(self):
 
