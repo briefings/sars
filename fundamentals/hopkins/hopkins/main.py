@@ -39,8 +39,13 @@ def main():
     # Readings: Reads and structures
     readings = hopkins.src.readings.Readings(features=features, reference=reference, days=days).exc()
 
-    interface = hopkins.interface.Interface(readings=readings)
-    interface.exc()
+    # Addressing Anomalies. Therefore, county & state readings after corrections ...
+    anomalies = hopkins.algorithms.anomalies.Anomalies(blob=readings)
+    countylevel, statelevel = anomalies.exc()
+
+    # Write
+    hopkins.streams.nucleus.Nucleus(data=countylevel).exc()
+    hopkins.streams.membrane.Membrane(data=statelevel).exc()
 
 
 if __name__ == '__main__':
@@ -55,9 +60,6 @@ if __name__ == '__main__':
     import hopkins.src.readings
 
     import hopkins.algorithms.anomalies
-    import hopkins.algorithms.derivations
-    import hopkins.algorithms.partitions
-    import hopkins.algorithms.segments
 
     # Create a config instance and empty the results storage directories
     configurations = config.Config()
@@ -84,6 +86,7 @@ if __name__ == '__main__':
     county = populations.us.reference.county.County()
 
     # Calculations
-    import hopkins.interface
+    import hopkins.streams.nucleus
+    import hopkins.streams.membrane
 
     main()
