@@ -1,8 +1,6 @@
 ## Algorithms
 
-Simple structuring cases ...
-
-<br>
+For simple data structuring ...
 
 
 ### Preliminaries
@@ -30,10 +28,4 @@ Note
   * graphviz
 
 
-Exclude
-
-* pywin32
-* nodejs
-* python-graphviz
-
-from filter.txt
+Exclude `pywin32`, `nodejs`, and `python-graphviz`, from filter.txt
