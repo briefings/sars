@@ -24,11 +24,12 @@ class Config:
         self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
                         'develop/sars/covidTrackingProjectStates.json'
         self.metadatafilter = pd.DataFrame({'name': [self.datestring, 'state', 'positiveIncrease',
-                                                     'totalTestResultsIncrease', 'deathIncrease']})
+                                                     'totalTestResultsIncrease', 'deathIncrease',
+                                                     'hospitalizedIncrease']})
 
         # Names & Measures
         self.names = {'state': 'STUSPS', 'totalTestResultsIncrease': 'testIncrease'}
-        self.measures = ['positiveIncrease', 'testIncrease', 'deathIncrease']
+        self.measures = ['positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease']
 
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
