@@ -37,6 +37,7 @@ class Readings:
 
         data = blob.copy()
         data.loc[:, self.measures] = data[self.measures].fillna(value=0)
+
         return data.merge(self.states[['STUSPS', 'POPESTIMATE2019']], how='left', on='STUSPS')
 
     def structure(self, blob) -> pd.DataFrame:
