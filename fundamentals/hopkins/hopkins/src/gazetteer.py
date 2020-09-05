@@ -9,7 +9,7 @@ import config
 
 class Gazetteer:
 
-    def __init__(self, counties: pd.DataFrame, states: pd.DataFrame, population: pd.DataFrame):
+    def __init__(self, counties: pd.DataFrame, population: pd.DataFrame):
 
         logging.basicConfig(level=logging.INFO)
         self.logger = logging.getLogger(__name__)
@@ -20,7 +20,6 @@ class Gazetteer:
         self.urn, self.urc = configurations.regions()
 
         self.counties = counties
-        self.states = states
         self.population = population
 
     def names(self) -> pd.DataFrame:
@@ -51,23 +50,7 @@ class Gazetteer:
 
         gazetteer = values.merge(region, how='left', on='STATEFP')
         gazetteer = gazetteer.merge(self.population[['COUNTYGEOID', self.inhabitants]], how='right', on='COUNTYGEOID')
-        gazetteer.to_csv(path_or_buf=os.path.join(self.warehouse, 'county', 'gazetteer.csv'),
-                         header=True, index=False, encoding='utf-8')
-
-        self.logger.info('\n{}\n'.format(gazetteer))
-
-        return gazetteer
-
-    def state(self, region: pd.DataFrame) -> pd.DataFrame:
-
-        values = self.states[['STATEFP', 'STUSPS', 'STATE', 'ALAND']]
-
-        population: pd.DataFrame = self.population[['STATEFP', self.inhabitants]].groupby(by='STATEFP').sum()
-        population.reset_index(drop=False, inplace=True)
-
-        gazetteer = values.merge(region, how='left', on='STATEFP')
-        gazetteer = gazetteer.merge(population, how='right', on='STATEFP')
-        gazetteer.to_csv(path_or_buf=os.path.join(self.warehouse, 'state', 'gazetteer.csv'),
+        gazetteer.to_csv(path_or_buf=os.path.join(self.warehouse, 'gazetteer.csv'),
                          header=True, index=False, encoding='utf-8')
 
         self.logger.info('\n{}\n'.format(gazetteer))
@@ -76,11 +59,11 @@ class Gazetteer:
 
     def exc(self):
         """
-        Option: region.drop(labels=['REGIONFP', 'DIVISIONFP'], inplace=True)
+
         :return:
         """
 
         region = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         self.logger.info('\n{}\n'.format(region))
 
-        return self.county(region=region), self.state(region=region)
+        return self.county(region=region)
