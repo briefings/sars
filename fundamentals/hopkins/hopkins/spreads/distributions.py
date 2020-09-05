@@ -12,22 +12,20 @@ import hopkins.spreads.attributes
 
 class Distributions:
 
-    def __init__(self, level: str, via: str):
+    def __init__(self, via: str):
         """
 
-        :param level: county or state
-        :param via: Either COUNTYGEOID or STUSPS
+        :param via: For example, COUNTYGEOID
         """
 
-        self.level = level
         self.via = via
 
         configurations = config.Config()
         self.days = configurations.days()
         self.warehouse = configurations.warehouse
-        self.path = os.path.join(self.warehouse, self.level, 'candles')
+        self.path = os.path.join(self.warehouse, 'candles')
         
-        attributes = hopkins.spreads.attributes.Attributes(level=self.level)
+        attributes = hopkins.spreads.attributes.Attributes()
         self.variables = attributes.variables()
         self.fields = attributes.fields()
         self.dtype = attributes.dtype()
@@ -76,14 +74,16 @@ class Distributions:
         return True
 
     def setup(self, filestrings):
+        """
 
-        if self.level == 'county':
-            basenames = [os.path.splitext(os.path.basename(filestring))[0] for filestring in filestrings]
-            destinations = [os.path.join(self.path, basename) for basename in basenames]
-        else:
-            destinations = [self.path]
+        :param filestrings:
+        :return:
+        """
 
+        basenames = [os.path.splitext(os.path.basename(filestring))[0] for filestring in filestrings]
+        destinations = [os.path.join(self.path, basename) for basename in basenames]
         directories = [dask.delayed(self.paths)(destination) for destination in destinations]
+
         dask.visualize(directories, filename='directories', format='pdf')
         dask.compute(directories, scheduler='processes')
 
@@ -104,5 +104,6 @@ class Distributions:
             data = self.read(filestring=filestring)
             success = self.candles(data=data, path=destination)
             computations.append(success)
+
         dask.visualize(computations, filename='candles', format='pdf')
         dask.compute(computations, scheduler='processes')
