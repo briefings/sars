@@ -1,7 +1,8 @@
+import logging
 import os
-import pandas as pd
 
 import numpy as np
+import pandas as pd
 
 import config
 
@@ -15,6 +16,9 @@ class Features:
         :param basefields: The non-date fields of interest.  In addition to the date fields, the J.H. data
                            includes a variety of geographic, etc., fields.
         """
+
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
 
         configurations = config.Config()
         self.urlfields = configurations.urlfields
@@ -30,7 +34,8 @@ class Features:
         """
 
         try:
-            data = pd.read_json(path_or_buf=self.urlfields, orient='records', typ='frame', dtype={'field': 'str', 'type': 'str'})
+            data = pd.read_json(path_or_buf=self.urlfields, orient='records', typ='frame',
+                                dtype={'field': 'str', 'type': 'str'})
         except OSError as err:
             raise err
 
@@ -52,5 +57,7 @@ class Features:
 
         # Save a copy
         values.to_json(path_or_buf=os.path.join(self.warehouse, 'johnHopkinsCounties.json'), orient='records')
+
+        self.logger.info('\n{}\n'.format(values.tail()))
 
         return values

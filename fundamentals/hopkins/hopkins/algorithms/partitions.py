@@ -17,7 +17,7 @@ class Partitions:
     def __init__(self, blob: pd.DataFrame, partitionby: str):
         """
         Details ...
-        :param blob: A DataFrame of counties or states data
+        :param blob: A DataFrame of counties data
         :param partitionby: The field to partition by when writing to file; the unique values of this field are
                             used to create the data batches that are saved to distinct files.
         """
@@ -45,17 +45,16 @@ class Partitions:
         data.to_csv(path_or_buf=os.path.join(path, name + '.csv'), index=False, encoding='utf-8', header=True)
         return True
 
-    def exc(self, category: str, segment: str):
+    def exc(self, segment: str):
         """
 
-        :param category: county or state
         :param segment: baselines, candles, increases, etc
         :return:
         """
 
-        path = os.path.join(self.warehouse, category, segment)
-
+        path = os.path.join(self.warehouse, segment)
         self.paths(path=path)
+
         partitions = self.partitions
 
         pool = mp.Pool(mp.cpu_count())

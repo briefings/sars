@@ -6,6 +6,7 @@ import pandas as pd
 
 
 def main():
+    # Logging
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
 

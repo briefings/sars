@@ -20,7 +20,8 @@ class Segments:
         self.logger = logging.getLogger(__name__)
 
     def increases(self):
-        data = self.blob[['datetimeobject', 'STUSPS', 'positiveIncrease', 'testIncrease', 'deathIncrease']].copy()
+        data = self.blob[['datetimeobject', 'STUSPS', 'positiveIncrease', 'testIncrease',
+                          'deathIncrease', 'hospitalizedIncrease']].copy()
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'increases.csv'),
                     header=True, index=False, encoding='utf-8')
@@ -37,9 +38,10 @@ class Segments:
     def special(self):
 
         data = self.blob.copy()
-        data = data.drop(columns=['POPESTIMATE2019', 'positiveIncrease', 'testIncrease', 'deathIncrease',
-                                  'positiveCumulative', 'testCumulative', 'deathCumulative',
-                                  'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate'])
+        data = data.drop(
+            columns=['POPESTIMATE2019', 'positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease',
+                     'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative',
+                     'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate', 'hospitalizedIncreaseRate'])
 
         gridlines = atlantic.algorithms.gridlines.GridLines(positive_rate_max=data['positiveRate'].max(),
                                                             test_rate_max=data['testRate'].max()).exc()

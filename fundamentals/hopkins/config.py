@@ -55,8 +55,7 @@ class Config:
 
         directories = hopkins.base.directories.Directories()
         directories.cleanup(listof=[self.warehouse])
-        directories.create(listof=[os.path.join(self.warehouse, 'county'),
-                                   os.path.join(self.warehouse, 'state')])
+        directories.create(listof=[self.warehouse])
 
     def days(self):
         """
