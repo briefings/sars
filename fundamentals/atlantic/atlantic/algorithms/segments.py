@@ -27,15 +27,15 @@ class Segments:
                     header=True, index=False, encoding='utf-8')
         data.to_json(path_or_buf=os.path.join(self.warehouse, 'increases.json'), orient='values')
 
-    def baseline(self):
+    def baselines(self):
         data = self.blob.copy()
         data = data.drop(columns='POPESTIMATE2019', inplace=False)
 
-        self.logger.info('\nBaseline\n{}\n'.format(data.info()))
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'baseline.csv'),
+        self.logger.info('\nBaselines\n{}\n'.format(data.info()))
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'baselines.csv'),
                     header=True, index=False, encoding='utf-8')
 
-    def special(self):
+    def capita(self):
 
         data = self.blob.copy()
         data = data.drop(
@@ -47,19 +47,16 @@ class Segments:
                                                             test_rate_max=data['testRate'].max()).exc()
 
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
-        self.logger.info('\nSpecial\n{}\n'.format(data.info()))
+        self.logger.info('\nCapita\n{}\n'.format(data.info()))
 
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'special.csv'),
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'capita.csv'),
                     header=True, index=False, encoding='utf-8')
-        data.to_json(path_or_buf=os.path.join(self.warehouse, 'special.json'), orient='values')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values')
 
     def exc(self):
 
         # The baseline
-        self.baseline()
-
-        # A slimmer option for Tableau
-        self.increases()
+        self.baselines()
 
         # In progress
-        self.special()
+        self.capita()
