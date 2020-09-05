@@ -1,3 +1,5 @@
+import logging
+
 import numpy as np
 import pandas as pd
 
@@ -16,6 +18,10 @@ class Anomalies:
         :param blob: The latest, re-structured & checked, J.H. COVID data.  It must include
         'COUNTYGEOID', 'datetimeobject', and the fields summarised in self.measures.
         """
+
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
+
         configurations = config.Config()
         self.measures: dict = configurations.measures
 
@@ -102,13 +108,11 @@ class Anomalies:
 
     def exc(self):
         """
-        instate: pd.DataFrame = incounty
+
         :return:
         """
-        county = self.estimate()
 
-        state = county.drop(columns=['COUNTYGEOID'])
-        state = state.groupby(by=['datetimeobject', 'date', 'epochmilli', 'STATEFP', 'STUSPS']).sum()
-        state.reset_index(drop=False, inplace=True)
+        estimate = self.estimate()
+        self.logger.info('\n{}\n'.format(estimate.tail()))
 
-        return county, state
+        return estimate
