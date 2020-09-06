@@ -39,11 +39,8 @@ def main():
     derivations = hopkins.algorithms.derivations.Derivations().exc(blob=anomalies)
 
     # Row batches w.r.t. 'partitionby'
-    partitions = hopkins.algorithms.partitions.Partitions(
-        blob=derivations.drop(columns=[datestring, inhabitants], inplace=False),
-        partitionby='STUSPS'
-    )
-    partitions.exc(segment='baselines')
+    partitions = hopkins.algorithms.partitions.Partitions(blob=derivations)
+    partitions.exc()
 
     # Columnar batch
     segments = hopkins.algorithms.segments.Segments(blob=derivations)
