@@ -13,6 +13,7 @@ class Segments:
 
     def __init__(self, blob: pd.DataFrame):
         self.blob = blob
+        self.blob.loc[:, 'datetimeobject'] = self.blob['datetimeobject'].astype(str)
 
         self.warehouse = config.Config().warehouse
 
@@ -51,7 +52,7 @@ class Segments:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'capita.csv'),
                     header=True, index=False, encoding='utf-8')
-        data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values', date_format='')
 
     def exc(self):
 
