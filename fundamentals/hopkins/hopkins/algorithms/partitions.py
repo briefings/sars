@@ -10,6 +10,7 @@ import multiprocessing as mp
 import config
 
 import hopkins.base.directories
+import hopkins.algorithms.gridlines
 
 
 class Partitions:
@@ -22,6 +23,7 @@ class Partitions:
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
+        self.path = {directory: os.path.join(self.warehouse, directory) for directory in ['baselines', 'capita']}
 
         self.blob = blob.drop(columns=[configurations.datestring, configurations.inhabitants], inplace=False)
         self.forcapita = blob[['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate']]
@@ -29,8 +31,9 @@ class Partitions:
         self.partitionby = 'STUSPS'
         self.partitions = [{part} for part in blob[self.partitionby].unique()]
 
-        self.path = {directory: os.path.join(self.warehouse, directory) for directory in ['baselines', 'capita']}
-
+        gridlines = hopkins.algorithms.gridlines.GridLines(death_rate_max=blob['deathRate'].max(),
+                                                                positive_rate_max=blob['positiveRate'].max())
+        self.dpr = gridlines.dpr()
 
     @staticmethod
     def paths(path: list):
@@ -46,6 +49,9 @@ class Partitions:
 
         data = self.forcapita.copy()
         data = data[data[self.partitionby] == partition]
+
+        data = pd.concat([data, self.dpr], axis=0, ignore_index=True)
+
         data.to_csv(path_or_buf=os.path.join(self.path['capita'], partition + '.csv'),
                     index=False, encoding='utf-8', header=True)
 
