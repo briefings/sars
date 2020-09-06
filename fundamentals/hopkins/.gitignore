@@ -6,5 +6,4 @@
 *states/
 *counties/
 
-!warehouse/county/candles/
-!warehouse/state/candles/
+!warehouse/candles/

@@ -12,7 +12,6 @@ class Segments:
         Details ...
 
         :param blob: The DataFrame of counties data
-        :param category: county or state
         """
 
         configurations = config.Config()
@@ -35,7 +34,7 @@ class Segments:
         """
 
         :param select: The fields of interest
-        :param segment: baseline, candles, capita, increases, etc ... this will be the file name
+        :param segment: baselines, candles, capita, increases, etc ... this will be the file name
         :return:
         """
 
