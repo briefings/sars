@@ -26,7 +26,6 @@ class Segments:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'increases.csv'),
                     header=True, index=False, encoding='utf-8')
-        data.to_json(path_or_buf=os.path.join(self.warehouse, 'increases.json'), orient='values')
 
     def baselines(self):
         data = self.blob.copy()
@@ -48,11 +47,11 @@ class Segments:
                                                             test_rate_max=data['testRate'].max()).exc()
 
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
-        self.logger.info('\nCapita\n{}\n'.format(data.info()))
 
+        self.logger.info('\nCapita\n{}\n'.format(data.info()))
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'capita.csv'),
                     header=True, index=False, encoding='utf-8')
-        data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values', date_format='')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values')
 
     def exc(self):
 
