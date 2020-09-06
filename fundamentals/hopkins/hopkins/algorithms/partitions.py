@@ -14,49 +14,66 @@ import hopkins.base.directories
 
 class Partitions:
 
-    def __init__(self, blob: pd.DataFrame, partitionby: str):
+    def __init__(self, blob: pd.DataFrame):
         """
         Details ...
         :param blob: A DataFrame of counties data
-        :param partitionby: The field to partition by when writing to file; the unique values of this field are
-                            used to create the data batches that are saved to distinct files.
         """
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
 
-        self.blob = blob
+        self.blob = blob.drop(columns=[configurations.datestring, configurations.inhabitants], inplace=False)
+        self.forcapita = blob[['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate']]
 
-        self.partitionby = partitionby
-        parts = self.blob[self.partitionby].unique()
-        self.partitions = [{part} for part in parts]
+        self.partitionby = 'STUSPS'
+        self.partitions = [{part} for part in blob[self.partitionby].unique()]
+
+        self.path = {directory: os.path.join(self.warehouse, directory) for directory in ['baselines', 'capita']}
+
 
     @staticmethod
-    def paths(path):
+    def paths(path: list):
         directories = hopkins.base.directories.Directories()
-        directories.create(listof=[path])
+        directories.create(listof=path)
 
-    def write(self, path, partition: set):
-
-        name = partition.pop()
-
-        data = self.blob.copy()
-        data = data[data[self.partitionby] == name]
-        data.to_csv(path_or_buf=os.path.join(path, name + '.csv'), index=False, encoding='utf-8', header=True)
-        return True
-
-    def exc(self, segment: str):
+    def capita(self, partition: str):
         """
 
-        :param segment: baselines, candles, increases, etc
+        :param partition: STUSPS code of a state
         :return:
         """
 
-        path = os.path.join(self.warehouse, segment)
-        self.paths(path=path)
+        data = self.forcapita.copy()
+        data = data[data[self.partitionby] == partition]
+        data.to_csv(path_or_buf=os.path.join(self.path['capita'], partition + '.csv'),
+                    index=False, encoding='utf-8', header=True)
 
+    def baselines(self, partition: str):
+        """
+
+        :param partition: STUSPS code of a state
+        :return:
+        """
+
+        data = self.blob.copy()
+        data = data[data[self.partitionby] == partition]
+        data.to_csv(path_or_buf=os.path.join(self.path['baselines'], partition + '.csv'),
+                    index=False, encoding='utf-8', header=True)
+
+    def exc(self):
+        """
+
+        :return:
+        """
+
+        self.paths(path=list(self.path.values()))
         partitions = self.partitions
 
         pool = mp.Pool(mp.cpu_count())
-        pool.starmap(self.write, [(path, i) for i in partitions])
+        pool.starmap(self.baselines, [i for i in partitions])
+        pool.close()
+
+        pool = mp.Pool(mp.cpu_count())
+        pool.starmap(self.capita, [i for i in partitions])
         pool.close()
