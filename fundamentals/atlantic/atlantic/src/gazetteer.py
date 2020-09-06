@@ -41,6 +41,8 @@ class Gazetteer:
         regions = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         gazetteer = states.merge(regions[['STATEFP', 'REGION', 'DIVISION']], how='left', on='STATEFP')
 
-        gazetteer[['STATEFP', 'STATEGEOID', 'STUSPS', 'STATE', 'POPESTIMATE2019',
-                   'ALAND', 'REGION', 'DIVISION']].to_csv(
+        ofinterest = ['STATEFP', 'STATEGEOID', 'STUSPS', 'STATE', 'POPESTIMATE2019', 'ALAND', 'REGION', 'DIVISION']
+        gazetteer[ofinterest].to_csv(
             path_or_buf=os.path.join(self.warehouse, 'gazetteer.csv'), header=True, index=False, encoding='utf-8')
+        gazetteer[ofinterest].to_json(
+            path_or_buf=os.path.join(self.warehouse, 'gazetteer.json'), orient='values')
