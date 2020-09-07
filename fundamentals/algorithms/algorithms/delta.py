@@ -87,4 +87,7 @@ class Delta:
         dask.visualize(computations, filename='delta', format='pdf')
         calculations = dask.compute(computations, scheduler='processes')[0]
 
-        return pd.concat(calculations, axis=0, ignore_index=True)
+        frame = pd.concat(calculations, axis=0, ignore_index=True)
+        frame['delta'].fillna(value=0, inplace=True)
+
+        return frame
