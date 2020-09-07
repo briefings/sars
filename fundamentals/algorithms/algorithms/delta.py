@@ -2,10 +2,16 @@ import dask
 import numpy as np
 import pandas as pd
 
+import logging
+
 
 class Delta:
 
     def __init__(self, data: pd.DataFrame, places: np.ndarray, placestype: str):
+
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
+
         self.data = data
         self.places = places
         self.placestype = placestype
@@ -19,7 +25,7 @@ class Delta:
         :return:
         """
 
-        return np.nan if y[0] == 0 else 100 * (y[-1] - y[0]) / y[-1]
+        return np.nan if y[0] == 0 else 100 * (y[-1] - y[0]) / y[0]
 
     @dask.delayed
     def algorithm(self, period: int):
@@ -31,6 +37,7 @@ class Delta:
         """
 
         values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.rate, raw=True)
+        self.logger.info('\n{}\n'.format(values))
 
         return values.iloc[(period - 1):, :]
 
