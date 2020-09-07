@@ -19,14 +19,14 @@ class Difference:
         :return:
         """
 
-        return np.nan if y[0] == 0 else (y[-1] - y[0])
+        return y[-1] - y[0]
 
     @dask.delayed
     def algorithm(self, period: int):
         """
-        For rolling percentage difference calculations
+        For rolling difference calculations
 
-        :param period: The number of days over which a percentage difference is calculated
+        :param period: The number of days over which a difference is calculated
         :return:
         """
 
