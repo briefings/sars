@@ -114,7 +114,6 @@ class Anomalies:
 
         estimate = self.estimate()
 
-        # self.logger.info('Anomalies:\n{}\n'.format(estimate['datetimeobject'].unique()))
-        self.logger.info('\n{}\n'.format(estimate.info()))
+        self.logger.info('\nAnomalies:\n{}\n'.format(estimate.info()))
 
         return estimate
