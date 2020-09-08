@@ -80,8 +80,7 @@ class Readings:
         data = self.structure(blob=data)
         data = self.features(blob=data)
 
-        # self.logger.info('Readings:\n{}\n'.format(data['datetimeobject'].unique()))
-        self.logger.info('\n{}\n'.format(data.info()))
+        self.logger.info('\nReadings:\n{}\n'.format(data.info()))
 
 
         return data
