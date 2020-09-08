@@ -34,8 +34,9 @@ def main():
     # Tests
     tests = atlantic.algorithms.tests.Tests(blob=anomalies).exc()
 
-    # Enhancements
-    derive = atlantic.algorithms.derivations.Derivations(data=tests)
+    # Features engineering; drop 'negativeIncrease' & 'negativeCumulative' beforehand
+    derive = atlantic.algorithms.derivations.Derivations(
+        data=tests.drop(columns=['negativeIncrease', 'negativeCumulative']))
     derivations = derive.exc(places=tests['STUSPS'].unique())
     logger.info('\nDerivations:\n{}\n'.format(derivations.info()))
 
