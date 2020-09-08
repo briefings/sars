@@ -37,7 +37,6 @@ class Delta:
         """
 
         values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.rate, raw=True)
-        self.logger.info('\n{}\n'.format(values))
 
         return values.iloc[(period - 1):, :]
 
@@ -67,6 +66,7 @@ class Delta:
         """
 
         blob.loc[:, 'period'] = '{} days'.format(period)
+        blob.loc[:, 'weeks'] = float(period/7)
 
         return blob
 
