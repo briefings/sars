@@ -51,9 +51,14 @@ class Rates:
         return data
 
     def exc(self):
-        # A DataFrame of the latest record, w.r.t. date, per State
+        """
+        Creates a file of the latest ...
+
+        :return:
+        """
+
         latest = self.latest()
         estimates = self.estimates(latest=latest)
-        self.logger.info('\n{}\n'.format(estimates.tail()))
+        self.logger.info('\n{}\n'.format(estimates.info()))
         estimates.to_csv(path_or_buf=os.path.join(self.warehouse, 'rates.csv'),
                          header=True, index=False, encoding='utf-8')
