@@ -26,13 +26,18 @@ def main():
     references = reference.exc(states=states)
 
     # The C.T.P. data
-    read = atlantic.src.readings.Readings(references=references, states=states)
-    readings: pd.DataFrame = read.exc()
+    readings: pd.DataFrame = atlantic.src.readings.Readings(references=references, states=states).exc()
+
+    # Addressing Anomalies
+    anomalies = atlantic.algorithms.anomalies.Anomalies(blob=readings).exc()
+
+    # Tests
+    tests = atlantic.algorithms.tests.Tests(blob=anomalies).exc()
 
     # Enhancements
-    derive = atlantic.algorithms.derivations.Derivations(data=readings)
-    derivations = derive.exc(places=states)
-    logger.info(derivations.tail())
+    derive = atlantic.algorithms.derivations.Derivations(data=tests)
+    derivations = derive.exc(places=tests['STUSPS'].unique())
+    logger.info('\nDerivations:\n{}\n'.format(derivations.info()))
 
     # The latest positive test rates: for graph labelling purposes
     atlantic.algorithms.rates.Rates(blob=derivations).exc()
@@ -56,6 +61,8 @@ if __name__ == '__main__':
     import config
 
     import atlantic.src.reference
+    import atlantic.algorithms.anomalies
+    import atlantic.algorithms.tests
     import atlantic.algorithms.derivations
     import atlantic.algorithms.rates
     import atlantic.algorithms.segments
