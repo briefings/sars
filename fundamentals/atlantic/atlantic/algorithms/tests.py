@@ -21,7 +21,8 @@ class Tests:
         data.loc[:, 'testIncrease'] = self.addition(data['positiveIncrease'], data['negativeIncrease'])
         data.loc[:, 'testCumulative'] = self.addition(data['positiveCumulative'], data['negativeCumulative'])
 
-        self.logger.info('\n{}\n'.format(data.head()))
+        # self.logger.info('Test:\n{}\n'.format(data['datetimeobject'].unique()))
+        self.logger.info('\n{}\n'.format(data.info()))
 
         return data
 
