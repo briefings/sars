@@ -60,7 +60,6 @@ class Difference:
         """
 
         blob.loc[:, 'period'] = '{} days'.format(period)
-        blob.loc[:, 'weeks'] = float(period/7)
 
         return blob
 
