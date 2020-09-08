@@ -23,7 +23,7 @@ class Anomalies:
         self.logger = logging.getLogger(__name__)
 
         configurations = config.Config()
-        self.measures = configurations.measures
+        _, self.measures, _, _ = configurations.variables()
 
         # The data set;
         self.blob = blob
