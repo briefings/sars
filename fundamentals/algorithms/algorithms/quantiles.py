@@ -38,7 +38,6 @@ class Quantiles:
     def label(self, blob: pd.DataFrame, period: int):
 
         blob.loc[:, 'period'] = '{} days'.format(period)
-        blob.loc[:, 'weeks'] = float(period/7)
 
         return blob
 
