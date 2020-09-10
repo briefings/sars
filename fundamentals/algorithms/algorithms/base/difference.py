@@ -6,6 +6,12 @@ import pandas as pd
 class Difference:
 
     def __init__(self, data: pd.DataFrame, places: np.ndarray, placestype: str):
+        """
+
+        :param data:
+        :param places: Calculations are conducted per unique place
+        :param placestype: This will be the field name of the places data
+        """
         self.data = data
         self.places = places
         self.placestype = placestype
@@ -13,7 +19,7 @@ class Difference:
     @staticmethod
     def gap(y: np.ndarray):
         """
-        Pecentage difference calculator
+        Percentage difference calculator
 
         :param y: A data vector/array
         :return:
