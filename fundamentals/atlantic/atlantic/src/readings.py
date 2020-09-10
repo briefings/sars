@@ -21,8 +21,7 @@ class Readings:
         self.daily = configurations.daily
         self.datestring = configurations.datestring
         self.datepattern = configurations.datepattern
-        self.names = configurations.names
-        self.measures = configurations.measures
+        self.names, self.measures, _, _ = configurations.variables()
         self.fields, self.types = configurations.attributes()
 
         logging.basicConfig(level=logging.INFO)
@@ -81,6 +80,7 @@ class Readings:
         data = self.structure(blob=data)
         data = self.features(blob=data)
 
-        self.logger.info('\n{}\n'.format(data.tail()))
+        self.logger.info('\nReadings:\n{}\n'.format(data.info()))
+
 
         return data

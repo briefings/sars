@@ -9,12 +9,20 @@ import config
 class Gazetteer:
 
     def __init__(self):
+        """
+        The constructor
+        """
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
         self.urn, self.urc = configurations.regions()
 
     def names(self) -> pd.DataFrame:
+        """
+        Gets the names & codes of U.S. regions & divisions
+
+        :return:
+        """
 
         try:
             values = pd.read_csv(filepath_or_buffer=self.urn,
@@ -26,6 +34,11 @@ class Gazetteer:
         return values
 
     def codes(self) -> pd.DataFrame:
+        """
+        Gets the mappings of U.S. state, region, and division codes
+
+        :return:
+        """
 
         try:
             values = pd.read_csv(filepath_or_buffer=self.urc,
@@ -37,10 +50,18 @@ class Gazetteer:
         return values
 
     def exc(self, states: pd.DataFrame):
+        """
+        Creates gazetteer files; for graphing purposes
+
+        :param states: A DataFrame geographic information of U.S. states
+        :return:
+        """
 
         regions = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         gazetteer = states.merge(regions[['STATEFP', 'REGION', 'DIVISION']], how='left', on='STATEFP')
 
-        gazetteer[['STATEFP', 'STATEGEOID', 'STUSPS', 'STATE', 'POPESTIMATE2019',
-                   'ALAND', 'REGION', 'DIVISION']].to_csv(
+        ofinterest = ['STATEFP', 'STATEGEOID', 'STUSPS', 'STATE', 'POPESTIMATE2019', 'ALAND', 'REGION', 'DIVISION']
+        gazetteer[ofinterest].to_csv(
             path_or_buf=os.path.join(self.warehouse, 'gazetteer.csv'), header=True, index=False, encoding='utf-8')
+        gazetteer[ofinterest].to_json(
+            path_or_buf=os.path.join(self.warehouse, 'gazetteer.json'), orient='values')

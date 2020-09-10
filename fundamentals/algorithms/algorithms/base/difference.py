@@ -3,34 +3,40 @@ import numpy as np
 import pandas as pd
 
 
-class Delta:
+class Difference:
 
     def __init__(self, data: pd.DataFrame, places: np.ndarray, placestype: str):
+        """
+
+        :param data:
+        :param places: Calculations are conducted per unique place
+        :param placestype: This will be the field name of the places data
+        """
         self.data = data
         self.places = places
         self.placestype = placestype
 
     @staticmethod
-    def rate(y: np.ndarray):
+    def gap(y: np.ndarray):
         """
-        Pecentage difference calculator
+        Percentage difference calculator
 
         :param y: A data vector/array
         :return:
         """
 
-        return np.nan if y[0] == 0 else 100 * (y[-1] - y[0]) / y[-1]
+        return y[-1] - y[0]
 
     @dask.delayed
     def algorithm(self, period: int):
         """
-        For rolling percentage difference calculations
+        For rolling difference calculations
 
-        :param period: The number of days over which a percentage difference is calculated
+        :param period: The number of days over which a difference is calculated
         :return:
         """
 
-        values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.rate, raw=True)
+        values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.gap, raw=True)
 
         return values.iloc[(period - 1):, :]
 
@@ -72,12 +78,12 @@ class Delta:
 
         computations = []
         for period in periods:
-            rates = self.algorithm(period=period)
-            values = self.structure(blob=rates)
+            gaps = self.algorithm(period=period)
+            values = self.structure(blob=gaps)
             values = self.label(blob=values, period=period)
             computations.append(values)
 
-        dask.visualize(computations, filename='delta', format='pdf')
+        dask.visualize(computations, filename='gap', format='pdf')
         calculations = dask.compute(computations, scheduler='processes')[0]
 
         return pd.concat(calculations, axis=0, ignore_index=True)

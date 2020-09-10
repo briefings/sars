@@ -17,65 +17,67 @@ class Derivations:
         # Configurations & Field Names
         configurations = config.Config()
         self.epochdays = configurations.epochdays
-        self.measures = configurations.measures
-        self.cumulative = [measure.replace('Increase', 'Cumulative') for measure in self.measures]
-        self.rate = [measure.replace('Increase', 'Rate') for measure in self.measures]
-        self.increase_rate = [measure + 'Rate' for measure in self.measures]
+        _, _, self.cumulative, self.increase = configurations.variables()
+
+        # Labels for continuous & discrete capita fields
+        self.ccl = [measure.replace('Cumulative', 'Rate') for measure in self.cumulative]
+        self.dcl = [measure + 'Rate' for measure in self.increase]
 
     @dask.delayed
-    def accumulations(self, stusps: str):
+    def ccv(self, blob: pd.DataFrame):
         """
-        Calculates cumulative values per state
-        :param stusps: The STUSPS tring of a state
-        :return:
-        """
-
-        pool = self.data.copy()
-        sample = pool[pool['STUSPS'] == stusps]
-        sample = sample.sort_values(by='datetimeobject', ascending=True, inplace=False, ignore_index=True)
-
-        return pd.concat([sample,
-                          pd.DataFrame(data=sample[self.measures].cumsum(axis=0).values, columns=self.cumulative)],
-                         axis=1)
-
-    @dask.delayed
-    def capita_continuous(self, blob: pd.DataFrame):
-        """
+        continuous capita values
+        
         :param blob:
         :return: Appends cumulative values per 100,000 people
         """
         return pd.concat([blob,
                           pd.DataFrame(
                               data=(100000 * blob[self.cumulative].divide(blob['POPESTIMATE2019'], axis=0)).values,
-                              columns=self.rate)],
+                              columns=self.ccl)],
                          axis=1)
 
     @dask.delayed
-    def capita_discrete(self, blob: pd.DataFrame):
+    def dcv(self, blob: pd.DataFrame):
         """
+        discrete capita values
+        
         :param blob:
         :return: Appends discrete values per 100,000 people
         """
         return pd.concat([blob,
                           pd.DataFrame(
-                              data=(100000 * blob[self.measures].divide(blob['POPESTIMATE2019'], axis=0)).values,
-                              columns=self.increase_rate)],
+                              data=(100000 * blob[self.increase].divide(blob['POPESTIMATE2019'], axis=0)).values,
+                              columns=self.dcl)],
                          axis=1)
 
-    def exc(self, places: pd.DataFrame):
+    @dask.delayed
+    def segment(self, stusps: str):
+        """
+        Gets all data w.r.t. STUSPS
+        :param stusps:
+        :return:
         """
 
-        :param places: A DataFrame of places that must include a field that denotes the FIPS
-                       variable 'STUSPS' (ref: https://www.nist.gov/itl/publications-0/
+        sample = self.data.copy()
+        sample = sample[sample['STUSPS'] == stusps]
+        sample = sample.sort_values(by='datetimeobject', ascending=True, inplace=False, ignore_index=True)
+
+        return sample
+
+    def exc(self, places: np.ndarray):
+        """
+
+        :param places: An array of STUSPS places; FIPS codes 'STUSPS' (ref: https://www.nist.gov/itl/publications-0/
                        federal-information-processing-standards-fips)
         :return:
         """
         computations = []
 
-        for stusps in places.STUSPS.values:
-            values = self.accumulations(stusps=stusps)
-            values = self.capita_continuous(values)
-            values = self.capita_discrete(values)
+        for place in places:
+            values = self.segment(stusps=place)
+            values = self.ccv(values)
+            values = self.dcv(values)
             computations.append(values)
 
         dask.visualize(computations, filename='derivations', format='pdf')

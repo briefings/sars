@@ -13,6 +13,7 @@ class Config:
     def __init__(self):
 
         # Starting, ending, days thus far.  The name of the C.T.P. date field, and the pattern of the dates
+        # https://covidtracking.com/data/api
         self.starting: str = '2020-01-22'
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
         self.ending: str = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
@@ -23,16 +24,26 @@ class Config:
         self.daily = 'https://covidtracking.com/api/v1/states/daily.csv'
         self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
                         'develop/sars/covidTrackingProjectStates.json'
-        self.metadatafilter = pd.DataFrame({'name': [self.datestring, 'state', 'positiveIncrease',
-                                                     'totalTestResultsIncrease', 'deathIncrease',
-                                                     'hospitalizedIncrease']})
-
-        # Names & Measures
-        self.names = {'state': 'STUSPS', 'totalTestResultsIncrease': 'testIncrease'}
-        self.measures = ['positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease']
+        self.metadatafilter = pd.DataFrame({'name': [self.datestring, 'state', 'death', 'positive', 'negative',
+                                                     'inIcuCumulative', 'hospitalizedCumulative']})
 
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
+
+    @staticmethod
+    def variables():
+
+        names = {'state': 'STUSPS', 'death': 'deathCumulative', 'positive': 'positiveCumulative',
+                 'negative': 'negativeCumulative', 'inIcuCumulative': 'icuCumulative'}
+        measures = ['deathCumulative', 'positiveCumulative', 'negativeCumulative', 'icuCumulative',
+                    'hospitalizedCumulative']
+
+        cumulative = ['deathCumulative', 'positiveCumulative', 'testCumulative',
+                      'icuCumulative', 'hospitalizedCumulative']
+        increase = ['deathIncrease', 'positiveIncrease', 'testIncrease',
+                    'icuIncrease', 'hospitalizedIncrease']
+
+        return names, measures, cumulative, increase
 
     @staticmethod
     def regions():

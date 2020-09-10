@@ -25,30 +25,32 @@ class Attributes:
 
     @staticmethod
     def variables():
-        return ['positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease',
-                'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative',
-                'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate', 'hospitalizedIncreaseRate',
-                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate']
+        return ['positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease', 'icuIncrease',
+                'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative', 'icuCumulative',
+                'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate',
+                'hospitalizedIncreaseRate', 'icuIncreaseRate',
+                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate']
 
     @staticmethod
     def fields():
         return ['datetimeobject', 'STUSPS',
-                'positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease',
-                'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative',
-                'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate', 'hospitalizedIncreaseRate',
-                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'ndays']
+                'positiveIncrease', 'testIncrease', 'deathIncrease', 'hospitalizedIncrease', 'icuIncrease',
+                'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative', 'icuCumulative',
+                'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate',
+                'hospitalizedIncreaseRate', 'icuIncreaseRate',
+                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate', 'ndays']
 
     @staticmethod
     def dtype():
         return {'STUSPS': 'str',
                 'positiveIncrease': np.float64, 'testIncrease': np.float64,
-                'deathIncrease': np.float64, 'hospitalizedIncrease': np.float,
+                'deathIncrease': np.float64, 'hospitalizedIncrease': np.float, 'icuIncrease': np.float,
                 'positiveCumulative': np.float64, 'testCumulative': np.float64,
-                'deathCumulative': np.float64, 'hospitalizedCumulative': np.float,
+                'deathCumulative': np.float64, 'hospitalizedCumulative': np.float, 'icuCumulative': np.float,
                 'positiveIncreaseRate': np.float64, 'testIncreaseRate': np.float64,
-                'deathIncreaseRate': np.float64, 'hospitalizedIncreaseRate': np.float,
+                'deathIncreaseRate': np.float64, 'hospitalizedIncreaseRate': np.float, 'icuIncreaseRate': np.float,
                 'positiveRate': np.float64, 'testRate': np.float64,
-                'deathRate': np.float64, 'hospitalizedRate': np.float, 'ndays': np.int64}
+                'deathRate': np.float64, 'hospitalizedRate': np.float, 'icuRate': np.float, 'ndays': np.int64}
 
     @staticmethod
     def parse_dates():
