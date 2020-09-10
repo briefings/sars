@@ -280,7 +280,7 @@ function generateChart(fileNamekey){
             responsive: {
                 rules: [{
                     condition: {
-                        maxWidth: 750
+                        maxWidth: 690
                     },
                     chartOptions: {
                         rangeSelector: {
