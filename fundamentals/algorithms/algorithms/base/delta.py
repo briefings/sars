@@ -41,11 +41,12 @@ class Delta:
         return values.iloc[(period - 1):, :]
 
     @dask.delayed
-    def structure(self, blob: pd.DataFrame):
+    def structure(self, blob: pd.DataFrame, fieldname: str):
         """
         Structuring the rolling windows calculations
 
         :param blob:
+        :param fieldname: A name for the new percentage difference field
         :return:
         """
 
@@ -54,7 +55,7 @@ class Delta:
         return values.melt(id_vars='datetimeobject',
                            value_vars=self.places,
                            var_name=self.placestype,
-                           value_name='delta')
+                           value_name=fieldname)
 
     @dask.delayed
     def label(self, blob: pd.DataFrame, period: int):
@@ -69,17 +70,18 @@ class Delta:
 
         return blob
 
-    def exc(self, periods: np.ndarray):
+    def exc(self, periods: np.ndarray, fieldname: str):
         """
 
         :param periods: An array of days numbers over which percentage differences will be calculated
+        :param fieldname: A name for the new percentage difference field
         :return:
         """
 
         computations = []
         for period in periods:
             rates = self.algorithm(period=period)
-            values = self.structure(blob=rates)
+            values = self.structure(blob=rates, fieldname=fieldname)
             values = self.label(blob=values, period=period)
             computations.append(values)
 
