@@ -45,7 +45,7 @@ class Quantiles:
         computations = []
         for period in periods:
             medians = self.algorithm(period=period, quantile=quantile)
-            values = self.structure(blob=medians, period=period, fieldname=fieldname)
+            values = self.structure(blob=medians, fieldname=fieldname)
             values = self.label(blob=values, period=period)
             computations.append(values)
 
