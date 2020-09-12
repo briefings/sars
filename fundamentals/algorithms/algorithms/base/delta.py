@@ -89,6 +89,6 @@ class Delta:
         calculations = dask.compute(computations, scheduler='processes')[0]
 
         frame = pd.concat(calculations, axis=0, ignore_index=True)
-        frame['delta'].fillna(value=0, inplace=True)
+        frame[fieldname].fillna(value=0, inplace=True)
 
         return frame
