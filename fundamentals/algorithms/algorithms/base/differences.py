@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-class Difference:
+class Differences:
 
     def __init__(self, data: pd.DataFrame, places: np.ndarray, placestype: str):
         """
@@ -17,9 +17,9 @@ class Difference:
         self.placestype = placestype
 
     @staticmethod
-    def gap(y: np.ndarray):
+    def difference(y: np.ndarray):
         """
-        Percentage difference calculator
+        The difference calculator
 
         :param y: A data vector/array
         :return:
@@ -36,16 +36,17 @@ class Difference:
         :return:
         """
 
-        values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.gap, raw=True)
+        values = self.data.rolling(window='{}d'.format(period), axis=0).apply(self.difference, raw=True)
 
         return values.iloc[(period - 1):, :]
 
     @dask.delayed
-    def structure(self, blob: pd.DataFrame):
+    def structure(self, blob: pd.DataFrame, fieldname: str):
         """
         Structuring the rolling windows calculations
 
         :param blob:
+        :param fieldname: A name for the new differences field
         :return:
         """
 
@@ -54,7 +55,7 @@ class Difference:
         return values.melt(id_vars='datetimeobject',
                            value_vars=self.places,
                            var_name=self.placestype,
-                           value_name='delta')
+                           value_name=fieldname)
 
     @dask.delayed
     def label(self, blob: pd.DataFrame, period: int):
@@ -69,17 +70,18 @@ class Difference:
 
         return blob
 
-    def exc(self, periods: np.ndarray):
+    def exc(self, periods: np.ndarray, fieldname: str):
         """
 
         :param periods: An array of days numbers over which percentage differences will be calculated
+        :param fieldname: A name for the new differences field
         :return:
         """
 
         computations = []
         for period in periods:
-            gaps = self.algorithm(period=period)
-            values = self.structure(blob=gaps)
+            subtractions = self.algorithm(period=period)
+            values = self.structure(blob=subtractions, fieldname=fieldname)
             values = self.label(blob=values, period=period)
             computations.append(values)
 
