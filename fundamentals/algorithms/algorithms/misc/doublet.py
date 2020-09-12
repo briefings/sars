@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-import algorithms.base.difference
+import algorithms.base.differences
 
 
 class Doublet:
@@ -22,12 +22,12 @@ class Doublet:
 
         self.suffix = 'Diff'
 
-    def differences(self, event: str, name: str):
+    def algorithm(self, event: str, fieldname: str):
         """
         Differences calculator
 
         :param event: The column/field the difference calculation will be applied to
-        :param name: The name of the new field of differences
+        :param fieldname: The fieldname of the new field of differences
         :return:
         """
 
@@ -38,9 +38,10 @@ class Doublet:
         segment = base.pivot(index='datetimeobject', columns='STUSPS', values=event)
 
         # Determine ...
-        difference = algorithms.base.difference.Difference(data=segment, places=self.places, placestype=self.placestype)
-        values = difference.exc(periods=self.periods)
-        values.rename(columns={'delta': name}, inplace=True)
+        # values.rename(columns={'delta': fieldname}, inplace=True)
+        differences = algorithms.base.differences.\
+            Differences(data=segment, places=self.places, placestype=self.placestype)
+        values = differences.exc(periods=self.periods, fieldname=fieldname)
 
         return values
 
@@ -56,7 +57,7 @@ class Doublet:
         values = pd.DataFrame()
         for event in [numerator, denominator]:
 
-            calculations = self.differences(event=event, name=(event + self.suffix))
+            calculations = self.algorithm(event=event, fieldname=(event + self.suffix))
             if values.empty:
                 values = calculations
             else:
