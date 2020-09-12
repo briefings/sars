@@ -26,13 +26,13 @@ class Quantiles:
         return values.iloc[(period - 1):, :]
 
     @dask.delayed
-    def structure(self, blob, period: int, quantiletype: str):
+    def structure(self, blob, fieldname: str):
         values = blob.reset_index(drop=False, inplace=False)
 
         return values.melt(id_vars='datetimeobject',
                            value_vars=self.places,
                            var_name=self.placestype,
-                           value_name=quantiletype)
+                           value_name=fieldname)
 
     @dask.delayed
     def label(self, blob: pd.DataFrame, period: int):
@@ -41,11 +41,11 @@ class Quantiles:
 
         return blob
 
-    def exc(self, periods: np.ndarray, quantile: float, quantiletype: str):
+    def exc(self, periods: np.ndarray, quantile: float, fieldname: str):
         computations = []
         for period in periods:
             medians = self.algorithm(period=period, quantile=quantile)
-            values = self.structure(blob=medians, period=period, quantiletype=quantiletype)
+            values = self.structure(blob=medians, period=period, fieldname=fieldname)
             values = self.label(blob=values, period=period)
             computations.append(values)
 
