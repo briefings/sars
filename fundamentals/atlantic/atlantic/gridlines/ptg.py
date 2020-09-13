@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 
 
-class GridLines:
+class PTC:
+    """
+    Positives/100K Tests/100K Curves
+    """
 
     def __init__(self, positive_rate_max: float, test_rate_max: float):
 
