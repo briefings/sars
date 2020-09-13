@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 
 
-class PTC:
+class PTG:
     """
-    Positives/100K Tests/100K Curves
+    The grid of Positives/100K v Tests/100K Graphs
     """
 
     def __init__(self, positive_rate_max: float, test_rate_max: float):
@@ -36,7 +36,7 @@ class PTC:
         lines = pd.DataFrame()
         for gradient in self.gradients:
             core = pd.DataFrame(data={'x': abscissae, 'y': gradient * abscissae})
-            core.loc[:, 'label'] = int(100 * gradient)
+            core.loc[:, 'label'] = str(100 * gradient)
             lines = pd.concat([lines, core], ignore_index=True, axis=0)
 
         # Renaming fields
