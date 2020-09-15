@@ -42,7 +42,7 @@ class Segments:
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
         self.logger.info('\nDeath:\n{}\n'.format(data.info()))
 
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'dtCurves.csv'),
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeaths.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def ptc(self):
@@ -58,7 +58,7 @@ class Segments:
         data = pd.concat([data, gridlines], axis=0, ignore_index=True)
         self.logger.info('\nPositive:\n{}\n'.format(data.info()))
 
-        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'ptCurves.csv'),
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesPositives.csv'),
                     header=True, index=False, encoding='utf-8')
 
     def capita(self):
