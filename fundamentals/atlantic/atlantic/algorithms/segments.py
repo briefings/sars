@@ -3,7 +3,8 @@ import os
 
 import pandas as pd
 
-import atlantic.algorithms.gridlines
+import atlantic.gridlines.ptg
+import atlantic.gridlines.dtg
 import atlantic.base.directories
 import atlantic.src.gazetteer
 import config
@@ -28,18 +29,44 @@ class Segments:
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'baselines.csv'),
                     header=True, index=False, encoding='utf-8')
 
+    def dtc(self):
+        """
+        Appends the grid lines for the Deaths/100K v Tests/100K curves
+        :return:
+        """
+
+        data = self.blob.copy()
+        data = data[['datetimeobject', 'STUSPS', 'deathRate', 'testRate', 'ndays']]
+        gridlines = atlantic.gridlines.dtg.DTG(death_rate_max=data['deathRate'].max(),
+                                               test_rate_max=data['testRate'].max()).exc()
+        data = pd.concat([data, gridlines], axis=0, ignore_index=True)
+        self.logger.info('\nDeath:\n{}\n'.format(data.info()))
+
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeaths.csv'),
+                    header=True, index=False, encoding='utf-8')
+
+    def ptc(self):
+        """
+        The Positives/100K v Tests/100K curves
+        :return:
+        """
+
+        data = self.blob.copy()
+        data = data[['datetimeobject', 'STUSPS', 'positiveRate', 'testRate', 'ndays']]
+        gridlines = atlantic.gridlines.ptg.PTG(positive_rate_max=data['positiveRate'].max(),
+                                               test_rate_max=data['testRate'].max()).exc()
+        data = pd.concat([data, gridlines], axis=0, ignore_index=True)
+        self.logger.info('\nPositive:\n{}\n'.format(data.info()))
+
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesPositives.csv'),
+                    header=True, index=False, encoding='utf-8')
+
     def capita(self):
 
         data = self.blob.copy()
         data = data[['datetimeobject', 'STUSPS', 'deathRate', 'positiveRate', 'testRate',
                      'icuRate', 'hospitalizedRate', 'ndays']]
 
-        gridlines = atlantic.algorithms.gridlines.GridLines(positive_rate_max=data['positiveRate'].max(),
-                                                            test_rate_max=data['testRate'].max()).exc()
-
-        data = pd.concat([data, gridlines], axis=0, ignore_index=True)
-
-        self.logger.info('\nCapita:\n{}\n'.format(data.info()))
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'capita.csv'),
                     header=True, index=False, encoding='utf-8')
         data.to_json(path_or_buf=os.path.join(self.warehouse, 'capita.json'), orient='values')
@@ -49,5 +76,11 @@ class Segments:
         # The baseline
         self.baselines()
 
-        # In progress
+        # Capita
         self.capita()
+
+        # Positive/100K v Test/100K Curves
+        self.ptc()
+
+        # Death/100K v Test/100K Curves
+        self.dtc()
