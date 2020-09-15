@@ -21,8 +21,8 @@ class DTG:
 
         # The gradients of a graph's grid lines
         self.gradients = np.concatenate((np.linspace(start=0, stop=0.3, num=3, endpoint=False),
-                                         np.linspace(start=0.25, stop=1, num=4, endpoint=False),
-                                         np.arange(1, 15)),
+                                         np.linspace(start=0.25, stop=1, num=3, endpoint=False),
+                                         np.arange(1, 6), np.arange(7, 17, 4)),
                                         axis=0) / 100
 
     def abscissae(self) -> np.ndarray:
@@ -31,7 +31,8 @@ class DTG:
         :return: The set of x values of a grid
         """
 
-        return np.arange(0, self.xlimit, self.xtick)
+        return np.concatenate((np.arange(0, self.xtick, 1000),
+                               np.arange(self.xtick, self.xlimit, self.xtick)), axis=0)
 
     def grid(self, abscissae: np.ndarray) -> pd.DataFrame:
 
