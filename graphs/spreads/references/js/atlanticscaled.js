@@ -47,6 +47,7 @@ function generateChart(fileNamekey){
         // split the data set into ohlc and medians
         var ohlc = [],
             medians = [],
+            maxima = [],
             numbers = [],
             dataLength = data.length,
             groupingUnits = [[
@@ -68,6 +69,11 @@ function generateChart(fileNamekey){
             medians.push({
                 x: data[i][0], // the date
                 y: data[i][3] // median
+            });
+
+            maxima.push({
+                x: data[i][0], // the date
+                y: data[i][6]  // maximum
             });
 
 
@@ -199,6 +205,21 @@ function generateChart(fileNamekey){
                     name: 'The Day\'s Median',
                     data: medians,
                     color: '#6B8E23',
+                    yAxis: 0,
+                    dataGrouping: {
+                        units: groupingUnits
+                    },
+                    tooltip: {
+                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
+                            '{point.y:,.2f}<br/>'
+                    }
+                },
+                {
+                    type: 'spline',
+                    name: 'Maxima',
+                    data: maxima,
+                    color: '#A08E23',
+                    visible: false,
                     yAxis: 0,
                     dataGrouping: {
                         units: groupingUnits

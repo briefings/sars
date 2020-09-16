@@ -1,8 +1,5 @@
 [
   {"desc": "positiveIncreaseRate", "name": "Positive Cases/100k"},
   {"desc": "deathIncreaseRate", "name": "Deaths/100k"},
-  {"desc": "testIncreaseRate", "name": "Tests/100k"},
-  {"desc": "positiveRate", "name": "Cumulative Positive Cases/100k"},
-  {"desc": "deathRate", "name": "Cumulative Deaths/100k"},
-  {"desc": "testRate", "name": "Cumulative Tests/100k"}
+  {"desc": "testIncreaseRate", "name": "Tests/100k"}
 ]

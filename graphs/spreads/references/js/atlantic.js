@@ -21,7 +21,7 @@ $.getJSON(url, function (data) {
 
 
 // Dropdown
-dropdown.on('change', function(e){
+dropdown.on('change', function (e) {
 
     $('#option_selector_title').remove();
 
@@ -35,9 +35,9 @@ dropdown.on('change', function(e){
 
 
 // Generate graphs
-function generateChart(fileNamekey){
+function generateChart(fileNamekey) {
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/atlantic/warehouse/candles/'+fileNamekey+'.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/atlantic/warehouse/candles/' + fileNamekey + '.json', function (data) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
@@ -47,6 +47,7 @@ function generateChart(fileNamekey){
         // split the data set into ohlc and medians
         var ohlc = [],
             medians = [],
+            maxima = [],
             numbers = [],
             cumulative = [],
             dataLength = data.length,
@@ -69,6 +70,11 @@ function generateChart(fileNamekey){
             medians.push({
                 x: data[i][0], // the date
                 y: data[i][3] // median
+            });
+
+            maxima.push({
+                x: data[i][0], // the date
+                y: data[i][6] // maximum
             });
 
             numbers.push({
@@ -154,7 +160,7 @@ function generateChart(fileNamekey){
                 resize: {
                     enabled: true
                 }
-            },{
+            }, {
                 labels: {
                     align: 'left',
                     x: 9
@@ -168,23 +174,23 @@ function generateChart(fileNamekey){
                 offset: 0,
                 lineWidth: 2
             },
-            {
-                labels: {
-                    align: 'left',
-                    x: 9
-                },
-                title: {
-                    text: 'Continuous',
-                    x: 0
-                },
-                top: '75%',
-                height: '23%',
-                offset: 0,
-                lineWidth: 2
-            }
+                {
+                    labels: {
+                        align: 'left',
+                        x: 9
+                    },
+                    title: {
+                        text: 'Continuous',
+                        x: 0
+                    },
+                    top: '75%',
+                    height: '23%',
+                    offset: 0,
+                    lineWidth: 2
+                }
             ],
 
-            plotOptions:{
+            plotOptions: {
                 series: {
                     turboThreshold: 4000
                 }
@@ -193,14 +199,14 @@ function generateChart(fileNamekey){
             tooltip: {
                 split: true,
                 dateTimeLabelFormats: {
-                    millisecond:"%A, %e %b, %H:%M:%S.%L",
-                    second:"%A, %e %b, %H:%M:%S",
-                    minute:"%A, %e %b, %H:%M",
-                    hour:"%A, %e %b, %H:%M",
-                    day:"%A, %e %B, %Y",
-                    week:"%A, %e %b, %Y",
-                    month:"%B %Y",
-                    year:"%Y"
+                    millisecond: "%A, %e %b, %H:%M:%S.%L",
+                    second: "%A, %e %b, %H:%M:%S",
+                    minute: "%A, %e %b, %H:%M",
+                    hour: "%A, %e %b, %H:%M",
+                    day: "%A, %e %B, %Y",
+                    week: "%A, %e %b, %Y",
+                    month: "%B %Y",
+                    year: "%Y"
                 }
 
             },
@@ -235,6 +241,21 @@ function generateChart(fileNamekey){
                     name: 'Median',
                     data: medians,
                     color: '#6B8E23',
+                    yAxis: 0,
+                    dataGrouping: {
+                        units: groupingUnits
+                    },
+                    tooltip: {
+                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
+                            '{point.y:,.2f}<br/>'
+                    }
+                },
+                {
+                    type: 'spline',
+                    name: 'Maxima',
+                    data: maxima,
+                    color: '#A08E23',
+                    visible: false,
                     yAxis: 0,
                     dataGrouping: {
                         units: groupingUnits
@@ -291,7 +312,7 @@ function generateChart(fileNamekey){
             }
         });
 
-    }).fail(function() {
+    }).fail(function () {
         console.log("Missing");
         $('#container0003').empty();
     });
