@@ -14,7 +14,7 @@ The focus herein is statistics, metrics, and models for understanding, mitigatin
 
 In progress.  The graphs will be embedded in the pages of
 
-
+<br>
 
 ### Distributions Graphs
 
