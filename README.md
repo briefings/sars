@@ -1,12 +1,13 @@
 # SARS
 
+<br>
+
 The focus herein is statistics, metrics, and models for understanding, mitigating, or anticipating ...  The data sets of the United States of America are used for developing and illustrating algorithms and graphs.  The specific sources are
 
 * COVID Tracking Project
 * John Hopkins
 * A state's health department
 
-<br>
 <br>
 
 ## For Blogger
