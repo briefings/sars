@@ -44,7 +44,7 @@ class PTG:
 
         # An inexistent state code -> a placeholder
         option.loc[:, 'STUSPS'] = 'ZZ'
-        option = option[option.positiveRate <= self.ylimit]
+        option = option[option['positiveRate'] <= self.ylimit]
 
         return option.drop_duplicates(inplace=False)
 
