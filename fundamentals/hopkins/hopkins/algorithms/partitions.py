@@ -25,7 +25,7 @@ class Partitions:
         self.warehouse = configurations.warehouse
         self.path = {directory: os.path.join(self.warehouse, directory) for directory in ['baselines', 'capita']}
 
-        self.blob = blob.drop(columns=[configurations.datestring, configurations.inhabitants], inplace=False)
+        self.blob = blob.drop(columns=[configurations.datestring, configurations.inhabitants, 'STATEFP'], inplace=False)
         self.forcapita = blob[['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate']]
 
         self.partitionby = 'STUSPS'
