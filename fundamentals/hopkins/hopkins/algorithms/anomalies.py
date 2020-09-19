@@ -81,6 +81,11 @@ class Anomalies:
         return discrete, continuous
 
     def estimate(self):
+        """
+        Estimation steps
+
+        :return:
+        """
 
         data = self.blob.copy()
 
