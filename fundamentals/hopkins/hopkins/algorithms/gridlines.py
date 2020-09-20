@@ -6,7 +6,7 @@ import pandas as pd
 
 class GridLines:
 
-    def __init__(self, death_rate_max: float, positive_rate_max: float, test_rate_max: float=0):
+    def __init__(self, death_rate_max: float, positive_rate_max: float, test_rate_max: float = 0):
         """
 
         :param death_rate_max:
@@ -24,9 +24,6 @@ class GridLines:
         self.positivelimit = self.ytick + self.ytick * math.ceil(positive_rate_max / self.ytick)
         self.deathlimit = self.ztick + self.ztick * math.ceil(death_rate_max / self.ztick)
 
-        # The gradients of a graph's grid lines: range [0 100]
-        self.gradients = np.concatenate((np.arange(0, 6), np.arange(9, 21, 3), np.arange(20, 110, 20))) / 100
-
     def abscissae(self) -> np.ndarray:
         """
 
@@ -43,18 +40,20 @@ class GridLines:
 
         return np.arange(0, self.positivelimit, self.ytick)
 
-    def grid(self, vector: np.ndarray) -> pd.DataFrame:
+    @staticmethod
+    def grid(vector: np.ndarray, gradients: np.ndarray) -> pd.DataFrame:
         """
 
         :param vector:
+        :param gradients
         :return:
         """
 
         # Calculates the points of a line w.r.t. the set of x values 'abscissae', and a 'gradient' value
         lines = pd.DataFrame()
-        for gradient in self.gradients:
+        for gradient in gradients:
             core = pd.DataFrame(data={'x': vector, 'y': gradient * vector})
-            core.loc[:, 'label'] = int(100 * gradient)
+            core.loc[:, 'label'] = str(100 * gradient)
             lines = pd.concat([lines, core], ignore_index=True, axis=0)
 
         return lines
@@ -65,8 +64,12 @@ class GridLines:
         :return:
         """
 
+        # The latest range of test/100K values
         abscissae = self.abscissae()
-        lines = self.grid(vector=abscissae)
+
+        # The gradients of a graph's grid lines: range [0 100]
+        gradients = np.concatenate((np.arange(0, 6), np.arange(9, 21, 3), np.arange(20, 110, 20))) / 100
+        lines = self.grid(vector=abscissae, gradients=gradients)
 
         # Renaming fields
         option = lines.rename(columns={'x': 'testRate', 'y': 'positiveRate'})
@@ -84,8 +87,15 @@ class GridLines:
         :return:
         """
 
+        # The latest range of positive/100K values
         ordinates = self.ordinates()
-        lines = self.grid(vector=ordinates)
+
+        # The gradients of a graph's grid lines
+        gradients = np.concatenate((np.linspace(start=0, stop=0.3, num=3, endpoint=False),
+                                    np.linspace(start=0.25, stop=1, num=3, endpoint=False),
+                                    np.arange(1, 10), np.arange(10, 50, 10), np.arange(50, 100, 25)),
+                                   axis=0) / 100
+        lines = self.grid(vector=ordinates, gradients=gradients)
 
         # Renaming fields
         option = lines.rename(columns={'x': 'positiveRate', 'y': 'deathRate'})
@@ -96,4 +106,3 @@ class GridLines:
         option = option[option['deathRate'] <= self.deathlimit]
 
         return option.drop_duplicates(inplace=False)
-
