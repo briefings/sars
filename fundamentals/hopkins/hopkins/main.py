@@ -12,12 +12,12 @@ def main():
 
     # States
     states: pd.DataFrame = boundaries.states(year=settings.latest)
-    states.rename(columns={'GEOID': 'STATEGEOID', 'NAME': 'STATE'}, inplace=True)
+    states.rename(columns={'GEOID': 'STATEGEOID', 'NAME': 'STATE', 'ALAND': 'STATESQMETRES'}, inplace=True)
 
     # Counties
     counties = boundaries.counties(year=settings.latest)
     counties.rename(columns={'GEOID': 'COUNTYGEOID', 'NAME': 'COUNTY'}, inplace=True)
-    counties = counties.merge(states[['STATEFP', 'STUSPS', 'STATE']], how='left', on='STATEFP')
+    counties = counties.merge(states[['STATEFP', 'STUSPS', 'STATE', 'STATESQMETRES']], how='left', on='STATEFP')
 
     # Gazetteer
     gazetteer = hopkins.src.gazetteer.Gazetteer(counties=counties, population=population).exc()
@@ -39,13 +39,12 @@ def main():
     derivations = hopkins.algorithms.derivations.Derivations().exc(blob=anomalies)
 
     # Row batches w.r.t. 'partitionby'
-    partitions = hopkins.algorithms.partitions.Partitions(blob=derivations)
+    partitions = hopkins.algorithms.partitions.Partitions(blob=derivations, partitionby='STUSPS')
     partitions.exc()
 
     # Columnar batch
     segments = hopkins.algorithms.segments.Segments(blob=derivations)
-    segments.exc(select=['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate'],
-                 segment='capita')
+    segments.exc()
 
     # Candles
     spreads = hopkins.spreads.distributions.Distributions(via='COUNTYGEOID')
