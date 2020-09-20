@@ -46,14 +46,15 @@ class Gazetteer:
 
     def county(self, region) -> pd.DataFrame:
 
-        values = self.counties[['STATEFP', 'STUSPS', 'STATE', 'COUNTYFP', 'COUNTYGEOID', 'COUNTY', 'ALAND']]
+        values = self.counties[['STATEFP', 'STUSPS', 'STATE', 'STATESQMETRES',
+                                'COUNTYFP', 'COUNTYGEOID', 'COUNTY', 'ALAND']]
 
         gazetteer = values.merge(region, how='left', on='STATEFP')
         gazetteer = gazetteer.merge(self.population[['COUNTYGEOID', self.inhabitants]], how='right', on='COUNTYGEOID')
         gazetteer.to_csv(path_or_buf=os.path.join(self.warehouse, 'gazetteer.csv'),
                          header=True, index=False, encoding='utf-8')
 
-        self.logger.info('\n{}\n'.format(gazetteer))
+        self.logger.info('Gazetteer\n{}\n'.format(gazetteer))
 
         return gazetteer
 
@@ -62,6 +63,9 @@ class Gazetteer:
 
         :return:
         """
+
+        # Preview
+        self.logger.info('Counties\n{}\n'.format(self.counties))
 
         region = self.codes().merge(self.names(), how='left', on=['REGIONFP', 'DIVISIONFP'])
         self.logger.info('\n{}\n'.format(region))
