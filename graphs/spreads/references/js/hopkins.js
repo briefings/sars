@@ -37,7 +37,7 @@ dropdown.on('change', function(e){
 // Generate graphs
 function generateChart(fileNamekey){
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/temporary/'+fileNamekey+'.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/hopkins/notebooks/warehouse/states/candles/'+fileNamekey+'.json', function (data) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
@@ -47,6 +47,7 @@ function generateChart(fileNamekey){
         // split the data set into ohlc and medians
         var ohlc = [],
             medians = [],
+            maxima = [],
             numbers = [],
             cumulative = [],
             dataLength = data.length,
@@ -69,6 +70,11 @@ function generateChart(fileNamekey){
             medians.push({
                 x: data[i][0], // the date
                 y: data[i][3] // median
+            });
+
+            maxima.push({
+                x: data[i][0], // the date
+                y: data[i][6] // maximum
             });
 
             numbers.push({
@@ -119,7 +125,8 @@ function generateChart(fileNamekey){
             },
 
             subtitle: {
-                text: 'U.S.A.: The States, Washington D.C., & Puerto Rico <br/> <p> Data Source: J.H.</p>'
+                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico <br/></p> ' +
+                    '<p><b>Data Source</b>: Johns Hopkins</p>'
             },
 
             time: {
@@ -137,6 +144,16 @@ function generateChart(fileNamekey){
                 // verticalAlign: 'bottom',
                 // y: 10,
                 // x: 35
+            },
+
+            exporting: {
+                buttons: {
+                    contextButton: {
+                        menuItems: [ 'viewFullscreen', 'printChart', 'separator',
+                            'downloadPNG', 'downloadJPEG', 'downloadPDF', 'downloadSVG' , 'separator',
+                            'downloadXLS', 'downloadCSV']
+                    }
+                }
             },
 
             yAxis: [{
@@ -246,6 +263,21 @@ function generateChart(fileNamekey){
                 },
                 {
                     type: 'spline',
+                    name: 'Maxima',
+                    data: maxima,
+                    color: '#A08E23',
+                    visible: false,
+                    yAxis: 0,
+                    dataGrouping: {
+                        units: groupingUnits
+                    },
+                    tooltip: {
+                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
+                            '{point.y}<br/>'
+                    }
+                },
+                {
+                    type: 'spline',
                     name: 'The Day\'s Total',
                     data: numbers,
                     color: '#EDC948',
@@ -280,7 +312,7 @@ function generateChart(fileNamekey){
             responsive: {
                 rules: [{
                     condition: {
-                        maxWidth: 750
+                        maxWidth: 700
                     },
                     chartOptions: {
                         rangeSelector: {
