@@ -53,7 +53,7 @@ In progress.  The graphs and tables of results, alongside explanatory notes and 
 
 * [hopkins](./fundamentals/hopkins) <br/> For retrieving & structuring Johns Hopkins' data
 
-* [algorithms](./fundamentals/algorithms) <br/> A mix of measures & metrics algorithms; algorithms will be continuously added.
+* [algorithms](./fundamentals/algorithms) <br/> A mix of measures & metrics algorithms; algorithms are continuously added.
 
 * [populations](./fundamentals/populations) <br/> For retrieving populations data.
 
