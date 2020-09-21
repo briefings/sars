@@ -10,6 +10,7 @@ This project is focused on measures, metrics, trends, and models for understandi
 * [United States Environment Protection Agency](https://www.epa.gov)
 
 <br>
+<br>
 
 ## Blogger
 
@@ -19,9 +20,10 @@ In progress.  The graphs and tables of results, alongside explanatory notes and 
 
 ### Distributions Graphs
 
-* [Atlantic](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlantic.html) <br> Raw state level spreads
-* [Atlantic/100k](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlanticscaled.html) <br> Per capita, i.e., population scaled, state level spreads
-* [Hopkins](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/hopkins.html) <br> Raw state level spreads based on John Hopkins data
+* [Atlantic](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlantic.html) <br> Raw state level spreads [The COVID Tracking Project]
+* [Atlantic/100k](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlanticscaled.html) <br> Per capita, i.e., population scaled, state level spreads [The COVID Tracking Project]
+* [Hopkins](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/hopkins.html) <br> Raw state level spreads [Johns Hopkins]
+* [Hopkins/100K](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/hopkinsscaled.html) <br> Per capita, i.e., population scaled, state level spreads [Johns Hopkins]
 
 <br>
 
@@ -47,10 +49,12 @@ In progress.  The graphs and tables of results, alongside explanatory notes and 
 
 ## Projects
 
-* [atlantic](./fundamentals/atlantic) <br/> C.T.P.
+* [atlantic](./fundamentals/atlantic) <br/> For retrieving the COVID Tracking Project
 
-* [hopkins](./fundamentals/hopkins) <br/> J.H.
+* [hopkins](./fundamentals/hopkins) <br/> For retrieving & structuring Johns Hopkins' data
 
-* [populations](./fundamentals/populations) <br/> For retrieving populations data
+* [algorithms](./fundamentals/algorithms) <br/> A mix of measures & metrics algorithms; algorithms will be continuously added.
+
+* [populations](./fundamentals/populations) <br/> For retrieving populations data.
 
 * [spreads](./graphs/spreads) <br/> Candle stick distributions graphs; via HighCharts/JavaScript
