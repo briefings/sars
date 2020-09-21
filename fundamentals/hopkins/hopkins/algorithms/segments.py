@@ -1,8 +1,9 @@
 import os
 
 import pandas as pd
-
+import logging
 import config
+import hopkins.algorithms.gridlines
 
 
 class Segments:
@@ -16,11 +17,12 @@ class Segments:
 
         configurations = config.Config()
         self.warehouse = configurations.warehouse
-
         self.blob = blob
 
-    @staticmethod
-    def write(data: pd.DataFrame, filestring: str):
+        logging.basicConfig(level=logging.INFO)
+        self.logger = logging.getLogger(__name__)
+
+    def capita(self):
         """
 
         :param data: The DataFrame that will be written to ...
@@ -28,17 +30,21 @@ class Segments:
         :return:
         """
 
-        data.to_csv(path_or_buf=filestring, index=False, encoding='utf-8', header=True)
-
-    def exc(self, select: list, segment: str):
-        """
-
-        :param select: The fields of interest
-        :param segment: baselines, candles, capita, increases, etc ... this will be the file name
-        :return:
-        """
-
+        select = ['datetimeobject', 'epochmilli', 'STUSPS', 'COUNTYGEOID', 'positiveRate', 'deathRate']
         data = self.blob.copy()
         data = data[select]
 
-        self.write(data=data, filestring=os.path.join(self.warehouse, segment + '.csv'))
+        gridlines = hopkins.algorithms.gridlines.GridLines(death_rate_max=data['deathRate'].max(),
+                                                           positive_rate_max=data['positiveRate'].max()).dpr()
+        data = pd.concat([data, gridlines], axis=0, ignore_index=True)
+
+        self.logger.info('Capita\n{}\n'.format(data.tail()))
+        data.to_csv(path_or_buf=os.path.join(self.warehouse, 'capita.csv'), index=False, encoding='utf-8', header=True)
+
+    def exc(self):
+        """
+
+        :return:
+        """
+
+        self.capita()

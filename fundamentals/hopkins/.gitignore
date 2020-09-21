@@ -1,5 +1,6 @@
 *.pdf
 
+*algorithms/
 *cartographs/
 *candles/
 *populations/
@@ -7,3 +8,6 @@
 *counties/
 
 !warehouse/candles/
+!hopkins/algorithms/
+!notebooks/warehouse/states
+!notebooks/warehouse/states/candles

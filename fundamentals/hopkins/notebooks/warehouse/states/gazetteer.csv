@@ -1,0 +1,53 @@
+STATEFP,STUSPS,STATE,ALAND,REGIONFP,REGION,DIVISIONFP,DIVISION,POPESTIMATE2019
+01,AL,Alabama,131174048583,3,South,6,East South Central,4903185
+02,AK,Alaska,1478839695958,4,West,9,Pacific,731545
+04,AZ,Arizona,294198551143,4,West,8,Mountain,7278717
+05,AR,Arkansas,134768872727,3,South,7,West South Central,3017804
+06,CA,California,403503931312,4,West,9,Pacific,39512223
+08,CO,Colorado,268422891711,4,West,8,Mountain,5758736
+09,CT,Connecticut,12542497068,1,Northeast,1,New England,3565287
+10,DE,Delaware,5045925646,3,South,5,South Atlantic,973764
+11,DC,District of Columbia,158340391,3,South,5,South Atlantic,705749
+12,FL,Florida,138949136250,3,South,5,South Atlantic,21477737
+13,GA,Georgia,149482048342,3,South,5,South Atlantic,10617423
+15,HI,Hawaii,16633990195,4,West,9,Pacific,1415872
+16,ID,Idaho,214049787659,4,West,8,Mountain,1787065
+17,IL,Illinois,143780567633,2,Midwest,3,East North Central,12671821
+18,IN,Indiana,92789302676,2,Midwest,3,East North Central,6732219
+19,IA,Iowa,144661267977,2,Midwest,4,West North Central,3155070
+20,KS,Kansas,211755344060,2,Midwest,4,West North Central,2913314
+21,KY,Kentucky,102279490672,3,South,6,East South Central,4467673
+22,LA,Louisiana,111897594374,3,South,7,West South Central,4648794
+23,ME,Maine,79887426037,1,Northeast,1,New England,1344212
+24,MD,Maryland,25151100280,3,South,5,South Atlantic,6045680
+25,MA,Massachusetts,20205125364,1,Northeast,1,New England,6892503
+26,MI,Michigan,146600952990,2,Midwest,3,East North Central,9986857
+27,MN,Minnesota,206228939448,2,Midwest,4,West North Central,5639632
+28,MS,Mississippi,121533519481,3,South,6,East South Central,2976149
+29,MO,Missouri,178050802184,2,Midwest,4,West North Central,6137428
+30,MT,Montana,376962738765,4,West,8,Mountain,1068778
+31,NE,Nebraska,198956658395,2,Midwest,4,West North Central,1934408
+32,NV,Nevada,284329506470,4,West,8,Mountain,3080156
+33,NH,New Hampshire,23189413166,1,Northeast,1,New England,1359711
+34,NJ,New Jersey,19047825980,1,Northeast,2,Middle Atlantic,8882190
+35,NM,New Mexico,314196306401,4,West,8,Mountain,2096829
+36,NY,New York,122049149763,1,Northeast,2,Middle Atlantic,19453561
+37,NC,North Carolina,125923656064,3,South,5,South Atlantic,10488084
+38,ND,North Dakota,178707534813,2,Midwest,4,West North Central,762062
+39,OH,Ohio,105828882568,2,Midwest,3,East North Central,11689100
+40,OK,Oklahoma,177662925723,3,South,7,West South Central,3956971
+41,OR,Oregon,248606993270,4,West,9,Pacific,4217737
+42,PA,Pennsylvania,115884442321,1,Northeast,2,Middle Atlantic,12801989
+44,RI,Rhode Island,2677779902,1,Northeast,1,New England,1059361
+45,SC,South Carolina,77864918488,3,South,5,South Atlantic,5148714
+46,SD,South Dakota,196346981786,2,Midwest,4,West North Central,884659
+47,TN,Tennessee,106802728188,3,South,6,East South Central,6829174
+48,TX,Texas,676653171537,3,South,7,West South Central,28995881
+49,UT,Utah,212886221680,4,West,8,Mountain,3205958
+50,VT,Vermont,23874175944,1,Northeast,1,New England,623989
+51,VA,Virginia,102257717110,3,South,5,South Atlantic,8535519
+53,WA,Washington,172112588220,4,West,9,Pacific,7614893
+54,WV,West Virginia,62266474513,3,South,5,South Atlantic,1792147
+55,WI,Wisconsin,140290039723,2,Midwest,3,East North Central,5822434
+56,WY,Wyoming,251458544898,4,West,8,Mountain,578759
+72,PR,Puerto Rico,8868896030,0,Territories,0,Territories,3193694
