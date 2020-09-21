@@ -2,17 +2,16 @@
 
 <br>
 
-The focus herein is statistics, metrics, and models for understanding, mitigating, or anticipating ...  The data sets of the United States of America are used for developing and illustrating algorithms and graphs.  The specific sources are
+This project is focused on measures, metrics, trends, and models for understanding and anticipating the spread of coronavirus disease 2019 (COVID-2019).  The measures, metrics, and models are explored/developed via SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) field tests data; tests data and measures thereof.  The country in focus is the United States, and the data sources are
 
-* COVID Tracking Project
-* John Hopkins
-* A state's health department
+* [The COVID Tracking Project](https://covidtracking.com)
+* [Johns Hopkins University & Medicine](https://github.com/CSSEGISandData/COVID-19)
+* [United States Census Bureau](https://www.census.gov/en.html)
+* [United States Environment Protection Agency](https://www.epa.gov)
 
-<br>
+## Blogger
 
-## For Blogger
-
-In progress.  The graphs will be embedded in the pages of
+In progress.  The graphs and tables of results, alongside explanatory notes and methods, are embedded in the pages of a blog project; URL upcoming.  A few highlights are outlined here.
 
 <br>
 
