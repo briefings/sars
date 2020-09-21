@@ -9,6 +9,8 @@ This project is focused on measures, metrics, trends, and models for understandi
 * [United States Census Bureau](https://www.census.gov/en.html)
 * [United States Environment Protection Agency](https://www.epa.gov)
 
+<br>
+
 ## Blogger
 
 In progress.  The graphs and tables of results, alongside explanatory notes and methods, are embedded in the pages of a blog project; URL upcoming.  A few highlights are outlined here.
