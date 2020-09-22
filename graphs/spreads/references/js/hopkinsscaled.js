@@ -1,7 +1,7 @@
 var Highcharts;
 var optionSelected;
 var dropdown = $('#option_selector');
-var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/references/atlanticcumulative.json';
+var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/references/hopkinsscaled.json';
 
 
 $.getJSON(url, function (data) {
@@ -37,7 +37,7 @@ dropdown.on('change', function(e){
 // Generate graphs
 function generateChart(fileNamekey){
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/atlantic/warehouse/candles/'+fileNamekey+'.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/hopkins/notebooks/warehouse/states/candles/'+fileNamekey+'.json', function (data) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
@@ -49,6 +49,7 @@ function generateChart(fileNamekey){
             medians = [],
             maxima = [],
             numbers = [],
+            cumulative = [],
             dataLength = data.length,
             groupingUnits = [[
                 'day',                         // unit name
@@ -73,13 +74,7 @@ function generateChart(fileNamekey){
 
             maxima.push({
                 x: data[i][0], // the date
-                y: data[i][6]  // maximum
-
-            });
-
-            numbers.push({
-                x: data[i][0], // date
-                y: data[i][7]  // counts
+                y: data[i][6] // maximum
             });
 
         }
@@ -91,7 +86,7 @@ function generateChart(fileNamekey){
         });
 
         // Draw a graph
-        Highcharts.stockChart('container0001', {
+        Highcharts.stockChart('container0011', {
 
             rangeSelector: {
                 selected: 1,
@@ -116,12 +111,12 @@ function generateChart(fileNamekey){
             },
 
             title: {
-                text: 'Distributions of Cumulative Values: ' + optionSelected
+                text: 'Distributions of: ' + optionSelected
             },
 
             subtitle: {
-                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico</p> <br/> ' +
-                    '<p><b>Data Source</b>: The COVID Tracking Project</p>'
+                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico <br/></p> ' +
+                    '<p><b>Data Source</b>: Johns Hopkins</p>'
             },
 
             time: {
@@ -161,24 +156,11 @@ function generateChart(fileNamekey){
                     x: 0
                 },
                 min: 0,
-                height: '60%',
+                height: '90%',
                 lineWidth: 2,
                 resize: {
                     enabled: true
                 }
-            },{
-                labels: {
-                    align: 'left',
-                    x: 9
-                },
-                title: {
-                    text: 'Total Till Date',
-                    x: 0
-                },
-                top: '65%',
-                height: '35%',
-                offset: 0,
-                lineWidth: 2
             }
             ],
 
@@ -205,7 +187,7 @@ function generateChart(fileNamekey){
 
             series: [{
                 type: 'candlestick',
-                name: 'Distribution of Values',
+                name: 'Distribution of ' + optionSelected,
                 data: ohlc,
                 dataGrouping: {
                     units: groupingUnits,
@@ -230,7 +212,7 @@ function generateChart(fileNamekey){
             },
                 {
                     type: 'spline',
-                    name: 'Median by Date',
+                    name: 'Median',
                     data: medians,
                     color: '#6B8E23',
                     yAxis: 0,
@@ -256,24 +238,7 @@ function generateChart(fileNamekey){
                         pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
                             '{point.y}<br/>'
                     }
-                },
-                {
-                    type: 'spline',
-                    name: 'Total by Date',
-                    data: numbers,
-                    color: '#EDC948',
-                    yAxis: 1,
-                    dataGrouping: {
-                        units: groupingUnits
-                    },
-                    tooltip: {
-                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
-                            '{point.y}<br/>'
-                    }
-
                 }
-
-
             ],
             responsive: {
                 rules: [{
@@ -291,9 +256,7 @@ function generateChart(fileNamekey){
 
     }).fail(function() {
         console.log("Missing");
-        $('#container0001').empty();
+        $('#container0011').empty();
     });
 
 }
-
-

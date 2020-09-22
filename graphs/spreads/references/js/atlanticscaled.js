@@ -116,7 +116,8 @@ function generateChart(fileNamekey){
             },
 
             subtitle: {
-                text: 'U.S.A.: The States, Washington D.C., & Puerto Rico <br/> <p> Data Source: C.T.P.</p>'
+                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico</p> <br/> ' +
+                    '<p><b>Data Source</b>: The COVID Tracking Project</p>'
             },
 
             time: {
@@ -134,6 +135,16 @@ function generateChart(fileNamekey){
                 // verticalAlign: 'bottom',
                 // y: 10,
                 // x: 35
+            },
+
+            exporting: {
+                buttons: {
+                    contextButton: {
+                        menuItems: [ 'viewFullscreen', 'printChart', 'separator',
+                            'downloadPNG', 'downloadJPEG', 'downloadPDF', 'downloadSVG' , 'separator',
+                            'downloadXLS', 'downloadCSV']
+                    }
+                }
             },
 
             yAxis: [{
@@ -226,7 +237,7 @@ function generateChart(fileNamekey){
                     },
                     tooltip: {
                         pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
-                            '{point.y:,.2f}<br/>'
+                            '{point.y}<br/>'
                     }
                 }
             ],
