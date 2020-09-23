@@ -38,6 +38,9 @@ def main():
     # Deriving variables; these are appended to the initial variables
     derivations = hopkins.algorithms.derivations.Derivations().exc(blob=anomalies)
 
+    # The latest cumulative values
+    hopkins.algorithms.accumulations.Accumulations(blob=derivations).exc()
+
     # Row batches w.r.t. 'partitionby'
     partitions = hopkins.algorithms.partitions.Partitions(blob=derivations, partitionby='STUSPS')
     partitions.exc()
@@ -63,6 +66,7 @@ if __name__ == '__main__':
     import hopkins.src.readings
 
     import hopkins.algorithms.anomalies
+    import hopkins.algorithms.accumulations
     import hopkins.algorithms.derivations
     import hopkins.algorithms.partitions
     import hopkins.algorithms.segments
