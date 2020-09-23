@@ -41,7 +41,7 @@ class Accumulations:
     @staticmethod
     def ptr(latest) -> pd.DataFrame:
         """
-        Calculates each record's postive test rate
+        Calculates each record's positive test rate
 
         :param latest: Per state, the latest date's data
         :return:
