@@ -41,7 +41,7 @@ def main():
     logger.info('\nDerivations:\n{}\n'.format(derivations.info()))
 
     # The latest positive test rates: for graph labelling purposes
-    atlantic.algorithms.rates.Rates(blob=derivations).exc()
+    atlantic.algorithms.accumulations.Accumulations(blob=derivations).exc()
 
     # Places
     gazetteer = atlantic.src.gazetteer.Gazetteer()
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     import atlantic.algorithms.anomalies
     import atlantic.algorithms.tests
     import atlantic.algorithms.derivations
-    import atlantic.algorithms.rates
+    import atlantic.algorithms.accumulations
     import atlantic.algorithms.segments
 
     import atlantic.src.gazetteer

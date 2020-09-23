@@ -1,3 +1,5 @@
 *.pdf
 
+# Large files
 *hazardIndices.csv
+*tracts.csv

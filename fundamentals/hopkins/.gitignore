@@ -1,5 +1,6 @@
 *.pdf
 
+# Exclude external projects and their supplementary directories
 *algorithms/
 *cartographs/
 *candles/
@@ -7,6 +8,10 @@
 *states/
 *counties/
 
+# Exclude large files
+*warehouse/capita.csv
+
+# Include
 !warehouse/candles/
 !hopkins/algorithms/
 !notebooks/warehouse/states
