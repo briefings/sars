@@ -5,6 +5,9 @@
 *candles/
 *populations/
 *states/
+*algorithms/
+
+!atlantic/algorithms/
 
 !warehouse/candles*.
 !warehouse/candles/
