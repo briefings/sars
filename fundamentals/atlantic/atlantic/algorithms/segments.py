@@ -32,7 +32,8 @@ class Segments:
 
     def dpc(self):
         """
-        Appends the grid lines for the Deaths/100K v Positives/100K curves
+        Appends the grid lines for the Deaths/100K [Continuous] v Positives/100K [Continuous] curves
+
         :return:
         """
 
@@ -48,7 +49,7 @@ class Segments:
 
     def dtc(self):
         """
-        Appends the grid lines for the Deaths/100K v Tests/100K curves
+        Appends the grid lines for the Deaths/100K [Continuous] v Tests/100K [Continuous] curves
         :return:
         """
 
@@ -64,7 +65,7 @@ class Segments:
 
     def ptc(self):
         """
-        The Positives/100K v Tests/100K curves
+        The Positives/100K [Continuous] v Tests/100K [Continuous] curves
         :return:
         """
 
