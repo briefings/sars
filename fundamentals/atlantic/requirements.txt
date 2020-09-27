@@ -2,5 +2,7 @@ geopandas==0.8.1
 requests==2.24.0
 jupyterlab==2.1.5
 dask[complete]==2.23.0
+statsmodels==0.11.1
+## For programming purposes [The packages above install the packages below]
 numpy==1.19.1
 pandas==1.1.0
