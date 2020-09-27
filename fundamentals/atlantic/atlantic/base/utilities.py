@@ -14,6 +14,8 @@ class Utilities:
         dearchive.exc(urlstring='https://github.com/miscellane/cartographs/raw/develop/cartographs.zip')
         dearchive.exc(urlstring='https://github.com/miscellane/candles/raw/develop/candles.zip')
         dearchive.exc(
+            urlstring='https://github.com/briefings/sars/raw/develop/fundamentals/algorithms/algorithms.zip')
+        dearchive.exc(
             urlstring='https://github.com/briefings/sars/raw/develop/fundamentals/populations/populations.zip')
 
     def exc(self):

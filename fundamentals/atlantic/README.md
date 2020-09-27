@@ -13,6 +13,7 @@ In preparation for Docker, etc.
   conda install -c anaconda pywin32 jupyterlab nodejs
   conda install -c anaconda dask
   conda install -c anaconda python-graphviz
+  conda install -c anaconda statsmodels
 ```
 
 <br>
