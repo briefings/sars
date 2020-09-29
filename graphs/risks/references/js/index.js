@@ -40,9 +40,10 @@ function generateChart(fileNamekey) {
 
     $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/data/trends/' + fileNamekey + '.json', function (risk) {
 
-        // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
-        // https://api.highcharts.com/class-reference/Highcharts.Point#.name
         // https://api.highcharts.com/highstock/tooltip.pointFormat
+        // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
+        // https://api.highcharts.com/highcharts/tooltip.headerFormat
+        // https://www.highcharts.com/demo/stock/compare
 
 
         // split
