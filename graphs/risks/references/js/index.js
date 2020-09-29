@@ -1,7 +1,9 @@
 var Highcharts;
 var optionSelected;
+var seriesOptions = [];
 var dropdown = $('#option_selector');
 var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/index.json';
+
 
 $.getJSON(url, function (data) {
 
@@ -36,124 +38,148 @@ dropdown.on('change', function (e) {
 // Generate graphs
 function generateChart(fileNamekey) {
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/data/trends/' + fileNamekey + '.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/data/trends/' + fileNamekey + '.json', function (risk) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
         // https://api.highcharts.com/highstock/tooltip.pointFormat
 
 
+        // split
+        var i = 0;
+        var status;
 
-        Highcharts.chart('container', {
+        for (i; i < risk.length; i += 1) {
+
+            status = i === 18;
+
+            seriesOptions[i] = {
+                name: risk[i].name,
+                visible: status,
+                data: risk[i].data
+            };
+
+        }
+
+        Highcharts.setOptions({
+            lang: {
+                thousandsSep: ','
+            }
+        });
+
+
+        Highcharts.chart('container0003', {
 
             chart: {
                 type: 'bubble',
-                plotBorderWidth: 1,
+                plotBorderWidth: 0,
                 zoomType: 'xy'
             },
 
+            credits: {
+                enabled: false
+            },
+
             legend: {
-                enabled: true
+                enabled: true,
+                x: 50
             },
 
             title: {
-                text: 'Risk per county'
+                text: 'Risk and deaths per county'
             },
 
             subtitle: {
-                text: 'Source: <a href="http://www.euromonitor.com/">Euromonitor</a> and <a href="https://data.oecd.org/">OECD</a>'
-            },
-
-            accessibility: {
-                point: {
-                    valueDescriptionFormat: '{index}. {point.name}, fat: {point.x}g, sugar: {point.y}g, obesity: {point.z}%.'
-                }
+                text: 'Source: <a href="https://www.epa.gov/national-air-toxics-assessment/2014-nata-assessment-results">EPA</a> ' +
+                    'and <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JH</a>'
             },
 
             xAxis: {
                 gridLineWidth: 1,
                 title: {
-                    text: 'Daily fat intake'
+                    text: 'positives per 100K (continuous)'
                 },
                 labels: {
-                    format: '{value} gr'
+                    format: '{value}'
                 },
                 plotLines: [{
                     color: 'black',
                     dashStyle: 'dot',
                     width: 2,
-                    value: 65,
+                    value: 650,
                     label: {
                         rotation: 0,
                         y: 15,
                         style: {
                             fontStyle: 'italic'
                         },
-                        text: 'Safe fat intake 65g/day'
+                        text: 'Temporary vertical line ...'
                     },
                     zIndex: 3
-                }],
-                accessibility: {
-                    rangeDescription: 'Range: 60 to 100 grams.'
-                }
+                }]
             },
 
             yAxis: {
                 startOnTick: false,
                 endOnTick: false,
                 title: {
-                    text: 'Daily sugar intake'
+                    text: 'Total Cancer Risk (per million)'
                 },
                 labels: {
-                    format: '{value} gr'
+                    format: '{value}'
                 },
                 maxPadding: 0.2,
                 plotLines: [{
                     color: 'black',
                     dashStyle: 'dot',
                     width: 2,
-                    value: 50,
+                    value: 1,
                     label: {
                         align: 'right',
                         style: {
                             fontStyle: 'italic'
                         },
-                        text: 'Safe sugar intake 50g/day',
+                        text: 'Temporary horizontal line ...',
                         x: -10
                     },
                     zIndex: 3
-                }],
-                accessibility: {
-                    rangeDescription: 'Range: 0 to 160 grams.'
+                }]
+            },
+
+            exporting: {
+                buttons: {
+                    contextButton: {
+                        menuItems: [ 'viewFullscreen', 'printChart', 'separator',
+                            'downloadPNG', 'downloadJPEG', 'downloadPDF', 'downloadSVG' , 'separator',
+                            'downloadXLS', 'downloadCSV']
+                    }
                 }
             },
 
             tooltip: {
-                useHTML: true,
-                headerFormat: '<table>',
-                pointFormat: '<tr><th colspan="2"><h3>{point.country}</h3></th></tr>' +
-                    '<tr><th>Fat intake:</th><td>{point.x}g</td></tr>' +
-                    '<tr><th>Sugar intake:</th><td>{point.y}g</td></tr>' +
-                    '<tr><th>Obesity (adults):</th><td>{point.z}%</td></tr>',
-                footerFormat: '</table>',
-                followPointer: true
+                headerFormat: '<span style="font-size: 13px; color:{point.color}">\u25CF {point.key}, {series.name}</span>',
+                pointFormat: '<br/><p><span style="color: white">Gap</span></p><p><br/>' +
+                    'Positives/100K [C]: {point.x:,.2f}<br/>' +
+                    'Deaths/100K [C]: {point.z:,.2f}<br/>' +
+                    'Total Cancer Risk (per million): {point.y:,.2f}<br/></p>',
+                style: {
+                    fontSize: "11px"
+                }
             },
 
             plotOptions: {
                 series: {
                     dataLabels: {
-                        enabled: true,
-                        format: '{point.name}'
-                    }
+                        enabled: false
+                    },
+
+                    turboThreshold: 4000
                 }
-            }
+            },
+
+            series: seriesOptions
 
         });
-
-
-
-
-
 
 
     }).fail(function () {
@@ -162,14 +188,4 @@ function generateChart(fileNamekey) {
     });
 
 
-
-
 }
-
-
-
-
-
-
-
-
