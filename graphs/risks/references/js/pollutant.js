@@ -2,7 +2,7 @@ var Highcharts;
 var optionSelected;
 var seriesOptions = [];
 var dropdown = $('#option_selector');
-var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/espriskbypollutant.json';
+var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/pollutant.json';
 
 
 $.getJSON(url, function (data) {
