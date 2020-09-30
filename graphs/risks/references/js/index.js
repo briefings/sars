@@ -38,7 +38,7 @@ dropdown.on('change', function (e) {
 // Generate graphs
 function generateChart(fileNamekey) {
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/correlations/warehouse/' + fileNamekey + '.json', function (risk) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/correlations/warehouse/respiratory/group/' + fileNamekey + '.json', function (risk) {
 
         // https://api.highcharts.com/highstock/tooltip.pointFormat
         // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
@@ -124,7 +124,7 @@ function generateChart(fileNamekey) {
                 startOnTick: false,
                 endOnTick: false,
                 title: {
-                    text: 'Total Cancer Risk (per million)'
+                    text: 'deaths per 100K (continuous)'
                 },
                 labels: {
                     format: '{value}'
@@ -161,8 +161,8 @@ function generateChart(fileNamekey) {
                 headerFormat: '<span style="font-size: 13px; color:{point.color}">\u25CF {point.key}, {series.name}</span>',
                 pointFormat: '<br/><p><span style="color: white">Gap</span></p><p><br/>' +
                     'Positives/100K [C]: {point.x:,.2f}<br/>' +
-                    'Deaths/100K [C]: {point.z:,.2f}<br/>' +
-                    'Total Cancer Risk (per million): {point.y:,.2f}<br/></p>',
+                    'Deaths/100K [C]: {point.y:,.2f}<br/>' +
+                    'Total Respiratory Hazard: {point.z:,.2f}<br/></p>',
                 style: {
                     fontSize: "11px"
                 }
