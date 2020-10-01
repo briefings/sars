@@ -11,8 +11,6 @@ The United States Environmental Protection Agency's "*2014 NATA (National Air To
 
 ### Exploratory Graphs
 
-* [index](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/risks/pages/index.html) <br> An exploration.
-
 #### Respiratory
 
 * [by pollutant](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/risks/pages/respiratory/pollutant.html)
