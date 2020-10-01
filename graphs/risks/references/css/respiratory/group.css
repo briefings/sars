@@ -1,0 +1,7 @@
+select {
+    height: 33px;
+    font-family: Gafata, Roboto, serif;
+    border: 0 solid;
+    border-radius: 4px;
+    background-color: rgba(182, 173, 255, 0.18);
+}
