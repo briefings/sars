@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Total Respiratory (hazard quotient)",
+    "desc": "TOTALRESPIRATORYHAZARDQUOTIENT"
+  },
+  {
+    "name": "1,2-EPOXYBUTANE",
+    "desc": "12EPOXYBUTANE"
+  },
+  {
+    "name": "1,3-DICHLOROPROPENE",
+    "desc": "13DICHLOROPROPENE"
+  },
+  {
+    "name": "2-CHLOROACETOPHENONE",
+    "desc": "2CHLOROACETOPHENONE"
+  },
+  {
+    "name": "2,4-TOLUENE DIISOCYANATE",
+    "desc": "24TOLUENEDIISOCYANATE"
+  },
+  {
+    "name": "4,4'-METHYLENEDIPHENYL DIISOCYANATE (MDI)",
+    "desc": "44METHYLENEDIPHENYLDIISOCYANATEMDI"
+  },
+  {
+    "name": "ACETALDEHYDE",
+    "desc": "ACETALDEHYDE"
+  },
+  {
+    "name": "ACROLEIN",
+    "desc": "ACROLEIN"
+  },
+  {
+    "name": "ACRYLIC ACID",
+    "desc": "ACRYLICACID"
+  },
+  {
+    "name": "ACRYLONITRILE",
+    "desc": "ACRYLONITRILE"
+  },
+  {
+    "name": "ANTIMONY COMPOUNDS",
+    "desc": "ANTIMONYCOMPOUNDS"
+  },
+  {
+    "name": "BERYLLIUM COMPOUNDS",
+    "desc": "BERYLLIUMCOMPOUNDS"
+  },
+  {
+    "name": "BIS(2-ETHYLHEXYL)PHTHALATE (DEHP)",
+    "desc": "BIS2ETHYLHEXYLPHTHALATEDEHP"
+  },
+  {
+    "name": "CHROMIUM VI (HEXAVALENT)",
+    "desc": "CHROMIUMVIHEXAVALENT"
+  },
+  {
+    "name": "CHLORINE",
+    "desc": "CHLORINE"
+  },
+  {
+    "name": "CHLOROPRENE",
+    "desc": "CHLOROPRENE"
+  },
+  {
+    "name": "COBALT COMPOUNDS",
+    "desc": "COBALTCOMPOUNDS"
+  },
+  {
+    "name": "DIESEL PM",
+    "desc": "DIESELPM"
+  },
+  {
+    "name": "DIETHANOLAMINE",
+    "desc": "DIETHANOLAMINE"
+  },
+  {
+    "name": "EPICHLOROHYDRIN",
+    "desc": "EPICHLOROHYDRIN"
+  },
+  {
+    "name": "ETHYLENE DIBROMIDE (DIBROMOETHANE)",
+    "desc": "ETHYLENEDIBROMIDEDIBROMOETHANE"
+  },
+  {
+    "name": "ETHYLENE GLYCOL",
+    "desc": "ETHYLENEGLYCOL"
+  },
+  {
+    "name": "FORMALDEHYDE",
+    "desc": "FORMALDEHYDE"
+  },
+  {
+    "name": "HEXACHLOROCYCLOPENTADIENE",
+    "desc": "HEXACHLOROCYCLOPENTADIENE"
+  },
+  {
+    "name": "HEXAMETHYLENE DIISOCYANATE",
+    "desc": "HEXAMETHYLENEDIISOCYANATE"
+  },
+  {
+    "name": "HYDROCHLORIC ACID (HYDROGEN CHLORIDE [GAS ONLY])",
+    "desc": "HYDROCHLORICACIDHYDROGENCHLORIDEGASONLY"
+  },
+  {
+    "name": "MALEIC ANHYDRIDE",
+    "desc": "MALEICANHYDRIDE"
+  },
+  {
+    "name": "METHYL BROMIDE (BROMOMETHANE)",
+    "desc": "METHYLBROMIDEBROMOMETHANE"
+  },
+  {
+    "name": "METHYL ISOCYANATE",
+    "desc": "METHYLISOCYANATE"
+  },
+  {
+    "name": "METHYL METHACRYLATE",
+    "desc": "METHYLMETHACRYLATE"
+  },
+  {
+    "name": "METHYLENE CHLORIDE",
+    "desc": "METHYLENECHLORIDE"
+  },
+  {
+    "name": "NICKEL COMPOUNDS",
+    "desc": "NICKELCOMPOUNDS"
+  },
+  {
+    "name": "NAPHTHALENE",
+    "desc": "NAPHTHALENE"
+  },
+  {
+    "name": "NITROBENZENE",
+    "desc": "NITROBENZENE"
+  },
+  {
+    "name": "PHOSGENE",
+    "desc": "PHOSGENE"
+  },
+  {
+    "name": "PHTHALIC ANHYDRIDE",
+    "desc": "PHTHALICANHYDRIDE"
+  },
+  {
+    "name": "PROPIONALDEHYDE",
+    "desc": "PROPIONALDEHYDE"
+  },
+  {
+    "name": "PROPYLENE DICHLORIDE (1,2-DICHLOROPROPANE)",
+    "desc": "PROPYLENEDICHLORIDE12DICHLOROPROPANE"
+  },
+  {
+    "name": "PROPYLENE OXIDE",
+    "desc": "PROPYLENEOXIDE"
+  },
+  {
+    "name": "STYRENE OXIDE",
+    "desc": "STYRENEOXIDE"
+  },
+  {
+    "name": "TITANIUM TETRACHLORIDE",
+    "desc": "TITANIUMTETRACHLORIDE"
+  },
+  {
+    "name": "TRIETHYLAMINE",
+    "desc": "TRIETHYLAMINE"
+  },
+  {
+    "name": "VINYL ACETATE",
+    "desc": "VINYLACETATE"
+  },
+  {
+    "name": "1,4-DIOXANE",
+    "desc": "14DIOXANE"
+  }
+]
