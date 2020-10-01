@@ -2,7 +2,7 @@ var Highcharts;
 var optionSelected;
 var seriesOptions = [];
 var dropdown = $('#option_selector');
-var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/index.json';
+var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/menu/index.json';
 
 
 $.getJSON(url, function (data) {
