@@ -52,7 +52,7 @@ function generateChart(fileNamekey) {
 
         for (i; i < risk.length; i += 1) {
 
-            status = i === 18;
+            status = (risk[i].name === "Louisiana" || risk[i].name === "New York");
 
             seriesOptions[i] = {
                 name: risk[i].name,
@@ -86,11 +86,11 @@ function generateChart(fileNamekey) {
             },
 
             title: {
-                text: 'Hazard & Deaths/100K [C] by County'
+                text: 'Deaths & Hazard Index'
             },
 
             subtitle: {
-                text: 'Source: <a href="https://www.epa.gov/national-air-toxics-assessment/2014-nata-assessment-results">EPA</a> ' +
+                text: 'The Source of the Underlying Data: <a href="https://www.epa.gov/national-air-toxics-assessment/2014-nata-assessment-results">EPA</a> ' +
                     'and <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JH</a>'
             },
 
@@ -123,7 +123,7 @@ function generateChart(fileNamekey) {
                 startOnTick: false,
                 endOnTick: false,
                 title: {
-                    text: 'hazard index'
+                    text: optionSelected + '<br/>hazard index'
                 },
                 labels: {
                     format: '{value}'
@@ -160,7 +160,7 @@ function generateChart(fileNamekey) {
                 headerFormat: '<span style="font-size: 13px; color:{point.color}">\u25CF {point.key}, {series.name}</span>',
                 pointFormat: '<br/><p><span style="color: white">Gap</span></p><p><br/>' +
                     'Deaths/100K [C]: {point.x:,.2f}<br/>' +
-                    'Total Respiratory Hazard: {point.y:,.2f}<br/></p>',
+                    optionSelected + ' Hazard: {point.y:,.5f}<br/></p>',
                 style: {
                     fontSize: "11px"
                 }
