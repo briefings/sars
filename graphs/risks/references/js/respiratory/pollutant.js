@@ -38,7 +38,7 @@ dropdown.on('change', function (e) {
 // Generate graphs
 function generateChart(fileNamekey) {
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/risks/correlations/warehouse/respiratory/pollutant/' + fileNamekey + '.json', function (risk) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/explorations/toxicity/warehouse/respiratory/pollutant/' + fileNamekey + '.json', function (risk) {
 
         // https://api.highcharts.com/highstock/tooltip.pointFormat
         // https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/bubble
