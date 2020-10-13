@@ -11,3 +11,5 @@ The United States Environmental Protection Agency's "*2014 NATA (National Air To
 **Notebooks**
 
 * [risks.ipynb](https://colab.research.google.com/github/briefings/sars/blob/develop/fundamentals/risks/risks.ipynb)
+
+* [patterns.ipynb](https://colab.research.google.com/github/briefings/sars/blob/develop/fundamentals/risks/patterns.ipynb)
