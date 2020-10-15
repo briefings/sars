@@ -1,0 +1,4 @@
+dask[complete]==2.30.0
+## The following requirements were added by pip freeze:
+numpy==1.19.1
+pandas==1.1.3
