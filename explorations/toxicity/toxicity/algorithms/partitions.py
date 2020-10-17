@@ -39,7 +39,7 @@ class Partitions:
     def create(self, stusps: str, state: str, label: str, excerpt):
 
         segment = excerpt[excerpt['STUSPS'] == stusps]
-        dictionary = segment.drop(columns=['STUSPS', 'STATE', 'label']).to_dict(orient='records')
+        dictionary = segment.drop(columns=['STUSPS', 'STATE', 'label', 'COUNTYGEOID']).to_dict(orient='records')
 
         return {'hazard': label, 'name': state, 'data': dictionary}
 
