@@ -25,9 +25,11 @@ def main():
 
     # Partitions instance
     partitions = toxicity.algorithms.partitions.Partitions(gazetteer=gazetteer)
-
     sources = glob.glob(os.path.join(configurations.warehouse, 'modelling', '*.csv'))
     for source in sources:
+
+        if not (source.__contains__('immunological') | source.__contains__('resp')):
+            continue
 
         case, classification = configurations.names(source=source)
 
@@ -37,8 +39,6 @@ def main():
         print(directory, '\n', source)
 
         partitions.exc(source=source, directory=directory)
-
-
 
 
 if __name__ == '__main__':
