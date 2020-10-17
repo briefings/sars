@@ -1,158 +1,158 @@
 [
   {
-    "name": "TOTAL",
-    "desc": "Total"
+    "desc": "TOTAL",
+    "name": "Total"
   },
   {
-    "name": "PTSTATIONARYPOINT",
-    "desc": "PT StationaryPoint"
+    "desc": "PTSTATIONARYPOINT",
+    "name": "PT StationaryPoint"
   },
   {
-    "name": "ORLIGHTDUTYOFFNETWORKGAS",
-    "desc": "OR LightDuty OffNetwork Gas"
+    "desc": "ORLIGHTDUTYOFFNETWORKGAS",
+    "name": "OR LightDuty OffNetwork Gas"
   },
   {
-    "name": "ORLIGHTDUTYOFFNETWORKDIESEL",
-    "desc": "OR LightDuty OffNetwork Diesel"
+    "desc": "ORLIGHTDUTYOFFNETWORKDIESEL",
+    "name": "OR LightDuty OffNetwork Diesel"
   },
   {
-    "name": "ORHEAVYDUTYOFFNETWORKGAS",
-    "desc": "OR HeavyDuty OffNetwork Gas"
+    "desc": "ORHEAVYDUTYOFFNETWORKGAS",
+    "name": "OR HeavyDuty OffNetwork Gas"
   },
   {
-    "name": "ORHEAVYDUTYOFFNETWORKDIESEL",
-    "desc": "OR HeavyDuty OffNetwork Diesel"
+    "desc": "ORHEAVYDUTYOFFNETWORKDIESEL",
+    "name": "OR HeavyDuty OffNetwork Diesel"
   },
   {
-    "name": "ORLIGHTDUTYONNETWORKGAS",
-    "desc": "OR LightDuty OnNetwork Gas"
+    "desc": "ORLIGHTDUTYONNETWORKGAS",
+    "name": "OR LightDuty OnNetwork Gas"
   },
   {
-    "name": "ORLIGHTDUTYONNETWORKDIESEL",
-    "desc": "OR LightDuty OnNetwork Diesel"
+    "desc": "ORLIGHTDUTYONNETWORKDIESEL",
+    "name": "OR LightDuty OnNetwork Diesel"
   },
   {
-    "name": "ORHEAVYDUTYONNETWORKGAS",
-    "desc": "OR HeavyDuty OnNetwork Gas"
+    "desc": "ORHEAVYDUTYONNETWORKGAS",
+    "name": "OR HeavyDuty OnNetwork Gas"
   },
   {
-    "name": "ORHEAVYDUTYONNETWORKDIESEL",
-    "desc": "OR HeavyDuty OnNetwork Diesel"
+    "desc": "ORHEAVYDUTYONNETWORKDIESEL",
+    "name": "OR HeavyDuty OnNetwork Diesel"
   },
   {
-    "name": "ORREFUELING",
-    "desc": "OR Refueling"
+    "desc": "ORREFUELING",
+    "name": "OR Refueling"
   },
   {
-    "name": "ORHEAVYDUTYHOTELING",
-    "desc": "OR HeavyDuty Hoteling"
+    "desc": "ORHEAVYDUTYHOTELING",
+    "name": "OR HeavyDuty Hoteling"
   },
   {
-    "name": "NRRECREATIONALINCPLEASURECRAFT",
-    "desc": "NR Recreational inc PleasureCraft"
+    "desc": "NRRECREATIONALINCPLEASURECRAFT",
+    "name": "NR Recreational inc PleasureCraft"
   },
   {
-    "name": "NRCONSTRUCTION",
-    "desc": "NR Construction"
+    "desc": "NRCONSTRUCTION",
+    "name": "NR Construction"
   },
   {
-    "name": "NRCOMMERCIALLAWNGARDEN",
-    "desc": "NR CommercialLawnGarden"
+    "desc": "NRCOMMERCIALLAWNGARDEN",
+    "name": "NR CommercialLawnGarden"
   },
   {
-    "name": "NRRESIDENTIALLAWNGARDEN",
-    "desc": "NR ResidentialLawnGarden"
+    "desc": "NRRESIDENTIALLAWNGARDEN",
+    "name": "NR ResidentialLawnGarden"
   },
   {
-    "name": "NRAGRICULTURE",
-    "desc": "NR Agriculture"
+    "desc": "NRAGRICULTURE",
+    "name": "NR Agriculture"
   },
   {
-    "name": "NRCOMMERCIALEQUIPMENT",
-    "desc": "NR CommercialEquipment"
+    "desc": "NRCOMMERCIALEQUIPMENT",
+    "name": "NR CommercialEquipment"
   },
   {
-    "name": "NRALLOTHER",
-    "desc": "NR AllOther"
+    "desc": "NRALLOTHER",
+    "name": "NR AllOther"
   },
   {
-    "name": "NRCMVC1C2PORTS",
-    "desc": "NR CMV C1C2 ports"
+    "desc": "NRCMVC1C2PORTS",
+    "name": "NR CMV C1C2 ports"
   },
   {
-    "name": "NRCMVC3PORTS",
-    "desc": "NR CMV C3 ports"
+    "desc": "NRCMVC3PORTS",
+    "name": "NR CMV C3 ports"
   },
   {
-    "name": "NRCMVC1C2C3UNDERWAY",
-    "desc": "NR CMV C1C2C3 underway"
+    "desc": "NRCMVC1C2C3UNDERWAY",
+    "name": "NR CMV C1C2C3 underway"
   },
   {
-    "name": "NRLOCOMOTIVES",
-    "desc": "NR Locomotives"
+    "desc": "NRLOCOMOTIVES",
+    "name": "NR Locomotives"
   },
   {
-    "name": "NRPOINTAIRPORTS",
-    "desc": "NR Point Airports"
+    "desc": "NRPOINTAIRPORTS",
+    "name": "NR Point Airports"
   },
   {
-    "name": "NRPOINTRAILYARDS",
-    "desc": "NR  Point Railyards"
+    "desc": "NRPOINTRAILYARDS",
+    "name": "NR  Point Railyards"
   },
   {
-    "name": "NPINDUSTRIAL",
-    "desc": "NP industrial"
+    "desc": "NPINDUSTRIAL",
+    "name": "NP industrial"
   },
   {
-    "name": "NPCOMMERCIALCOOKING",
-    "desc": "NP CommercialCooking"
+    "desc": "NPCOMMERCIALCOOKING",
+    "name": "NP CommercialCooking"
   },
   {
-    "name": "NPOILGAS",
-    "desc": "NP OilGas"
+    "desc": "NPOILGAS",
+    "name": "NP OilGas"
   },
   {
-    "name": "NPSOLVENTSCOATINGS",
-    "desc": "NP SolventsCoatings"
+    "desc": "NPSOLVENTSCOATINGS",
+    "name": "NP SolventsCoatings"
   },
   {
-    "name": "NPSTORAGETRANSFERBULKTERMINALSGASSTAGE1",
-    "desc": "NP StorageTransfer BulkTerminals GasStage1"
+    "desc": "NPSTORAGETRANSFERBULKTERMINALSGASSTAGE1",
+    "name": "NP StorageTransfer BulkTerminals GasStage1"
   },
   {
-    "name": "NPMISCELLANEOUSNONINDUSTRIAL",
-    "desc": "NP MiscellaneousNonindustrial"
+    "desc": "NPMISCELLANEOUSNONINDUSTRIAL",
+    "name": "NP MiscellaneousNonindustrial"
   },
   {
-    "name": "NPFUELCOMBUSTIONNOTRWC",
-    "desc": "NP FuelCombustion not RWC"
+    "desc": "NPFUELCOMBUSTIONNOTRWC",
+    "name": "NP FuelCombustion not RWC"
   },
   {
-    "name": "NPRESIDENTIALWOODCOMBUSTIONRWC",
-    "desc": "NP ResidentialWoodCombustionRWC"
+    "desc": "NPRESIDENTIALWOODCOMBUSTIONRWC",
+    "name": "NP ResidentialWoodCombustionRWC"
   },
   {
-    "name": "NPWASTEDISPOSAL",
-    "desc": "NP WasteDisposal"
+    "desc": "NPWASTEDISPOSAL",
+    "name": "NP WasteDisposal"
   },
   {
-    "name": "NPAGRICULTURELIVESTOCK",
-    "desc": "NP AgricultureLivestock"
+    "desc": "NPAGRICULTURELIVESTOCK",
+    "name": "NP AgricultureLivestock"
   },
   {
-    "name": "FIRE",
-    "desc": "FIRE"
+    "desc": "FIRE",
+    "name": "FIRE"
   },
   {
-    "name": "BIOGENICS",
-    "desc": "BIOGENICS"
+    "desc": "BIOGENICS",
+    "name": "BIOGENICS"
   },
   {
-    "name": "SECONDARY",
-    "desc": "SECONDARY"
+    "desc": "SECONDARY",
+    "name": "SECONDARY"
   },
   {
-    "name": "BACKGROUND",
-    "desc": "BACKGROUND"
+    "desc": "BACKGROUND",
+    "name": "BACKGROUND"
   }
 ]
