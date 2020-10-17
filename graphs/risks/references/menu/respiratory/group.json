@@ -1,1 +1,158 @@
-[{"desc": "TOTAL", "name": "Total"}, {"desc": "PTSTATIONARYPOINT", "name": "PT StationaryPoint"}, {"desc": "ORLIGHTDUTYOFFNETWORKGAS", "name": "OR LightDuty OffNetwork Gas"}, {"desc": "ORLIGHTDUTYOFFNETWORKDIESEL", "name": "OR LightDuty OffNetwork Diesel"}, {"desc": "ORHEAVYDUTYOFFNETWORKGAS", "name": "OR HeavyDuty OffNetwork Gas"}, {"desc": "ORHEAVYDUTYOFFNETWORKDIESEL", "name": "OR HeavyDuty OffNetwork Diesel"}, {"desc": "ORLIGHTDUTYONNETWORKGAS", "name": "OR LightDuty OnNetwork Gas"}, {"desc": "ORLIGHTDUTYONNETWORKDIESEL", "name": "OR LightDuty OnNetwork Diesel"}, {"desc": "ORHEAVYDUTYONNETWORKGAS", "name": "OR HeavyDuty OnNetwork Gas"}, {"desc": "ORHEAVYDUTYONNETWORKDIESEL", "name": "OR HeavyDuty OnNetwork Diesel"}, {"desc": "ORREFUELING", "name": "OR Refueling"}, {"desc": "ORHEAVYDUTYHOTELING", "name": "OR HeavyDuty Hoteling"}, {"desc": "NRRECREATIONALINCPLEASURECRAFT", "name": "NR Recreational inc PleasureCraft"}, {"desc": "NRCONSTRUCTION", "name": "NR Construction"}, {"desc": "NRCOMMERCIALLAWNGARDEN", "name": "NR CommercialLawnGarden"}, {"desc": "NRRESIDENTIALLAWNGARDEN", "name": "NR ResidentialLawnGarden"}, {"desc": "NRAGRICULTURE", "name": "NR Agriculture"}, {"desc": "NRCOMMERCIALEQUIPMENT", "name": "NR CommercialEquipment"}, {"desc": "NRALLOTHER", "name": "NR AllOther"}, {"desc": "NRCMVC1C2PORTS", "name": "NR CMV C1C2 ports"}, {"desc": "NRCMVC3PORTS", "name": "NR CMV C3 ports"}, {"desc": "NRCMVC1C2C3UNDERWAY", "name": "NR CMV C1C2C3 underway"}, {"desc": "NRLOCOMOTIVES", "name": "NR Locomotives"}, {"desc": "NRPOINTAIRPORTS", "name": "NR Point Airports"}, {"desc": "NRPOINTRAILYARDS", "name": "NR  Point Railyards"}, {"desc": "NPINDUSTRIAL", "name": "NP industrial"}, {"desc": "NPCOMMERCIALCOOKING", "name": "NP CommercialCooking"}, {"desc": "NPOILGAS", "name": "NP OilGas"}, {"desc": "NPSOLVENTSCOATINGS", "name": "NP SolventsCoatings"}, {"desc": "NPSTORAGETRANSFERBULKTERMINALSGASSTAGE1", "name": "NP StorageTransfer BulkTerminals GasStage1"}, {"desc": "NPMISCELLANEOUSNONINDUSTRIAL", "name": "NP MiscellaneousNonindustrial"}, {"desc": "NPFUELCOMBUSTIONNOTRWC", "name": "NP FuelCombustion not RWC"}, {"desc": "NPRESIDENTIALWOODCOMBUSTIONRWC", "name": "NP ResidentialWoodCombustionRWC"}, {"desc": "NPWASTEDISPOSAL", "name": "NP WasteDisposal"}, {"desc": "NPAGRICULTURELIVESTOCK", "name": "NP AgricultureLivestock"}, {"desc": "FIRE", "name": "FIRE"}, {"desc": "BIOGENICS", "name": "BIOGENICS"}, {"desc": "SECONDARY", "name": "SECONDARY"}, {"desc": "BACKGROUND", "name": "BACKGROUND"}]
+[
+  {
+    "name": "TOTAL",
+    "desc": "Total"
+  },
+  {
+    "name": "PTSTATIONARYPOINT",
+    "desc": "PT StationaryPoint"
+  },
+  {
+    "name": "ORLIGHTDUTYOFFNETWORKGAS",
+    "desc": "OR LightDuty OffNetwork Gas"
+  },
+  {
+    "name": "ORLIGHTDUTYOFFNETWORKDIESEL",
+    "desc": "OR LightDuty OffNetwork Diesel"
+  },
+  {
+    "name": "ORHEAVYDUTYOFFNETWORKGAS",
+    "desc": "OR HeavyDuty OffNetwork Gas"
+  },
+  {
+    "name": "ORHEAVYDUTYOFFNETWORKDIESEL",
+    "desc": "OR HeavyDuty OffNetwork Diesel"
+  },
+  {
+    "name": "ORLIGHTDUTYONNETWORKGAS",
+    "desc": "OR LightDuty OnNetwork Gas"
+  },
+  {
+    "name": "ORLIGHTDUTYONNETWORKDIESEL",
+    "desc": "OR LightDuty OnNetwork Diesel"
+  },
+  {
+    "name": "ORHEAVYDUTYONNETWORKGAS",
+    "desc": "OR HeavyDuty OnNetwork Gas"
+  },
+  {
+    "name": "ORHEAVYDUTYONNETWORKDIESEL",
+    "desc": "OR HeavyDuty OnNetwork Diesel"
+  },
+  {
+    "name": "ORREFUELING",
+    "desc": "OR Refueling"
+  },
+  {
+    "name": "ORHEAVYDUTYHOTELING",
+    "desc": "OR HeavyDuty Hoteling"
+  },
+  {
+    "name": "NRRECREATIONALINCPLEASURECRAFT",
+    "desc": "NR Recreational inc PleasureCraft"
+  },
+  {
+    "name": "NRCONSTRUCTION",
+    "desc": "NR Construction"
+  },
+  {
+    "name": "NRCOMMERCIALLAWNGARDEN",
+    "desc": "NR CommercialLawnGarden"
+  },
+  {
+    "name": "NRRESIDENTIALLAWNGARDEN",
+    "desc": "NR ResidentialLawnGarden"
+  },
+  {
+    "name": "NRAGRICULTURE",
+    "desc": "NR Agriculture"
+  },
+  {
+    "name": "NRCOMMERCIALEQUIPMENT",
+    "desc": "NR CommercialEquipment"
+  },
+  {
+    "name": "NRALLOTHER",
+    "desc": "NR AllOther"
+  },
+  {
+    "name": "NRCMVC1C2PORTS",
+    "desc": "NR CMV C1C2 ports"
+  },
+  {
+    "name": "NRCMVC3PORTS",
+    "desc": "NR CMV C3 ports"
+  },
+  {
+    "name": "NRCMVC1C2C3UNDERWAY",
+    "desc": "NR CMV C1C2C3 underway"
+  },
+  {
+    "name": "NRLOCOMOTIVES",
+    "desc": "NR Locomotives"
+  },
+  {
+    "name": "NRPOINTAIRPORTS",
+    "desc": "NR Point Airports"
+  },
+  {
+    "name": "NRPOINTRAILYARDS",
+    "desc": "NR  Point Railyards"
+  },
+  {
+    "name": "NPINDUSTRIAL",
+    "desc": "NP industrial"
+  },
+  {
+    "name": "NPCOMMERCIALCOOKING",
+    "desc": "NP CommercialCooking"
+  },
+  {
+    "name": "NPOILGAS",
+    "desc": "NP OilGas"
+  },
+  {
+    "name": "NPSOLVENTSCOATINGS",
+    "desc": "NP SolventsCoatings"
+  },
+  {
+    "name": "NPSTORAGETRANSFERBULKTERMINALSGASSTAGE1",
+    "desc": "NP StorageTransfer BulkTerminals GasStage1"
+  },
+  {
+    "name": "NPMISCELLANEOUSNONINDUSTRIAL",
+    "desc": "NP MiscellaneousNonindustrial"
+  },
+  {
+    "name": "NPFUELCOMBUSTIONNOTRWC",
+    "desc": "NP FuelCombustion not RWC"
+  },
+  {
+    "name": "NPRESIDENTIALWOODCOMBUSTIONRWC",
+    "desc": "NP ResidentialWoodCombustionRWC"
+  },
+  {
+    "name": "NPWASTEDISPOSAL",
+    "desc": "NP WasteDisposal"
+  },
+  {
+    "name": "NPAGRICULTURELIVESTOCK",
+    "desc": "NP AgricultureLivestock"
+  },
+  {
+    "name": "FIRE",
+    "desc": "FIRE"
+  },
+  {
+    "name": "BIOGENICS",
+    "desc": "BIOGENICS"
+  },
+  {
+    "name": "SECONDARY",
+    "desc": "SECONDARY"
+  },
+  {
+    "name": "BACKGROUND",
+    "desc": "BACKGROUND"
+  }
+]
