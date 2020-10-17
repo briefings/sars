@@ -40,12 +40,13 @@ class References:
         urlaccumulations = 'https://raw.githubusercontent.com/briefings/sars/develop/' \
                            'fundamentals/hopkins/warehouse/accumulations.csv'
 
-        fields = ['STUSPS', 'COUNTYGEOID', 'deathRate', 'positiveRate']
+        fields = ['datetimeobject', 'STUSPS', 'COUNTYGEOID', 'deathRate', 'positiveRate']
         dtype = {'STUSPS': str, 'COUNTYGEOID': str, 'deathRate': np.float, 'positiveRate': np.float}
+        parse_dates = ['datetimeobject']
 
         try:
             data = pd.read_csv(filepath_or_buffer=urlaccumulations, header=0,
-                               usecols=fields, dtype=dtype, encoding='utf-8')
+                               usecols=fields, dtype=dtype, encoding='utf-8', parse_dates=parse_dates)
         except OSError as err:
             raise err
 
