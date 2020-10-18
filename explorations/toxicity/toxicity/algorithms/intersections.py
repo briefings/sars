@@ -1,5 +1,6 @@
 import dask
 import os
+import pandas as pd
 
 import toxicity.src.references
 import toxicity.src.risks
@@ -15,37 +16,20 @@ class Intersections:
 
         """
 
-        # References
+        # References, A summary of the files to be read, The latest -SARS measures per 100,000 people- values
         references = toxicity.src.references.References()
-
-        # The latest -SARS measures per 100,000 people- values
-        self.accumulations = references.accumulations()
-
-        # A summary of the files to be read
-        self.sources = references.sources()
+        self.sources: pd.DataFrame = references.sources()
+        self.accumulations: pd.DataFrame = references.accumulations()
 
         # Risks
         self.risks = toxicity.src.risks.Risks()
 
+        # Configurations
         configurations = config.Config()
         self.warehouse = configurations.warehouse
 
     @dask.delayed
-    def graphing(self):
-        """
-        In progress ...
-
-            The COLAB Prototype has been finalised
-
-            Merge self.graphing() & self.modelling ---> self.write()
-
-        :return:
-        """
-
-        print('graphing')
-
-    @dask.delayed
-    def modelling(self, blob, file: str) -> int:
+    def write(self, blob, file: str) -> int:
         """
 
         :param blob: The merged -risk- & -SARS measures per 100,000 people- data
@@ -59,8 +43,9 @@ class Intersections:
         return 0
 
     @dask.delayed
-    def scores(self, file: str, pattern: str):
+    def scores(self, file: str, pattern: str) -> pd.DataFrame:
         """
+        Read a set of risk scores
 
         :param file: The name of the risk file that would be read
         :param pattern:
@@ -70,7 +55,7 @@ class Intersections:
         return self.risks.exc(file=file, pattern=pattern)
 
     @dask.delayed
-    def latest(self, scores_):
+    def latest(self, scores_: pd.DataFrame) -> pd.DataFrame:
         """
         Merges the latest -SARS measures per 100,000 people- & the EPA risk scores
 
@@ -88,13 +73,12 @@ class Intersections:
 
         sources = self.sources
 
-        computations = []
+        intersections = []
         for file, pattern in zip(sources['file'].values, sources['pattern'].values):
 
             scores = self.scores(file=file, pattern=pattern)
             latest = self.latest(scores_=scores)
-            modelling = self.modelling(blob=latest, file=file)
-            computations.append(modelling)
+            intersections.append(self.write(blob=latest, file=file))
 
-        dask.visualize(computations, filename='computations', format='pdf')
-        dask.compute(computations, scheduler='processes')
+        dask.visualize(intersections, filename='intersections', format='pdf')
+        dask.compute(intersections, scheduler='processes')

@@ -1,178 +1,178 @@
 [
   {
-    "name": "Total Respiratory (hazard quotient)",
-    "desc": "TOTALRESPIRATORYHAZARDQUOTIENT"
+    "desc": "TOTAL",
+    "name": "Total"
   },
   {
-    "name": "1,2-EPOXYBUTANE",
-    "desc": "12EPOXYBUTANE"
+    "desc": "12EPOXYBUTANE",
+    "name": "1,2-EPOXYBUTANE"
   },
   {
-    "name": "1,3-DICHLOROPROPENE",
-    "desc": "13DICHLOROPROPENE"
+    "desc": "13DICHLOROPROPENE",
+    "name": "1,3-DICHLOROPROPENE"
   },
   {
-    "name": "2-CHLOROACETOPHENONE",
-    "desc": "2CHLOROACETOPHENONE"
+    "desc": "2CHLOROACETOPHENONE",
+    "name": "2-CHLOROACETOPHENONE"
   },
   {
-    "name": "2,4-TOLUENE DIISOCYANATE",
-    "desc": "24TOLUENEDIISOCYANATE"
+    "desc": "24TOLUENEDIISOCYANATE",
+    "name": "2,4-TOLUENE DIISOCYANATE"
   },
   {
-    "name": "4,4'-METHYLENEDIPHENYL DIISOCYANATE (MDI)",
-    "desc": "44METHYLENEDIPHENYLDIISOCYANATEMDI"
+    "desc": "44METHYLENEDIPHENYLDIISOCYANATEMDI",
+    "name": "4,4'-METHYLENEDIPHENYL DIISOCYANATE (MDI)"
   },
   {
-    "name": "ACETALDEHYDE",
-    "desc": "ACETALDEHYDE"
+    "desc": "ACETALDEHYDE",
+    "name": "ACETALDEHYDE"
   },
   {
-    "name": "ACROLEIN",
-    "desc": "ACROLEIN"
+    "desc": "ACROLEIN",
+    "name": "ACROLEIN"
   },
   {
-    "name": "ACRYLIC ACID",
-    "desc": "ACRYLICACID"
+    "desc": "ACRYLICACID",
+    "name": "ACRYLIC ACID"
   },
   {
-    "name": "ACRYLONITRILE",
-    "desc": "ACRYLONITRILE"
+    "desc": "ACRYLONITRILE",
+    "name": "ACRYLONITRILE"
   },
   {
-    "name": "ANTIMONY COMPOUNDS",
-    "desc": "ANTIMONYCOMPOUNDS"
+    "desc": "ANTIMONYCOMPOUNDS",
+    "name": "ANTIMONY COMPOUNDS"
   },
   {
-    "name": "BERYLLIUM COMPOUNDS",
-    "desc": "BERYLLIUMCOMPOUNDS"
+    "desc": "BERYLLIUMCOMPOUNDS",
+    "name": "BERYLLIUM COMPOUNDS"
   },
   {
-    "name": "BIS(2-ETHYLHEXYL)PHTHALATE (DEHP)",
-    "desc": "BIS2ETHYLHEXYLPHTHALATEDEHP"
+    "desc": "BIS2ETHYLHEXYLPHTHALATEDEHP",
+    "name": "BIS(2-ETHYLHEXYL)PHTHALATE (DEHP)"
   },
   {
-    "name": "CHROMIUM VI (HEXAVALENT)",
-    "desc": "CHROMIUMVIHEXAVALENT"
+    "desc": "CHROMIUMVIHEXAVALENT",
+    "name": "CHROMIUM VI (HEXAVALENT)"
   },
   {
-    "name": "CHLORINE",
-    "desc": "CHLORINE"
+    "desc": "CHLORINE",
+    "name": "CHLORINE"
   },
   {
-    "name": "CHLOROPRENE",
-    "desc": "CHLOROPRENE"
+    "desc": "CHLOROPRENE",
+    "name": "CHLOROPRENE"
   },
   {
-    "name": "COBALT COMPOUNDS",
-    "desc": "COBALTCOMPOUNDS"
+    "desc": "COBALTCOMPOUNDS",
+    "name": "COBALT COMPOUNDS"
   },
   {
-    "name": "DIESEL PM",
-    "desc": "DIESELPM"
+    "desc": "DIESELPM",
+    "name": "DIESEL PM"
   },
   {
-    "name": "DIETHANOLAMINE",
-    "desc": "DIETHANOLAMINE"
+    "desc": "DIETHANOLAMINE",
+    "name": "DIETHANOLAMINE"
   },
   {
-    "name": "EPICHLOROHYDRIN",
-    "desc": "EPICHLOROHYDRIN"
+    "desc": "EPICHLOROHYDRIN",
+    "name": "EPICHLOROHYDRIN"
   },
   {
-    "name": "ETHYLENE DIBROMIDE (DIBROMOETHANE)",
-    "desc": "ETHYLENEDIBROMIDEDIBROMOETHANE"
+    "desc": "ETHYLENEDIBROMIDEDIBROMOETHANE",
+    "name": "ETHYLENE DIBROMIDE (DIBROMOETHANE)"
   },
   {
-    "name": "ETHYLENE GLYCOL",
-    "desc": "ETHYLENEGLYCOL"
+    "desc": "ETHYLENEGLYCOL",
+    "name": "ETHYLENE GLYCOL"
   },
   {
-    "name": "FORMALDEHYDE",
-    "desc": "FORMALDEHYDE"
+    "desc": "FORMALDEHYDE",
+    "name": "FORMALDEHYDE"
   },
   {
-    "name": "HEXACHLOROCYCLOPENTADIENE",
-    "desc": "HEXACHLOROCYCLOPENTADIENE"
+    "desc": "HEXACHLOROCYCLOPENTADIENE",
+    "name": "HEXACHLOROCYCLOPENTADIENE"
   },
   {
-    "name": "HEXAMETHYLENE DIISOCYANATE",
-    "desc": "HEXAMETHYLENEDIISOCYANATE"
+    "desc": "HEXAMETHYLENEDIISOCYANATE",
+    "name": "HEXAMETHYLENE DIISOCYANATE"
   },
   {
-    "name": "HYDROCHLORIC ACID (HYDROGEN CHLORIDE [GAS ONLY])",
-    "desc": "HYDROCHLORICACIDHYDROGENCHLORIDEGASONLY"
+    "desc": "HYDROCHLORICACIDHYDROGENCHLORIDEGASONLY",
+    "name": "HYDROCHLORIC ACID (HYDROGEN CHLORIDE [GAS ONLY])"
   },
   {
-    "name": "MALEIC ANHYDRIDE",
-    "desc": "MALEICANHYDRIDE"
+    "desc": "MALEICANHYDRIDE",
+    "name": "MALEIC ANHYDRIDE"
   },
   {
-    "name": "METHYL BROMIDE (BROMOMETHANE)",
-    "desc": "METHYLBROMIDEBROMOMETHANE"
+    "desc": "METHYLBROMIDEBROMOMETHANE",
+    "name": "METHYL BROMIDE (BROMOMETHANE)"
   },
   {
-    "name": "METHYL ISOCYANATE",
-    "desc": "METHYLISOCYANATE"
+    "desc": "METHYLISOCYANATE",
+    "name": "METHYL ISOCYANATE"
   },
   {
-    "name": "METHYL METHACRYLATE",
-    "desc": "METHYLMETHACRYLATE"
+    "desc": "METHYLMETHACRYLATE",
+    "name": "METHYL METHACRYLATE"
   },
   {
-    "name": "METHYLENE CHLORIDE",
-    "desc": "METHYLENECHLORIDE"
+    "desc": "METHYLENECHLORIDE",
+    "name": "METHYLENE CHLORIDE"
   },
   {
-    "name": "NICKEL COMPOUNDS",
-    "desc": "NICKELCOMPOUNDS"
+    "desc": "NICKELCOMPOUNDS",
+    "name": "NICKEL COMPOUNDS"
   },
   {
-    "name": "NAPHTHALENE",
-    "desc": "NAPHTHALENE"
+    "desc": "NAPHTHALENE",
+    "name": "NAPHTHALENE"
   },
   {
-    "name": "NITROBENZENE",
-    "desc": "NITROBENZENE"
+    "desc": "NITROBENZENE",
+    "name": "NITROBENZENE"
   },
   {
-    "name": "PHOSGENE",
-    "desc": "PHOSGENE"
+    "desc": "PHOSGENE",
+    "name": "PHOSGENE"
   },
   {
-    "name": "PHTHALIC ANHYDRIDE",
-    "desc": "PHTHALICANHYDRIDE"
+    "desc": "PHTHALICANHYDRIDE",
+    "name": "PHTHALIC ANHYDRIDE"
   },
   {
-    "name": "PROPIONALDEHYDE",
-    "desc": "PROPIONALDEHYDE"
+    "desc": "PROPIONALDEHYDE",
+    "name": "PROPIONALDEHYDE"
   },
   {
-    "name": "PROPYLENE DICHLORIDE (1,2-DICHLOROPROPANE)",
-    "desc": "PROPYLENEDICHLORIDE12DICHLOROPROPANE"
+    "desc": "PROPYLENEDICHLORIDE12DICHLOROPROPANE",
+    "name": "PROPYLENE DICHLORIDE (1,2-DICHLOROPROPANE)"
   },
   {
-    "name": "PROPYLENE OXIDE",
-    "desc": "PROPYLENEOXIDE"
+    "desc": "PROPYLENEOXIDE",
+    "name": "PROPYLENE OXIDE"
   },
   {
-    "name": "STYRENE OXIDE",
-    "desc": "STYRENEOXIDE"
+    "desc": "STYRENEOXIDE",
+    "name": "STYRENE OXIDE"
   },
   {
-    "name": "TITANIUM TETRACHLORIDE",
-    "desc": "TITANIUMTETRACHLORIDE"
+    "desc": "TITANIUMTETRACHLORIDE",
+    "name": "TITANIUM TETRACHLORIDE"
   },
   {
-    "name": "TRIETHYLAMINE",
-    "desc": "TRIETHYLAMINE"
+    "desc": "TRIETHYLAMINE",
+    "name": "TRIETHYLAMINE"
   },
   {
-    "name": "VINYL ACETATE",
-    "desc": "VINYLACETATE"
+    "desc": "VINYLACETATE",
+    "name": "VINYL ACETATE"
   },
   {
-    "name": "1,4-DIOXANE",
-    "desc": "14DIOXANE"
+    "desc": "14DIOXANE",
+    "name": "1,4-DIOXANE"
   }
 ]
