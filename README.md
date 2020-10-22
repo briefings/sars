@@ -30,31 +30,33 @@ In progress.  The graphs and tables of results, alongside explanatory notes and 
 ### Graphs of Measures & Metrics
 * [Tableau Graphs](https://public.tableau.com/profile/c.a.6464#!/) <br> A variety of interactive graphs.  Thus far, state level graphs; county level graphs are now being developed.
 
-<br>
-
-### Scripts
-
-```css
-	.sidebar-container .widget li{
-		font-size:14px;
-		line-height:normal;
-		padding: 5px;
-		margin-left: 1px;
-	}
-```
 
 <br>
 <br>
-
 
 ## Projects
+
+**Exploratory Analysis**
 
 * [atlantic](./fundamentals/atlantic) <br/> For retrieving the COVID Tracking Project
 
 * [hopkins](./fundamentals/hopkins) <br/> For retrieving & structuring Johns Hopkins' data
 
+* [toxicity](./explorations/toxicity) <br/> Merges the latest Hopkins' data and the NATA toxicity scores; for modelling and analysis purposes.
+
+<br>
+
+**Graphs**
+
+* [spreads](./graphs/spreads) <br/> Candle stick distributions graphs; via HighCharts/JavaScript
+
+<br>
+
+**Supplements**
+
 * [algorithms](./fundamentals/algorithms) <br/> A mix of measures & metrics algorithms; algorithms are continuously added.
 
 * [populations](./fundamentals/populations) <br/> For retrieving populations data.
 
-* [spreads](./graphs/spreads) <br/> Candle stick distributions graphs; via HighCharts/JavaScript
+
+
