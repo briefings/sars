@@ -1,4 +1,10 @@
-﻿### Python Environment
+﻿## The Atlantic's COVID Tracking Project
+
+./fundamentals/atlantic/apply.sh
+
+<br>
+
+### Python Environment
 
 In preparation for Docker, etc.
 
