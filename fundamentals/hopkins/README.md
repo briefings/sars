@@ -1,4 +1,10 @@
-﻿### Python Environment
+﻿## Johns Hopkins Data
+
+./fundamentals/hopkins/apply.sh
+
+<br>
+
+### Python Environment
 
 In preparation for Docker, etc.
 
