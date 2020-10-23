@@ -1,7 +1,7 @@
 var Highcharts;
 var optionSelected;
 var dropdown = $('#option_selector');
-var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/references/atlantic.json';
+var url = '../references/atlantic.json';
 
 
 $.getJSON(url, function (data) {
