@@ -14,3 +14,5 @@ git commit fundamentals/hopkins/notebooks/warehouse/states/candles/ -m "Latest f
 git commit fundamentals/hopkins/notebooks/warehouse/trends/medians/ -m "Latest fundamentals/hopkins/notebooks/warehouse/trends/medians/"
 git commit fundamentals/hopkins/notebooks/warehouse/trends/delta/ -m "Latest fundamentals/hopkins/notebooks/warehouse/trends/delta/"
 
+git commit fundamentals/hopkins/notebooks/states.ipynb -m "Update fundamentals/hopkins/notebooks/states.ipynb"
+git commit fundamentals/hopkins/notebooks/trends.ipynb -m "Update fundamentals/hopkins/notebooks/trends.ipynb"
