@@ -138,7 +138,9 @@ function generateChart(fileNamekey) {
             },
 
             legend: {
-                enabled: true
+                enabled: true,
+                width: 600,
+                x: 100
                 // align: 'middle',
                 // layout: 'vertical',
                 // verticalAlign: 'bottom',
@@ -312,7 +314,7 @@ function generateChart(fileNamekey) {
             responsive: {
                 rules: [{
                     condition: {
-                        maxWidth: 690
+                        maxWidth: 700
                     },
                     chartOptions: {
                         rangeSelector: {
