@@ -20,10 +20,10 @@ In progress.  The graphs and tables of results, alongside explanatory notes and 
 
 ### Distributions Graphs
 
-* [Atlantic](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlantic.html) <br> Raw state level spreads [The COVID Tracking Project]
-* [Atlantic/100k](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/atlanticscaled.html) <br> Per capita, i.e., population scaled, state level spreads [The COVID Tracking Project]
-* [Hopkins](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/hopkins.html) <br> Raw state level spreads [Johns Hopkins]
-* [Hopkins/100K](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/spreads/pages/hopkinsscaled.html) <br> Per capita, i.e., population scaled, state level spreads [Johns Hopkins]
+* [Atlantic](https://briefings.github.io/sars/journal/pages/atlantic.html) <br> Raw state level spreads [The COVID Tracking Project]
+* Atlantic/100k <br> Per capita, i.e., population scaled, state level spreads [The COVID Tracking Project]
+* Hopkins <br> Raw state level spreads [Johns Hopkins]
+* Hopkins/100K <br> Per capita, i.e., population scaled, state level spreads [Johns Hopkins]
 
 <br>
 
