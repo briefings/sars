@@ -148,6 +148,11 @@ function generateChart(fileNamekey) {
                 // x: 35
             },
 
+            caption: {
+                // verticalAlign: "top",
+                text: '<p>Herein, each candlestick illustrates the spread of 52 points: 50 states, Washington D.C., and Puerto Rico.    Each day\'s point is a measure, e.g., the number of positive cases.  In general, the candles suggests that each ...</p>'
+            },
+
             exporting: {
                 buttons: {
                     contextButton: {
