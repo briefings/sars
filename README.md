@@ -1,7 +1,5 @@
 # SARS
 
-<br>
-
 Analysis Notes: [briefings.github.io/sars/](https://briefings.github.io/sars/)
 
 <br>
