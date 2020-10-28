@@ -1,5 +1,0 @@
-[
-  {"desc": "positiveIncrease", "name": "Positive Cases"},
-  {"desc": "deathIncrease", "name": "Deaths"},
-  {"desc": "testIncrease", "name": "Tests"}
-]

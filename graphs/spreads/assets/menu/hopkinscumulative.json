@@ -1,0 +1,4 @@
+[
+  {"desc": "positiveCumulative", "name": "Positive Cases"},
+  {"desc": "deathCumulative", "name": "Deaths"}
+]

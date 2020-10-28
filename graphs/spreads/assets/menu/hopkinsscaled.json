@@ -1,0 +1,4 @@
+[
+  {"desc": "positiveIncreaseRate", "name": "Positive Cases/100K"},
+  {"desc": "deathIncreaseRate", "name": "Deaths/100K"}
+]
