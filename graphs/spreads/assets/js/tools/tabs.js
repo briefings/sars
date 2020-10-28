@@ -1,5 +1,5 @@
 
-function tabcycling(evt, illustration) {
+function tabs(evt, illustration) {
 
     var i, tabcontent, tablinks;
 
