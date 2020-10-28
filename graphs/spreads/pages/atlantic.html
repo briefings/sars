@@ -1,6 +1,7 @@
-
 <!DOCTYPE html>
-<!--suppress ALL -->
+
+<!--suppress JSUnresolvedLibraryURL -->
+
 <html lang="en">
 
 <head>
@@ -9,13 +10,11 @@
     <link rel="stylesheet" href="../assets/css/tabs.css">
     <link rel="stylesheet" href="../assets/css/spreads.css">
 
-
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
-    <script src="../assets/js/tools/tabcycling.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../assets/js/tools/tabs.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>COVID Tracking Project: Raw</title>
 </head>
@@ -51,12 +50,10 @@
 
         <div class="grid-item"></div>
         <div class="grid-item">
-
             <div class="tab">
-                <button class="tablinks" onclick="tabcycling(event, 'Measures')" id="defaultOpen">Measures</button>
-                <!--<button class="tablinks" onclick="tabcycling(event, '...')">...</button>-->
+                <button class="tablinks" onclick="tabs(event, 'Measures')" id="defaultOpen">Measures</button>
+                <!--<button class="tablinks" onclick="tabs(event, '...')">...</button>-->
             </div>
-
             <div id="Measures" class="tabcontent">
                 <div class='tableauPlaceholder' id='viz1603885999155' style='position: relative'>
                     <noscript>
@@ -100,12 +97,10 @@
 
             </div>
             <!--<div id="..." class="tabcontent"></div>-->
-
             <script>
                 // Get the element with id="defaultOpen" and click on it
                 document.getElementById("defaultOpen").click();
             </script>
-
         </div>
         <div class="grid-item"></div>
     </div>
