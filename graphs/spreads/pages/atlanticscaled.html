@@ -1,25 +1,59 @@
 <!DOCTYPE html>
+
+<!--suppress JSUnresolvedLibraryURL -->
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>COVID Tracking Project: Measures/100k</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../assets/css/spreads.css">
 
-<select id="option_selector">
-    <!-- <option id="option_selector_title">Please select a ...</option> -->
-</select>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
 
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script src="../assets/js/atlanticscaled.js" type="text/javascript"></script>
-<div id="container0002" style="height: 450px; width: 800px; margin: 0 auto"></div>
+        <script src="../assets/js/tools/latex.js"></script>
 
+        <title>COVID Tracking Project: Measures/100k</title>
+    </head>
+    <body>
 
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/stock/modules/data.js"></script>
-<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+        <main>
+            <div class="grid-container">
 
-</body>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item">
+                    <header>
+                        <h2>About</h2>
+                        <div class="tagline-container"><p>Daily distributions of measures per $100K$ people.</p></div>
+                    </header>
+                </div>
+                <div class="introduction">
+                    <label for="option_selector"></label><select id="option_selector">
+                    <!-- <option id="option_selector_title">Please select a ...</option> -->
+                    </select>
+                    <script src="../assets/js/atlanticscaled.js" type="text/javascript"></script>
+                    <div id="container0002" style="height: 450px; width: 800px; margin: 0 auto"></div>
+                </div>
+                <div class="grid-item"></div>
+
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+
+            </div>
+
+        </main>
+
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/data.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+
+    </body>
 </html>
