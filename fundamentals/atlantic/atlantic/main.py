@@ -40,7 +40,7 @@ def main():
     derivations = derive.exc(places=tests['STUSPS'].unique())
     logger.info('\nDerivations:\n{}\n'.format(derivations.info()))
 
-    # The latest positive test rates: for graph labelling purposes
+    # The latest
     atlantic.algorithms.accumulations.Accumulations(blob=derivations).exc()
 
     # Places
@@ -49,6 +49,10 @@ def main():
 
     # Hence, save the data sets of interest
     atlantic.algorithms.segments.Segments(blob=derivations).exc()
+    atlantic.algorithms.scales.Scales(blob=derivations).exc()
+
+    # Investigations
+    atlantic.investigations.hospitalizations.Hospitalizations(blob=derivations).exc()
 
     # Statistics
     spreads = atlantic.spreads.distributions.Distributions(states=states)
@@ -61,13 +65,16 @@ if __name__ == '__main__':
 
     import config
 
-    import atlantic.src.reference
     import atlantic.algorithms.anomalies
     import atlantic.algorithms.tests
     import atlantic.algorithms.derivations
     import atlantic.algorithms.accumulations
     import atlantic.algorithms.segments
+    import atlantic.algorithms.scales
 
+    import atlantic.investigations.hospitalizations
+
+    import atlantic.src.reference
     import atlantic.src.gazetteer
     import atlantic.src.readings
 

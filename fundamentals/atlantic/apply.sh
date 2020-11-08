@@ -13,5 +13,6 @@ git commit fundamentals/atlantic/notebooks/warehouse/prospects/ -m "Latest funda
 git commit fundamentals/atlantic/notebooks/warehouse/dispersions/ -m "Latest fundamentals/atlantic/notebooks/warehouse/dispersions/"
 
 git commit fundamentals/atlantic/warehouse/accumulations.csv -m "Latest fundamentals/atlantic/warehouse/accumulations.csv"
+git commit fundamentals/atlantic/warehouse/hospitalizations.csv -m "Latest fundamentals/atlantic/warehouse/hospitalizations.csv"
 git commit fundamentals/atlantic/warehouse/baselines.csv -m "Latest fundamentals/atlantic/warehouse/baselines.csv"
 git commit fundamentals/atlantic/warehouse/candles.zip -m "Latest fundamentals/atlantic/warehouse/candles.zip"
