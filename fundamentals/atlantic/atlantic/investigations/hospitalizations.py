@@ -5,6 +5,7 @@ import os
 import numpy as np
 import pandas as pd
 
+import atlantic.gridlines.dhg
 import atlantic.gridlines.hpg
 import config
 
@@ -37,14 +38,18 @@ class Hospitalizations:
         return usable
 
     def set_deaths_hospitalized(self, data: pd.DataFrame):
-        data[['datetimeobject', 'STUSPS', 'hospitalizedRate', 'deathRate', 'ndays'
-              ]].to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsHospitalized.csv'),
-                        header=True, index=False, encoding='utf-8')
+        frame = data[['datetimeobject', 'STUSPS', 'hospitalizedRate', 'deathRate', 'ndays']]
+        gridlines = atlantic.gridlines.dhg.DHG(death_rate_max=frame.deathRate.max(),
+                                               hospitalized_rate_max=frame.hospitalizedRate.max()).exc()
+
+        instances = pd.concat([frame, gridlines], axis=0, ignore_index=True)
+        instances.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsHospitalized.csv'),
+                         header=True, index=False, encoding='utf-8')
 
     def set_hospitalized_positives(self, data: pd.DataFrame):
         frame = data[['datetimeobject', 'STUSPS', 'hospitalizedRate', 'positiveRate', 'ndays']]
-        gridlines = atlantic.gridlines.hpg.HPG(hospitalized_rate_max=frame['hospitalizedRate'].max(),
-                                               positive_rate_max=frame['positiveRate'].max()).exc()
+        gridlines = atlantic.gridlines.hpg.HPG(hospitalized_rate_max=frame.hospitalizedRate.max(),
+                                               positive_rate_max=frame.positiveRate.max()).exc()
 
         instances = pd.concat([frame, gridlines], axis=0, ignore_index=True)
         instances.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesHospitalizedPositives.csv'),
