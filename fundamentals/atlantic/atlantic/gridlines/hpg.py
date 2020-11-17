@@ -18,8 +18,8 @@ class HPG:
         self.ytick = 20
 
         # The maximum value per axis
-        self.ylimit = self.ytick + self.ytick * math.ceil(hospitalized_rate_max / self.ytick)
         self.xlimit = self.xtick + self.xtick * math.ceil(positive_rate_max / self.xtick)
+        self.ylimit = self.ytick + self.ytick * math.ceil(hospitalized_rate_max / self.ytick)
 
         # The gradients of a graph's grid lines
         self.gradients = np.concatenate((np.linspace(start=0, stop=0.3, num=3, endpoint=False),
