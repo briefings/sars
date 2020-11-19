@@ -22,8 +22,7 @@ class HPG:
         self.ylimit = self.ytick + self.ytick * math.ceil(hospitalized_rate_max / self.ytick)
 
         # The gradients of a graph's grid lines
-        self.gradients = np.concatenate((np.linspace(start=0, stop=0.3, num=3, endpoint=False),
-                                         np.linspace(start=0.25, stop=1, num=3, endpoint=False),
+        self.gradients = np.concatenate((np.linspace(start=0, stop=1, num=4, endpoint=False),
                                          np.array([1]), np.arange(2, 10, 2), np.arange(10, 80, 10)),
                                         axis=0) / 100
 

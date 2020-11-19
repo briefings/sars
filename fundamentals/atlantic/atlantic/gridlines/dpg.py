@@ -22,8 +22,7 @@ class DPG:
         self.xlimit = self.xtick + self.xtick * math.ceil(positive_rate_max / self.xtick)
 
         # The gradients of a graph's grid lines
-        self.gradients = np.concatenate((np.linspace(start=0, stop=0.3, num=3, endpoint=False),
-                                         np.linspace(start=0.25, stop=1, num=3, endpoint=False),
+        self.gradients = np.concatenate((np.linspace(start=0, stop=1, num=4, endpoint=False),
                                          np.arange(1, 6), np.arange(7, 32, 4)),
                                         axis=0) / 100
 
