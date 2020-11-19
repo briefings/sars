@@ -38,6 +38,8 @@ class Scales:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsPositives.csv'),
                     header=True, index=False, encoding='utf-8')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsPositives.json'),
+                     orient='values')
 
     def dtc(self):
         """
@@ -54,6 +56,8 @@ class Scales:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsTests.csv'),
                     header=True, index=False, encoding='utf-8')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsTests.json'),
+                     orient='values')
 
     def ptc(self):
         """
@@ -70,6 +74,8 @@ class Scales:
 
         data.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesPositivesTests.csv'),
                     header=True, index=False, encoding='utf-8')
+        data.to_json(path_or_buf=os.path.join(self.warehouse, 'curvesPositivesTests.json'),
+                     orient='values')
 
     def exc(self):
 
