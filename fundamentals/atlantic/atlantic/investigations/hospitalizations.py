@@ -45,6 +45,8 @@ class Hospitalizations:
         instances = pd.concat([frame, gridlines], axis=0, ignore_index=True)
         instances.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsHospitalized.csv'),
                          header=True, index=False, encoding='utf-8')
+        instances.to_json(path_or_buf=os.path.join(self.warehouse, 'curvesDeathsHospitalized.json'),
+                          orient='values')
 
     def set_hospitalized_positives(self, data: pd.DataFrame):
         frame = data[['datetimeobject', 'STUSPS', 'hospitalizedRate', 'positiveRate', 'ndays']]
@@ -54,6 +56,8 @@ class Hospitalizations:
         instances = pd.concat([frame, gridlines], axis=0, ignore_index=True)
         instances.to_csv(path_or_buf=os.path.join(self.warehouse, 'curvesHospitalizedPositives.csv'),
                          header=True, index=False, encoding='utf-8')
+        instances.to_json(path_or_buf=os.path.join(self.warehouse, 'curvesHospitalizedPositives.json'),
+                          orient='values')
 
     def set_hospitalized(self, data: pd.DataFrame):
         frame = data.copy()
