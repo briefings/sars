@@ -1,0 +1,38 @@
+
+/* Styling the tab */
+.tab {
+    overflow: hidden;
+    border: 0 solid #ccc;
+    background-color: #ffffff;
+}
+
+/* Styling the buttons inside the tab -> padding: top right bottom left*/
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Tab: Hovering */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Tab: Active */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Tab: Content */
+.tabcontent {
+    display: block;
+    padding: 5px 5px 5px 5px;
+
+    border: 0 solid #ccc;
+    border-top: none;
+}
