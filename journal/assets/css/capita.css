@@ -10,6 +10,7 @@ html {
     font-family: Vollkorn, Gafata, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    color: #3d3b3c;
 }
 
 /**
@@ -19,6 +20,11 @@ body {
     padding-right: 100px; /* padding */
     padding-left: 100px; /* padding */
     padding-top: 10px; /* padding */
+}
+
+li {
+
+    padding-bottom: 15px;
 }
 
 
@@ -169,6 +175,7 @@ mark {
 small {
     font-size: 80%;
 }
+
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -433,7 +440,7 @@ th {
 .grid-container {
     display: grid;
     grid-template-columns: 250px auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     background-color: #FFFFFF;
     padding: 10px;
 }
@@ -442,18 +449,20 @@ th {
     border: 0 solid;
     padding: 20px;
     text-align: left;
+    font-size: 90%;
 }
 
 .gamma{
     border: 0 solid;
     padding: 20px;
-    text-align: center;
+    font-size: small;
+    text-align: left;
 }
 
 .introduction{
     border: 0 solid;
-    padding: 20px;
     text-align: left;
+    font-size: 90%;
 }
 
 

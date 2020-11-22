@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../assets/css/tools/tabs.css">
+    <link rel="stylesheet" href="../assets/css/tools/tooltips.css">
+    <link rel="stylesheet" href="../assets/css/capita.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/tools/tabs.js"></script>
+    <script src="../assets/js/tools/latex.js"></script>
+
+    <title>capita</title>
+  </head>
+  <body>
+
+  <main>
+
+    <div class="grid-container">
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+
+      <div class="gamma">
+        <ul class="fa-ul main-list">
+          <li class="main-list-item">
+            <span class="fa fa-github fa-lg main-list-item-icon"></span>
+            <a href="https://github.com/briefings/sars">project: sars</a>
+          </li>
+          <li class="main-list-item">
+            <span class="fa fa-user fa-lg main-list-item-icon"></span>
+            <a href="https://github.com/greyhypotheses/">greyhypotheses</a>
+          </li>
+        </ul>
+      </div>
+      <div class="introduction">
+        <h2>Continuous Trends</h2>
+
+        <p>The brief focus herein are the <b>capita [C] vs. capita [C]</b> graphs that implicitly illustrate continuous rates
+        trends, i.e., continuous <i>positive test</i>,  <i>death positive</i>, <i>hospitalized positive</i>,
+        and <i>death hospitalized</i> rates trends.  [It is helpful to read the notes tab below; it briefly
+          discusses positivity rates, and some of the observations therein apply to the other rates.]</p>
+
+        <br>
+
+        <h3>What are the capita [C] vs. capita [C] graphs</h3>
+
+        <p>The capita [C] vs. capita [C] graphs are graphs of observations per 100K people against each other.  For example</p>
+
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; positives$\mathbf{/}$$100K$ $[C]$ $\:\; vs. \:\;$ tests$\mathbf{/}$$100K$ $[C]$</p>
+
+        <p>wherein</p>
+
+        <ul>
+          <li>positives$\mathbf{/}$$100K$ $[C]$:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $100K$ $\times$ (positive observations thus far)$\mathbf{/}$(population of the area in question)</li>
+          <li>tests$\mathbf{/}$$100K$ $[C]$:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $100K$ $\times$ (tests thus far)$\mathbf{/}$(population of the area in question)</li>
+        </ul>
+
+        <p>and $C$ denotes continuous.  Implicitly these graphs illustrate rate trends; following on from the example above, each point of the curve is simply a date's</p>
+
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (total number of positive observations thus far)$\mathbf{/}$(total number of tests thus far)</p>
+
+        <p>value.</p>
+
+        <br>
+
+        <p>It is the shape of a curve over time, as it is re-calculated & updated daily, that is of interest.  Can the shapes be better
+          supplementary guides of on-the-ground trends?  Especially because the growth/static shape of a curve might (a) signify or
+          anticipate problems, (b) indicate shortages, and/or (c) aid planning, etc.  And, the more reliable a state's data is - underlying
+          measures based on rigorous standards and distinct human interactions - the more plausible its curve insights will be.</p>
+
+        <br>
+
+        <p>Consider the shapes of the PTR tab curves.  The more tests a state conducts, the further to the right its curve extends, and
+          if the curve is additionally parallel and “close” to the horizontal axis, the better the state of affairs.  Of course there are
+          issues, e.g., how far to the right?    Depending on the data, the DHR curves could aid hospital care evaluations, and HPR curves
+          could aid planning ahead.</p>
+
+        <br>
+
+        <p>Upcoming: States & DPR</p>
+
+        <br/>
+        <br/>
+      </div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="grid-item">
+
+        <div class="tab">
+          <button class="tablinks" onclick="tabs(event, 'DPR')" id="defaultOpen">DPR</button>
+          <button class="tablinks" onclick="tabs(event, 'PTR')">PTR</button>
+          <button class="tablinks" onclick="tabs(event, 'DHR')">DHR</button>
+          <button class="tablinks" onclick="tabs(event, 'HPR')">HPR</button>
+          <button class="tablinks" onclick="tabs(event, 'notes')">Notes</button>
+        </div>
+
+        <div id="DPR" class="tabcontent">
+          <div class='tableauPlaceholder' id='viz1605999537245' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsDPR/prospectsDPR_twb/1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https://public.tableau.com/' /><param name='embed_code_version' value='3' />
+              <param name='site_root' value='' /><param name='name' value='prospectsDPR/prospectsDPR_twb' />
+              <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+              <param name='static_image' value='https://public.tableau.com/static/images/pr/prospectsDPR/prospectsDPR_twb/1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+              <param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
+            </object>
+          </div>
+          <script type='text/javascript'>
+              var divElement = document.getElementById('viz1605999537245');
+              var vizElement = divElement.getElementsByTagName('object')[0];
+              vizElement.style.width='550px';vizElement.style.height='1377px';
+              var scriptElement = document.createElement('script');
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+
+        <div id="PTR" class="tabcontent">
+          <div class='tableauPlaceholder' id='viz1605999334045' style='position: relative; display: block'>
+            <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsPTR/prospectsPTR_twb/1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https://public.tableau.com/' /><param name='embed_code_version' value='3' />
+              <param name='site_root' value='' /><param name='name' value='prospectsPTR/prospectsPTR_twb' />
+              <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+              <param name='static_image' value='https://public.tableau.com/static/images/pr/prospectsPTR/prospectsPTR_twb/1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+              <param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
+            </object></div>
+          <script type='text/javascript'>
+              var divElement = document.getElementById('viz1605999334045');
+              var vizElement = divElement.getElementsByTagName('object')[0];
+              vizElement.style.width='550px';vizElement.style.height='1377px';
+              var scriptElement = document.createElement('script');
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+
+        <div id="DHR" class="tabcontent">
+          <div class='tableauPlaceholder' id='viz1606062370807' style='position: relative'><noscript>
+            <a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsDHR/prospectsDHR_twb/1_rss.png' style='border: none' /></a>
+          </noscript><object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https://public.tableau.com/' /> <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' /><param name='name' value='prospectsDHR/prospectsDHR_twb' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/pr/prospectsDHR/prospectsDHR_twb/1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+            <param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
+          </object></div>                
+          <script type='text/javascript'>                    
+              var divElement = document.getElementById('viz1606062370807');                    
+              var vizElement = divElement.getElementsByTagName('object')[0];                    
+              vizElement.style.width='550px';vizElement.style.height='1377px';                    
+              var scriptElement = document.createElement('script');                    
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+          </script>
+        </div>
+        
+        <div id="HPR" class="tabcontent">
+          <div class='tableauPlaceholder' id='viz1606071032631' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsHPR/prospectsHPR_twb/1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+              <param name='name' value='prospectsHPR/prospectsHPR_twb' />
+              <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+              <param name='static_image' value='https://public.tableau.com/static/images/pr/prospectsHPR/prospectsHPR_twb/1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+              <param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
+            </object>
+          </div>
+          <script type='text/javascript'>
+              var divElement = document.getElementById('viz1606071032631');
+              var vizElement = divElement.getElementsByTagName('object')[0];
+              vizElement.style.width='550px';vizElement.style.height='1377px';
+              var scriptElement = document.createElement('script');
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+        </div>
+
+        <div id="notes" class="tabcontent">
+          <script src="../assets/js/pages/capita.js"></script>
+        </div>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+
+      </div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>Thanks to <a href="https://github.com/excentris/compass">Compass</a> for the website theme</p>
+      </div>
+      <div class="grid-item"></div>
+    </div>
+
+  </main>
+
+  </body>
+</html>
