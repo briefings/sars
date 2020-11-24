@@ -1,6 +1,6 @@
 var Highcharts;
 var optionSelected;
-var dropdown = $('#as_option_selector');
+var dropdown = $('#option_selector');
 var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/assets/menu/atlanticscaled.json';
 
 
@@ -23,7 +23,7 @@ $.getJSON(url, function (data) {
 // Dropdown
 dropdown.on('change', function(e){
 
-    $('#as_option_selector_title').remove();
+    $('#option_selector_title').remove();
 
     // Save name and value of the selected option
     optionSelected = this.options[e.target.selectedIndex].text;
