@@ -16,4 +16,3 @@ function tabs(evt, illustration) {
     document.getElementById(illustration).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
