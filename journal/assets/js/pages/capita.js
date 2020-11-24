@@ -11,6 +11,12 @@ document.write("<ul>\n" +
     "<li><a href=\"https://covidtracking.com/blog/the-other-covid-19-metric\">The Other COVID-19 Metric We Should Be Using</a></li>\n" +
     "</ul>");
 
+document.write("and the problems continue, as this 23 November, 2020, piece illustrates");
+
+document.write("<ul>\n" +
+    "<li><a href=\"https://www.nytimes.com/2020/11/23/opinion/coronavirus-testing.html?action=click&module=Opinion&pgtype=Homepage\">Covid-19 Data Is a Mess. We Need a Way to Make Sense of It</a></li>\n" +
+    "</ul>");
+
 document.write("<p>Hence, only a few points are highlighted here.  Perhaps the most important point to note is that the positivity rate is not a metric, " +
     "hence positivity rates should not be compared.  Why isn't it a metric?  In brief, it is not “a numerical observation based on standard systems, methods, " +
     "calculations, and data sources”.  Hence, the positivity rates of countries, states, or counties, for example, should not be compared.  An entity may compare " +
