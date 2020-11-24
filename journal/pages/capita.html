@@ -63,7 +63,8 @@
           <li>tests$\mathbf{/}$$100K$ $[C]$:<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $100K$ $\times$ (test observations thus far)$\mathbf{/}$(population of the area in question)</li>
         </ul>
 
-        <p>and $C$ denotes continuous.  Implicitly these graphs illustrate rate trends; following on from the example above, each point of the curve is simply a date's</p>
+        <p>and $C$ denotes continuous.  Implicitly these graphs illustrate rate trends; following on from the example above, at
+          a point on the curve the $\:\large{y/x}\:$ quotient is simply a date's</p>
 
         <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (positive observations thus far)$\mathbf{/}$(test observations thus far)</p>
 
@@ -83,11 +84,11 @@
           horizontal axis, the better the state of affairs.  Of course there are issues, e.g., how far to the right?    Depending on the
           data, the <span class="tooltip">DH<span class="tooltiptext">deaths hospitalized</span></span> curves could aid hospital care
           evaluations, and the <span class="tooltip">HP<span class="tooltiptext">hospitalized positives</span></span> curves could 
-		  aid planning ahead. [Upcoming: States & DPR]</p>
+		  aid planning ahead. [Upcoming: States & <span class="tooltip">DP<span class="tooltiptext">deaths positives</span></span>]</p>
 		  
 		  <br>
 		
-		<h3>Graphs</h3>
+		<h3>Graphs & Notes</h3>
 
       </div>
       <div class="grid-item"></div>
@@ -97,16 +98,14 @@
       <div class="grid-item">
 
         <div class="tab">
-          <button class="tablinks" onclick="tabs(event, 'DPR')" id="defaultOpen">DP</button>
-          <button class="tablinks" onclick="tabs(event, 'PTR')">PT</button>
-          <button class="tablinks" onclick="tabs(event, 'DHR')">DH</button>
-          <button class="tablinks" onclick="tabs(event, 'HPR')">HP</button>
-          <button class="tablinks" onclick="tabs(event, 'notes')">Notes</button>
+          <button class="tablinks" onclick="tabs(event, 'DPR')" id="defaultOpen">Deaths<br>Positives</button>
+          <button class="tablinks" onclick="tabs(event, 'PTR')">Postives<br>Tests</button>
+          <button class="tablinks" onclick="tabs(event, 'DHR')">Deaths<br>Hospitalized</button>
+          <button class="tablinks" onclick="tabs(event, 'HPR')">Hospitalized<br>Positives</button>
+          <button class="tablinks" onclick="tabs(event, 'notes')">Notes<br>&nbsp;</button>
         </div>
 
         <div id="DPR" class="tabcontent">
-          <br>
-          <b>Deaths Positives</b>
           <div class='tableauPlaceholder' id='viz1605999537245' style='position: relative'>
             <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsDPR/prospectsDPR_twb/1_rss.png' style='border: none' /></a>
             </noscript>
@@ -132,8 +131,6 @@
         </div>
 
         <div id="PTR" class="tabcontent">
-          <br>
-          <b>Positives Tests</b>
           <div class='tableauPlaceholder' id='viz1605999334045' style='position: relative; display: block'>
             <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsPTR/prospectsPTR_twb/1_rss.png' style='border: none' /></a>
             </noscript>
@@ -158,8 +155,6 @@
         </div>
 
         <div id="DHR" class="tabcontent">
-          <br>
-          <b>Deaths Hospitalized</b>
           <div class='tableauPlaceholder' id='viz1606062370807' style='position: relative'><noscript>
             <a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsDHR/prospectsDHR_twb/1_rss.png' style='border: none' /></a>
           </noscript><object class='tableauViz'  style='display:none;'>
@@ -183,8 +178,6 @@
         </div>
         
         <div id="HPR" class="tabcontent">
-          <br>
-          <b>Hospitalized Positives</b>
           <div class='tableauPlaceholder' id='viz1606071032631' style='position: relative'>
             <noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/pr/prospectsHPR/prospectsHPR_twb/1_rss.png' style='border: none' /></a></noscript>
             <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
