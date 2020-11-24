@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../assets/css/tools/tabs.css">
+    <link rel="stylesheet" href="../assets/css/tools/tooltips.css">
+    <link rel="stylesheet" href="../assets/css/spreads.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../assets/js/tools/tabs.js"></script>
+    <script src="../assets/js/tools/latex.js"></script>
+
+    <title>spreads</title>
+  </head>
+  <body>
+
+  <main>
+
+    <div class="grid-container">
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+
+      <div class="gamma">
+        <ul class="fa-ul main-list">
+          <li class="main-list-item">
+            <span class="fa fa-github fa-lg main-list-item-icon"></span>
+            <a href="https://github.com/briefings/sars">project: sars</a>
+          </li>
+          <li class="main-list-item">
+            <span class="fa fa-user fa-lg main-list-item-icon"></span>
+            <a href="https://github.com/greyhypotheses/">greyhypotheses</a>
+          </li>
+        </ul>
+      </div>
+      <div class="introduction">
+
+        <h3>Measures of variation, location, symmetry</h3>
+        <var>Tuesday, 27 October 2020</var>
+
+        <p>The <a href='https://www.highcharts.com/demo/stock/candlestick'>Japanese candlestick graph</a> is an excellent exploratory analysis tool for illustrating variation within a data set, and between data sets.  If a median line curve is superimposed, the graph will also portray <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm">location</a> (median) and <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/eda35b.htm">symmetry/asymmetry</a> (skewness) measures.   Succinct.<p>
+
+        <p>A few years ago I started re-purposing <a href='https://www.highcharts.com/demo/stock/candlestick'>HighCharts' Candlestick graphs</a> for data types other than stocks.  The core difference between a re-purposed graph, and an original, is what a candlestick wick represents.  In the case stock candlesticks, the ends of a wick denote the highest and lowest stock prices w.r.t. (with respect to) a time interval in question, whereas the wick ends of a re-purposed candlestick denote the 25th & 75th percentiles; as illustrated below, but also w.r.t. a time interval in question.  The candlestick graphs within any <a href='https://github.com/greyhypotheses#organisations'>greyhypotheses organisation</a> are annotated as illustrated below.</p>
+
+      </div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="delta">
+        <figure>
+          <img src="../assets/images/stick.png" alt="stick" style="width:55%" />
+          <figcaption>A candlestick with a superimposed median line.  Take note of the alternative names for the percentiles, e.g., the 90th percentile is also
+            known as the upper whisker.  Altogether, this is akin to a <a href="https://www.itl.nist.gov/div898/handbook/eda/section3/boxplot.htm">box
+              plot.</a></figcaption>
+        </figure>
+      </div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="introduction">
+        <br/>
+        Hence, a few graphs <span class="tooltip">w.r.t.<span class="tooltiptext">with respect to</span></span> the raw and per capita of the United States' SARS-CoV-2/COVID-19 data:
+
+        <dl>
+          <dt>Atlantic's COVID Tracking Project</dt>
+          <dd>
+            <ul style="margin-top: 0">
+              <li><a href='../../graphs/spreads/pages/atlantic.html'>Unscaled observations</a></li>
+              <li><a href='../../graphs/spreads/pages/atlanticscaled.html'>Observations scaled per 100K people</a></li></ul>
+          </dd>
+          <dt>Johns Hopkins</dt>
+          <dd>
+            <ul style="margin-top: 0">
+              <li><a href='../../graphs/spreads/pages/hopkins.html'>Unscaled observations</a></li>
+              <li><a href='../../graphs/spreads/pages/hopkinsscaled.html'>Observations scaled per 100K people</a></li></ul>
+          </dd>
+        </dl>
+      </div>
+      <div class="grid-item"></div>
+
+      <div class="grid-item"></div>
+      <div class="grid-item">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>Thanks to <a href="https://github.com/excentris/compass">Compass</a> for the website theme</p>
+      </div>
+      <div class="grid-item"></div>
+    </div>
+
+  </main>
+
+  </body>
+</html>
