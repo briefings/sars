@@ -1,12 +1,13 @@
 /*https://github.com/excentris/compass*/
 
 
+
 /**
  * 1. Set default font family to Volkorn
  * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
  */
 html {
-    font-family: Vollkorn, Gafata, sans-serif; /* 1 */
+    font-family: Vollkorn, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
     color: #3d3b3c;
@@ -458,16 +459,15 @@ td {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 250px auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 300px auto auto;
     background-color: #FFFFFF;
     padding: 10px;
 }
 
-.grid-item .gamma .introduction {
+.grid-item .gamma .introduction .delta {
     border: 0 solid;
     text-align: left;
-    font-size: 85%;
+    font-size: 75%;
 }
 
 .grid-item {
@@ -475,7 +475,11 @@ td {
 }
 
 .gamma{
-    padding: 20px;
+    padding: 50px;
+}
+
+.delta{
+    text-align: center;
 }
 
 
@@ -485,7 +489,7 @@ td {
 /*menu main content list*/
 .main-list-item {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.0em; /*1.2*/
     margin: 0.8em 0;
 }
 
@@ -527,11 +531,12 @@ since it must be aligned with the content */
 }
 
 
+
 /* Lists
    ========================================================================== */
 
 li {
-    padding-bottom: 15px;
+    padding-bottom: 0;
 }
 
 ul {
