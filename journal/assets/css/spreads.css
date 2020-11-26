@@ -445,28 +445,24 @@ th {
     padding: 10px;
 }
 
-.grid-item {
+.grid-item .gamma .introduction .delta {
     border: 0 solid;
-    padding: 20px;
     text-align: left;
+    font-size: 85%;
+}
+
+.grid-item {
+    padding: 20px;
 }
 
 .gamma{
-    border: 0 solid;
     padding: 20px;
-    text-align: center;
 }
 
 .delta{
-    border: 0 solid;
     text-align: center;
 }
 
-.introduction{
-    border: 0 solid;
-    padding: 20px;
-    text-align: left;
-}
 
 
 
@@ -519,6 +515,17 @@ since it must be aligned with the content */
 }
 
 
+
+/* Lists
+   ========================================================================== */
+
+li {
+    padding-bottom: 0;
+}
+
+ul {
+    padding-top: 5px;
+}
 
 dl {
     display: block;
