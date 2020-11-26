@@ -10,6 +10,7 @@ html {
     font-family: Vollkorn, Gafata, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    color: #3d3b3c;
 }
 
 /**
