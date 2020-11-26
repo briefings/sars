@@ -1,7 +1,6 @@
 /*https://github.com/excentris/compass*/
 
 
-
 /**
  * 1. Set default font family to Volkorn
  * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
@@ -22,17 +21,11 @@ body {
     padding-top: 10px; /* padding */
 }
 
-li {
-
-    padding-bottom: 15px;
-}
-
-
 /*header*/
-   header,
-   main {
-       padding: 0 20px;
-   }
+header,
+main {
+    padding: 0 20px;
+}
 
 
 
@@ -91,6 +84,15 @@ template {
     display: none;
 }
 
+/**
+ * Figure caption
+ */
+figcaption {
+    color: #545252;
+    font-size: 0.9em;
+    padding: 15px;
+    text-align: left;
+}
 
 
 /* Links: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors
@@ -175,7 +177,6 @@ mark {
 small {
     font-size: 80%;
 }
-
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -445,26 +446,19 @@ th {
     padding: 10px;
 }
 
-.grid-item {
+.grid-item .gamma .introduction {
     border: 0 solid;
-    padding: 20px;
     text-align: left;
     font-size: 90%;
+}
+
+.grid-item {
+    padding: 20px;
 }
 
 .gamma{
-    border: 0 solid;
     padding: 20px;
-    font-size: small;
-    text-align: left;
 }
-
-.introduction{
-    border: 0 solid;
-    text-align: left;
-    font-size: 90%;
-}
-
 
 
 /* Menu
@@ -487,4 +481,54 @@ since it must be aligned with the content */
 .main-list-item-icon {
     width: 36px;
     color: #46433A;
+}
+
+
+
+/* Scrollbar
+   ========================================================================== */
+
+/* Track width */
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+    background: #cccccc;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Lists
+   ========================================================================== */
+
+li {
+    padding-bottom: 15px;
+}
+
+
+dl {
+    display: block;
+    margin-left: 10px;
+}
+dt {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+dd {
+    display: block;
+    margin-left: 25px;
+    margin-top: 0;
 }
