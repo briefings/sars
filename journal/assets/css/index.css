@@ -458,7 +458,7 @@ td {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 300px auto auto;
+    grid-template-columns: 310px auto auto;
     background-color: #FFFFFF;
     padding: 10px;
 }
