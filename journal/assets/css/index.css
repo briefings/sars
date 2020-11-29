@@ -7,10 +7,9 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
  */
 html {
-    font-family: Vollkorn, Gafata, sans-serif; /* 1 */
+    font-family: Vollkorn, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
-    color: #3d3b3c;
 }
 
 /**
@@ -22,6 +21,9 @@ body {
     padding-top: 10px; /* padding */
 }
 
+.equation {
+    padding-left: 60px;
+}
 
 /*header*/
    header,
@@ -86,7 +88,9 @@ template {
     display: none;
 }
 
-
+/**
+ * Figure caption
+ */
 figcaption {
     color: #545252;
     font-size: 0.9em;
@@ -424,13 +428,27 @@ optgroup {
  * Remove most spacing between table cells.
  */
 table {
+    width:55%;
     border-collapse: collapse;
     border-spacing: 0;
+    text-align: left;
+    border: 0 solid black;
+    float:left;
+    margin-left: 60px
 }
 
-td,
-th {
+
+tr {
     padding: 0;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 10px;
 }
 
 
@@ -440,34 +458,28 @@ th {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 60px auto auto 60px;
-    /*grid-template-rows: auto auto auto auto auto;*/
+    grid-template-columns: 300px auto auto;
     background-color: #FFFFFF;
     padding: 10px;
 }
 
-.grid-item {
+.grid-item .gamma .introduction .delta {
     border: 0 solid;
     text-align: left;
+    font-size: 75%;
+}
+
+.grid-item {
+    padding: 20px;
 }
 
 .gamma{
-    border: 0 solid;
     padding: 50px;
-    font-size: 90%;
-    text-align: left;
 }
 
 .delta{
-    border: 0 solid;
     text-align: center;
 }
-
-.introduction{
-    border: 0 solid;
-    text-align: left;
-}
-
 
 
 /* Menu
@@ -476,7 +488,7 @@ th {
 /*menu main content list*/
 .main-list-item {
     font-weight: bold;
-    font-size: 1.0em; /*1.2*/
+    font-size: 1.2em; /*1.2*/
     margin: 0.8em 0;
 }
 
@@ -494,13 +506,38 @@ since it must be aligned with the content */
 
 
 
-/* Lists
+/* Scrollbar
    ========================================================================== */
 
-li {
-    padding-bottom: 10px;
+/* Track width */
+*::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+    background: #cccccc;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 
 
+/* Lists
+   ========================================================================== */
 
+li {
+    padding-bottom: 4px;
+}
+
+ul {
+    padding-top: 4px;
+}
