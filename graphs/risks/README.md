@@ -13,6 +13,6 @@ The United States Environmental Protection Agency's "*2014 NATA (National Air To
 
 #### Respiratory
 
-* [by pollutant](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/risks/pages/respiratory/pollutant.html)
+* [by pollutant](https://briefings.github.io/sars/graphs/risks/pages/respiratory/pollutant.html)
 
-* [by source group](https://nbviewer.jupyter.org/github/briefings/sars/blob/develop/graphs/risks/pages/respiratory/group.html)
+* [by source group](https://briefings.github.io/sars/graphs/risks/pages/respiratory/group.html)
