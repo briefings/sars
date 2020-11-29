@@ -10,7 +10,6 @@ html {
     font-family: Vollkorn, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
-    color: #3d3b3c;
 }
 
 /**
@@ -489,7 +488,7 @@ td {
 /*menu main content list*/
 .main-list-item {
     font-weight: bold;
-    font-size: 1.0em; /*1.2*/
+    font-size: 1.2em; /*1.2*/
     margin: 0.8em 0;
 }
 
@@ -536,11 +535,11 @@ since it must be aligned with the content */
    ========================================================================== */
 
 li {
-    padding-bottom: 0;
+    padding-bottom: 4px;
 }
 
 ul {
-    padding-top: 5px;
+    padding-top: 4px;
 }
 
 dl {
