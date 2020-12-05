@@ -29,7 +29,8 @@ class Attributes:
                 'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative', 'icuCumulative',
                 'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate',
                 'hospitalizedIncreaseRate', 'icuIncreaseRate',
-                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate']
+                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate',
+                'hospitalizedCurrently', 'icuCurrently']
 
     @staticmethod
     def fields():
@@ -38,7 +39,8 @@ class Attributes:
                 'positiveCumulative', 'testCumulative', 'deathCumulative', 'hospitalizedCumulative', 'icuCumulative',
                 'positiveIncreaseRate', 'testIncreaseRate', 'deathIncreaseRate',
                 'hospitalizedIncreaseRate', 'icuIncreaseRate',
-                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate', 'ndays']
+                'positiveRate', 'testRate', 'deathRate', 'hospitalizedRate', 'icuRate',
+                'hospitalizedCurrently', 'icuCurrently', 'ndays']
 
     @staticmethod
     def dtype():
@@ -50,7 +52,8 @@ class Attributes:
                 'positiveIncreaseRate': np.float64, 'testIncreaseRate': np.float64,
                 'deathIncreaseRate': np.float64, 'hospitalizedIncreaseRate': np.float, 'icuIncreaseRate': np.float,
                 'positiveRate': np.float64, 'testRate': np.float64,
-                'deathRate': np.float64, 'hospitalizedRate': np.float, 'icuRate': np.float, 'ndays': np.int64}
+                'deathRate': np.float64, 'hospitalizedRate': np.float, 'icuRate': np.float,
+                'hospitalizedCurrently': np.float64, 'icuCurrently': np.float64, 'ndays': np.int64}
 
     @staticmethod
     def parse_dates():

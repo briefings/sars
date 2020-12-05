@@ -21,7 +21,7 @@ class Readings:
         self.daily = configurations.daily
         self.datestring = configurations.datestring
         self.datepattern = configurations.datepattern
-        self.names, self.measures, _, _ = configurations.variables()
+        self.names, self.measures, _, _, self.currently = configurations.variables()
         self.fields, self.types = configurations.attributes()
 
         logging.basicConfig(level=logging.INFO)
@@ -31,11 +31,12 @@ class Readings:
         """
 
         :param blob:
-        :return: Enhanced C.T.P. date
+        :return: Enhanced C.T.P. data
         """
 
         data = blob.copy()
         data.loc[:, self.measures] = data[self.measures].fillna(value=0)
+        data.loc[:, self.currently] = data[self.currently].fillna(value=0)
 
         return data.merge(self.states[['STUSPS', 'POPESTIMATE2019']], how='left', on='STUSPS')
 
@@ -64,12 +65,14 @@ class Readings:
         :return: The DataFrame of the latest C.T.P. data
         """
 
+        # Read in the data via the daily URL
         try:
             values = pd.read_csv(filepath_or_buffer=self.daily, header=0, usecols=self.fields,
                                  dtype=self.types, encoding='utf-8')
         except OSError as err:
             raise err
 
+        # Re-naming
         values.rename(columns=self.names, inplace=True)
 
         return values
