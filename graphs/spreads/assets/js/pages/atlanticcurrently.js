@@ -1,7 +1,7 @@
 var Highcharts;
 var optionSelected;
 var dropdown = $('#option_selector');
-var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/assets/menu/hopkins.json';
+var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/spreads/assets/menu/atlanticcurrently.json';
 
 
 $.getJSON(url, function (data) {
@@ -21,7 +21,7 @@ $.getJSON(url, function (data) {
 
 
 // Dropdown
-dropdown.on('change', function(e){
+dropdown.on('change', function (e) {
 
     $('#option_selector_title').remove();
 
@@ -35,9 +35,9 @@ dropdown.on('change', function(e){
 
 
 // Generate graphs
-function generateChart(fileNamekey){
+function generateChart(fileNamekey) {
 
-    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/hopkins/notebooks/warehouse/states/candles/'+fileNamekey+'.json', function (data) {
+    $.getJSON('https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/atlantic/warehouse/candles/' + fileNamekey + '.json', function (data) {
 
         // https://api.highcharts.com/highstock/plotOptions.series.dataLabels
         // https://api.highcharts.com/class-reference/Highcharts.Point#.name
@@ -52,8 +52,8 @@ function generateChart(fileNamekey){
             cumulative = [],
             dataLength = data.length,
             groupingUnits = [[
-                'day',                         // unit name
-                [1]                            // allowed multiples
+                'day',   // unit name
+                [1]      // allowed multiples
             ]],
             i = 0;
 
@@ -81,12 +81,7 @@ function generateChart(fileNamekey){
                 x: data[i][0], // date
                 y: data[i][7]  // counts
             });
-
-            cumulative.push({
-                x: data[i][0], // date
-                y: data[i][9]  // cumulative counts
-            });
-
+            
         }
 
         Highcharts.setOptions({
@@ -96,7 +91,7 @@ function generateChart(fileNamekey){
         });
 
         // Draw a graph
-        Highcharts.stockChart('container0004', {
+        Highcharts.stockChart('container0100', {
 
             rangeSelector: {
                 selected: 1,
@@ -125,8 +120,8 @@ function generateChart(fileNamekey){
             },
 
             subtitle: {
-                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico <br/></p> ' +
-                    '<p><b>Data Source</b>: Johns Hopkins</p>'
+                text: '<p>U.S.A.: The States, Washington D.C., Puerto Rico</p> <br/> ' +
+                    '<p><b>Data Source</b>: The COVID Tracking Project</p>'
             },
 
             time: {
@@ -139,13 +134,19 @@ function generateChart(fileNamekey){
 
             legend: {
                 enabled: true,
-                width: 600,
-                x: 100
+                width: 550,
+                x: 10
                 // align: 'middle',
                 // layout: 'vertical',
                 // verticalAlign: 'bottom',
                 // y: 10,
                 // x: 35
+            },
+
+            caption: {
+                // verticalAlign: "top",
+                text: '<p>Herein, each candlestick illustrates the spread of 52 points: 50 states, Washington D.C., and Puerto Rico.  Each day\'s point is ' +
+                    'a measure, e.g., the number of patients ' + optionSelected + '  </p>'
             },
 
             exporting: {
@@ -168,12 +169,12 @@ function generateChart(fileNamekey){
                     x: 0
                 },
                 min: 0,
-                height: '43%',
+                height: '53%',
                 lineWidth: 2,
                 resize: {
                     enabled: true
                 }
-            },{
+            }, {
                 labels: {
                     align: 'left',
                     x: 9
@@ -182,28 +183,15 @@ function generateChart(fileNamekey){
                     text: 'Daily Totals',
                     x: 0
                 },
-                top: '46%',
-                height: '23%',
+                top: '60%',
+                height: '37%',
                 offset: 0,
                 lineWidth: 2
-            },
-                {
-                    labels: {
-                        align: 'left',
-                        x: 9
-                    },
-                    title: {
-                        text: 'Continuous',
-                        x: 0
-                    },
-                    top: '72%',
-                    height: '23%',
-                    offset: 0,
-                    lineWidth: 2
-                }
+            }
+
             ],
 
-            plotOptions:{
+            plotOptions: {
                 series: {
                     turboThreshold: 4000
                 }
@@ -212,21 +200,21 @@ function generateChart(fileNamekey){
             tooltip: {
                 split: true,
                 dateTimeLabelFormats: {
-                    millisecond:"%A, %e %b, %H:%M:%S.%L",
-                    second:"%A, %e %b, %H:%M:%S",
-                    minute:"%A, %e %b, %H:%M",
-                    hour:"%A, %e %b, %H:%M",
-                    day:"%A, %e %B, %Y",
-                    week:"%A, %e %b, %Y",
-                    month:"%B %Y",
-                    year:"%Y"
+                    millisecond: "%A, %e %b, %H:%M:%S.%L",
+                    second: "%A, %e %b, %H:%M:%S",
+                    minute: "%A, %e %b, %H:%M",
+                    hour: "%A, %e %b, %H:%M",
+                    day: "%A, %e %B, %Y",
+                    week: "%A, %e %b, %Y",
+                    month: "%B %Y",
+                    year: "%Y"
                 }
 
             },
 
             series: [{
                 type: 'candlestick',
-                name: 'Distribution of ' + optionSelected,
+                name: optionSelected,
                 data: ohlc,
                 dataGrouping: {
                     units: groupingUnits,
@@ -282,7 +270,7 @@ function generateChart(fileNamekey){
                     type: 'column',
                     name: 'The Day\'s Total',
                     data: numbers,
-                    color: '#EDC948',
+                    color: '#000000',
                     yAxis: 1,
                     dataGrouping: {
                         units: groupingUnits
@@ -292,24 +280,7 @@ function generateChart(fileNamekey){
                             '{point.y}<br/>'
                     }*/
 
-                },
-                {
-                    type: 'spline',
-                    name: 'Continuous Sum',
-                    data: cumulative,
-                    color: '#800000',
-                    yAxis: 2,
-                    dataGrouping: {
-                        units: groupingUnits
-                    },
-                    tooltip: {
-                        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
-                            '{point.y}<br/>'
-                    }
-
                 }
-
-
             ],
             responsive: {
                 rules: [{
@@ -325,9 +296,11 @@ function generateChart(fileNamekey){
             }
         });
 
-    }).fail(function() {
+    }).fail(function () {
         console.log("Missing");
-        $('#container0004').empty();
+        $('#container0100').empty();
     });
 
 }
+
+

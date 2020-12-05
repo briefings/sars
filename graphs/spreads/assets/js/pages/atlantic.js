@@ -150,7 +150,8 @@ function generateChart(fileNamekey) {
 
             caption: {
                 // verticalAlign: "top",
-                text: '<p>Herein, each candlestick illustrates the spread of 52 points: 50 states, Washington D.C., and Puerto Rico.    Each day\'s point is a measure, e.g., the number of positive cases.  In general, the candles suggests that each ...</p>'
+                text: '<p>Herein, each candlestick illustrates the spread of 52 points: 50 states, Washington D.C., and Puerto ' +
+                    'Rico.  Each day\'s point is a measure, e.g., the number of positive cases.</p>'
             },
 
             exporting: {
@@ -284,18 +285,18 @@ function generateChart(fileNamekey) {
                     }
                 },
                 {
-                    type: 'spline',
+                    type: 'column',
                     name: 'The Day\'s Total',
                     data: numbers,
                     color: '#EDC948',
                     yAxis: 1,
                     dataGrouping: {
                         units: groupingUnits
-                    },
-                    tooltip: {
+                    }
+                    /*tooltip: {
                         pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
                             '{point.y}<br/>'
-                    }
+                    }*/
 
                 },
                 {
