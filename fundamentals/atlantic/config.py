@@ -24,8 +24,9 @@ class Config:
         self.daily = 'https://covidtracking.com/api/v1/states/daily.csv'
         self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
                         'develop/sars/covidTrackingProjectStates.json'
-        self.metadatafilter = pd.DataFrame({'name': [self.datestring, 'state', 'death', 'positive', 'negative',
-                                                     'inIcuCumulative', 'hospitalizedCumulative']})
+        self.metadatafilter = pd.DataFrame(
+            {'name': [self.datestring, 'state', 'death', 'positive', 'negative', 'inIcuCumulative',
+                      'hospitalizedCumulative', 'inIcuCurrently', 'hospitalizedCurrently']})
 
         # Results directory
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
@@ -33,17 +34,29 @@ class Config:
     @staticmethod
     def variables():
 
+        # For re-naming
         names = {'state': 'STUSPS', 'death': 'deathCumulative', 'positive': 'positiveCumulative',
-                 'negative': 'negativeCumulative', 'inIcuCumulative': 'icuCumulative'}
+                 'negative': 'negativeCumulative', 'inIcuCumulative': 'icuCumulative',
+                 'inIcuCurrently': 'icuCurrently'}
+
+        # For
+        #   src.readings: Therein NaN values are replaced with zeros
+        #   algorithms.anomalies: Cumulative values discrepancies are addressed therein
         measures = ['deathCumulative', 'positiveCumulative', 'negativeCumulative', 'icuCumulative',
                     'hospitalizedCumulative']
 
+        # Marking cumulative measures
         cumulative = ['deathCumulative', 'positiveCumulative', 'testCumulative',
                       'icuCumulative', 'hospitalizedCumulative']
+
+        # Marking discrete measures
         increase = ['deathIncrease', 'positiveIncrease', 'testIncrease',
                     'icuIncrease', 'hospitalizedIncrease']
 
-        return names, measures, cumulative, increase
+        # Marking current counts
+        currently = ['icuCurrently', 'hospitalizedCurrently']
+
+        return names, measures, cumulative, increase, currently
 
     @staticmethod
     def regions():
