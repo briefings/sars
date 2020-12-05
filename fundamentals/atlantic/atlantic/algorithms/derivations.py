@@ -17,7 +17,7 @@ class Derivations:
         # Configurations & Field Names
         configurations = config.Config()
         self.epochdays = configurations.epochdays
-        _, _, self.cumulative, self.increase = configurations.variables()
+        _, _, self.cumulative, self.increase, _ = configurations.variables()
 
         # Labels for continuous & discrete capita fields
         self.ccl = [measure.replace('Cumulative', 'Rate') for measure in self.cumulative]
