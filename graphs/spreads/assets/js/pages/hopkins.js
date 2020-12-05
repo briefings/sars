@@ -168,7 +168,7 @@ function generateChart(fileNamekey){
                     x: 0
                 },
                 min: 0,
-                height: '46%',
+                height: '43%',
                 lineWidth: 2,
                 resize: {
                     enabled: true
@@ -182,7 +182,7 @@ function generateChart(fileNamekey){
                     text: 'Daily Totals',
                     x: 0
                 },
-                top: '49%',
+                top: '46%',
                 height: '23%',
                 offset: 0,
                 lineWidth: 2
@@ -196,7 +196,7 @@ function generateChart(fileNamekey){
                         text: 'Continuous',
                         x: 0
                     },
-                    top: '75%',
+                    top: '72%',
                     height: '23%',
                     offset: 0,
                     lineWidth: 2
@@ -279,18 +279,18 @@ function generateChart(fileNamekey){
                     }
                 },
                 {
-                    type: 'spline',
+                    type: 'column',
                     name: 'The Day\'s Total',
                     data: numbers,
                     color: '#EDC948',
                     yAxis: 1,
                     dataGrouping: {
                         units: groupingUnits
-                    },
-                    tooltip: {
+                    }
+                    /*tooltip: {
                         pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {series.name} </b>: ' +
                             '{point.y}<br/>'
-                    }
+                    }*/
 
                 },
                 {
