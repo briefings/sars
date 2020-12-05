@@ -1,4 +1,4 @@
 [
   {"desc": "hospitalizedCurrently", "name": "Hospitalized Currently"},
-  {"desc": "icuCurrently", "name": "In Intensive Care Currently"}
+  {"desc": "icuCurrently", "name": "In ICU Currently"}
 ]
