@@ -17,11 +17,12 @@ class Derivations:
         # Configurations & Field Names
         configurations = config.Config()
         self.epochdays = configurations.epochdays
-        _, _, self.cumulative, self.increase, _ = configurations.variables()
+        _, _, self.cumulative, self.increase, self.currently = configurations.variables()
 
         # Labels for continuous & discrete capita fields
         self.ccl = [measure.replace('Cumulative', 'Rate') for measure in self.cumulative]
         self.dcl = [measure + 'Rate' for measure in self.increase]
+        self.curcl = [measure + 'Rate' for measure in self.currently]
 
     @dask.delayed
     def ccv(self, blob: pd.DataFrame):
@@ -52,9 +53,25 @@ class Derivations:
                          axis=1)
 
     @dask.delayed
+    def curcv(self, blob: pd.DataFrame):
+        """
+        capita values of current values
+
+        :param blob:
+        :return:
+        """
+
+        return pd.concat([blob,
+                          pd.DataFrame(
+                              data=(100000 * blob[self.currently].divide(blob['POPESTIMATE2019'], axis=0)).values,
+                              columns=self.curcl)],
+                         axis=1)
+
+    @dask.delayed
     def segment(self, stusps: str):
         """
         Gets all data w.r.t. STUSPS
+
         :param stusps:
         :return:
         """
@@ -78,6 +95,7 @@ class Derivations:
             values = self.segment(stusps=place)
             values = self.ccv(values)
             values = self.dcv(values)
+            values = self.curcv(values)
             computations.append(values)
 
         dask.visualize(computations, filename='derivations', format='pdf')
