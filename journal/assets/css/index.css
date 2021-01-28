@@ -7,7 +7,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
  */
 html {
-    font-family: Vollkorn, sans-serif; /* 1 */
+    font-family: Vollkorn, Gafata, sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -21,15 +21,12 @@ body {
     padding-top: 10px; /* padding */
 }
 
-.equation {
-    padding-left: 60px;
-}
 
 /*header*/
-   header,
-   main {
-       padding: 0 20px;
-   }
+header,
+main {
+    padding: 0 20px;
+}
 
 
 
@@ -88,15 +85,6 @@ template {
     display: none;
 }
 
-/**
- * Figure caption
- */
-figcaption {
-    color: #545252;
-    font-size: 0.9em;
-    padding: 15px;
-    text-align: left;
-}
 
 
 /* Links: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors
@@ -452,34 +440,38 @@ td {
 }
 
 
-
 /* Grid
    ========================================================================== */
 
 .grid-container {
     display: grid;
-    grid-template-columns: 310px auto auto;
+    grid-template-columns: 60px auto auto 60px;
+    /*grid-template-rows: auto auto 100px auto;*/
     background-color: #FFFFFF;
     padding: 10px;
 }
 
-.grid-item .gamma .introduction .delta {
+
+
+.gamma, .grid-item, .delta, .loc, .introduction{
     border: 0 solid;
     text-align: left;
-    font-size: 75%;
-}
-
-.grid-item {
-    padding: 20px;
 }
 
 .gamma{
-    padding: 50px;
+    padding: 20px 50px 20px 20px;
+    text-align: left;
 }
 
 .delta{
-    text-align: center;
+    padding: 20px;
 }
+
+.loc{
+    padding-right: 60px;
+}
+
+
 
 
 /* Menu
@@ -488,7 +480,7 @@ td {
 /*menu main content list*/
 .main-list-item {
     font-weight: bold;
-    font-size: 1.2em; /*1.2*/
+    font-size: 1.2em;
     margin: 0.8em 0;
 }
 
@@ -535,9 +527,24 @@ since it must be aligned with the content */
    ========================================================================== */
 
 li {
-    padding-bottom: 4px;
+    padding-bottom: 10px;
 }
-
 ul {
     padding-top: 4px;
+}
+
+dl {
+    display: block;
+    margin-left: 10px;
+}
+dt {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+dd {
+    display: block;
+    margin-left: 30px;
+    margin-top: 5px;
 }
