@@ -32,12 +32,11 @@ def main():
     anomalies = atlantic.algorithms.anomalies.Anomalies(blob=readings).exc()
 
     # Tests
-    tests = atlantic.algorithms.tests.Tests(blob=anomalies).exc()
+    # tests = atlantic.algorithms.tests.Tests(blob=anomalies).exc()
 
-    # Features engineering; drop 'negativeIncrease' & 'negativeCumulative' beforehand
-    derive = atlantic.algorithms.derivations.Derivations(
-        data=tests.drop(columns=['negativeIncrease', 'negativeCumulative']))
-    derivations = derive.exc(places=tests['STUSPS'].unique())
+    # Derivations
+    derive = atlantic.algorithms.derivations.Derivations(data=anomalies)
+    derivations = derive.exc(places=anomalies['STUSPS'].unique())
     logger.info('\nDerivations:\n{}\n'.format(derivations.info()))
 
     # The latest
