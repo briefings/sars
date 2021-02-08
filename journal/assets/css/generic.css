@@ -466,7 +466,7 @@ td {
 .grid-item .gamma .introduction .delta {
     border: 0 solid;
     text-align: left;
-    font-size: 75%;
+    /*font-size: 75%;*/
 }
 
 .grid-item {
