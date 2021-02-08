@@ -14,7 +14,7 @@ class Config:
 
         # Starting, ending, days thus far.  The name of the C.T.P. date field, and the pattern of the dates
         # https://covidtracking.com/data/api
-        self.starting: str = '2020-01-22'
+        self.starting: str = '2020-03-09'
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
         self.ending: str = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
         self.datestring = 'date'
@@ -25,7 +25,7 @@ class Config:
         self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
                         'develop/sars/covidTrackingProjectStates.json'
         self.metadatafilter = pd.DataFrame(
-            {'name': [self.datestring, 'state', 'death', 'positive', 'negative', 'inIcuCumulative',
+            {'name': [self.datestring, 'state', 'death', 'positive', 'totalTestResults', 'inIcuCumulative',
                       'hospitalizedCumulative', 'inIcuCurrently', 'hospitalizedCurrently']})
 
         # Results directory
@@ -36,13 +36,13 @@ class Config:
 
         # For re-naming
         names = {'state': 'STUSPS', 'death': 'deathCumulative', 'positive': 'positiveCumulative',
-                 'negative': 'negativeCumulative', 'inIcuCumulative': 'icuCumulative',
+                 'totalTestResults': 'testCumulative', 'inIcuCumulative': 'icuCumulative',
                  'inIcuCurrently': 'icuCurrently'}
 
         # For
         #   src.readings: Therein NaN values are replaced with zeros
         #   algorithms.anomalies: Cumulative values discrepancies are addressed therein
-        measures = ['deathCumulative', 'positiveCumulative', 'negativeCumulative', 'icuCumulative',
+        measures = ['deathCumulative', 'positiveCumulative', 'testCumulative', 'icuCumulative',
                     'hospitalizedCumulative']
 
         # Marking cumulative measures
