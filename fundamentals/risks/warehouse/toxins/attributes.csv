@@ -1,0 +1,651 @@
+field,type,nullable,comment,metadata
+COUNTYGEOID,str,False,The geographic identifier of a county,'metadata': {'comment': 'The geographic identifier of a county'}
+007782505,float,True,CHLORINE,'metadata': {'comment': 'CHLORINE'}
+007803512,float,True,PHOSPHINE,'metadata': {'comment': 'PHOSPHINE'}
+010049044,float,True,CHLORINE DIOXIDE,'metadata': {'comment': 'CHLORINE DIOXIDE'}
+010061026,float,True,"TRANS-1,3-DICHLOROPROPENE","'metadata': {'comment': 'TRANS-1,3-DICHLOROPROPENE'}"
+012122677,float,True,ZINEB,'metadata': {'comment': 'ZINEB'}
+013356086,float,True,FENBUTATIN OXIDE,'metadata': {'comment': 'FENBUTATIN OXIDE'}
+013474889,float,True,"1,1-DICHLORO-1,2,2,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,1-DICHLORO-1,2,2,3,3-PENTAFLUOROPROPANE'}"
+013684565,float,True,DESMEDIPHAM,'metadata': {'comment': 'DESMEDIPHAM'}
+014302137,float,True,C.I. PIGMENT GREEN 36,'metadata': {'comment': 'C.I. PIGMENT GREEN 36'}
+019044883,float,True,ORYZALIN,'metadata': {'comment': 'ORYZALIN'}
+019666309,float,True,OXYDIAZON,'metadata': {'comment': 'OXYDIAZON'}
+020354261,float,True,METHAZOLE,'metadata': {'comment': 'METHAZOLE'}
+020859738,float,True,ALUMINUM PHOSPHIDE,'metadata': {'comment': 'ALUMINUM PHOSPHIDE'}
+022781233,float,True,BENDIOCARB,'metadata': {'comment': 'BENDIOCARB'}
+023564058,float,True,THIOPHANATE-METHYL,'metadata': {'comment': 'THIOPHANATE-METHYL'}
+025321226,float,True,DICHLOROBENZENE (MIXED ISOMERS),'metadata': {'comment': 'DICHLOROBENZENE (MIXED ISOMERS)'}
+026471625,float,True,TOLUENE DIISOCYANATE (MIXED ISOMERS),'metadata': {'comment': 'TOLUENE DIISOCYANATE (MIXED ISOMERS)'}
+026644462,float,True,TRIFORINE,'metadata': {'comment': 'TRIFORINE'}
+028249776,float,True,THIOBENCARB,'metadata': {'comment': 'THIOBENCARB'}
+035367385,float,True,DIFLUBENZURON,'metadata': {'comment': 'DIFLUBENZURON'}
+038727558,float,True,DIETHATYL ETHYL,'metadata': {'comment': 'DIETHATYL ETHYL'}
+050471448,float,True,VINCLOZOLIN,'metadata': {'comment': 'VINCLOZOLIN'}
+051338273,float,True,DICLOFOP METHYL,'metadata': {'comment': 'DICLOFOP METHYL'}
+051630581,float,True,FENVALERATE,'metadata': {'comment': 'FENVALERATE'}
+052645531,float,True,PERMETHRIN,'metadata': {'comment': 'PERMETHRIN'}
+053404607,float,True,"DAZOMET, SODIUM SALT","'metadata': {'comment': 'DAZOMET, SODIUM SALT'}"
+055290647,float,True,DIMETHIPIN,'metadata': {'comment': 'DIMETHIPIN'}
+055406536,float,True,3-IODO-2-PROPYNYL BUTYLCARBAMATE,'metadata': {'comment': '3-IODO-2-PROPYNYL BUTYLCARBAMATE'}
+057213691,float,True,TRICLOPYR TRIETHYLAMMONIUM SALT,'metadata': {'comment': 'TRICLOPYR TRIETHYLAMMONIUM SALT'}
+062476599,float,True,"ACIFLUORFEN, SODIUM SALT","'metadata': {'comment': 'ACIFLUORFEN, SODIUM SALT'}"
+067485294,float,True,HYDRAMETHYLNON,'metadata': {'comment': 'HYDRAMETHYLNON'}
+068085858,float,True,CYHALOTHRIN,'metadata': {'comment': 'CYHALOTHRIN'}
+082657043,float,True,BIFENTHRIN,'metadata': {'comment': 'BIFENTHRIN'}
+111512562,float,True,"1,1-DICHLORO-1,2,3,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,1-DICHLORO-1,2,3,3,3-PENTAFLUOROPROPANE'}"
+111984099,float,True,"3,3'-DIMETHOXYBENZIDINE HYDROCHLORIDE","'metadata': {'comment': '3,3'-DIMETHOXYBENZIDINE HYDROCHLORIDE'}"
+N420,float,True,LEAD COMPOUNDS,'metadata': {'comment': 'LEAD COMPOUNDS'}
+000061825,float,True,AMITROLE,'metadata': {'comment': 'AMITROLE'}
+000095476,float,True,O-XYLENE,'metadata': {'comment': 'O-XYLENE'}
+N495,float,True,NICKEL COMPOUNDS,'metadata': {'comment': 'NICKEL COMPOUNDS'}
+000062555,float,True,THIOACETAMIDE,'metadata': {'comment': 'THIOACETAMIDE'}
+000067630,float,True,"ISOPROPYL ALCOHOL (MANUFACTURING,STRONG-ACID PROCESS ONLY,NO SUPPLIER)","'metadata': {'comment': 'ISOPROPYL ALCOHOL (MANUFACTURING,STRONG-ACID PROCESS ONLY,NO SUPPLIER)'}"
+000080626,float,True,METHYL METHACRYLATE,'metadata': {'comment': 'METHYL METHACRYLATE'}
+000095636,float,True,"1,2,4-TRIMETHYLBENZENE","'metadata': {'comment': '1,2,4-TRIMETHYLBENZENE'}"
+000101144,float,True,"4,4'-METHYLENEBIS(2-CHLOROANILINE)","'metadata': {'comment': '4,4'-METHYLENEBIS(2-CHLOROANILINE)'}"
+000107051,float,True,ALLYL CHLORIDE,'metadata': {'comment': 'ALLYL CHLORIDE'}
+000108316,float,True,MALEIC ANHYDRIDE,'metadata': {'comment': 'MALEIC ANHYDRIDE'}
+000109773,float,True,MALONONITRILE,'metadata': {'comment': 'MALONONITRILE'}
+000114261,float,True,PROPOXUR,'metadata': {'comment': 'PROPOXUR'}
+000122394,float,True,DIPHENYLAMINE,'metadata': {'comment': 'DIPHENYLAMINE'}
+000354110,float,True,"1,1,1,2-TETRACHLORO-2-FLUOROETHANE","'metadata': {'comment': '1,1,1,2-TETRACHLORO-2-FLUOROETHANE'}"
+000542767,float,True,3-CHLOROPROPIONITRILE,'metadata': {'comment': '3-CHLOROPROPIONITRILE'}
+001134232,float,True,CYCLOATE,'metadata': {'comment': 'CYCLOATE'}
+001332214,float,True,ASBESTOS (FRIABLE),'metadata': {'comment': 'ASBESTOS (FRIABLE)'}
+001929824,float,True,NITRAPYRIN,'metadata': {'comment': 'NITRAPYRIN'}
+002234131,float,True,OCTACHLORONAPHTHALENE,'metadata': {'comment': 'OCTACHLORONAPHTHALENE'}
+007429905,float,True,ALUMINUM (FUME OR DUST),'metadata': {'comment': 'ALUMINUM (FUME OR DUST)'}
+015972608,float,True,ALACHLOR,'metadata': {'comment': 'ALACHLOR'}
+041766750,float,True,"3,3'-DIMETHYLBENZIDINE DIHYDROFLUORIDE","'metadata': {'comment': '3,3'-DIMETHYLBENZIDINE DIHYDROFLUORIDE'}"
+026628228,float,True,SODIUM AZIDE,'metadata': {'comment': 'SODIUM AZIDE'}
+059669260,float,True,THIODICARB,'metadata': {'comment': 'THIODICARB'}
+007632000,float,True,SODIUM NITRITE,'metadata': {'comment': 'SODIUM NITRITE'}
+077501634,float,True,LACTOFEN,'metadata': {'comment': 'LACTOFEN'}
+000128041,float,True,SODIUM DIMETHYLDITHIOCARBAMATE,'metadata': {'comment': 'SODIUM DIMETHYLDITHIOCARBAMATE'}
+021725462,float,True,CYANAZINE,'metadata': {'comment': 'CYANAZINE'}
+000057330,float,True,PENTOBARBITAL SODIUM,'metadata': {'comment': 'PENTOBARBITAL SODIUM'}
+064902723,float,True,CHLORSULFURON,'metadata': {'comment': 'CHLORSULFURON'}
+072490018,float,True,FENOXYCARB,'metadata': {'comment': 'FENOXYCARB'}
+000088857,float,True,DINITROBUTYL PHENOL,'metadata': {'comment': 'DINITROBUTYL PHENOL'}
+010453868,float,True,RESMETHRIN,'metadata': {'comment': 'RESMETHRIN'}
+026002802,float,True,PHENOTHRIN,'metadata': {'comment': 'PHENOTHRIN'}
+039515418,float,True,FENPROPATHRIN,'metadata': {'comment': 'FENPROPATHRIN'}
+000051036,float,True,PIPERONYL BUTOXIDE,'metadata': {'comment': 'PIPERONYL BUTOXIDE'}
+000085018,float,True,PHENANTHRENE,'metadata': {'comment': 'PHENANTHRENE'}
+000122349,float,True,SIMAZINE,'metadata': {'comment': 'SIMAZINE'}
+021087649,float,True,METRIBUZIN,'metadata': {'comment': 'METRIBUZIN'}
+007287196,float,True,PROMETRYN,'metadata': {'comment': 'PROMETRYN'}
+000094111,float,True,"2,4-D ISOPROPYL ESTER","'metadata': {'comment': '2,4-D ISOPROPYL ESTER'}"
+027314132,float,True,NORFLURAZON,'metadata': {'comment': 'NORFLURAZON'}
+043121433,float,True,TRIADIMEFON,'metadata': {'comment': 'TRIADIMEFON'}
+060168889,float,True,FENARIMOL,'metadata': {'comment': 'FENARIMOL'}
+000834128,float,True,AMETRYN,'metadata': {'comment': 'AMETRYN'}
+000128030,float,True,POTASSIUM DIMETHYLDITHIOCARBAMATE,'metadata': {'comment': 'POTASSIUM DIMETHYLDITHIOCARBAMATE'}
+002702729,float,True,"2,4-D SODIUM SALT","'metadata': {'comment': '2,4-D SODIUM SALT'}"
+000300765,float,True,NALED,'metadata': {'comment': 'NALED'}
+031218834,float,True,PROPETAMPHOS,'metadata': {'comment': 'PROPETAMPHOS'}
+000051218,float,True,FLUOROURACIL,'metadata': {'comment': 'FLUOROURACIL'}
+035691657,float,True,"1-BROMO-1-(BROMOMETHYL)-1,3-PROPANEDICARBONITRILE","'metadata': {'comment': '1-BROMO-1-(BROMOMETHYL)-1,3-PROPANEDICARBONITRILE'}"
+004080313,float,True,"1-(3-CHLOROALLYL)-3,5,7-TRIAZA-1-AZONIAADAMANTANE CHLORIDE","'metadata': {'comment': '1-(3-CHLOROALLYL)-3,5,7-TRIAZA-1-AZONIAADAMANTANE CHLORIDE'}"
+001649087,float,True,"1,2-DICHLORO-1,1-DIFLUOROETHANE","'metadata': {'comment': '1,2-DICHLORO-1,1-DIFLUOROETHANE'}"
+000431867,float,True,"1,2-DICHLORO-1,1,3,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,2-DICHLORO-1,1,3,3,3-PENTAFLUOROPROPANE'}"
+000071363,float,True,N-BUTYL ALCOHOL,'metadata': {'comment': 'N-BUTYL ALCOHOL'}
+000072435,float,True,METHOXYCHLOR,'metadata': {'comment': 'METHOXYCHLOR'}
+000078842,float,True,ISOBUTYRALDEHYDE,'metadata': {'comment': 'ISOBUTYRALDEHYDE'}
+000088755,float,True,2-NITROPHENOL,'metadata': {'comment': '2-NITROPHENOL'}
+001114712,float,True,PEBULATE,'metadata': {'comment': 'PEBULATE'}
+010034932,float,True,HYDRAZINE SULFATE,'metadata': {'comment': 'HYDRAZINE SULFATE'}
+066441234,float,True,FENOXAPROP ETHYL,'metadata': {'comment': 'FENOXAPROP ETHYL'}
+000074953,float,True,METHYLENE BROMIDE,'metadata': {'comment': 'METHYLENE BROMIDE'}
+000075865,float,True,2-METHYLLACTONITRILE,'metadata': {'comment': '2-METHYLLACTONITRILE'}
+000085687,float,True,BUTYL BENZYL PHTHALATE,'metadata': {'comment': 'BUTYL BENZYL PHTHALATE'}
+000105679,float,True,"2,4-DIMETHYLPHENOL","'metadata': {'comment': '2,4-DIMETHYLPHENOL'}"
+000123728,float,True,BUTYRALDEHYDE,'metadata': {'comment': 'BUTYRALDEHYDE'}
+007440280,float,True,THALLIUM,'metadata': {'comment': 'THALLIUM'}
+007723140,float,True,PHOSPHORUS (YELLOW OR WHITE),'metadata': {'comment': 'PHOSPHORUS (YELLOW OR WHITE)'}
+N982,float,True,ZINC COMPOUNDS,'metadata': {'comment': 'ZINC COMPOUNDS'}
+000079221,float,True,METHYL CHLOROCARBONATE,'metadata': {'comment': 'METHYL CHLOROCARBONATE'}
+000098862,float,True,ACETOPHENONE,'metadata': {'comment': 'ACETOPHENONE'}
+001120714,float,True,PROPANE SULTONE,'metadata': {'comment': 'PROPANE SULTONE'}
+007440508,float,True,COPPER,'metadata': {'comment': 'COPPER'}
+N760,float,True,THALLIUM COMPOUNDS,'metadata': {'comment': 'THALLIUM COMPOUNDS'}
+000059892,float,True,N-NITROSOMORPHOLINE,'metadata': {'comment': 'N-NITROSOMORPHOLINE'}
+000071432,float,True,BENZENE,'metadata': {'comment': 'BENZENE'}
+000075218,float,True,ETHYLENE OXIDE,'metadata': {'comment': 'ETHYLENE OXIDE'}
+000076131,float,True,FREON 113,'metadata': {'comment': 'FREON 113'}
+000090437,float,True,2-PHENYLPHENOL,'metadata': {'comment': '2-PHENYLPHENOL'}
+000106503,float,True,P-PHENYLENEDIAMINE,'metadata': {'comment': 'P-PHENYLENEDIAMINE'}
+000108394,float,True,M-CRESOL,'metadata': {'comment': 'M-CRESOL'}
+000115286,float,True,CHLORENDIC ACID,'metadata': {'comment': 'CHLORENDIC ACID'}
+000123637,float,True,PARALDEHYDE,'metadata': {'comment': 'PARALDEHYDE'}
+000354256,float,True,"1-CHLORO-1,1,2,2-TETRAFLUOROETHANE","'metadata': {'comment': '1-CHLORO-1,1,2,2-TETRAFLUOROETHANE'}"
+000680319,float,True,HEXAMETHYLPHOSPHORAMIDE,'metadata': {'comment': 'HEXAMETHYLPHOSPHORAMIDE'}
+069409945,float,True,FLUVALINATE,'metadata': {'comment': 'FLUVALINATE'}
+000510156,float,True,CHLOROBENZILATE,'metadata': {'comment': 'CHLOROBENZILATE'}
+068359375,float,True,CYFLUTHRIN,'metadata': {'comment': 'CYFLUTHRIN'}
+N874,float,True,WARFARIN AND SALTS,'metadata': {'comment': 'WARFARIN AND SALTS'}
+000063252,float,True,CARBARYL,'metadata': {'comment': 'CARBARYL'}
+000075718,float,True,DICHLORODIFLUOROMETHANE,'metadata': {'comment': 'DICHLORODIFLUOROMETHANE'}
+000085449,float,True,PHTHALIC ANHYDRIDE,'metadata': {'comment': 'PHTHALIC ANHYDRIDE'}
+000107211,float,True,ETHYLENE GLYCOL,'metadata': {'comment': 'ETHYLENE GLYCOL'}
+000120365,float,True,"2,4-DP","'metadata': {'comment': '2,4-DP'}"
+002032657,float,True,METHIOCARB,'metadata': {'comment': 'METHIOCARB'}
+069806504,float,True,FLUAZIFOP BUTYL,'metadata': {'comment': 'FLUAZIFOP BUTYL'}
+000091087,float,True,"TOLUENE-2,6-DIISOCYANATE","'metadata': {'comment': 'TOLUENE-2,6-DIISOCYANATE'}"
+000100016,float,True,P-NITROANILINE,'metadata': {'comment': 'P-NITROANILINE'}
+000062748,float,True,SODIUM FLUOROACETATE,'metadata': {'comment': 'SODIUM FLUOROACETATE'}
+000088891,float,True,PICRIC ACID,'metadata': {'comment': 'PICRIC ACID'}
+000422480,float,True,"2,3-DICHLORO-1,1,1,2,3-PENTAFLUOROPROPANE","'metadata': {'comment': '2,3-DICHLORO-1,1,1,2,3-PENTAFLUOROPROPANE'}"
+001328536,float,True,C.I. PIGMENT GREEN 7,'metadata': {'comment': 'C.I. PIGMENT GREEN 7'}
+007440622,float,True,VANADIUM (EXCEPT WHEN CONTAINED IN AN ALLOY),'metadata': {'comment': 'VANADIUM (EXCEPT WHEN CONTAINED IN AN ALLOY)'}
+000057147,float,True,"1,1-DIMETHYL HYDRAZINE","'metadata': {'comment': '1,1-DIMETHYL HYDRAZINE'}"
+090454185,float,True,"DICHLORO-1,1,2-TRIFLUOROETHANE","'metadata': {'comment': 'DICHLORO-1,1,2-TRIFLUOROETHANE'}"
+000075150,float,True,CARBON DISULFIDE,'metadata': {'comment': 'CARBON DISULFIDE'}
+000091225,float,True,QUINOLINE,'metadata': {'comment': 'QUINOLINE'}
+000098953,float,True,NITROBENZENE,'metadata': {'comment': 'NITROBENZENE'}
+000107131,float,True,ACRYLONITRILE,'metadata': {'comment': 'ACRYLONITRILE'}
+000842079,float,True,C.I. SOLVENT YELLOW 14,'metadata': {'comment': 'C.I. SOLVENT YELLOW 14'}
+000087683,float,True,"HEXACHLORO-1,3-BUTADIENE","'metadata': {'comment': 'HEXACHLORO-1,3-BUTADIENE'}"
+007786347,float,True,MEVINPHOS,'metadata': {'comment': 'MEVINPHOS'}
+000156627,float,True,CALCIUM CYANAMIDE,'metadata': {'comment': 'CALCIUM CYANAMIDE'}
+000062533,float,True,ANILINE,'metadata': {'comment': 'ANILINE'}
+000075252,float,True,BROMOFORM,'metadata': {'comment': 'BROMOFORM'}
+000091203,float,True,NAPHTHALENE,'metadata': {'comment': 'NAPHTHALENE'}
+000100414,float,True,ETHYLBENZENE,'metadata': {'comment': 'ETHYLBENZENE'}
+000124732,float,True,DIBROMOTETRAFLUOROETHANE,'metadata': {'comment': 'DIBROMOTETRAFLUOROETHANE'}
+000151564,float,True,ETHYLENEIMINE,'metadata': {'comment': 'ETHYLENEIMINE'}
+000612828,float,True,"3,3'-DIMETHYLBENZIDINE DIHYDROCHLORIDE","'metadata': {'comment': '3,3'-DIMETHYLBENZIDINE DIHYDROCHLORIDE'}"
+001634044,float,True,METHYL TERT-BUTYL ETHER,'metadata': {'comment': 'METHYL TERT-BUTYL ETHER'}
+007440224,float,True,SILVER,'metadata': {'comment': 'SILVER'}
+039156417,float,True,"2,4-DIAMINOANISOLE SULFATE","'metadata': {'comment': '2,4-DIAMINOANISOLE SULFATE'}"
+000076153,float,True,MONOCHLOROPENTAFLUOROETHANE,'metadata': {'comment': 'MONOCHLOROPENTAFLUOROETHANE'}
+N511,float,True,NITRATE COMPOUNDS,'metadata': {'comment': 'NITRATE COMPOUNDS'}
+000067641,float,True,ACETONE,'metadata': {'comment': 'ACETONE'}
+000075274,float,True,DICHLOROBROMOMETHANE,'metadata': {'comment': 'DICHLOROBROMOMETHANE'}
+000103231,float,True,BIS(2-ETHYLHEXYL) ADIPATE,'metadata': {'comment': 'BIS(2-ETHYLHEXYL) ADIPATE'}
+000117817,float,True,DI(2-ETHYLHEXYL) PHTHALATE,'metadata': {'comment': 'DI(2-ETHYLHEXYL) PHTHALATE'}
+001464535,float,True,DIEPOXYBUTANE,'metadata': {'comment': 'DIEPOXYBUTANE'}
+007757826,float,True,SODIUM SULFATE (SOLUTION),'metadata': {'comment': 'SODIUM SULFATE (SOLUTION)'}
+072178020,float,True,FOMESAFEN,'metadata': {'comment': 'FOMESAFEN'}
+101200480,float,True,TRIBENURON METHYL,'metadata': {'comment': 'TRIBENURON METHYL'}
+000095534,float,True,O-TOLUIDINE,'metadata': {'comment': 'O-TOLUIDINE'}
+000051752,float,True,NITROGEN MUSTARD,'metadata': {'comment': 'NITROGEN MUSTARD'}
+000099309,float,True,DICHLORAN,'metadata': {'comment': 'DICHLORAN'}
+000109068,float,True,2-METHYLPYRIDINE,'metadata': {'comment': '2-METHYLPYRIDINE'}
+064969342,float,True,"3,3'-DICHLOROBENZIDINE SULFATE","'metadata': {'comment': '3,3'-DICHLOROBENZIDINE SULFATE'}"
+000612839,float,True,"3,3'-DICHLOROBENZIDINE DIHYDROCHLORIDE","'metadata': {'comment': '3,3'-DICHLOROBENZIDINE DIHYDROCHLORIDE'}"
+N010,float,True,ANTIMONY COMPOUNDS,'metadata': {'comment': 'ANTIMONY COMPOUNDS'}
+N020,float,True,ARSENIC COMPOUNDS,'metadata': {'comment': 'ARSENIC COMPOUNDS'}
+N050,float,True,BERYLLIUM COMPOUNDS,'metadata': {'comment': 'BERYLLIUM COMPOUNDS'}
+N084,float,True,CHLOROPHENOLS,'metadata': {'comment': 'CHLOROPHENOLS'}
+N096,float,True,COBALT COMPOUNDS,'metadata': {'comment': 'COBALT COMPOUNDS'}
+N171,float,True,"ETHYLENEBISDITHIOCARBAMIC ACID, SALTS AND ESTERS","'metadata': {'comment': 'ETHYLENEBISDITHIOCARBAMIC ACID, SALTS AND ESTERS'}"
+N450,float,True,MANGANESE COMPOUNDS,'metadata': {'comment': 'MANGANESE COMPOUNDS'}
+N503,float,True,NICOTINE AND SALTS,'metadata': {'comment': 'NICOTINE AND SALTS'}
+N575,float,True,POLYBROMINATED BIPHENYLS,'metadata': {'comment': 'POLYBROMINATED BIPHENYLS'}
+N583,float,True,POLYCHLORINATED ALKANES,'metadata': {'comment': 'POLYCHLORINATED ALKANES'}
+N725,float,True,SELENIUM COMPOUNDS,'metadata': {'comment': 'SELENIUM COMPOUNDS'}
+000050000,float,True,FORMALDEHYDE,'metadata': {'comment': 'FORMALDEHYDE'}
+000052686,float,True,TRICHLORFON,'metadata': {'comment': 'TRICHLORFON'}
+000055389,float,True,FENTHION,'metadata': {'comment': 'FENTHION'}
+000055630,float,True,NITROGLYCERIN,'metadata': {'comment': 'NITROGLYCERIN'}
+000056359,float,True,BIS(TRIBUTYLTIN) OXIDE,'metadata': {'comment': 'BIS(TRIBUTYLTIN) OXIDE'}
+000057410,float,True,PHENYTOIN,'metadata': {'comment': 'PHENYTOIN'}
+000057749,float,True,CHLORDANE,'metadata': {'comment': 'CHLORDANE'}
+000060093,float,True,4-AMINOAZOBENZENE,'metadata': {'comment': '4-AMINOAZOBENZENE'}
+000060355,float,True,ACETAMIDE,'metadata': {'comment': 'ACETAMIDE'}
+000060515,float,True,DIMETHOATE,'metadata': {'comment': 'DIMETHOATE'}
+000062737,float,True,DICHLORVOS,'metadata': {'comment': 'DICHLORVOS'}
+000064755,float,True,TETRACYCLINE HYDROCHLORIDE,'metadata': {'comment': 'TETRACYCLINE HYDROCHLORIDE'}
+000067663,float,True,CHLOROFORM,'metadata': {'comment': 'CHLOROFORM'}
+000068768,float,True,TRIAZIQUONE,'metadata': {'comment': 'TRIAZIQUONE'}
+000071556,float,True,"1,1,1-TRICHLOROETHANE","'metadata': {'comment': '1,1,1-TRICHLOROETHANE'}"
+000072571,float,True,TRYPAN BLUE,'metadata': {'comment': 'TRYPAN BLUE'}
+000074884,float,True,METHYL IODIDE,'metadata': {'comment': 'METHYL IODIDE'}
+000074908,float,True,HYDROGEN CYANIDE,'metadata': {'comment': 'HYDROGEN CYANIDE'}
+000075003,float,True,CHLOROETHANE,'metadata': {'comment': 'CHLOROETHANE'}
+000075092,float,True,DICHLOROMETHANE,'metadata': {'comment': 'DICHLOROMETHANE'}
+000075354,float,True,VINYLIDENE CHLORIDE,'metadata': {'comment': 'VINYLIDENE CHLORIDE'}
+000075456,float,True,CHLORODIFLUOROMETHANE,'metadata': {'comment': 'CHLORODIFLUOROMETHANE'}
+000075683,float,True,"1-CHLORO-1,1-DIFLUOROETHANE","'metadata': {'comment': '1-CHLORO-1,1-DIFLUOROETHANE'}"
+000075729,float,True,CHLOROTRIFLUOROMETHANE,'metadata': {'comment': 'CHLOROTRIFLUOROMETHANE'}
+000076017,float,True,PENTACHLOROETHANE,'metadata': {'comment': 'PENTACHLOROETHANE'}
+000076062,float,True,CHLOROPICRIN,'metadata': {'comment': 'CHLOROPICRIN'}
+000076142,float,True,DICHLOROTETRAFLUOROETHANE (CFC-114),'metadata': {'comment': 'DICHLOROTETRAFLUOROETHANE (CFC-114)'}
+000076448,float,True,HEPTACHLOR,'metadata': {'comment': 'HEPTACHLOR'}
+000077781,float,True,DIMETHYL SULFATE,'metadata': {'comment': 'DIMETHYL SULFATE'}
+000078875,float,True,"1,2-DICHLOROPROPANE","'metadata': {'comment': '1,2-DICHLOROPROPANE'}"
+000078922,float,True,SEC-BUTYL ALCOHOL,'metadata': {'comment': 'SEC-BUTYL ALCOHOL'}
+000078933,float,True,METHYL ETHYL KETONE,'metadata': {'comment': 'METHYL ETHYL KETONE'}
+000079005,float,True,"1,1,2-TRICHLOROETHANE","'metadata': {'comment': '1,1,2-TRICHLOROETHANE'}"
+000079118,float,True,CHLOROACETIC ACID,'metadata': {'comment': 'CHLOROACETIC ACID'}
+000079447,float,True,DIMETHYLCARBAMYL CHLORIDE,'metadata': {'comment': 'DIMETHYLCARBAMYL CHLORIDE'}
+000080159,float,True,CUMENE HYDROPEROXIDE,'metadata': {'comment': 'CUMENE HYDROPEROXIDE'}
+000082280,float,True,1-AMINO-2-METHYLANTHRAQUINONE,'metadata': {'comment': '1-AMINO-2-METHYLANTHRAQUINONE'}
+000082688,float,True,QUINTOZENE,'metadata': {'comment': 'QUINTOZENE'}
+000084662,float,True,DIETHYL PHTHALATE,'metadata': {'comment': 'DIETHYL PHTHALATE'}
+000086306,float,True,N-NITROSODIPHENYLAMINE,'metadata': {'comment': 'N-NITROSODIPHENYLAMINE'}
+000087627,float,True,"2,6-XYLIDINE","'metadata': {'comment': '2,6-XYLIDINE'}"
+000088062,float,True,"2,4,6-TRICHLOROPHENOL","'metadata': {'comment': '2,4,6-TRICHLOROPHENOL'}"
+000090040,float,True,O-ANISIDINE,'metadata': {'comment': 'O-ANISIDINE'}
+000764410,float,True,"1,4-DICHLORO-2-BUTENE","'metadata': {'comment': '1,4-DICHLORO-2-BUTENE'}"
+002212671,float,True,MOLINATE,'metadata': {'comment': 'MOLINATE'}
+002699798,float,True,SULFURYL FLUORIDE,'metadata': {'comment': 'SULFURYL FLUORIDE'}
+007439921,float,True,LEAD,'metadata': {'comment': 'LEAD'}
+008001352,float,True,TOXAPHENE,'metadata': {'comment': 'TOXAPHENE'}
+016543558,float,True,N-NITROSONORNICOTINE,'metadata': {'comment': 'N-NITROSONORNICOTINE'}
+025376458,float,True,DIAMINOTOLUENE (MIXED ISOMERS),'metadata': {'comment': 'DIAMINOTOLUENE (MIXED ISOMERS)'}
+127564925,float,True,DICHLOROPENTAFLUOROPROPANE,'metadata': {'comment': 'DICHLOROPENTAFLUOROPROPANE'}
+000094597,float,True,SAFROLE,'metadata': {'comment': 'SAFROLE'}
+035554440,float,True,IMAZALIL,'metadata': {'comment': 'IMAZALIL'}
+002312358,float,True,PROPARGITE,'metadata': {'comment': 'PROPARGITE'}
+000333415,float,True,DIAZINON,'metadata': {'comment': 'DIAZINON'}
+N120,float,True,DIISOCYANATES,'metadata': {'comment': 'DIISOCYANATES'}
+005234684,float,True,CARBOXIN,'metadata': {'comment': 'CARBOXIN'}
+000079210,float,True,PERACETIC ACID,'metadata': {'comment': 'PERACETIC ACID'}
+013463406,float,True,IRON PENTACARBONYL,'metadata': {'comment': 'IRON PENTACARBONYL'}
+000924425,float,True,N-METHYLOLACRYLAMIDE,'metadata': {'comment': 'N-METHYLOLACRYLAMIDE'}
+000077474,float,True,HEXACHLOROCYCLOPENTADIENE,'metadata': {'comment': 'HEXACHLOROCYCLOPENTADIENE'}
+000099592,float,True,5-NITRO-O-ANISIDINE,'metadata': {'comment': '5-NITRO-O-ANISIDINE'}
+000759739,float,True,N-NITROSO-N-ETHYLUREA,'metadata': {'comment': 'N-NITROSO-N-ETHYLUREA'}
+039300453,float,True,DINOCAP,'metadata': {'comment': 'DINOCAP'}
+000108054,float,True,VINYL ACETATE,'metadata': {'comment': 'VINYL ACETATE'}
+028057489,float,True,D-TRANS-ALLETHRIN,'metadata': {'comment': 'D-TRANS-ALLETHRIN'}
+033089611,float,True,AMITRAZ,'metadata': {'comment': 'AMITRAZ'}
+000110576,float,True,"TRANS-1,4-DICHLORO-2-BUTENE","'metadata': {'comment': 'TRANS-1,4-DICHLORO-2-BUTENE'}"
+000191242,float,True,"BENZO(G,H,I)PERYLENE","'metadata': {'comment': 'BENZO(G,H,I)PERYLENE'}"
+N090,float,True,CHROMIUM COMPOUNDS(EXCEPT CHROMITE ORE MINED IN THE TRANSVAAL REGION),'metadata': {'comment': 'CHROMIUM COMPOUNDS(EXCEPT CHROMITE ORE MINED IN THE TRANSVAAL REGION)'}
+N230,float,True,CERTAIN GLYCOL ETHERS,'metadata': {'comment': 'CERTAIN GLYCOL ETHERS'}
+N746,float,True,STRYCHNINE AND SALTS,'metadata': {'comment': 'STRYCHNINE AND SALTS'}
+000057578,float,True,BETA-PROPIOLACTONE,'metadata': {'comment': 'BETA-PROPIOLACTONE'}
+000064675,float,True,DIETHYL SULFATE,'metadata': {'comment': 'DIETHYL SULFATE'}
+000074851,float,True,ETHYLENE,'metadata': {'comment': 'ETHYLENE'}
+000075070,float,True,ACETALDEHYDE,'metadata': {'comment': 'ACETALDEHYDE'}
+000075638,float,True,BROMOTRIFLUOROMETHANE,'metadata': {'comment': 'BROMOTRIFLUOROMETHANE'}
+000077736,float,True,DICYCLOPENTADIENE,'metadata': {'comment': 'DICYCLOPENTADIENE'}
+000079196,float,True,THIOSEMICARBAZIDE,'metadata': {'comment': 'THIOSEMICARBAZIDE'}
+000092524,float,True,BIPHENYL,'metadata': {'comment': 'BIPHENYL'}
+000094804,float,True,"2,4-D BUTYL ESTER","'metadata': {'comment': '2,4-D BUTYL ESTER'}"
+000096333,float,True,METHYL ACRYLATE,'metadata': {'comment': 'METHYL ACRYLATE'}
+000104949,float,True,P-ANISIDINE,'metadata': {'comment': 'P-ANISIDINE'}
+000107186,float,True,ALLYL ALCOHOL,'metadata': {'comment': 'ALLYL ALCOHOL'}
+000108952,float,True,PHENOL,'metadata': {'comment': 'PHENOL'}
+000115071,float,True,PROPYLENE,'metadata': {'comment': 'PROPYLENE'}
+000120832,float,True,"2,4-DICHLOROPHENOL","'metadata': {'comment': '2,4-DICHLOROPHENOL'}"
+000131113,float,True,DIMETHYL PHTHALATE,'metadata': {'comment': 'DIMETHYL PHTHALATE'}
+000137268,float,True,THIRAM,'metadata': {'comment': 'THIRAM'}
+000150685,float,True,MONURON,'metadata': {'comment': 'MONURON'}
+000306832,float,True,"2,2-DICHLORO-1,1,1-TRIFLUOROETHANE","'metadata': {'comment': '2,2-DICHLORO-1,1,1-TRIFLUOROETHANE'}"
+000422446,float,True,"1,2-DICHLORO-1,1,2,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,2-DICHLORO-1,1,2,3,3-PENTAFLUOROPROPANE'}"
+000541731,float,True,"1,3-DICHLOROBENZENE","'metadata': {'comment': '1,3-DICHLOROBENZENE'}"
+000621647,float,True,N-NITROSODI-N-PROPYLAMINE,'metadata': {'comment': 'N-NITROSODI-N-PROPYLAMINE'}
+000924163,float,True,N-NITROSODI-N-BUTYLAMINE,'metadata': {'comment': 'N-NITROSODI-N-BUTYLAMINE'}
+001313275,float,True,MOLYBDENUM TRIOXIDE,'metadata': {'comment': 'MOLYBDENUM TRIOXIDE'}
+001918167,float,True,PROPACHLOR,'metadata': {'comment': 'PROPACHLOR'}
+002300665,float,True,DIMETHYLAMINE DICAMBA,'metadata': {'comment': 'DIMETHYLAMINE DICAMBA'}
+002655154,float,True,"2,3,5-TRIMETHYLPHENYL METHYLCARBAMATE","'metadata': {'comment': '2,3,5-TRIMETHYLPHENYL METHYLCARBAMATE'}"
+005902512,float,True,TERBACIL,'metadata': {'comment': 'TERBACIL'}
+007440439,float,True,CADMIUM,'metadata': {'comment': 'CADMIUM'}
+007758012,float,True,POTASSIUM BROMATE,'metadata': {'comment': 'POTASSIUM BROMATE'}
+012427382,float,True,MANEB,'metadata': {'comment': 'MANEB'}
+017804352,float,True,BENOMYL,'metadata': {'comment': 'BENOMYL'}
+025311711,float,True,ISOFENPHOS,'metadata': {'comment': 'ISOFENPHOS'}
+041198087,float,True,PROFENOFOS,'metadata': {'comment': 'PROFENOFOS'}
+053404378,float,True,"2,4-D 2-ETHYL-4-METHYLPENTYL ESTER","'metadata': {'comment': '2,4-D 2-ETHYL-4-METHYLPENTYL ESTER'}"
+071751412,float,True,ABAMECTIN,'metadata': {'comment': 'ABAMECTIN'}
+MIXTURE,float,True,MIXTURE,'metadata': {'comment': 'MIXTURE'}
+000079016,float,True,TRICHLOROETHYLENE,'metadata': {'comment': 'TRICHLOROETHYLENE'}
+000119904,float,True,"3,3'-DIMETHOXYBENZIDINE","'metadata': {'comment': '3,3'-DIMETHOXYBENZIDINE'}"
+001861401,float,True,BENFLURALIN,'metadata': {'comment': 'BENFLURALIN'}
+023564069,float,True,THIOPHANATE ETHYL,'metadata': {'comment': 'THIOPHANATE ETHYL'}
+001982690,float,True,SODIUM DICAMBA,'metadata': {'comment': 'SODIUM DICAMBA'}
+000149304,float,True,2-MERCAPTOBENZOTHIAZOLE,'metadata': {'comment': '2-MERCAPTOBENZOTHIAZOLE'}
+000124403,float,True,DIMETHYLAMINE,'metadata': {'comment': 'DIMETHYLAMINE'}
+000354143,float,True,"1,1,2,2-TETRACHLORO-1-FLUOROETHANE","'metadata': {'comment': '1,1,2,2-TETRACHLORO-1-FLUOROETHANE'}"
+023950585,float,True,PRONAMIDE,'metadata': {'comment': 'PRONAMIDE'}
+000115322,float,True,DICOFOL,'metadata': {'comment': 'DICOFOL'}
+063938103,float,True,CHLOROTETRAFLUOROETHANE,'metadata': {'comment': 'CHLOROTETRAFLUOROETHANE'}
+N040,float,True,BARIUM COMPOUNDS,'metadata': {'comment': 'BARIUM COMPOUNDS'}
+000100027,float,True,4-NITROPHENOL,'metadata': {'comment': '4-NITROPHENOL'}
+020816120,float,True,OSMIUM TETROXIDE,'metadata': {'comment': 'OSMIUM TETROXIDE'}
+000074839,float,True,BROMOMETHANE,'metadata': {'comment': 'BROMOMETHANE'}
+007440382,float,True,ARSENIC,'metadata': {'comment': 'ARSENIC'}
+000075887,float,True,"2-CHLORO-1,1,1-TRIFLUOROETHANE","'metadata': {'comment': '2-CHLORO-1,1,1-TRIFLUOROETHANE'}"
+000056235,float,True,CARBON TETRACHLORIDE,'metadata': {'comment': 'CARBON TETRACHLORIDE'}
+020325400,float,True,"3,3'-DIMETHOXYBENZIDINE DIHYDROCHLORIDE","'metadata': {'comment': '3,3'-DIMETHOXYBENZIDINE DIHYDROCHLORIDE'}"
+000107302,float,True,CHLOROMETHYL METHYL ETHER,'metadata': {'comment': 'CHLOROMETHYL METHYL ETHER'}
+000052857,float,True,FAMPHUR,'metadata': {'comment': 'FAMPHUR'}
+000092933,float,True,4-NITROBIPHENYL,'metadata': {'comment': '4-NITROBIPHENYL'}
+009006422,float,True,METIRAM,'metadata': {'comment': 'METIRAM'}
+007440666,float,True,ZINC (FUME OR DUST),'metadata': {'comment': 'ZINC (FUME OR DUST)'}
+000094360,float,True,BENZOYL PEROXIDE,'metadata': {'comment': 'BENZOYL PEROXIDE'}
+006484522,float,True,AMMONIUM NITRATE (SOLUTION),'metadata': {'comment': 'AMMONIUM NITRATE (SOLUTION)'}
+000353593,float,True,BROMOCHLORODIFLUOROMETHANE,'metadata': {'comment': 'BROMOCHLORODIFLUOROMETHANE'}
+N106,float,True,CYANIDE COMPOUNDS,'metadata': {'comment': 'CYANIDE COMPOUNDS'}
+001330207,float,True,XYLENE (MIXED ISOMERS),'metadata': {'comment': 'XYLENE (MIXED ISOMERS)'}
+000060117,float,True,4-DIMETHYLAMINOAZOBENZENE,'metadata': {'comment': '4-DIMETHYLAMINOAZOBENZENE'}
+010028156,float,True,OZONE,'metadata': {'comment': 'OZONE'}
+000058899,float,True,LINDANE,'metadata': {'comment': 'LINDANE'}
+007696120,float,True,TETRAMETHRIN,'metadata': {'comment': 'TETRAMETHRIN'}
+000075694,float,True,TRICHLOROFLUOROMETHANE,'metadata': {'comment': 'TRICHLOROFLUOROMETHANE'}
+000540590,float,True,"1,2-DICHLOROETHYLENE","'metadata': {'comment': '1,2-DICHLOROETHYLENE'}"
+001918009,float,True,DICAMBA,'metadata': {'comment': 'DICAMBA'}
+000056382,float,True,PARATHION,'metadata': {'comment': 'PARATHION'}
+029232937,float,True,PIRIMIPHOS METHYL,'metadata': {'comment': 'PIRIMIPHOS METHYL'}
+000055210,float,True,BENZAMIDE,'metadata': {'comment': 'BENZAMIDE'}
+007439965,float,True,MANGANESE,'metadata': {'comment': 'MANGANESE'}
+128903219,float,True,"2,2-DICHLORO-1,1,1,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '2,2-DICHLORO-1,1,1,3,3-PENTAFLUOROPROPANE'}"
+000608935,float,True,PENTACHLOROBENZENE,'metadata': {'comment': 'PENTACHLOROBENZENE'}
+000569642,float,True,C.I. BASIC GREEN 4,'metadata': {'comment': 'C.I. BASIC GREEN 4'}
+060207901,float,True,PROPICONAZOLE,'metadata': {'comment': 'PROPICONAZOLE'}
+000108101,float,True,METHYL ISOBUTYL KETONE,'metadata': {'comment': 'METHYL ISOBUTYL KETONE'}
+000075014,float,True,VINYL CHLORIDE,'metadata': {'comment': 'VINYL CHLORIDE'}
+000106898,float,True,EPICHLOROHYDRIN,'metadata': {'comment': 'EPICHLOROHYDRIN'}
+003844459,float,True,"C.I. ACID BLUE 9, DISODIUM SALT","'metadata': {'comment': 'C.I. ACID BLUE 9, DISODIUM SALT'}"
+051235042,float,True,HEXAZINONE,'metadata': {'comment': 'HEXAZINONE'}
+000126727,float,True,"TRIS(2,3-DIBROMOPROPYL) PHOSPHATE","'metadata': {'comment': 'TRIS(2,3-DIBROMOPROPYL) PHOSPHATE'}"
+007647010,float,True,HYDROCHLORIC ACID (1995 AND AFTER ACID AEROSOLS ONLY),'metadata': {'comment': 'HYDROCHLORIC ACID (1995 AND AFTER ACID AEROSOLS ONLY)'}
+002439103,float,True,DODINE,'metadata': {'comment': 'DODINE'}
+004680788,float,True,C.I. ACID GREEN 3,'metadata': {'comment': 'C.I. ACID GREEN 3'}
+008001589,float,True,CREOSOTE,'metadata': {'comment': 'CREOSOTE'}
+000084742,float,True,DIBUTYL PHTHALATE,'metadata': {'comment': 'DIBUTYL PHTHALATE'}
+INVALID,float,True,INVALID,'metadata': {'comment': 'INVALID'}
+000122667,float,True,"1,2-DIPHENYLHYDRAZINE","'metadata': {'comment': '1,2-DIPHENYLHYDRAZINE'}"
+000534521,float,True,"4,6-DINITRO-O-CRESOL","'metadata': {'comment': '4,6-DINITRO-O-CRESOL'}"
+030560191,float,True,ACEPHATE,'metadata': {'comment': 'ACEPHATE'}
+076578148,float,True,QUIZALOFOP-ETHYL,'metadata': {'comment': 'QUIZALOFOP-ETHYL'}
+000055185,float,True,N-NITROSODIETHYLAMINE,'metadata': {'comment': 'N-NITROSODIETHYLAMINE'}
+N100,float,True,COPPER COMPOUNDS,'metadata': {'comment': 'COPPER COMPOUNDS'}
+000081072,float,True,"SACCHARIN (MANUFACTURING, NO SUPPLIER NOTIFICATION)","'metadata': {'comment': 'SACCHARIN (MANUFACTURING, NO SUPPLIER NOTIFICATION)'}"
+000062759,float,True,N-NITROSODIMETHYLAMINE,'metadata': {'comment': 'N-NITROSODIMETHYLAMINE'}
+000075558,float,True,PROPYLENEIMINE,'metadata': {'comment': 'PROPYLENEIMINE'}
+000101779,float,True,"4,4'-METHYLENEDIANILINE","'metadata': {'comment': '4,4'-METHYLENEDIANILINE'}"
+005598130,float,True,CHLORPYRIFOS METHYL,'metadata': {'comment': 'CHLORPYRIFOS METHYL'}
+053404196,float,True,"BROMACIL, LITHIUM SALT","'metadata': {'comment': 'BROMACIL, LITHIUM SALT'}"
+007664417,float,True,AMMONIA,'metadata': {'comment': 'AMMONIA'}
+000052517,float,True,"2-BROMO-2-NITROPROPANE-1,3-DIOL","'metadata': {'comment': '2-BROMO-2-NITROPROPANE-1,3-DIOL'}"
+000079107,float,True,ACRYLIC ACID,'metadata': {'comment': 'ACRYLIC ACID'}
+001344281,float,True,ALUMINUM OXIDE (FIBROUS FORMS),'metadata': {'comment': 'ALUMINUM OXIDE (FIBROUS FORMS)'}
+000100254,float,True,P-DINITROBENZENE,'metadata': {'comment': 'P-DINITROBENZENE'}
+000081889,float,True,C.I. FOOD RED 15,'metadata': {'comment': 'C.I. FOOD RED 15'}
+000110543,float,True,N-HEXANE,'metadata': {'comment': 'N-HEXANE'}
+000330541,float,True,DIURON,'metadata': {'comment': 'DIURON'}
+007664382,float,True,PHOSPHORIC ACID,'metadata': {'comment': 'PHOSPHORIC ACID'}
+000099650,float,True,M-DINITROBENZENE,'metadata': {'comment': 'M-DINITROBENZENE'}
+001563662,float,True,CARBOFURAN,'metadata': {'comment': 'CARBOFURAN'}
+000533744,float,True,DAZOMET,'metadata': {'comment': 'DAZOMET'}
+000108883,float,True,TOLUENE,'metadata': {'comment': 'TOLUENE'}
+000098077,float,True,BENZOIC TRICHLORIDE,'metadata': {'comment': 'BENZOIC TRICHLORIDE'}
+000100210,float,True,TEREPHTHALIC ACID,'metadata': {'comment': 'TEREPHTHALIC ACID'}
+000121142,float,True,"2,4-DINITROTOLUENE","'metadata': {'comment': '2,4-DINITROTOLUENE'}"
+000111911,float,True,BIS(2-CHLOROETHOXY)METHANE,'metadata': {'comment': 'BIS(2-CHLOROETHOXY)METHANE'}
+034077877,float,True,DICHLOROTRIFLUOROETHANE,'metadata': {'comment': 'DICHLOROTRIFLUOROETHANE'}
+001320189,float,True,"2,4-D PROPYLENE GLYCOL BUTYL ETHER ESTER","'metadata': {'comment': '2,4-D PROPYLENE GLYCOL BUTYL ETHER ESTER'}"
+N590,float,True,POLYCYCLIC AROMATIC COMPOUNDS,'metadata': {'comment': 'POLYCYCLIC AROMATIC COMPOUNDS'}
+000095692,float,True,P-CHLORO-O-TOLUIDINE,'metadata': {'comment': 'P-CHLORO-O-TOLUIDINE'}
+000148798,float,True,THIABENDAZOLE,'metadata': {'comment': 'THIABENDAZOLE'}
+002832408,float,True,C.I. DISPERSE YELLOW 3,'metadata': {'comment': 'C.I. DISPERSE YELLOW 3'}
+N740,float,True,SILVER COMPOUNDS,'metadata': {'comment': 'SILVER COMPOUNDS'}
+034014181,float,True,TEBUTHIURON,'metadata': {'comment': 'TEBUTHIURON'}
+000301122,float,True,OXYDEMETON METHYL,'metadata': {'comment': 'OXYDEMETON METHYL'}
+013463677,float,True,TITANIUM DIOXIDE,'metadata': {'comment': 'TITANIUM DIOXIDE'}
+001689845,float,True,BROMOXYNIL,'metadata': {'comment': 'BROMOXYNIL'}
+000120718,float,True,P-CRESIDINE,'metadata': {'comment': 'P-CRESIDINE'}
+000121697,float,True,"N,N-DIMETHYLANILINE","'metadata': {'comment': 'N,N-DIMETHYLANILINE'}"
+000096128,float,True,"1,2-DIBROMO-3-CHLOROPROPANE","'metadata': {'comment': '1,2-DIBROMO-3-CHLOROPROPANE'}"
+000079061,float,True,ACRYLAMIDE,'metadata': {'comment': 'ACRYLAMIDE'}
+000075434,float,True,DICHLOROFLUOROMETHANE,'metadata': {'comment': 'DICHLOROFLUOROMETHANE'}
+088671890,float,True,MYCLOBUTANIL,'metadata': {'comment': 'MYCLOBUTANIL'}
+003653483,float,True,METHOXONE SODIUM SALT,'metadata': {'comment': 'METHOXONE SODIUM SALT'}
+000074873,float,True,CHLOROMETHANE,'metadata': {'comment': 'CHLOROMETHANE'}
+N770,float,True,VANADIUM COMPOUNDS,'metadata': {'comment': 'VANADIUM COMPOUNDS'}
+000078488,float,True,"S,S,S-TRIBUTYLTRITHIOPHOSPHATE","'metadata': {'comment': 'S,S,S-TRIBUTYLTRITHIOPHOSPHATE'}"
+000422560,float,True,"3,3-DICHLORO-1,1,1,2,2-PENTAFLUOROPROPANE","'metadata': {'comment': '3,3-DICHLORO-1,1,1,2,2-PENTAFLUOROPROPANE'}"
+002837890,float,True,"2-CHLORO-1,1,1,2-TETRAFLUOROETHANE","'metadata': {'comment': '2-CHLORO-1,1,1,2-TETRAFLUOROETHANE'}"
+N078,float,True,CADMIUM COMPOUNDS,'metadata': {'comment': 'CADMIUM COMPOUNDS'}
+000062566,float,True,THIOUREA,'metadata': {'comment': 'THIOUREA'}
+000106445,float,True,P-CRESOL,'metadata': {'comment': 'P-CRESOL'}
+000541413,float,True,ETHYL CHLOROFORMATE,'metadata': {'comment': 'ETHYL CHLOROFORMATE'}
+000624839,float,True,METHYL ISOCYANATE,'metadata': {'comment': 'METHYL ISOCYANATE'}
+002164172,float,True,FLUOMETURON,'metadata': {'comment': 'FLUOMETURON'}
+000051285,float,True,"2,4-DINITROPHENOL","'metadata': {'comment': '2,4-DINITROPHENOL'}"
+000075569,float,True,PROPYLENE OXIDE,'metadata': {'comment': 'PROPYLENE OXIDE'}
+000116063,float,True,ALDICARB,'metadata': {'comment': 'ALDICARB'}
+001912249,float,True,ATRAZINE,'metadata': {'comment': 'ATRAZINE'}
+004170303,float,True,CROTONALDEHYDE,'metadata': {'comment': 'CROTONALDEHYDE'}
+014484641,float,True,FERBAM,'metadata': {'comment': 'FERBAM'}
+025321146,float,True,DINITROTOLUENE (MIXED ISOMERS),'metadata': {'comment': 'DINITROTOLUENE (MIXED ISOMERS)'}
+000542881,float,True,BIS(CHLOROMETHYL) ETHER,'metadata': {'comment': 'BIS(CHLOROMETHYL) ETHER'}
+000606202,float,True,"2,6-DINITROTOLUENE","'metadata': {'comment': '2,6-DINITROTOLUENE'}"
+000067721,float,True,HEXACHLOROETHANE,'metadata': {'comment': 'HEXACHLOROETHANE'}
+000079345,float,True,"1,1,2,2-TETRACHLOROETHANE","'metadata': {'comment': '1,1,2,2-TETRACHLOROETHANE'}"
+000095545,float,True,"1,2-PHENYLENEDIAMINE","'metadata': {'comment': '1,2-PHENYLENEDIAMINE'}"
+000128665,float,True,C.I. VAT YELLOW 4,'metadata': {'comment': 'C.I. VAT YELLOW 4'}
+000314409,float,True,BROMACIL,'metadata': {'comment': 'BROMACIL'}
+007783202,float,True,AMMONIUM SULFATE (SOLUTION),'metadata': {'comment': 'AMMONIUM SULFATE (SOLUTION)'}
+040487421,float,True,PENDIMETHALIN,'metadata': {'comment': 'PENDIMETHALIN'}
+090982324,float,True,CHLORIMURON ETHYL,'metadata': {'comment': 'CHLORIMURON ETHYL'}
+013194484,float,True,ETHOPROP,'metadata': {'comment': 'ETHOPROP'}
+074051802,float,True,SETHOXYDIM,'metadata': {'comment': 'SETHOXYDIM'}
+000064186,float,True,FORMIC ACID,'metadata': {'comment': 'FORMIC ACID'}
+000078886,float,True,"2,3-DICHLOROPROPENE","'metadata': {'comment': '2,3-DICHLOROPROPENE'}"
+000092875,float,True,BENZIDINE,'metadata': {'comment': 'BENZIDINE'}
+000106478,float,True,P-CHLOROANILINE,'metadata': {'comment': 'P-CHLOROANILINE'}
+000142596,float,True,NABAM,'metadata': {'comment': 'NABAM'}
+001319773,float,True,CRESOL (MIXED ISOMERS),'metadata': {'comment': 'CRESOL (MIXED ISOMERS)'}
+007782414,float,True,FLUORINE,'metadata': {'comment': 'FLUORINE'}
+000137417,float,True,POTASSIUM N-METHYLDITHIOCARBAMATE,'metadata': {'comment': 'POTASSIUM N-METHYLDITHIOCARBAMATE'}
+000138932,float,True,DISODIUM CYANODITHIOIMIDOCARBONATE,'metadata': {'comment': 'DISODIUM CYANODITHIOIMIDOCARBONATE'}
+000139139,float,True,NITRILOTRIACETIC ACID,'metadata': {'comment': 'NITRILOTRIACETIC ACID'}
+000080057,float,True,"4,4'-ISOPROPYLIDENEDIPHENOL","'metadata': {'comment': '4,4'-ISOPROPYLIDENEDIPHENOL'}"
+000076028,float,True,TRICHLOROACETYL CHLORIDE,'metadata': {'comment': 'TRICHLOROACETYL CHLORIDE'}
+000101906,float,True,DIGLYCIDYL RESORCINOL ETHER,'metadata': {'comment': 'DIGLYCIDYL RESORCINOL ETHER'}
+000117840,float,True,N-DIOCTYL PHTHALATE,'metadata': {'comment': 'N-DIOCTYL PHTHALATE'}
+000134327,float,True,ALPHA-NAPHTHYLAMINE,'metadata': {'comment': 'ALPHA-NAPHTHYLAMINE'}
+000584849,float,True,"TOLUENE-2,4-DIISOCYANATE","'metadata': {'comment': 'TOLUENE-2,4-DIISOCYANATE'}"
+001336363,float,True,POLYCHLORINATED BIPHENYLS,'metadata': {'comment': 'POLYCHLORINATED BIPHENYLS'}
+000068122,float,True,"N,N-DIMETHYLFORMAMIDE","'metadata': {'comment': 'N,N-DIMETHYLFORMAMIDE'}"
+000095954,float,True,"2,4,5-TRICHLOROPHENOL","'metadata': {'comment': '2,4,5-TRICHLOROPHENOL'}"
+010294345,float,True,BORON TRICHLORIDE,'metadata': {'comment': 'BORON TRICHLORIDE'}
+000132274,float,True,SODIUM O-PHENYLPHENOXIDE,'metadata': {'comment': 'SODIUM O-PHENYLPHENOXIDE'}
+000053963,float,True,2-ACETYLAMINOFLUORENE,'metadata': {'comment': '2-ACETYLAMINOFLUORENE'}
+000104121,float,True,P-CHLOROPHENYL ISOCYANATE,'metadata': {'comment': 'P-CHLOROPHENYL ISOCYANATE'}
+000110827,float,True,CYCLOHEXANE,'metadata': {'comment': 'CYCLOHEXANE'}
+000594423,float,True,PERCHLOROMETHYL MERCAPTAN,'metadata': {'comment': 'PERCHLOROMETHYL MERCAPTAN'}
+001910425,float,True,PARAQUAT DICHLORIDE,'metadata': {'comment': 'PARAQUAT DICHLORIDE'}
+007440484,float,True,COBALT,'metadata': {'comment': 'COBALT'}
+028407376,float,True,C.I. DIRECT BLUE 218,'metadata': {'comment': 'C.I. DIRECT BLUE 218'}
+N458,float,True,MERCURY COMPOUNDS,'metadata': {'comment': 'MERCURY COMPOUNDS'}
+000075650,float,True,TERT-BUTYL ALCOHOL,'metadata': {'comment': 'TERT-BUTYL ALCOHOL'}
+000106467,float,True,"1,4-DICHLOROBENZENE","'metadata': {'comment': '1,4-DICHLOROBENZENE'}"
+000108601,float,True,BIS(2-CHLORO-1-METHYLETHYL) ETHER,'metadata': {'comment': 'BIS(2-CHLORO-1-METHYLETHYL) ETHER'}
+000615054,float,True,"2,4-DIAMINOANISOLE","'metadata': {'comment': '2,4-DIAMINOANISOLE'}"
+007439976,float,True,MERCURY,'metadata': {'comment': 'MERCURY'}
+000121448,float,True,TRIETHYLAMINE,'metadata': {'comment': 'TRIETHYLAMINE'}
+000098828,float,True,CUMENE,'metadata': {'comment': 'CUMENE'}
+000107028,float,True,ACROLEIN,'metadata': {'comment': 'ACROLEIN'}
+000507551,float,True,"1,3-DICHLORO-1,1,2,2,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,3-DICHLORO-1,1,2,2,3-PENTAFLUOROPROPANE'}"
+000075445,float,True,PHOSGENE,'metadata': {'comment': 'PHOSGENE'}
+000106514,float,True,QUINONE,'metadata': {'comment': 'QUINONE'}
+001836755,float,True,NITROFEN,'metadata': {'comment': 'NITROFEN'}
+004549400,float,True,N-NITROSOMETHYLVINYLAMINE,'metadata': {'comment': 'N-NITROSOMETHYLVINYLAMINE'}
+136013791,float,True,"1,3-DICHLORO-1,1,2,3,3-PENTAFLUOROPROPANE","'metadata': {'comment': '1,3-DICHLORO-1,1,2,3,3-PENTAFLUOROPROPANE'}"
+035400432,float,True,SULPROFOS,'metadata': {'comment': 'SULPROFOS'}
+000630206,float,True,"1,1,1,2-TETRACHLOROETHANE","'metadata': {'comment': '1,1,1,2-TETRACHLOROETHANE'}"
+000117793,float,True,2-AMINOANTHRAQUINONE,'metadata': {'comment': '2-AMINOANTHRAQUINONE'}
+000505602,float,True,MUSTARD GAS,'metadata': {'comment': 'MUSTARD GAS'}
+016071866,float,True,C.I. DIRECT BROWN 95,'metadata': {'comment': 'C.I. DIRECT BROWN 95'}
+000075058,float,True,ACETONITRILE,'metadata': {'comment': 'ACETONITRILE'}
+000101688,float,True,METHYLENEBIS(PHENYLISOCYANATE),'metadata': {'comment': 'METHYLENEBIS(PHENYLISOCYANATE)'}
+000134292,float,True,O-ANISIDINE HYDROCHLORIDE,'metadata': {'comment': 'O-ANISIDINE HYDROCHLORIDE'}
+001689992,float,True,BROMOXYNIL OCTANOATE,'metadata': {'comment': 'BROMOXYNIL OCTANOATE'}
+042874033,float,True,OXYFLUORFEN,'metadata': {'comment': 'OXYFLUORFEN'}
+000106887,float,True,"1,2-BUTYLENE OXIDE","'metadata': {'comment': '1,2-BUTYLENE OXIDE'}"
+000624180,float,True,"1,4-PHENYLENEDIAMINE DIHYDROCHLORIDE","'metadata': {'comment': '1,4-PHENYLENEDIAMINE DIHYDROCHLORIDE'}"
+000126998,float,True,CHLOROPRENE,'metadata': {'comment': 'CHLOROPRENE'}
+007440473,float,True,CHROMIUM,'metadata': {'comment': 'CHROMIUM'}
+000067561,float,True,METHANOL,'metadata': {'comment': 'METHANOL'}
+000075343,float,True,ETHYLIDENE DICHLORIDE,'metadata': {'comment': 'ETHYLIDENE DICHLORIDE'}
+000156105,float,True,P-NITROSODIPHENYLAMINE,'metadata': {'comment': 'P-NITROSODIPHENYLAMINE'}
+007697372,float,True,NITRIC ACID,'metadata': {'comment': 'NITRIC ACID'}
+000615281,float,True,"1,2-PHENYLENEDIAMINE DIHYDROCHLORIDE","'metadata': {'comment': '1,2-PHENYLENEDIAMINE DIHYDROCHLORIDE'}"
+000090948,float,True,MICHLER'S KETONE,'metadata': {'comment': 'MICHLER'S KETONE'}
+000091598,float,True,BETA-NAPHTHYLAMINE,'metadata': {'comment': 'BETA-NAPHTHYLAMINE'}
+000091941,float,True,"3,3'-DICHLOROBENZIDINE","'metadata': {'comment': '3,3'-DICHLOROBENZIDINE'}"
+000092671,float,True,4-AMINOBIPHENYL,'metadata': {'comment': '4-AMINOBIPHENYL'}
+000093652,float,True,MECOPROP,'metadata': {'comment': 'MECOPROP'}
+000094586,float,True,DIHYDROSAFROLE,'metadata': {'comment': 'DIHYDROSAFROLE'}
+000094746,float,True,METHOXONE,'metadata': {'comment': 'METHOXONE'}
+000094757,float,True,"2,4-D","'metadata': {'comment': '2,4-D'}"
+000094826,float,True,"2,4-DB","'metadata': {'comment': '2,4-DB'}"
+000095487,float,True,O-CRESOL,'metadata': {'comment': 'O-CRESOL'}
+000095501,float,True,"1,2-DICHLOROBENZENE","'metadata': {'comment': '1,2-DICHLOROBENZENE'}"
+000095807,float,True,"2,4-DIAMINOTOLUENE","'metadata': {'comment': '2,4-DIAMINOTOLUENE'}"
+000096093,float,True,STYRENE OXIDE,'metadata': {'comment': 'STYRENE OXIDE'}
+000096457,float,True,ETHYLENE THIOUREA,'metadata': {'comment': 'ETHYLENE THIOUREA'}
+000097234,float,True,DICHLOROPHENE,'metadata': {'comment': 'DICHLOROPHENE'}
+000097563,float,True,C.I. SOLVENT YELLOW 3,'metadata': {'comment': 'C.I. SOLVENT YELLOW 3'}
+000098873,float,True,BENZAL CHLORIDE,'metadata': {'comment': 'BENZAL CHLORIDE'}
+000098884,float,True,BENZOYL CHLORIDE,'metadata': {'comment': 'BENZOYL CHLORIDE'}
+000099558,float,True,5-NITRO-O-TOLUIDINE,'metadata': {'comment': '5-NITRO-O-TOLUIDINE'}
+000100425,float,True,STYRENE,'metadata': {'comment': 'STYRENE'}
+000100754,float,True,N-NITROSOPIPERIDINE,'metadata': {'comment': 'N-NITROSOPIPERIDINE'}
+000101053,float,True,ANILAZINE,'metadata': {'comment': 'ANILAZINE'}
+000101611,float,True,"4,4'-METHYLENEBIS(N,N-DIMETHYL)BENZENAMINE","'metadata': {'comment': '4,4'-METHYLENEBIS(N,N-DIMETHYL)BENZENAMINE'}"
+000101804,float,True,"4,4'-DIAMINODIPHENYL ETHER","'metadata': {'comment': '4,4'-DIAMINODIPHENYL ETHER'}"
+000106423,float,True,P-XYLENE,'metadata': {'comment': 'P-XYLENE'}
+000106934,float,True,"1,2-DIBROMOETHANE","'metadata': {'comment': '1,2-DIBROMOETHANE'}"
+000107062,float,True,"1,2-DICHLOROETHANE","'metadata': {'comment': '1,2-DICHLOROETHANE'}"
+000107119,float,True,ALLYLAMINE,'metadata': {'comment': 'ALLYLAMINE'}
+000107197,float,True,PROPARGYL ALCOHOL,'metadata': {'comment': 'PROPARGYL ALCOHOL'}
+000108383,float,True,M-XYLENE,'metadata': {'comment': 'M-XYLENE'}
+000108452,float,True,"1,3-PHENYLENEDIAMINE","'metadata': {'comment': '1,3-PHENYLENEDIAMINE'}"
+000108781,float,True,MELAMINE,'metadata': {'comment': 'MELAMINE'}
+000108907,float,True,CHLOROBENZENE,'metadata': {'comment': 'CHLOROBENZENE'}
+000108930,float,True,CYCLOHEXANOL,'metadata': {'comment': 'CYCLOHEXANOL'}
+000109864,float,True,2-METHOXYETHANOL,'metadata': {'comment': '2-METHOXYETHANOL'}
+000110805,float,True,2-ETHOXYETHANOL,'metadata': {'comment': '2-ETHOXYETHANOL'}
+000110861,float,True,PYRIDINE,'metadata': {'comment': 'PYRIDINE'}
+000111422,float,True,DIETHANOLAMINE,'metadata': {'comment': 'DIETHANOLAMINE'}
+000111444,float,True,BIS(2-CHLOROETHYL) ETHER,'metadata': {'comment': 'BIS(2-CHLOROETHYL) ETHER'}
+000119937,float,True,"3,3'-DIMETHYLBENZIDINE","'metadata': {'comment': '3,3'-DIMETHYLBENZIDINE'}"
+000120127,float,True,ANTHRACENE,'metadata': {'comment': 'ANTHRACENE'}
+000120581,float,True,ISOSAFROLE,'metadata': {'comment': 'ISOSAFROLE'}
+000120809,float,True,CATECHOL,'metadata': {'comment': 'CATECHOL'}
+000120821,float,True,"1,2,4-TRICHLOROBENZENE","'metadata': {'comment': '1,2,4-TRICHLOROBENZENE'}"
+000121755,float,True,MALATHION,'metadata': {'comment': 'MALATHION'}
+000123319,float,True,HYDROQUINONE,'metadata': {'comment': 'HYDROQUINONE'}
+000123911,float,True,"1,4-DIOXANE","'metadata': {'comment': '1,4-DIOXANE'}"
+000126987,float,True,METHACRYLONITRILE,'metadata': {'comment': 'METHACRYLONITRILE'}
+000127184,float,True,TETRACHLOROETHYLENE,'metadata': {'comment': 'TETRACHLOROETHYLENE'}
+000131522,float,True,SODIUM PENTACHLOROPHENATE,'metadata': {'comment': 'SODIUM PENTACHLOROPHENATE'}
+000132649,float,True,DIBENZOFURAN,'metadata': {'comment': 'DIBENZOFURAN'}
+000133062,float,True,CAPTAN,'metadata': {'comment': 'CAPTAN'}
+000133073,float,True,FOLPET,'metadata': {'comment': 'FOLPET'}
+000133904,float,True,CHLORAMBEN,'metadata': {'comment': 'CHLORAMBEN'}
+000136458,float,True,DIPROPYL ISOCINCHOMERONATE,'metadata': {'comment': 'DIPROPYL ISOCINCHOMERONATE'}
+000137428,float,True,METHAM SODIUM,'metadata': {'comment': 'METHAM SODIUM'}
+000139651,float,True,"4,4'-THIODIANILINE","'metadata': {'comment': '4,4'-THIODIANILINE'}"
+000140885,float,True,ETHYL ACRYLATE,'metadata': {'comment': 'ETHYL ACRYLATE'}
+000141322,float,True,BUTYL ACRYLATE,'metadata': {'comment': 'BUTYL ACRYLATE'}
+000298000,float,True,METHYL PARATHION,'metadata': {'comment': 'METHYL PARATHION'}
+000302012,float,True,HYDRAZINE,'metadata': {'comment': 'HYDRAZINE'}
+000309002,float,True,ALDRIN,'metadata': {'comment': 'ALDRIN'}
+000319846,float,True,ALPHA-HEXACHLOROCYCLOHEXANE,'metadata': {'comment': 'ALPHA-HEXACHLOROCYCLOHEXANE'}
+000330552,float,True,LINURON,'metadata': {'comment': 'LINURON'}
+000334883,float,True,DIAZOMETHANE,'metadata': {'comment': 'DIAZOMETHANE'}
+000354234,float,True,"1,2-DICHLORO-1,1,2-TRIFLUOROETHANE","'metadata': {'comment': '1,2-DICHLORO-1,1,2-TRIFLUOROETHANE'}"
+000357573,float,True,BRUCINE,'metadata': {'comment': 'BRUCINE'}
+000460355,float,True,"3-CHLORO-1,1,1-TRIFLUOROPROPANE","'metadata': {'comment': '3-CHLORO-1,1,1-TRIFLUOROPROPANE'}"
+000463581,float,True,CARBONYL SULFIDE,'metadata': {'comment': 'CARBONYL SULFIDE'}
+000465736,float,True,ISODRIN,'metadata': {'comment': 'ISODRIN'}
+000492808,float,True,C.I. SOLVENT YELLOW 34,'metadata': {'comment': 'C.I. SOLVENT YELLOW 34'}
+000532274,float,True,2-CHLOROACETOPHENONE,'metadata': {'comment': '2-CHLOROACETOPHENONE'}
+000541537,float,True,"2,4-DITHIOBIURET","'metadata': {'comment': '2,4-DITHIOBIURET'}"
+000542756,float,True,"1,3-DICHLOROPROPYLENE","'metadata': {'comment': '1,3-DICHLOROPROPYLENE'}"
+000554132,float,True,LITHIUM CARBONATE,'metadata': {'comment': 'LITHIUM CARBONATE'}
+000556616,float,True,METHYL ISOTHIOCYANATE,'metadata': {'comment': 'METHYL ISOTHIOCYANATE'}
+000563473,float,True,3-CHLORO-2-METHYL-1-PROPENE,'metadata': {'comment': '3-CHLORO-2-METHYL-1-PROPENE'}
+000576261,float,True,"2,6-DIMETHYLPHENOL","'metadata': {'comment': '2,6-DIMETHYLPHENOL'}"
+000593602,float,True,VINYL BROMIDE,'metadata': {'comment': 'VINYL BROMIDE'}
+000636215,float,True,O-TOLUIDINE HYDROCHLORIDE,'metadata': {'comment': 'O-TOLUIDINE HYDROCHLORIDE'}
+000639587,float,True,TRIPHENYLTIN CHLORIDE,'metadata': {'comment': 'TRIPHENYLTIN CHLORIDE'}
+000684935,float,True,N-NITROSO-N-METHYLUREA,'metadata': {'comment': 'N-NITROSO-N-METHYLUREA'}
+000709988,float,True,PROPANIL,'metadata': {'comment': 'PROPANIL'}
+000759944,float,True,ETHYL DIPROPYLTHIOCARBAMATE,'metadata': {'comment': 'ETHYL DIPROPYLTHIOCARBAMATE'}
+000812044,float,True,"1,1-DICHLORO-1,2,2-TRIFLUOROETHANE","'metadata': {'comment': '1,1-DICHLORO-1,2,2-TRIFLUOROETHANE'}"
+000872504,float,True,N-METHYL-2-PYRROLIDONE,'metadata': {'comment': 'N-METHYL-2-PYRROLIDONE'}
+000957517,float,True,DIPHENAMID,'metadata': {'comment': 'DIPHENAMID'}
+000961115,float,True,TETRACHLORVINPHOS,'metadata': {'comment': 'TETRACHLORVINPHOS'}
+000989388,float,True,C.I. BASIC RED 1,'metadata': {'comment': 'C.I. BASIC RED 1'}
+001163195,float,True,DECABROMODIPHENYL OXIDE,'metadata': {'comment': 'DECABROMODIPHENYL OXIDE'}
+001310732,float,True,SODIUM HYDROXIDE (SOLUTION),'metadata': {'comment': 'SODIUM HYDROXIDE (SOLUTION)'}
+001314201,float,True,THORIUM DIOXIDE,'metadata': {'comment': 'THORIUM DIOXIDE'}
+001335871,float,True,HEXACHLORONAPHTHALENE,'metadata': {'comment': 'HEXACHLORONAPHTHALENE'}
+001582098,float,True,TRIFLURALIN,'metadata': {'comment': 'TRIFLURALIN'}
+001717006,float,True,"1,1-DICHLORO-1-FLUOROETHANE","'metadata': {'comment': '1,1-DICHLORO-1-FLUOROETHANE'}"
+001897456,float,True,CHLOROTHALONIL,'metadata': {'comment': 'CHLOROTHALONIL'}
+001918021,float,True,PICLORAM,'metadata': {'comment': 'PICLORAM'}
+001928434,float,True,"2,4-D 2-ETHYLHEXYL ESTER","'metadata': {'comment': '2,4-D 2-ETHYLHEXYL ESTER'}"
+001929733,float,True,"2,4-D BUTOXYETHYL ESTER","'metadata': {'comment': '2,4-D BUTOXYETHYL ESTER'}"
+001937377,float,True,C.I. DIRECT BLACK 38,'metadata': {'comment': 'C.I. DIRECT BLACK 38'}
+001983104,float,True,TRIBUTYLTIN FLUORIDE,'metadata': {'comment': 'TRIBUTYLTIN FLUORIDE'}
+002155706,float,True,TRIBUTYLTIN METHACRYLATE,'metadata': {'comment': 'TRIBUTYLTIN METHACRYLATE'}
+002164070,float,True,DIPOTASSIUM ENDOTHALL,'metadata': {'comment': 'DIPOTASSIUM ENDOTHALL'}
+002303164,float,True,DIALLATE,'metadata': {'comment': 'DIALLATE'}
+002303175,float,True,TRIALLATE,'metadata': {'comment': 'TRIALLATE'}
+002439012,float,True,CHINOMETHIONAT,'metadata': {'comment': 'CHINOMETHIONAT'}
+002524030,float,True,DIMETHYL CHLOROTHIOPHOSPHATE,'metadata': {'comment': 'DIMETHYL CHLOROTHIOPHOSPHATE'}
+002602462,float,True,C.I. DIRECT BLUE 6,'metadata': {'comment': 'C.I. DIRECT BLUE 6'}
+002650182,float,True,"C.I. ACID BLUE 9, DIAMMONIUM SALT","'metadata': {'comment': 'C.I. ACID BLUE 9, DIAMMONIUM SALT'}"
+002971382,float,True,"2,4-D CHLOROCROTYL ESTER","'metadata': {'comment': '2,4-D CHLOROCROTYL ESTER'}"
+003118976,float,True,C.I. SOLVENT ORANGE 7,'metadata': {'comment': 'C.I. SOLVENT ORANGE 7'}
+003383968,float,True,TEMEPHOS,'metadata': {'comment': 'TEMEPHOS'}
+003761533,float,True,C.I. FOOD RED 5,'metadata': {'comment': 'C.I. FOOD RED 5'}
+006459945,float,True,C.I. ACID RED 114,'metadata': {'comment': 'C.I. ACID RED 114'}
+007440020,float,True,NICKEL,'metadata': {'comment': 'NICKEL'}
+007440360,float,True,ANTIMONY,'metadata': {'comment': 'ANTIMONY'}
+007440393,float,True,BARIUM,'metadata': {'comment': 'BARIUM'}
+007440417,float,True,BERYLLIUM,'metadata': {'comment': 'BERYLLIUM'}
+007550450,float,True,TITANIUM TETRACHLORIDE,'metadata': {'comment': 'TITANIUM TETRACHLORIDE'}
+007637072,float,True,BORON TRIFLUORIDE,'metadata': {'comment': 'BORON TRIFLUORIDE'}
+007664393,float,True,HYDROGEN FLUORIDE,'metadata': {'comment': 'HYDROGEN FLUORIDE'}
+007664939,float,True,SULFURIC ACID (1994 AND AFTER ACID AEROSOLS ONLY),'metadata': {'comment': 'SULFURIC ACID (1994 AND AFTER ACID AEROSOLS ONLY)'}
+007726956,float,True,BROMINE,'metadata': {'comment': 'BROMINE'}
+007782492,float,True,SELENIUM,'metadata': {'comment': 'SELENIUM'}
+029082744,float,True,OCTACHLOROSTYRENE,'metadata': {'comment': 'OCTACHLOROSTYRENE'}
+000079947,float,True,TETRABROMOBISPHENOL A,'metadata': {'comment': 'TETRABROMOBISPHENOL A'}
+N150,float,True,DIOXIN AND DIOXIN-LIKE COMPOUNDS,'metadata': {'comment': 'DIOXIN AND DIOXIN-LIKE COMPOUNDS'}
+000051796,float,True,URETHANE,'metadata': {'comment': 'URETHANE'}
+000060344,float,True,METHYL HYDRAZINE,'metadata': {'comment': 'METHYL HYDRAZINE'}
+000070304,float,True,HEXACHLOROPHENE,'metadata': {'comment': 'HEXACHLOROPHENE'}
+000076879,float,True,TRIPHENYLTIN HYDROXIDE,'metadata': {'comment': 'TRIPHENYLTIN HYDROXIDE'}
+000079469,float,True,2-NITROPROPANE,'metadata': {'comment': '2-NITROPROPANE'}
+000087865,float,True,PENTACHLOROPHENOL,'metadata': {'comment': 'PENTACHLOROPHENOL'}
+000096184,float,True,"1,2,3-TRICHLOROPROPANE","'metadata': {'comment': '1,2,3-TRICHLOROPROPANE'}"
+000100447,float,True,BENZYL CHLORIDE,'metadata': {'comment': 'BENZYL CHLORIDE'}
+000106990,float,True,"1,3-BUTADIENE","'metadata': {'comment': '1,3-BUTADIENE'}"
+000118741,float,True,HEXACHLOROBENZENE,'metadata': {'comment': 'HEXACHLOROBENZENE'}
+000123386,float,True,PROPIONALDEHYDE,'metadata': {'comment': 'PROPIONALDEHYDE'}
+000135206,float,True,CUPFERRON,'metadata': {'comment': 'CUPFERRON'}
+000150505,float,True,MERPHOS,'metadata': {'comment': 'MERPHOS'}
+000528290,float,True,O-DINITROBENZENE,'metadata': {'comment': 'O-DINITROBENZENE'}
+000081492,float,True,"1-AMINO-2,4-DIBROMOANTHRAQUINONE","'metadata': {'comment': '1-AMINO-2,4-DIBROMOANTHRAQUINONE'}"
+003296900,float,True,"2,2-BIS(BROMOMETHYL)-1,3-PROPANEDIOL","'metadata': {'comment': '2,2-BIS(BROMOMETHYL)-1,3-PROPANEDIOL'}"
+000110009,float,True,FURAN,'metadata': {'comment': 'FURAN'}
+000556525,float,True,GLYCIDOL,'metadata': {'comment': 'GLYCIDOL'}
+000078795,float,True,ISOPRENE,'metadata': {'comment': 'ISOPRENE'}
+000093152,float,True,METHYLEUGENOL,'metadata': {'comment': 'METHYLEUGENOL'}
+000091236,float,True,O-NITROANISOLE,'metadata': {'comment': 'O-NITROANISOLE'}
+000075525,float,True,NITROMETHANE,'metadata': {'comment': 'NITROMETHANE'}
+000077098,float,True,PHENOLPHTHALEIN,'metadata': {'comment': 'PHENOLPHTHALEIN'}
+000116143,float,True,TETRAFLUOROETHYLENE,'metadata': {'comment': 'TETRAFLUOROETHYLENE'}
+000509148,float,True,TETRANITROMETHANE,'metadata': {'comment': 'TETRANITROMETHANE'}
+000075025,float,True,VINYL FLUORIDE,'metadata': {'comment': 'VINYL FLUORIDE'}
+007783064,float,True,HYDROGEN SULFIDE,'metadata': {'comment': 'HYDROGEN SULFIDE'}
+N530,float,True,NONYLPHENOL,'metadata': {'comment': 'NONYLPHENOL'}
+N270,float,True,HEXABROMOCYCLODODECANE,'metadata': {'comment': 'HEXABROMOCYCLODODECANE'}
+000106945,float,True,1-BROMOPROPANE,'metadata': {'comment': '1-BROMOPROPANE'}
+000088722,float,True,O-NITROTOLUENE,'metadata': {'comment': 'O-NITROTOLUENE'}
+N535,float,True,NONYLPHENOL ETHOXYLATES,'metadata': {'comment': 'NONYLPHENOL ETHOXYLATES'}
