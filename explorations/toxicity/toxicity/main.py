@@ -6,38 +6,66 @@ import glob
 
 
 def main():
-    # Logging
+    """
+    Entry point
+
+    :return: None
+    """
+
+    """
+      Logging
+    """
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
 
-    # Directories
+    """
+      Preparing directories
+    """
     directories.cleanup(listof=configurations.paths)
     directories.create(listof=configurations.paths)
 
-    # For ...
+    """
+      Mapping geographic & EPA data with the latest county level
+        deaths/100K [C]
+        positives/100K [C]
+      data.  The data is saved in the warehouse/modelling directory.
+    """
     intersections.exc()
 
-    # Subsequently ...
-
-    # Gazetter
+    """
+      Subsequently, sets of JSON files are created for each file in 
+      warehouse/modelling for web graphing purposes
+    """
+    # Geographic data
     gazetteer = references.gazetteer()
-    logger.info('\n{}\n'.format(gazetteer.tail()))
 
-    # Partitions instance
+    # Each file of warehouse/modelling will be broken-down via Partitions
     partitions = toxicity.algorithms.partitions.Partitions(gazetteer=gazetteer)
+
+    # The list of files in warehouse/modelling
     sources = glob.glob(os.path.join(configurations.warehouse, 'modelling', '*.csv'))
+
+    # Hence
     for source in sources:
 
+        # Initially, limited focus
         if not (source.__contains__('immunological') | source.__contains__('resp')):
             continue
 
-        case, classification = configurations.names(source=source)
+        # Loop focus
+        logger.info('\n\nIn focus: {}'.format(source))
 
+        # Risks and pollutants
+        case, classification = configurations.names(source=source)
+        logger.info('\nmedical case/risk type: {}\nclassification, i.e., pollutant or pollution source: {}'
+                    .format(case, classification))
+
+        # Hence, create the directory path wherein the JSON files will be saved
         directory = os.path.join(configurations.warehouse, 'graphing', case, classification)
         directories.create(listof=[directory])
+        logger.info('\ndirectory: {}'.format(directory))
 
-        print(directory, '\n', source)
-
+        # Proceed ...
         partitions.exc(source=source, directory=directory)
 
 
@@ -57,6 +85,5 @@ if __name__ == '__main__':
     references = toxicity.src.references.References()
     directories = toxicity.base.directories.Directories()
     intersections = toxicity.algorithms.intersections.Intersections()
-
 
     main()

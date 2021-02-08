@@ -18,9 +18,8 @@ class Config:
             'respriskby': 'respiratory'
         }.get(string, LookupError('{} does not contain a recognised pattern'.format(string)))
 
-    def names(self, source):
+    def names(self, source) -> (str, str):
         """
-
 
         :param source:  A - path name + file name + extension - string
         :return:
