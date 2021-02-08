@@ -16,7 +16,7 @@ class Config:
         # https://covidtracking.com/data/api
         self.starting: str = '2020-03-09'
         self.epochdays: int = int(datetime.strptime(self.starting, '%Y-%m-%d').timestamp() / (60 * 60 * 24))
-        self.ending: str = (datetime.today() - timedelta(days=2)).strftime('%Y-%m-%d')
+        self.ending: str = (datetime.today() - timedelta(days=1)).strftime('%Y-%m-%d')
         self.datestring = 'date'
         self.datepattern = '%Y%m%d'
 
