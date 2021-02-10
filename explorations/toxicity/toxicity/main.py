@@ -53,17 +53,17 @@ def main():
             continue
 
         # Loop focus
-        logger.info('\n\nIn focus: {}'.format(source))
+        print('\nIn focus: {}\n'.format(os.path.basename(source)))
 
         # Risks and pollutants
         case, classification = configurations.names(source=source)
-        logger.info('\nmedical case/risk type: {}\nclassification, i.e., pollutant or pollution source: {}'
+        logger.info('\nmedical case/risk type -> {}\nclassification, i.e., pollutant or pollution source group -> {}\n'
                     .format(case, classification))
 
         # Hence, create the directory path wherein the JSON files will be saved
         directory = os.path.join(configurations.warehouse, 'graphing', case, classification)
         directories.create(listof=[directory])
-        logger.info('\ndirectory: {}'.format(directory))
+        logger.info('directory -> \n{}\n'.format(directory))
 
         # Proceed ...
         partitions.exc(source=source, directory=directory)
