@@ -4,7 +4,6 @@ var seriesOptions = [];
 var dropdown = $('#option_selector');
 var url = 'https://raw.githubusercontent.com/briefings/sars/develop/graphs/risks/references/menu/respiratory/group.json';
 
-
 $.getJSON(url, function (data) {
 
     $.each(data, function (key, entry) {
@@ -19,7 +18,6 @@ $.getJSON(url, function (data) {
     generateChart(defaultOption);
 
 });
-
 
 // Dropdown
 dropdown.on('change', function (e) {
@@ -45,7 +43,6 @@ function generateChart(fileNamekey) {
         // https://api.highcharts.com/highcharts/tooltip.headerFormat
         // https://www.highcharts.com/demo/stock/compare
 
-
         // split
         var i = 0;
         var status;
@@ -67,7 +64,6 @@ function generateChart(fileNamekey) {
                 thousandsSep: ','
             }
         });
-
 
         Highcharts.chart('container0003', {
 
@@ -180,11 +176,9 @@ function generateChart(fileNamekey) {
 
         });
 
-
     }).fail(function () {
         console.log("Missing");
         $('#container0003').empty();
     });
-
 
 }
