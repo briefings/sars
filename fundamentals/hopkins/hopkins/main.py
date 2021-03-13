@@ -23,11 +23,12 @@ def main():
     gazetteer = hopkins.src.gazetteer.Gazetteer(counties=counties, population=population).exc()
 
     # The fields of the latest J.H. data set
-    features = hopkins.src.features.Features(datestrings=days[datestring].values, basefields=['FIPS']).exc()
+    features = hopkins.src.features.Features(
+        datestrings=days[configurations.datestring].values, basefields=['FIPS']).exc()
 
     # Reference: Creates all distinct county & dates combinations per county
     reference = hopkins.src.reference.Reference(
-        days=days, gazetter=gazetteer[['STATEFP', 'STUSPS', 'COUNTYGEOID', inhabitants]]).exc()
+        days=days, gazetter=gazetteer[['STATEFP', 'STUSPS', 'COUNTYGEOID', configurations.inhabitants]]).exc()
 
     # Readings: Reads and structures
     readings = hopkins.src.readings.Readings(features=features, reference=reference, days=days).exc()
@@ -51,13 +52,18 @@ def main():
 
     # Candles
     spreads = hopkins.spreads.distributions.Distributions(via='COUNTYGEOID')
-    spreads.exc(path=os.path.join(warehouse, 'baselines', '*.csv'))
+    spreads.exc(path=os.path.join(configurations.warehouse, 'baselines', '*.csv'))
 
 
 if __name__ == '__main__':
     root = os.getcwd()
     sys.path.append(root)
 
+    # Utilities
+    import hopkins.base.utilities
+    hopkins.base.utilities.Utilities().exc()
+
+    # Thenj
     import config
 
     import hopkins.src.features
@@ -77,13 +83,6 @@ if __name__ == '__main__':
     configurations = config.Config()
     configurations.storage()
     days = configurations.days()
-    warehouse = configurations.warehouse
-    inhabitants = configurations.inhabitants
-    datestring = configurations.datestring
-
-    # Utilities
-    import hopkins.base.utilities
-    hopkins.base.utilities.Utilities().exc()
 
     # Utilities: Cartographs
     import cartographs.boundaries.us.boundaries
