@@ -1,0 +1,274 @@
+{
+  "type": "struct",
+  "fields": [
+
+	{
+      "name": "date",
+      "type": "str",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Date on which data was collected by The COVID Tracking Project"
+      }
+    },
+
+	{
+      "name": "state",
+      "type": "str",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The two letter code of a United States state or territory"
+      }
+    },
+
+	{
+      "name": "death",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Total fatalities with confirmed OR probable COVID-19 case diagnosis"
+      }
+    },
+
+	{
+      "name": "deathConfirmed",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Total fatalities with confirmed COVID-19 case diagnosis"
+      }
+    },
+
+	{
+      "name": "deathIncrease",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Daily difference in death"
+      }
+    },
+
+	{
+      "name": "deathProbable",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Total fatalities with probable COVID-19 case diagnosis"
+      }
+    },
+
+	{
+      "name": "hospitalizedCumulative",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The total number of individuals that have been hospitalised thus far with COVID-19"
+      }
+    },
+	{
+      "name": "hospitalizedCurrently",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Individuals currently hospitalised with COVID-19"
+      }
+    },
+	{
+      "name": "hospitalizedIncrease",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Daily difference"
+      }
+    },
+
+	{
+      "name": "inIcuCumulative",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The total number of COVID-19 infected individuals that have been hospitalized in an Intensive Care Unit thus far"
+      }
+    },
+	{
+      "name": "inIcuCurrently",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The number of COVID-19 infected individuals currently in an Intensive Care Unit"
+      }
+    },
+
+	{
+      "name": "negative",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Individuals with a completed viral test that returned a negative result"
+      }
+    },
+	{
+      "name": "negativeTestsViral",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Completed viral tests that returned negative results"
+      }
+    },
+
+	{
+      "name": "positive",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Individuals with confirmed or probable COVID-19"
+      }
+    },
+	{
+      "name": "positiveIncrease",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Increase in positive computed by subtracting the value of positive from the previous day from the value of positive for the current day"
+      }
+    },
+	{
+      "name": "positiveCasesViral",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Individuals with a completed viral test that returned a positive result"
+      }
+    },
+	{
+      "name": "positiveTestsViral",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Completed viral tests that returned positive results"
+      }
+    },
+
+	{
+      "name": "totalTestResults",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Currently computed by adding positive and negative values to work around reporting lags between positives and total tests and because some states do not report totals"
+      }
+    },
+
+	{
+      "name": "totalTestResultsIncrease",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Daily Difference in totalTestResults"
+      }
+    },
+
+	{
+      "name": "totalTestsViral",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Completed viral tests"
+      }
+    },
+
+	{
+      "name": "recovered",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Individuals that have recovered from COVID-19.  The definition of recovered varies by state, territory."
+      }
+    },
+
+	{
+      "name": "onVentilatorCumulative",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "Thus far, the total number of COVID-19 infected individuals that have been assisted by a ventilator whilst hospitalised."
+      }
+    },
+
+	{
+      "name": "onVentilatorCurrently",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The number of COVID-19 infected individuals currently hospitalised under advanced ventilation"
+      }
+    },
+
+	{
+      "name": "pending",
+      "type": "int",
+      "nullable": true,
+      "metadata":
+      {
+        "comment": "The number of pending test results."
+      }
+    },
+
+
+
+
+
+
+
+    {
+      "name": "dataQualityGrade",
+      "type": "str",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The COVID Tracking Project grade of the completeness of the data reporting by a state."
+      }
+    },
+
+
+    {
+      "name": "fips",
+      "type": "str",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "Federal Information Processing Standard state code."
+      }
+    },
+	{
+      "name": "lastUpdateEt",
+      "type": "str",
+      "nullable": false,
+      "metadata":
+      {
+        "comment": "The date and time, Eastern Time, the state or territory last updated the data"
+      }
+    }
+  ]
+}
