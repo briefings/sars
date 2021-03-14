@@ -1,0 +1,6 @@
+[
+  {"field":"FIPS","type":"float"},
+  {"field":"Lat","type":"float"},
+  {"field":"Long_","type":"float"},
+  {"field":"Population","type":"int"}
+]

@@ -28,8 +28,8 @@ class Config:
         self.startingfield: str = datetime.strptime(self.starting, '%Y-%m-%d').strftime(self.datepattern)
 
         # Data
-        self.urlfields = 'https://raw.githubusercontent.com/premodelling/dictionaries/develop/' \
-                         'sars/johnHopkinsCountiesReference.json'
+        self.urlfields = 'https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/hopkins/' \
+                         'resources/johnHopkinsCountiesReference.json'
         self.url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/' \
                    'csse_covid_19_time_series/time_series_covid19_{category}_US.csv'
         self.categories = ['confirmed', 'deaths']
@@ -40,6 +40,9 @@ class Config:
 
         # Outcomes directories
         self.warehouse = os.path.join(os.getcwd(), 'warehouse')
+
+        # Utilities
+        self.utilities_list = ['cartographs', 'candles', 'algorithms', 'populations', 'states', 'counties']
 
     @staticmethod
     def regions():

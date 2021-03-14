@@ -22,8 +22,8 @@ class Config:
 
         # The data, the metadata, selection of metadata
         self.daily = 'https://covidtracking.com/api/v1/states/daily.csv'
-        self.metadata = 'https://raw.githubusercontent.com/premodelling/dictionaries/' \
-                        'develop/sars/covidTrackingProjectStates.json'
+        self.metadata = 'https://raw.githubusercontent.com/briefings/sars/develop/fundamentals/atlantic/' \
+                        'resources/covidTrackingProjectStates.json'
         self.metadatafilter = pd.DataFrame(
             {'name': [self.datestring, 'state', 'death', 'positive', 'totalTestResults', 'inIcuCumulative',
                       'hospitalizedCumulative', 'inIcuCurrently', 'hospitalizedCurrently']})

@@ -3,11 +3,15 @@ import os
 import hopkins.base.dearchive
 import hopkins.base.directories
 
+import config
+
 
 class Utilities:
 
     def __init__(self):
         self.root = os.getcwd()
+
+        self.configurations = config.Config()
 
     def get(self):
 
@@ -23,8 +27,8 @@ class Utilities:
             urlstring='https://github.com/briefings/sars/raw/develop/fundamentals/populations/populations.zip')
 
     def exc(self):
-        listof = [os.path.join(self.root, directory)
-                  for directory in ['cartographs', 'candles', 'algorithms', 'populations', 'states', 'counties']]
-        hopkins.base.directories.Directories().cleanup(listof=listof)
+        utilities_list = [os.path.join(self.root, directory)
+                  for directory in self.configurations.utilities_list]
+        hopkins.base.directories.Directories().cleanup(listof=utilities_list)
 
         self.get()
