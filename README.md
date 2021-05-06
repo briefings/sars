@@ -1,6 +1,6 @@
 # SARS
 
-Analysis Notes: [briefings.github.io/sars/](https://briefings.github.io/sars/)
+Analysis Notes: [https://briefings.github.io/briefings/sars](https://briefings.github.io/briefings/sars)
 
 <br>
 <br>
