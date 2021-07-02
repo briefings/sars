@@ -7,8 +7,7 @@ Temporary notes for Populations.  Usage notes outlined within the [examples](htt
 
 ### Environments
 
-Uses the ``algorithms`` environment, which is outlined within the [algorithms repository](https://github.
-com/briefings/sars/tree/develop/fundamentals/algorithms).  The requirements are obtained via
+Uses the ``algorithms`` environment, which is outlined within the [algorithms repository](https://github.com/briefings/sars/tree/develop/fundamentals/algorithms#development-notes).  The requirements are obtained via
 
 ````shell
 pip freeze -r docs/filter.txt > requirements.txt
