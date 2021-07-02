@@ -1,17 +1,17 @@
 ## Algorithms
 
-For simple data structuring ...
+For simple data structuring.
 
+<br>
+<br>
 
-### Preliminaries
+### Development Notes
 
-Starting with
-
-`conda create --prefix .../algorithms`
-
-and
+The environment:
 
 ```bash
+conda create --prefix .../algorithms
+
   conda install -c anaconda python=3.7.7
   conda install -c anaconda dask
   conda install -c anaconda python-graphviz
@@ -19,7 +19,13 @@ and
   conda install -c anaconda statsmodels
 ```
 
-Note
+The requirements document is created via
+
+````shell
+pip freeze -r docs/filter.txt > requirements.txt
+````
+
+Note that the packages `pywin32`, `nodejs`, and `python-graphviz` are excluded from filter.txt, and
 
 * dask installs
   * numpy
@@ -28,5 +34,7 @@ Note
 * python-graphviz installs
   * graphviz
 
-
-Exclude `pywin32`, `nodejs`, and `python-graphviz`, from filter.txt
+  <br>
+<br>
+<br>
+<br>
