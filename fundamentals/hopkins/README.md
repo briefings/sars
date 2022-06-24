@@ -1,28 +1,14 @@
-﻿## Johns Hopkins Data
+﻿<br>
+
+## Johns Hopkins Data
 
 ./fundamentals/hopkins/apply.sh
 
 <br>
 
-### Python Environment
+### Development Notes
 
-In preparation for Docker, etc.
-
-
-```bash
-  conda create --prefix .../hopkins
-  conda activate hopkins
-
-  conda install -c anaconda python=3.7.7 
-  conda install -c anaconda geopandas
-  conda install -c anaconda requests
-  conda install -c anaconda pywin32 jupyterlab nodejs
-  conda install -c anaconda dask python-graphviz
-```
-
-<br>
-
-In relation to requirements.txt
+The environment is [miscellaneous](https://github.com/briefings/energy#development-notes). In relation to requirements.txt
 
 ```markdown
     pip freeze -r docs/filter.txt > requirements.txt
@@ -35,11 +21,13 @@ The file [filter.txt](./docs/filter.txt) summarises the directly installed packa
 * `requests` installs `urllib3`
 
 <br>
+<br>
 
-Later: 
+<br>
+<br>
 
-```bash
-    conda install -c anaconda pytest coverage pytest-cov pylint
-```
+<br>
+<br>
 
-and perhaps ` pyyaml`, for testing & conventions purposes.
+<br>
+<br>
