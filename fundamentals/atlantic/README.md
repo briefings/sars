@@ -4,23 +4,11 @@
 
 <br>
 
-### Python Environment
+### Development Notes
 
-In preparation for Docker, etc.
+<br>
 
-
-```bash
-  conda create --prefix .../atlantic
-  conda activate atlantic
-
-  conda install -c anaconda python=3.7.7 
-  conda install -c anaconda geopandas
-  conda install -c anaconda requests
-  conda install -c anaconda pywin32 jupyterlab nodejs
-  conda install -c anaconda dask
-  conda install -c anaconda python-graphviz
-  conda install -c anaconda statsmodels
-```
+Environment: [miscellaneous](https://github.com/briefings/energy#development-notes)
 
 <br>
 
@@ -37,11 +25,13 @@ The file [filter.txt](./docs/filter.txt) summarises the directly installed packa
 * `requests` installs `urllib3`
 
 <br>
+<br>
 
-Later: 
+<br>
+<br>
 
-```bash
-    conda install -c anaconda pytest coverage pytest-cov pylint
-```
+<br>
+<br>
 
-and perhaps ` pyyaml`, for testing & conventions purposes
+<br>
+<br>
