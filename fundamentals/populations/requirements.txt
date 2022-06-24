@@ -1,4 +1,4 @@
-dask[complete]==2.25.0
-numpy==1.19.1
-pandas==1.1.1
-jupyterlab==2.2.6
+dask[complete]==2021.10.0
+numpy==1.22.3
+pandas==1.4.2
+jupyterlab==3.3.2
