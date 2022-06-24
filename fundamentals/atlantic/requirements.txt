@@ -1,8 +1,8 @@
-geopandas==0.8.1
-requests==2.24.0
-jupyterlab==2.1.5
-dask[complete]==2.23.0
-statsmodels==0.11.1
+geopandas==0.9.0
+requests==2.27.1
+jupyterlab==3.3.2
+dask[complete]==2021.10.0
+statsmodels==0.13.2
 ## For programming purposes [The packages above install the packages below]
-numpy==1.19.1
-pandas==1.1.0
+numpy==1.22.3
+pandas==1.4.2
