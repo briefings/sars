@@ -1,4 +1,7 @@
-﻿## The Atlantic's COVID Tracking Project
+﻿
+<br>
+
+## The Atlantic's COVID Tracking Project
 
 ./fundamentals/atlantic/apply.sh
 
@@ -8,11 +11,7 @@
 
 <br>
 
-Environment: [miscellaneous](https://github.com/briefings/energy#development-notes)
-
-<br>
-
-In relation to requirements.txt
+The environment is [miscellaneous](https://github.com/briefings/energy#development-notes).  In relation to requirements.txt
 
 ```markdown
     pip freeze -r docs/filter.txt > requirements.txt
